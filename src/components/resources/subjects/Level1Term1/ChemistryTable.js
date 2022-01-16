@@ -8,7 +8,9 @@ const ChemistryTable = () => {
 
   useEffect(() => {
     axios
-      .get("http://localhost:5000/resources/getResources/chem1-1")
+      .get(
+        "https://fabricweb-backend-server.herokuapp.com/api/getResources/chem1-1"
+      )
       .then((response) => {
         setResource(response.data);
       });

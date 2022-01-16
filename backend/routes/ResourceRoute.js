@@ -1,4 +1,5 @@
 const express = require("express");
+const router = express.Router();;
 const {
   getBCE1_1,
   getPhysics1_1,
@@ -26,7 +27,6 @@ const {
   createEM1_2,
   createPSE1_2,
 } = require("../controller/ResourceControl");
-const router = express.Router();
 
 /* Get Request */
 router.get("/getResources/bce1-1", getBCE1_1);

@@ -8,7 +8,9 @@ const BCETable = () => {
 
   useEffect(() => {
     axios
-      .get("http://localhost:5000/resources/getResources/bce1-1")
+      .get(
+        "https://fabricweb-backend-server.herokuapp.com/api/getResources/bce1-1"
+      )
       .then((response) => {
         setResource(response.data);
       });
