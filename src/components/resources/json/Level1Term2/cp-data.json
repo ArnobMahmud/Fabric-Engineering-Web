@@ -1,0 +1,56 @@
+[
+    {
+        "Date": "04 Oct, 2021",
+        "Lecturer": "Toha Sir",
+        "DiscussedTopics": "Introductory",
+        "DriveLink": "https://youtu.be/7bgkuqF-AnE"
+    },
+    {
+        "Date": "07 Oct, 2021",
+        "Lecturer": "Toha Sir",
+        "DiscussedTopics": "Computer System",
+        "DriveLink": "https://drive.google.com/file/d/1Sxycl1VyBLoZz8hWa4_zi8THi4d8W9-1/view"
+    },
+    {
+        "Date": "08 Nov, 2021",
+        "Lecturer": "Toha Sir",
+        "DiscussedTopics": "Algorithm & Flow-chart",
+        "DriveLink": "https://drive.google.com/file/d/1mdsY83kIUBmFCHTKWEzfbjxqX4ARQmWk/view"
+    },
+    {
+        "Date": "11 Nov, 2021",
+        "Lecturer": "Toha Sir",
+        "DiscussedTopics": "First Program in C",
+        "DriveLink": "https://drive.google.com/file/d/1nnkLClc2XLFRfMo-PlHNkNukqrguUfhj/view"
+    },
+    {
+        "Date": "15 Nov, 2021",
+        "Lecturer": "Toha Sir",
+        "DiscussedTopics": "Data Types & Syntax",
+        "DriveLink": "https://youtu.be/7-HxK1Lffcs"
+    },
+    {
+        "Date": "18 Nov, 2021",
+        "Lecturer": "Toha Sir",
+        "DiscussedTopics": "Programming Problem Solving (Day : 1)",
+        "DriveLink": "https://drive.google.com/file/d/1sSGQ2DnRSXaQO9gsOM4-9yXumseRLzGR/view"
+    },
+    {
+        "Date": "22 Nov, 2021",
+        "Lecturer": "Toha Sir",
+        "DiscussedTopics": "Operators & Expressions",
+        "DriveLink": "https://drive.google.com/file/d/1bm4tvTf19mL8gIH7sLXDfQrsXUIXaYOU/view"
+    },
+    {
+        "Date": "29 Nov, 2021",
+        "Lecturer": "Toha Sir",
+        "DiscussedTopics": "Programming Problem Solving (Day : 2)",
+        "DriveLink": "https://drive.google.com/file/d/1oZyfenPZOa1af4AFPwyQnqMtb3qVNEIf/view"
+    },
+    {
+        "Date": "06 Dec, 2021",
+        "Lecturer": "Toha Sir",
+        "DiscussedTopics": "Conditionals",
+        "DriveLink": "https://drive.google.com/file/d/1-s_nOZGaUkwAKGnWKt0hsoFoxuLKGm5r/view"
+    }
+]

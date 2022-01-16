@@ -1,0 +1,38 @@
+[
+    {
+        "course": "Physics II",
+        "courseCode": "PHY 103",
+        "lecturer": "Hedayet Sir, Mahmud Sir",
+        "access": "/physics1-2"
+    },
+    {
+        "course": "Chemistry II",
+        "courseCode": "CHEM 103",
+        "lecturer": "Sadia Mam, Farzana Mam",
+        "access": "/chemistry1-2"
+    },
+    {
+        "course": "Mathematics II",
+        "courseCode": "MS 103",
+        "lecturer": "Anwar Sir, Rokonuzzaman Sir",
+        "access": "/math1-2"
+    },
+    {
+        "course": "Polymer Science & Engineering (PSE)",
+        "courseCode": "WPE 101",
+        "lecturer": "Parveen Mam, Mamun Sir",
+        "access": "/pse1-2"
+    },
+    {
+        "course": "Computer Programming (CP)",
+        "courseCode": "MDM 101",
+        "lecturer": "Toha Sir",
+        "access": "/cp1-2"
+    },
+    {
+        "course": "Engineering Materials (EM)",
+        "courseCode": "IPE 101",
+        "lecturer": "Sourav Sir, Tushar Sir",
+        "access": "/em1-2"
+    }
+]

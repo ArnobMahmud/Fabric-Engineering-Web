@@ -1,0 +1,55 @@
+[
+    {
+        "Date": "06 Oct, 2021",
+        "Lecturer": "Mamun Sir",
+        "DiscussedTopics": "Introductory to Polymer (Part : 1)",
+        "DriveLink": "https://youtu.be/h4t8_mg_6AU"
+    },
+    {
+        "Date": "16 Nov, 2021",
+        "Lecturer": "Parveen Mam",
+        "DiscussedTopics": "Microstructure of Polymer",
+        "DriveLink": "https://youtu.be/zF5bH7uAI68"
+    },
+    {
+        "Date": "04 Dec, 2021",
+        "Lecturer": "Parveen Mam",
+        "DiscussedTopics": "Thermal Properties of Polymer",
+        "DriveLink": "https://youtu.be/WB1K5vAjB54"
+    },
+    {
+        "Date": "15 Dec, 2021",
+        "Lecturer": "Mamun Sir",
+        "DiscussedTopics": "Introductory to Polymer (Part : 2)",
+        "DriveLink": "https://youtu.be/aRDbS704eEk"
+    },
+    {
+        "Date": "18 Dec, 2021",
+        "Lecturer": "Parveen Mam",
+        "DiscussedTopics": "Tm & Tg Analysis",
+        "DriveLink": "https://youtu.be/nGa4tFlcK10"
+    },
+    {
+        "Date": "02 Jan, 2022",
+        "Lecturer": "Mamun Sir",
+        "DiscussedTopics": "Introductory to Polymer (Part : 3)",
+        "DriveLink": "https://youtu.be/TjlyXLfqqGM"
+    },
+    {
+        "Date": "02 Jan, 2022",
+        "Lecturer": "Parveen Mam",
+        "DiscussedTopics": "Step Polymerization",
+        "DriveLink": "https://youtu.be/RLlI0e72JcY"
+    },
+    {
+        "Date": "09 Jan, 2022",
+        "Lecturer": "Parveen Mam",
+        "DiscussedTopics": "Types of Reaction",
+        "DriveLink": "https://youtu.be/NuT0hWgQRn8"
+    }, {
+        "Date": "10 Jan, 2022",
+        "Lecturer": "Mamun Sir",
+        "DiscussedTopics": "Chain Growth Polymer",
+        "DriveLink": "https://youtu.be/dupgLzMz2cI"
+    }
+]
