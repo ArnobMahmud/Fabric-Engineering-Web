@@ -24,6 +24,7 @@ const CovidInfo = () => {
     }, 1000);
     return () => clearTimeout(timing);
   }, []);
+  
   return (
     <div>
       <CovidDataArea>

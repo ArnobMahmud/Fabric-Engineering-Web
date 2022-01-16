@@ -1,6 +1,6 @@
 import React from "react";
 import Skeleton from "react-loading-skeleton";
-import CustomCard from "../../covid19/CustomCard";
+import CustomCovidCard from "../../covid19/CustomCard";
 
 const SkeletonCovidCard = () => {
   return (
@@ -13,7 +13,7 @@ const SkeletonCovidCard = () => {
               <div className="col-lg-6 col-md-6 col-sm-12 align-items-center">
                 <div className="card">
                   <div key={index}>
-                    <CustomCard
+                    <CustomCovidCard
                       countryName={
                         <Skeleton
                           style={{ borderRadius: 10 }}

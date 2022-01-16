@@ -15,7 +15,7 @@ const CounterUp = () => {
               <CustomCount
                 icons={<BiShieldAlt />}
                 title="Secured Development"
-                paragraph="Developed by JavaScript framework ReactJS."
+                paragraph="Developed by JavaScript software MERN stack!"
               />
             </div>
 
@@ -43,12 +43,14 @@ const CounterUp = () => {
 export default CounterUp;
 
 const CounterArea = styled.div`
-  padding: 90px 0px 60px;
+  padding: 80px 0px 60px;
   background: ${({ theme }) => theme.counterBg};
   align-items: center;
   .card {
     padding: 100px 20px;
+    height: auto;
     background: ${({ theme }) => theme.cardBg};
+    justify-content: space-around;
     align-items: center;
   }
   h1 {

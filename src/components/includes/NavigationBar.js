@@ -3,7 +3,8 @@ import { Link } from "react-router-dom";
 import Logo from "../../assets/logo.png";
 import styled from "styled-components";
 import { IconContext } from "react-icons";
-import { GiArrowScope } from "react-icons/gi";
+// import { GiArrowScope } from "react-icons/gi";
+import { BsMenuButtonWideFill } from "react-icons/bs";
 
 const NavigationBar = () => {
   return (
@@ -20,8 +21,8 @@ const NavigationBar = () => {
               aria-expanded="false"
               aria-label="Toggle navigation"
             >
-              <IconContext.Provider value={{ size: "30", color: "#ccffff" }}>
-                <GiArrowScope />
+              <IconContext.Provider value={{ size: "25", color: "#ccffff" }}>
+                <BsMenuButtonWideFill />
               </IconContext.Provider>
             </button>
             <div

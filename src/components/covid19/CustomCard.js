@@ -1,6 +1,6 @@
 import React from "react";
 
-const CustomCard = (props) => {
+const CustomCovidCard = (props) => {
   return (
     <div>
       <div className="row justify-content-between">
@@ -41,4 +41,4 @@ const CustomCard = (props) => {
   );
 };
 
-export default CustomCard;
+export default CustomCovidCard;

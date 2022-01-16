@@ -2,18 +2,26 @@ import axios from "axios";
 import React, { useState, useEffect } from "react";
 import { CourseArea } from "../../../config/Palette";
 import MathInfo from "../../../database/lecturerData/Level1Term1/MathInfo";
+import SkeletonResourceCard from "../../../screens/skeleton/SkeletonResourceCard";
+import CustomResourceCard from "../CustomResourceScreen";
 
 const MATHTable = () => {
   const [resource, setResource] = useState([]);
+  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    axios
-      .get(
-        "https://fabricweb-backend-server.herokuapp.com/api/getResources/math1-1"
-      )
-      .then((response) => {
-        setResource(response.data);
-      });
+    setLoading(true);
+    const timing = setTimeout(() => {
+      axios
+        .get(
+          "https://fabricweb-backend-server.herokuapp.com/api/getResources/math1-1"
+        )
+        .then((response) => {
+          setResource(response.data);
+          setLoading(false);
+        });
+    }, 1500);
+    return () => clearTimeout(timing);
   }, []);
 
   return (
@@ -35,22 +43,16 @@ const MATHTable = () => {
                   </tr>
                 </tbody>
                 <tbody>
-                  {resource.map((row) => (
-                    <tr key={row._id}>
-                      <td>{row.Date}</td>
-                      <td>{row.Lecturer}</td>
-                      <td>{row.DiscussedTopics}</td>
-                      <td className="link">
-                        <a
-                          href={row.DriveLink}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                        >
-                          Lecture Video
-                        </a>
-                      </td>
-                    </tr>
-                  ))}
+                  {loading && <SkeletonResourceCard />}
+                  {!loading &&
+                    resource.map((row) => (
+                      <CustomResourceCard
+                        Date={row.Date}
+                        Lecturer={row.Lecturer}
+                        DiscussedTopics={row.DiscussedTopics}
+                        DriveLink={row.DriveLink}
+                      />
+                    ))}
                 </tbody>
               </table>
             </div>

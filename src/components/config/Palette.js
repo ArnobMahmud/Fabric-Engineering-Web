@@ -29,7 +29,6 @@ export const CourseArea = styled.div`
     font-size: 20px;
     font-weight: 500;
   }
-
   table tr td {
     font-family: "Rubik";
     color: #0b0b0b;
