@@ -1,8 +1,18 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { SafeArea } from "../config/custom";
 import data from "../json/students-data.json";
+import Skeleton, { SkeletonTheme } from "react-loading-skeleton";
 
 const StudentsInfo = () => {
+  const [loading, setLoading] = useState(true);
+  useEffect(() => {
+    setLoading(true);
+    const timing = setTimeout(() => {
+      setLoading(false);
+    }, 3300);
+    return () => clearTimeout(timing);
+  }, []);
+  
   return (
     <div>
       <div>
@@ -19,15 +29,69 @@ const StudentsInfo = () => {
                     {/* <th>Address</th> */}
                   </tr>
                   <tbody>
-                    {data.map((row) => (
-                      <tr key={row.key}>
-                        <td>{row.name}</td>
-                        <td>{row.id}</td>
-                        <td>{row["blood group"]}(ve)</td>
-                        <td>{row["contact no"]}</td>
-                        {/* <td>{row.address}</td> */}
-                      </tr>
-                    ))}
+                    {loading
+                      ? data.map((row) => (
+                          <tr key={row.key}>
+                            <td>
+                              <SkeletonTheme
+                                baseColor="#d3b683"
+                                highlightColor="#d3d9d1"
+                              >
+                                <Skeleton
+                                  style={{ borderRadius: 20 }}
+                                  height={30}
+                                  width={`100%`}
+                                />
+                              </SkeletonTheme>
+                            </td>
+                            <td>
+                              <SkeletonTheme
+                                baseColor="#d3b683"
+                                highlightColor="#d3d9d1"
+                              >
+                                <Skeleton
+                                  style={{ borderRadius: 20 }}
+                                  height={30}
+                                  width={`100%`}
+                                />
+                              </SkeletonTheme>
+                            </td>
+                            <td>
+                              <SkeletonTheme
+                                baseColor="#d3b683"
+                                highlightColor="#d3d9d1"
+                              >
+                                <Skeleton
+                                  style={{ borderRadius: 20 }}
+                                  height={30}
+                                  width={`100%`}
+                                />
+                              </SkeletonTheme>
+                            </td>
+                            <td>
+                              <SkeletonTheme
+                                baseColor="#d3b683"
+                                highlightColor="#d3d9d1"
+                              >
+                                <Skeleton
+                                  style={{ borderRadius: 20 }}
+                                  height={30}
+                                  width={`100%`}
+                                />
+                              </SkeletonTheme>
+                            </td>
+                            {/* <td>{row.address}</td> */}
+                          </tr>
+                        ))
+                      : data.map((row) => (
+                          <tr key={row.key}>
+                            <td>{row.name}</td>
+                            <td>{row.id}</td>
+                            <td>{row["blood group"]}(ve)</td>
+                            <td>{row["contact no"]}</td>
+                            {/* <td>{row.address}</td> */}
+                          </tr>
+                        ))}
                   </tbody>
                 </table>
               </div>

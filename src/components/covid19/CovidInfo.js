@@ -21,7 +21,7 @@ const CovidInfo = () => {
         .catch((err) => {
           console.log(err);
         });
-    }, 1000);
+    }, 1500);
     return () => clearTimeout(timing);
   }, []);
   

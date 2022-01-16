@@ -1,5 +1,5 @@
 import React from "react";
-import Skeleton from "react-loading-skeleton";
+import Skeleton, { SkeletonTheme } from "react-loading-skeleton";
 import CustomResourceCard from "../../resources/subjects/CustomResourceScreen";
 
 const SkeletonResourceCard = () => {
@@ -10,32 +10,40 @@ const SkeletonResourceCard = () => {
         .map((item, index) => (
           <CustomResourceCard
             Date={
-              <Skeleton
-                style={{ borderRadius: 20 }}
-                height={35}
-                width={`100%`}
-              />
+              <SkeletonTheme baseColor="#d3b683">
+                <Skeleton
+                  style={{ borderRadius: 20 }}
+                  height={35}
+                  width={`100%`}
+                />
+              </SkeletonTheme>
             }
             Lecturer={
-              <Skeleton
-                style={{ borderRadius: 20 }}
-                height={35}
-                width={`80%`}
-              />
+              <SkeletonTheme highlightColor="#d3d9d1">
+                <Skeleton
+                  style={{ borderRadius: 20 }}
+                  height={35}
+                  width={`80%`}
+                />
+              </SkeletonTheme>
             }
             DiscussedTopics={
-              <Skeleton
-                style={{ borderRadius: 20 }}
-                height={35}
-                width={`60%`}
-              />
+              <SkeletonTheme>
+                <Skeleton
+                  style={{ borderRadius: 20 }}
+                  height={35}
+                  width={`60%`}
+                />
+              </SkeletonTheme>
             }
             DriveLink={
-              <Skeleton
-                style={{ borderRadius: 20 }}
-                height={60}
-                width={`100%`}
-              />
+              <SkeletonTheme>
+                <Skeleton
+                  style={{ borderRadius: 20 }}
+                  height={60}
+                  width={`100%`}
+                />
+              </SkeletonTheme>
             }
           />
         ))}

@@ -1,5 +1,5 @@
 import React from "react";
-import Skeleton from "react-loading-skeleton";
+import Skeleton, { SkeletonTheme } from "react-loading-skeleton";
 import CustomCovidCard from "../../covid19/CustomCard";
 
 const SkeletonCovidCard = () => {
@@ -15,53 +15,88 @@ const SkeletonCovidCard = () => {
                   <div key={index}>
                     <CustomCovidCard
                       countryName={
-                        <Skeleton
-                          style={{ borderRadius: 10 }}
-                          height={40}
-                          width={`60%`}
-                        />
+                        <SkeletonTheme
+                          baseColor="#d3b683"
+                          highlightColor="#d3d9d1"
+                        >
+                          <Skeleton
+                            style={{ borderRadius: 10 }}
+                            height={40}
+                            width={`60%`}
+                          />
+                        </SkeletonTheme>
                       }
                       countryImg={
-                        <Skeleton
-                          style={{ borderRadius: 10 }}
-                          height={50}
-                          width={50}
-                        />
+                        <SkeletonTheme
+                          baseColor="#d3b683"
+                          highlightColor="#d3d9d1"
+                        >
+                          <Skeleton
+                            style={{ borderRadius: 10 }}
+                            height={50}
+                            width={50}
+                          />
+                        </SkeletonTheme>
                       }
                       cases={
-                        <Skeleton
-                          style={{ borderRadius: 10 }}
-                          height={20}
-                          width={`100%`}
-                        />
+                        <SkeletonTheme
+                          baseColor="#d3b683"
+                          highlightColor="#d3d9d1"
+                        >
+                          <Skeleton
+                            style={{ borderRadius: 10 }}
+                            height={20}
+                            width={`100%`}
+                          />
+                        </SkeletonTheme>
                       }
                       recovered={
-                        <Skeleton
-                          style={{ borderRadius: 10 }}
-                          height={20}
-                          width={`100%`}
-                        />
+                        <SkeletonTheme
+                          baseColor="#d3b683"
+                          highlightColor="#d3d9d1"
+                        >
+                          <Skeleton
+                            style={{ borderRadius: 10 }}
+                            height={20}
+                            width={`100%`}
+                          />
+                        </SkeletonTheme>
                       }
                       todayRecovered={
-                        <Skeleton
-                          style={{ borderRadius: 10 }}
-                          height={20}
-                          width={`100%`}
-                        />
+                        <SkeletonTheme
+                          baseColor="#d3b683"
+                          highlightColor="#d3d9d1"
+                        >
+                          <Skeleton
+                            style={{ borderRadius: 10 }}
+                            height={20}
+                            width={`100%`}
+                          />
+                        </SkeletonTheme>
                       }
                       todayCases={
-                        <Skeleton
-                          style={{ borderRadius: 10 }}
-                          height={20}
-                          width={`100%`}
-                        />
+                        <SkeletonTheme
+                          baseColor="#d3b683"
+                          highlightColor="#d3d9d1"
+                        >
+                          <Skeleton
+                            style={{ borderRadius: 10 }}
+                            height={20}
+                            width={`100%`}
+                          />
+                        </SkeletonTheme>
                       }
                       todayDeaths={
-                        <Skeleton
-                          style={{ borderRadius: 10 }}
-                          height={20}
-                          width={`100%`}
-                        />
+                        <SkeletonTheme
+                          baseColor="#d3b683"
+                          highlightColor="#d3d9d1"
+                        >
+                          <Skeleton
+                            style={{ borderRadius: 10 }}
+                            height={20}
+                            width={`100%`}
+                          />
+                        </SkeletonTheme>
                       }
                       deaths={
                         <Skeleton
