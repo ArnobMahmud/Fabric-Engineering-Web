@@ -1,7 +1,8 @@
 {
   "name": "backend",
-  "version": "1.0.0",
-  "description": "",
+  "version": "1.1.0",
+  "Author": "Arnob Mahmud",
+  "description": "Bangladesh University of Textiles (BUTEX) Fabric Manufacturing Engineering (FME) 46th Batch's Departmental Resources Monitoring by Arnob Mahmud.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",

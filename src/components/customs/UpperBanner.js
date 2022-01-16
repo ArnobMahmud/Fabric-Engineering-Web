@@ -23,7 +23,7 @@ class UpperBanner extends Component {
                   rel="noreferrer"
                 >
                   <img
-                    src="https://api.netlify.com/api/v1/badges/773b5df8-0717-46eb-9f49-6596efcd7278/deploy-status"
+                    src="https://api.netlify.com/api/v1/badges/944bd3d0-a153-41b9-9da2-5ebd88a18994/deploy-status"
                     alt="cq"
                     srcSet
                   />
