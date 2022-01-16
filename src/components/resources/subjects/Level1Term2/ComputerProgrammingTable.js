@@ -43,81 +43,79 @@ const ComputerProgrammingTable = () => {
                   </tr>
                 </tbody>
                 <tbody>
-                  <tbody>
-                    {loading
-                      ? Array(30)
-                          .fill()
-                          .map((item, index) => (
-                            <tr>
-                              <td>
-                                <SkeletonTheme
-                                  baseColor="#d3b683"
-                                  highlightColor="#d3d9d1"
-                                >
-                                  <Skeleton
-                                    style={{ borderRadius: 20 }}
-                                    height={30}
-                                    width={`100%`}
-                                  />
-                                </SkeletonTheme>
-                              </td>
-                              <td>
-                                <SkeletonTheme
-                                  baseColor="#d3b683"
-                                  highlightColor="#d3d9d1"
-                                >
-                                  <Skeleton
-                                    style={{ borderRadius: 20 }}
-                                    height={30}
-                                    width={`100%`}
-                                  />
-                                </SkeletonTheme>
-                              </td>
-                              <td>
-                                <SkeletonTheme
-                                  baseColor="#d3b683"
-                                  highlightColor="#d3d9d1"
-                                >
-                                  <Skeleton
-                                    style={{ borderRadius: 20 }}
-                                    height={30}
-                                    width={`100%`}
-                                  />
-                                </SkeletonTheme>
-                              </td>
-                              <td className="link">
-                                <SkeletonTheme
-                                  baseColor="#d3b683"
-                                  highlightColor="#d3d9d1"
-                                >
-                                  <Skeleton
-                                    style={{ borderRadius: 20 }}
-                                    height={30}
-                                    width={`100%`}
-                                  />
-                                </SkeletonTheme>
-                              </td>
-                            </tr>
-                          ))
-                      : resource.map((row) => (
-                          <tr key={row.key}>
-                            <td>{row.Date}</td>
-                            <td>{row.Lecturer}</td>
-                            <td>{row.DiscussedTopics}</td>
-                            <td className="link">
-                              <a
-                                href={
-                                  row.DriveLink === 404 ? "404" : row.DriveLink
-                                }
-                                target="_blank"
-                                rel="noopener noreferrer"
+                  {loading
+                    ? Array(30)
+                        .fill()
+                        .map((item, index) => (
+                          <tr>
+                            <td>
+                              <SkeletonTheme
+                                baseColor="#d3b683"
+                                highlightColor="#d3d9d1"
                               >
-                                Lecture Video
-                              </a>
+                                <Skeleton
+                                  style={{ borderRadius: 20 }}
+                                  height={30}
+                                  width={`100%`}
+                                />
+                              </SkeletonTheme>
+                            </td>
+                            <td>
+                              <SkeletonTheme
+                                baseColor="#d3b683"
+                                highlightColor="#d3d9d1"
+                              >
+                                <Skeleton
+                                  style={{ borderRadius: 20 }}
+                                  height={30}
+                                  width={`100%`}
+                                />
+                              </SkeletonTheme>
+                            </td>
+                            <td>
+                              <SkeletonTheme
+                                baseColor="#d3b683"
+                                highlightColor="#d3d9d1"
+                              >
+                                <Skeleton
+                                  style={{ borderRadius: 20 }}
+                                  height={30}
+                                  width={`100%`}
+                                />
+                              </SkeletonTheme>
+                            </td>
+                            <td className="link">
+                              <SkeletonTheme
+                                baseColor="#d3b683"
+                                highlightColor="#d3d9d1"
+                              >
+                                <Skeleton
+                                  style={{ borderRadius: 20 }}
+                                  height={30}
+                                  width={`100%`}
+                                />
+                              </SkeletonTheme>
                             </td>
                           </tr>
-                        ))}
-                  </tbody>
+                        ))
+                    : resource.map((row) => (
+                        <tr key={row.key}>
+                          <td>{row.Date}</td>
+                          <td>{row.Lecturer}</td>
+                          <td>{row.DiscussedTopics}</td>
+                          <td className="link">
+                            <a
+                              href={
+                                row.DriveLink === 404 ? "404" : row.DriveLink
+                              }
+                              target="_blank"
+                              rel="noopener noreferrer"
+                            >
+                              Lecture Video
+                            </a>
+                          </td>
+                        </tr>
+                      ))}
                 </tbody>
               </table>
             </div>
