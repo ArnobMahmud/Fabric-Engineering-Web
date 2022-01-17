@@ -21,13 +21,75 @@ const StudentsInfo = () => {
             <div className="row justify-content-center">
               <div className="card col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xsm-12">
                 <table>
-                  <tr>
-                    <th>Name</th>
-                    <th>ID No</th>
-                    <th>Blood Group</th>
-                    <th>Contact No</th>
-                    {/* <th>Address</th> */}
-                  </tr>
+                  <tbody>
+                    {loading ? (
+                      <tr>
+                        <th>
+                          {
+                            <SkeletonTheme
+                              baseColor="#d3b683"
+                              highlightColor="#d3d9d1"
+                            >
+                              <Skeleton
+                                style={{ borderRadius: 20 }}
+                                height={30}
+                                width={`100%`}
+                              />
+                            </SkeletonTheme>
+                          }
+                        </th>
+                        <th>
+                          {
+                            <SkeletonTheme
+                              baseColor="#d3b683"
+                              highlightColor="#d3d9d1"
+                            >
+                              <Skeleton
+                                style={{ borderRadius: 20 }}
+                                height={30}
+                                width={`100%`}
+                              />
+                            </SkeletonTheme>
+                          }
+                        </th>
+                        <th>
+                          {
+                            <SkeletonTheme
+                              baseColor="#d3b683"
+                              highlightColor="#d3d9d1"
+                            >
+                              <Skeleton
+                                style={{ borderRadius: 20 }}
+                                height={30}
+                                width={`100%`}
+                              />
+                            </SkeletonTheme>
+                          }
+                        </th>
+                        <th>
+                          {
+                            <SkeletonTheme
+                              baseColor="#d3b683"
+                              highlightColor="#d3d9d1"
+                            >
+                              <Skeleton
+                                style={{ borderRadius: 20 }}
+                                height={30}
+                                width={`100%`}
+                              />
+                            </SkeletonTheme>
+                          }
+                        </th>
+                      </tr>
+                    ) : (
+                      <tr>
+                        <th>Name</th>
+                        <th>ID No</th>
+                        <th>Blood Group</th>
+                        <th>Contact No</th>
+                      </tr>
+                    )}
+                  </tbody>
                   <tbody>
                     {loading
                       ? data.map((row) => (

@@ -36,12 +36,73 @@ const NTFTable = () => {
               </div>
               <table>
                 <tbody>
-                  <tr>
-                    <th>Date</th>
-                    <th>Lecturer</th>
-                    <th>Discussed Topics</th>
-                    <th colSpan={3}>Resources</th>
-                  </tr>
+                  {loading ? (
+                    <tr>
+                      <th>
+                        {
+                          <SkeletonTheme
+                            baseColor="#d3b683"
+                            highlightColor="#d3d9d1"
+                          >
+                            <Skeleton
+                              style={{ borderRadius: 20 }}
+                              height={30}
+                              width={`100%`}
+                            />
+                          </SkeletonTheme>
+                        }
+                      </th>
+                      <th>
+                        {
+                          <SkeletonTheme
+                            baseColor="#d3b683"
+                            highlightColor="#d3d9d1"
+                          >
+                            <Skeleton
+                              style={{ borderRadius: 20 }}
+                              height={30}
+                              width={`100%`}
+                            />
+                          </SkeletonTheme>
+                        }
+                      </th>
+                      <th>
+                        {
+                          <SkeletonTheme
+                            baseColor="#d3b683"
+                            highlightColor="#d3d9d1"
+                          >
+                            <Skeleton
+                              style={{ borderRadius: 20 }}
+                              height={30}
+                              width={`100%`}
+                            />
+                          </SkeletonTheme>
+                        }
+                      </th>
+                      <th>
+                        {
+                          <SkeletonTheme
+                            baseColor="#d3b683"
+                            highlightColor="#d3d9d1"
+                          >
+                            <Skeleton
+                              style={{ borderRadius: 20 }}
+                              height={30}
+                              width={`100%`}
+                            />
+                          </SkeletonTheme>
+                        }
+                      </th>
+                    </tr>
+                  ) : (
+                    <tr>
+                      <th>Date</th>
+                      <th>Lecturer</th>
+                      <th>Discussed Topics</th>
+                      <th colSpan={3}>Resources</th>
+                    </tr>
+                  )}
                 </tbody>
                 <tbody>
                   {loading

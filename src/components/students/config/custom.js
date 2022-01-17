@@ -28,7 +28,7 @@ export const SafeArea = styled.div`
     color: #0f253b;
     font-size: 22px;
     font-weight: 500;
-    padding-bottom: 10px;
+    padding: 10px;
   }
 
   table tr td {
@@ -102,15 +102,18 @@ export const SafeArea = styled.div`
     table tr td:first-child {
       width: 100%;
     }
+    table tr td:nth-child(4) {
+      width: 100% !important;
+    }
+    table tr th:nth-child(4) {
+      width: 100% !important;
+    }
     table tr td:nth-child(2),
-    table tr td:nth-child(3),
-    table tr td:nth-child(4),
-    table tr td:nth-child(5) {
+    table tr td:nth-child(3) {
       width: 50% !important;
     }
     table tr th {
       font-size: 16px !important;
-      padding: 10px 5px;
       width: 100%;
       font-size: 12px;
     }

@@ -123,7 +123,7 @@ const SyllabusArea = styled.div`
 
   @media (max-width: 599px) {
     .card {
-      align-items: stretch;
+      align-items: center;
       padding: 30px;
     }
   }
