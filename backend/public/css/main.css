@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&family=Raleway:wght@200;300;400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&family=Ubuntu:wght@300;400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Lora:wght@400;500;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  height: 100%;
+}
+body {
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  font-family: "Rubik";
+  text-align: center;
+  background: linear-gradient(390deg, #a19aae, #ddbea9);
+}
+.content {
+  margin-top: 50px;
+  text-align: center;
+  display: inline-block;
+  margin-top: 60px;
+  color: #584444;
+}
+.image {
+  margin-top: 30px;
+  width: 50%;
+}
+footer {
+  margin-top: 80px;
+}
+footer p {
+  font-size: 20px;
+  color: rgb(60, 80, 80);
+}
+
+@media (max-width: 767px) {
+  .content h3 {
+    font-size: 24px;
+  }
+  .image {
+    margin-top: 30px;
+    width: 100%;
+  }
+}
