@@ -1,5 +1,5 @@
 const express = require("express");
-const router = express.Router();;
+const router = express.Router();
 const {
   getBCE1_1,
   getPhysics1_1,
@@ -26,6 +26,18 @@ const {
   createCP1_2,
   createEM1_2,
   createPSE1_2,
+
+  deleteBCE1_1,
+  deletePhysics1_1,
+  deleteChemistry1_1,
+  deleteMath1_1,
+  deleteNtf1_1,
+  deletePhysics1_2,
+  deleteChemistry1_2,
+  deleteMath1_2,
+  deleteCP1_2,
+  deleteEM1_2,
+  deletePSE1_2,
 } = require("../controller/ResourceControl");
 
 /* Get Request */
@@ -55,5 +67,19 @@ router.post("/createResource/math1-2", createMath_2);
 router.post("/createResource/cp1-2", createCP1_2);
 router.post("/createResource/em1-2", createEM1_2);
 router.post("/createResource/pse1-2", createPSE1_2);
+
+/* Delete Request */
+router.delete("/deleteResource/bce1-1/:_id", deleteBCE1_1);
+router.delete("/deleteResource/phy1-1/:_id", deletePhysics1_1);
+router.delete("/deleteResource/chem1-1/:_id", deleteChemistry1_1);
+router.delete("/deleteResource/math1-1/:_id", deleteMath1_1);
+router.delete("/deleteResource/ntf1-1/:_id", deleteNtf1_1);
+
+router.delete("/deleteResource/phy1-2/:_id", deletePhysics1_2);
+router.delete("/deleteResource/chem1-2/:_id", deleteChemistry1_2);
+router.delete("/deleteResource/math1-2/:_id", deleteMath1_2);
+router.delete("/deleteResource/cp1-2/:_id", deleteCP1_2);
+router.delete("/deleteResource/em1-2/:_id", deleteEM1_2);
+router.delete("/deleteResource/pse1-2/:_id", deletePSE1_2);
 
 module.exports = router;

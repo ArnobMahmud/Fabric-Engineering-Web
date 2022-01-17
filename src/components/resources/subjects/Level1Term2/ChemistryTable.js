@@ -2,9 +2,7 @@ import axios from "axios";
 import React, { useState, useEffect } from "react";
 import { CourseArea } from "../../../config/Palette";
 import Chemistry2Info from "../../../database/lecturerData/Level1Term2/Chemistry2Info";
-// import SkeletonResourceCard from "../../../screens/skeleton/SkeletonResourceCard";
-// import CustomResourceCard from "../CustomResourceScreen";
-import Skeleton, { SkeletonTheme } from "react-loading-skeleton";
+import CustomSkeletonStructure from "../../../screens/skeleton/CustomSkeletonStructure";
 
 const ChemistryTable = () => {
   const [resource, setResource] = useState([]);
@@ -39,60 +37,16 @@ const ChemistryTable = () => {
                   {loading ? (
                     <tr>
                       <th>
-                        {
-                          <SkeletonTheme
-                            baseColor="#d3b683"
-                            highlightColor="#d3d9d1"
-                          >
-                            <Skeleton
-                              style={{ borderRadius: 20 }}
-                              height={30}
-                              width={`100%`}
-                            />
-                          </SkeletonTheme>
-                        }
+                        <CustomSkeletonStructure />
                       </th>
                       <th>
-                        {
-                          <SkeletonTheme
-                            baseColor="#d3b683"
-                            highlightColor="#d3d9d1"
-                          >
-                            <Skeleton
-                              style={{ borderRadius: 20 }}
-                              height={30}
-                              width={`100%`}
-                            />
-                          </SkeletonTheme>
-                        }
+                        <CustomSkeletonStructure />
                       </th>
                       <th>
-                        {
-                          <SkeletonTheme
-                            baseColor="#d3b683"
-                            highlightColor="#d3d9d1"
-                          >
-                            <Skeleton
-                              style={{ borderRadius: 20 }}
-                              height={30}
-                              width={`100%`}
-                            />
-                          </SkeletonTheme>
-                        }
+                        <CustomSkeletonStructure />
                       </th>
                       <th>
-                        {
-                          <SkeletonTheme
-                            baseColor="#d3b683"
-                            highlightColor="#d3d9d1"
-                          >
-                            <Skeleton
-                              style={{ borderRadius: 20 }}
-                              height={30}
-                              width={`100%`}
-                            />
-                          </SkeletonTheme>
-                        }
+                        <CustomSkeletonStructure />
                       </th>
                     </tr>
                   ) : (
@@ -100,7 +54,7 @@ const ChemistryTable = () => {
                       <th>Date</th>
                       <th>Lecturer</th>
                       <th>Discussed Topics</th>
-                      <th colSpan={3}>Resources</th>
+                      <th>Resources</th>
                     </tr>
                   )}
                 </tbody>
@@ -111,52 +65,16 @@ const ChemistryTable = () => {
                         .map((item, index) => (
                           <tr>
                             <td>
-                              <SkeletonTheme
-                                baseColor="#d3b683"
-                                highlightColor="#d3d9d1"
-                              >
-                                <Skeleton
-                                  style={{ borderRadius: 20 }}
-                                  height={30}
-                                  width={`100%`}
-                                />
-                              </SkeletonTheme>
+                              <CustomSkeletonStructure />
                             </td>
                             <td>
-                              <SkeletonTheme
-                                baseColor="#d3b683"
-                                highlightColor="#d3d9d1"
-                              >
-                                <Skeleton
-                                  style={{ borderRadius: 20 }}
-                                  height={30}
-                                  width={`100%`}
-                                />
-                              </SkeletonTheme>
+                              <CustomSkeletonStructure />
                             </td>
                             <td>
-                              <SkeletonTheme
-                                baseColor="#d3b683"
-                                highlightColor="#d3d9d1"
-                              >
-                                <Skeleton
-                                  style={{ borderRadius: 20 }}
-                                  height={30}
-                                  width={`100%`}
-                                />
-                              </SkeletonTheme>
+                              <CustomSkeletonStructure />
                             </td>
                             <td className="link">
-                              <SkeletonTheme
-                                baseColor="#d3b683"
-                                highlightColor="#d3d9d1"
-                              >
-                                <Skeleton
-                                  style={{ borderRadius: 20 }}
-                                  height={30}
-                                  width={`100%`}
-                                />
-                              </SkeletonTheme>
+                              <CustomSkeletonStructure />
                             </td>
                           </tr>
                         ))

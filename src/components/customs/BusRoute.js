@@ -7,6 +7,8 @@ import Card from "../widgets/BusCard";
 import styled from "styled-components";
 
 const BusRoute = () => {
+
+
   return (
     <>
       <BusRouteSec id="bsr">

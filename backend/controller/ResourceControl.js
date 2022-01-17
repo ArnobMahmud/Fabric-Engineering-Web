@@ -217,6 +217,68 @@ const createPSE1_2 = async (req, res) => {
   console.log(resource);
 };
 
+/* Delete Request */
+
+const deleteBCE1_1 = async (req, res) => {
+  console.log(req.params);
+  let data = await BCE1_1_ResourceModel.deleteOne(req.params);
+  res.send(data);
+};
+
+const deletePhysics1_1 = async (req, res) => {
+  console.log(req.params);
+  let data = await Physics1_1_ResourceModel.deleteOne(req.params);
+  res.send(data);
+};
+const deleteChemistry1_1 = async (req, res) => {
+  console.log(req.params);
+  let data = await Chemistry1_1_ResourceModel.deleteOne(req.params);
+  res.send(data);
+};
+const deleteMath1_1 = async (req, res) => {
+  console.log(req.params);
+  let data = await Math1_1_ResourceModel.deleteOne(req.params);
+  res.send(data);
+};
+const deleteNtf1_1 = async (req, res) => {
+  console.log(req.params);
+  let data = await NTF1_1_ResourceModel.deleteOne(req.params);
+  res.send(data);
+};
+
+const deletePhysics1_2 = async (req, res) => {
+  console.log(req.params);
+  let data = await Physics1_2_ResourceModel.deleteOne(req.params);
+  res.send(data);
+};
+const deleteChemistry1_2 = async (req, res) => {
+  console.log(req.params);
+  let data = await Chemistry1_2_ResourceModel.deleteOne(req.params);
+  res.send(data);
+};
+const deleteMath1_2 = async (req, res) => {
+  console.log(req.params);
+  let data = await Math1_2_ResourceModel.deleteOne(req.params);
+  res.send(data);
+};
+const deleteCP1_2 = async (req, res) => {
+  console.log(req.params);
+  let data = await CP1_2_ResourceModel.deleteOne(req.params);
+  res.send(data);
+};
+const deleteEM1_2 = async (req, res) => {
+  console.log(req.params);
+  let data = await EM1_2_ResourceModel.deleteOne(req.params);
+  res.send(data);
+};
+const deletePSE1_2 = async (req, res) => {
+  console.log(req.params);
+  let data = await PSE1_2_ResourceModel.deleteOne(req.params);
+  res.send(data);
+};
+
+/* Update Request */
+
 module.exports = {
   getBCE1_1,
   getPhysics1_1,
@@ -243,4 +305,17 @@ module.exports = {
   createCP1_2,
   createEM1_2,
   createPSE1_2,
+
+  deleteBCE1_1,
+  deletePhysics1_1,
+  deleteChemistry1_1,
+  deleteMath1_1,
+  deleteNtf1_1,
+
+  deletePhysics1_2,
+  deleteChemistry1_2,
+  deleteMath1_2,
+  deleteEM1_2,
+  deleteCP1_2,
+  deletePSE1_2,
 };
