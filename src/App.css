@@ -2,46 +2,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&family=Ubuntu:wght@300;400;500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Lora:wght@400;500;600&display=swap");
-.sweet-loading {
-  background: rgb(170, 168, 207);
-  background: linear-gradient(390deg, #a19aae, #ddbea9);
-  display: flex;
-  text-align: center;
-  justify-content: center;
-  height: 100vh;
-  width: 100%;
-}
-.sweet-loading .css-1shk4kv {
-  top: 30%;
-}
-.bottom-ind {
-  position: absolute;
-  bottom: 10px;
-  display: inline-block;
-}
-.bottom-ind .logo {
-  max-width: 15%;
-}
-.bottom-ind h4 {
-  text-align: center;
-  color: #283f50;
-  font-family: "Rubik";
-}
-.bottom-ind p {
-  text-align: center;
-  color: #283f50;
-  font-size: 21px;
-  font-family: "Rubik";
-  font-weight: 400;
-}
-@media (max-width: 991px) {
-  .bottom-ind h4 {
-    font-size: 19px;
-  }
-  .bottom-ind .logo {
-    max-width: 25%;
-  }
-  .bottom-ind p {
-    font-size: 18px;
-  }
-}
+

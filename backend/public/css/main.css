@@ -7,6 +7,22 @@
   padding: 0;
   box-sizing: border-box;
 }
+a {
+  text-decoration: none;
+}
+body::-webkit-scrollbar {
+  width: 12px; /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+  background: rgb(71, 71, 66); /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: rgb(136, 136, 167); /* color of the scroll thumb */
+  border-radius: 30px; /* roundness of the scroll thumb */
+  border: 2px solid rgb(71, 71, 66); /* creates padding around scroll thumb */
+}
 html {
   height: 100%;
 }
@@ -16,10 +32,18 @@ body {
   width: auto;
   font-family: "Rubik";
   text-align: center;
+}
+html,
+body {
   background: linear-gradient(390deg, #a19aae, #ddbea9);
 }
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
 .content {
-  margin-top: 50px;
+  margin-top: 30px;
   text-align: center;
   display: inline-block;
   margin-top: 60px;
@@ -27,16 +51,44 @@ body {
 }
 .image {
   margin-top: 30px;
-  width: 50%;
+  width: 40%;
 }
 footer {
-  margin-top: 80px;
+  margin-top: 40px;
 }
 footer p {
   font-size: 20px;
   color: rgb(60, 80, 80);
 }
 
+.btn {
+  margin-top: 30px;
+  padding: 10px 20px;
+  border: 2px solid #0c253a;
+  background-color: transparent;
+  border-radius: 25px;
+  transition: all linear 0.3s;
+  width: 15%;
+}
+.btn a {
+  color: #0c253a;
+}
+.btn:hover {
+  background-color: #0c253a;
+}
+.btn:hover a {
+  color: #a89f9f;
+}
+
+@media (max-width: 991px) {
+  .btn {
+    width: 30%;
+  }
+  .image {
+    margin-top: 30px;
+    width: 70%;
+  }
+}
 @media (max-width: 767px) {
   .content h3 {
     font-size: 24px;
@@ -44,5 +96,8 @@ footer p {
   .image {
     margin-top: 30px;
     width: 100%;
+  }
+  .btn {
+    width: 50%;
   }
 }

@@ -4,7 +4,6 @@ const bodyParser = require("body-parser");
 const cors = require("cors");
 const dotenv = require("dotenv");
 const path = require("path");
-
 const resources = require("./routes/ResourceRoute");
 dotenv.config({ path: "./config.env" });
 
@@ -43,8 +42,11 @@ try {
 /* Root Path */
 app.get("/", (req, res) => {
   console.log(`[Test!]`);
-  // res.send(`Hello from the Back-end!`); 
-  res.render('home', {});
+  res.render("home", {});
+});
+
+app.get("/source", (req, res) => {
+  res.render("source", {});
 });
 
 /* localhost | server port */
