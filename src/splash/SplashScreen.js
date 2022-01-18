@@ -23,12 +23,26 @@ const SplashScreen = (props) => {
 export default SplashScreen;
 
 const SplashArea = styled.div`
+  background: linear-gradient(390deg, #a19aae, #ddbea9, #a19aae, #ddbea9);
+  background-size: 400% 400%;
+  animation: gradient 10s ease infinite;
   height: 100vh;
-  background: linear-gradient(200deg, #a19aae, #ddbea9);
+
+  @keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
   .bottom-ind {
     padding: 0px 0px;
     text-align: center;
-    position: absolute;
+    position: fixed;
     bottom: 0;
     right: 0;
     left: 0;

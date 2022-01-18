@@ -145,7 +145,7 @@ export const OverlayButton = styled.div`
     display: inline-block;
     text-decoration: none;
     padding: 13px 18px;
-    border-radius: 20px;
+    border-radius: 100px;
     transition-duration: 0.3s;
     font-family: Ubuntu;
     font-weight: 500;

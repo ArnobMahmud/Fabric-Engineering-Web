@@ -41,6 +41,15 @@ function Footer() {
                     Students Info
                   </Link>
                 }
+                link3={
+                  <a
+                    href="https://fabricweb-backend-server.herokuapp.com/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    API
+                  </a>
+                }
               />
             </div>
             <div className="col-lg-3 col-md-6 col-sm-12">
