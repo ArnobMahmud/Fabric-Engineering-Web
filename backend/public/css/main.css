@@ -23,8 +23,9 @@ body::-webkit-scrollbar-thumb {
   border-radius: 30px; /* roundness of the scroll thumb */
   border: 2px solid rgb(71, 71, 66); /* creates padding around scroll thumb */
 }
-html {
-  height: 100%;
+html,
+body {
+  min-height: 100%;
 }
 body {
   align-items: center;
@@ -32,20 +33,12 @@ body {
   width: auto;
   font-family: "Rubik";
   text-align: center;
-}
-html,
-body {
+  height: auto;
   background: linear-gradient(390deg, #a19aae, #ddbea9);
 }
-.container {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-}
-.content {
+h3 {
   margin-top: 30px;
   text-align: center;
-  display: inline-block;
   margin-top: 60px;
   color: #584444;
 }
@@ -53,22 +46,32 @@ body {
   margin-top: 30px;
   width: 40%;
 }
-footer {
+.foot {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
   margin-top: 40px;
 }
-footer p {
+.foot p {
   font-size: 20px;
   color: rgb(60, 80, 80);
 }
-
 .btn {
-  margin-top: 30px;
-  padding: 10px 20px;
+  margin: 10px 0px;
+  padding: 10px 50px;
   border: 2px solid #0c253a;
   background-color: transparent;
   border-radius: 25px;
   transition: all linear 0.3s;
-  width: 15%;
+}
+table .btn {
+  margin: 10px 0px;
+  padding: 10px 50px;
+  border: 2px solid #0c253a;
+  background-color: transparent;
+  border-radius: 25px;
+  transition: all linear 0.3s;
 }
 .btn a {
   color: #0c253a;
@@ -80,24 +83,54 @@ footer p {
   color: #a89f9f;
 }
 
+h5 {
+  color: black;
+}
+
+.card {
+  margin: 60px 0px;
+  background: linear-gradient(200deg, #e3d3bf, #efc5b5);
+  align-items: stretch;
+  padding: 30px;
+  box-shadow: 14px 10px 13px 0px #7d6363;
+  border: none;
+}
+table {
+  width: 100%;
+}
+
+table tr th {
+  color: #0f253b;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 10px;
+}
+table tr td {
+  font-family: "Rubik";
+  color: #0b0b0b;
+  padding: 10px;
+  border-style: none;
+  font-weight: 400;
+  height: auto;
+  border-color: #fdfdfd61;
+}
+
 @media (max-width: 991px) {
-  .btn {
-    width: 30%;
-  }
   .image {
     margin-top: 30px;
     width: 70%;
   }
 }
 @media (max-width: 767px) {
-  .content h3 {
+  h3 {
     font-size: 24px;
   }
   .image {
     margin-top: 30px;
     width: 100%;
   }
-  .btn {
-    width: 50%;
+  table .btn {
+    margin: 10px 0px;
+    padding: 10px 25px;
   }
 }

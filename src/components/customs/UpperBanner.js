@@ -142,13 +142,9 @@ const TopBannerArea = styled.div`
     .top-over-details-part h1 {
       font-size: 1.1 rem;
     }
-    .top-over-details-part p {
-      font-size: 1rem;
-    }
     .top-over-details-part h1 {
       font-size: 30px;
     }
-
     .top-over-details-part p {
       font-size: 16px;
     }
