@@ -21,7 +21,7 @@ const NavigationBar = () => {
               aria-expanded="false"
               aria-label="Toggle navigation"
             >
-              <IconContext.Provider value={{ size: "25", color: "#ccffff" }}>
+              <IconContext.Provider value={{ size: "30", color: "#ccffff" }}>
                 <GiArrowScope />
               </IconContext.Provider>
             </button>

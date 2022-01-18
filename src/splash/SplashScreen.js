@@ -6,17 +6,13 @@ import styled from "styled-components";
 const SplashScreen = (props) => {
   return (
     <SplashArea>
-      <div className="container-fluid">
+      <div className="container">
         <div className="section-handler">
-          <div className="col-xl-8 col-md-8 col-sm-12">
-            <Spinner loading={props.loading} />
-          </div>
-          <div className="col-xl-12 col-md-12 col-sm-12">
-            <div className="bottom-ind">
-              <img className="logo" src={Logo} alt="" srcSet />
-              <h4>Fabric Engineering 46 (BUTEX)</h4>
-              <p>Developed by Arnob Mahmud</p>
-            </div>
+          <Spinner loading={props.loading} />
+          <div className="bottom-ind">
+            <img className="logo" src={Logo} alt="" srcSet />
+            <h4>Fabric Engineering 46 (BUTEX)</h4>
+            <p>Developed by Arnob Mahmud</p>
           </div>
         </div>
       </div>
@@ -27,11 +23,13 @@ const SplashScreen = (props) => {
 export default SplashScreen;
 
 const SplashArea = styled.div`
-  background: linear-gradient(390deg, #a19aae, #ddbea9);
+  height: 100vh;
+  background: linear-gradient(200deg, #a19aae, #ddbea9);
   .bottom-ind {
+    padding: 0px 0px;
     text-align: center;
     position: absolute;
-    bottom: 10px;
+    bottom: 0;
     right: 0;
     left: 0;
   }

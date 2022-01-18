@@ -11,7 +11,7 @@ const Spinner = (props) => {
   };
   return (
     <div style={style}>
-      <HashLoader color={"#283f50"} loading={props.loading} size={150} />
+      <HashLoader color={"#283f50"} loading={props.loading} size={130} />
     </div>
   );
 };

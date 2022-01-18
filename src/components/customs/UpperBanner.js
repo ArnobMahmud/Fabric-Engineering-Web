@@ -111,7 +111,7 @@ const TopBannerArea = styled.div`
   @media (max-width: 991px) {
     .top-over-details-part {
       width: 70%;
-      padding: 240px 0px 100px;
+      padding: 250px 0px;
     }
     .home-shield {
       position: absolute;
@@ -123,9 +123,6 @@ const TopBannerArea = styled.div`
       background: ${({ theme }) => theme.topBnrOverlay};
     }
 
-    .top-over-details-part {
-      padding: 850px 0px;
-    }
     .top-bnr-overlay .video {
       height: inherit;
     }
