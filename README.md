@@ -9,9 +9,11 @@
 
 ![](https://img.shields.io/tokei/lines/github/arnobmahmud/Fabric-Engineering-Web?color=orange&label=Lines%20of%20Code&logo=Insomnia&labelColor=eee3dd&logoColor=%235849BE&style=plastic)&nbsp;
 
+[![Wakatime](https://wakatime.com/badge/user/94bcb058-9915-4d5f-8827-41abbc5319de/project/a155c2f3-c0c0-4e7e-8c0b-28035c9e7efd.svg?style=plastic)](https://wakatime.com/badge/user/94bcb058-9915-4d5f-8827-41abbc5319de/project/a155c2f3-c0c0-4e7e-8c0b-28035c9e7efd)
+
 [![](https://img.shields.io/badge/License-MIT-critical?style=plastic&logo=appveyor&logoColor=a70023&labelColor=lightblue&color=471e61)](https://github.com/ArnobMahmud/Fabric-Engineering-Web/blob/master/MIT%20License)&nbsp;
 [![develop-with-arnob](https://img.shields.io/badge/Develop%20with-Arnob%20Mahmud-1f425f.svg?style=plastic&logo=visual-studio-code&logoColor=007ACC&labelColor=ffb3ad)](https://github.com/ArnobMahmud/)&nbsp;
-[![made-with-jQ](https://img.shields.io/badge/Made%20with-JavaScript-1f425f.svg?style=plastic&logo=JavaScript&color=e1d1eb&logoColor=faed3e&labelColor=471e61)](https://jquery.com/)
+[![made-with-react](https://img.shields.io/badge/Made%20with-React-1f425f.svg?style=plastic&logo=React&color=e1d1eb&logoColor=faed3e&labelColor=471e61)](https://reactjs.org/)
 
 ``` js
 {
