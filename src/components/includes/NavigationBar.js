@@ -5,7 +5,6 @@ import styled from "styled-components";
 import { IconContext } from "react-icons";
 import { GiArrowScope } from "react-icons/gi";
 
-
 const NavigationBar = () => {
   return (
     <>
@@ -130,7 +129,7 @@ const NavigationBar = () => {
 export default NavigationBar;
 
 const Header = styled.div`
-  background: #202428;
+  background: #33383d;
   padding: 25px 0px;
   position: fixed;
   top: 0px;
@@ -146,7 +145,7 @@ const Header = styled.div`
     position: absolute;
     height: 180px; /* 185*/
     width: 170px;
-    background: #202428;
+    background: #33383d;
     border-radius: 50%;
     /* box-shadow: 3px 3px 14px 3px #00000061; */
   }
@@ -170,7 +169,7 @@ const Header = styled.div`
   .navbar-expand-lg .navbar-nav .dropdown-menu {
     position: absolute;
     text-align: center;
-    background: #202428;
+    background: #33383d;
     font-family: inherit;
     border: none;
   }
@@ -191,7 +190,7 @@ const Header = styled.div`
     transition: all linear 0.3s;
     color: wheat;
     text-decoration: none;
-    background-color: #202428;
+    background-color: #42474d;
   }
 
   .dropdown-item {

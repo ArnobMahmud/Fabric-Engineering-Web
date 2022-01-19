@@ -11,7 +11,6 @@ function Footer() {
       <FooterArea>
         <div className="container">
           <div className="row justify-content-between">
-            {" "}
             <div className="col-lg-3 col-md-6 col-sm-12 text-center">
               <Link to="/">
                 <img className="rotating" src={Logo} alt="" srcSet />
@@ -43,6 +42,7 @@ function Footer() {
                 }
                 link3={
                   <a
+                    className="foot-link"
                     href="https://fabricweb-backend-server.herokuapp.com/"
                     target="_blank"
                     rel="noreferrer"
@@ -199,8 +199,8 @@ const FooterArea = styled.div`
   }
   .cpy-rgt span a {
     text-decoration: none;
+    font-family: 'Rubik';
     color: ${({ theme }) => theme.footerSpana};
-    font-weight: 500;
   }
   .footerOverlay {
     margin: 0;

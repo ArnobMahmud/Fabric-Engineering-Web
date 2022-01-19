@@ -126,7 +126,7 @@ export const CourseArea = styled.div`
       width: 100% !important;
     }
     table tr td {
-      padding: 10px 5px;
+      padding: 15px 5px;
     }
   }
 `;

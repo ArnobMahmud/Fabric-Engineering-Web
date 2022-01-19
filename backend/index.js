@@ -5,6 +5,8 @@ const cors = require("cors");
 const dotenv = require("dotenv");
 const path = require("path");
 const resources = require("./routes/ResourceRoute");
+const signup = require("./routes/SignUpRoute");
+// const favIcon = require("serve-favicon");
 dotenv.config({ path: "./config.env" });
 
 /* Environment */
@@ -19,14 +21,15 @@ app.use(bodyParser.urlencoded({ extended: "false" }));
 /* static files */
 app.use(express.static("public"));
 app.use("/css", express.static(path.join(__dirname + "public/css")));
-app.use("/js", express.static(path.join(__dirname + "public/js")));
 app.use("/img", express.static(path.join(__dirname + "public/assets")));
+app.use("favicon.ico", express.static(path.join("public/favicon")));
 
 /* eJs handling */
 app.set("view engine", "ejs");
 
 /* Resource handling */
 app.use("/api", resources);
+app.use("/fabricengineering", signup);
 
 /* MongoDB Cluster Connection */
 try {

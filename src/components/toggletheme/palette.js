@@ -46,7 +46,7 @@ export const lightTheme = {
 };
 
 export const darkTheme = {
-  body: "#4d4255",
+  body: "#47414b",
   topBnrH1: "#0c253a",
   topBnrParagraph: "#250e0e",
   topBnrOverlay: "linear-gradient(360deg, #250c2e90 ,  #ffb2d2cd)",
@@ -56,7 +56,7 @@ export const darkTheme = {
   h4: "#223120",
   h5: "#3b333d",
   cardBG: "linear-gradient(360deg, #ffbef781,  #ffb2d2cd)",
-  cardBoxShd: " 14px 10px 13px 0px  #413348",
+  cardBoxShd: " 14px 10px 13px 0px #38333c",
   contentBG: "#7f6666",
   contentH2: "#312135",
   contentHr: "eee",
@@ -65,7 +65,7 @@ export const darkTheme = {
   gradient: "linear-gradient(#091236, #1E215D)",
   detailsHeader: "#ffcd5b",
   detailsParagraph: "#ddd",
-  detailsBG: "#493643",
+  detailsBG: "#272222",
   locationH1: "#dbdcf3",
   locationH5: "#cfc4f8",
   locationLogo: "#edc5f5e3",
@@ -79,7 +79,7 @@ export const darkTheme = {
   devTitleColor: " #1e1938",
   codeAnalysis: "#1e1938",
   devh5: "#1e1938",
-  footerBG: "#2e2c35",
+  footerBG: "#272222",
   footerh4: "#e0245e",
   footerh3: "#0f253b",
   footerh5: "#ffc107",
