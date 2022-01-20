@@ -193,13 +193,14 @@ const FooterArea = styled.div`
     padding: 40px 0px 10px;
     color: ${({ theme }) => theme.footerCpyRgt};
     text-align: center;
+    font-family: "DM Sans";
   }
   .cpy-rgt span {
     display: inline-block;
   }
   .cpy-rgt span a {
     text-decoration: none;
-    font-family: 'Rubik';
+    font-family: "DM Sans";
     color: ${({ theme }) => theme.footerSpana};
   }
   .footerOverlay {

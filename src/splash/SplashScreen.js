@@ -53,14 +53,16 @@ const SplashArea = styled.div`
   .bottom-ind h4 {
     text-align: center;
     color: #283f50;
-    font-family: "Rubik";
+    font-family: "Ubuntu";
+    font-weight: 600;
+    line-height: 1.5;
   }
   .bottom-ind p {
     text-align: center;
     color: #283f50;
     font-size: 21px;
     font-family: "Rubik";
-    font-weight: 400;
+    font-weight: 500;
   }
   @media (max-width: 991px) {
     .bottom-ind h4 {
