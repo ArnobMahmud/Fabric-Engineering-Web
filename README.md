@@ -12,10 +12,12 @@
 [![Wakatime](https://wakatime.com/badge/user/94bcb058-9915-4d5f-8827-41abbc5319de/project/a155c2f3-c0c0-4e7e-8c0b-28035c9e7efd.svg?style=plastic)](https://wakatime.com/badge/user/94bcb058-9915-4d5f-8827-41abbc5319de/project/a155c2f3-c0c0-4e7e-8c0b-28035c9e7efd)
 
 [![](https://img.shields.io/badge/License-MIT-critical?style=plastic&logo=appveyor&logoColor=a70023&labelColor=lightblue&color=471e61)](https://github.com/ArnobMahmud/Fabric-Engineering-Web/blob/master/MIT%20License)&nbsp;
-[![develop-with-arnob](https://img.shields.io/badge/Develop%20with-Arnob%20Mahmud-1f425f.svg?style=plastic&logo=visual-studio-code&logoColor=007ACC&labelColor=ffb3ad)](https://github.com/ArnobMahmud/)&nbsp;
+[![developed-by-arnob](https://img.shields.io/badge/Developed%20by-Arnob%20Mahmud-1f425f.svg?style=plastic&logo=visual-studio-code&logoColor=007ACC&labelColor=beb4ab)](https://github.com/ArnobMahmud/)&nbsp;
 [![made-with-react](https://img.shields.io/badge/Made%20with-React-1f425f.svg?style=plastic&logo=React&color=e1d1eb&logoColor=faed3e&labelColor=471e61)](https://reactjs.org/)
 
-``` js
+### `Client Site`
+
+```json
 {
    {
       "homepage": "https://fabricengineering.netlify.app/",
@@ -25,6 +27,42 @@
    }
 }
 ```
+
+### `Visit Website`
+
+**_[Fabric Engineering Web](https://fabricengineering.netlify.app/)_**
+
+### `Server Site`
+
+```json
+{
+  "name": "backend",
+  "version": "1.1.0",
+  "author": "Arnob Mahmud",
+  "description": "Bangladesh University of Textiles (BUTEX) Fabric Manufacturing Engineering (FME) 46th Batch's Departmental Resources Monitoring by Arnob Mahmud.",
+  "main": "index.js"
+}
+```
+
+### `API Access`
+
+**_[`API Access`](https://fabricweb-backend-server.herokuapp.com/)_**
+
+| SN     | Resources       | APIs                                                                    |
+| ------ | :-------------- | :---------------------------------------------------------------------- |
+| (i)    | `Physics 1-1`   | https://fabricweb-backend-server.herokuapp.com/api/getResources/phy1-1  |
+| (ii)   | `Chemistry 1-1` | https://fabricweb-backend-server.herokuapp.com/api/getResources/chem1-1 |
+| (iii)  | `Math 1-1`      | https://fabricweb-backend-server.herokuapp.com/api/getResources/math1-1 |
+| (iv)   | `NTF 1-1`       | https://fabricweb-backend-server.herokuapp.com/api/getResources/ntf1-1  |
+| (v)    | `BCE 1-1`       | https://fabricweb-backend-server.herokuapp.com/api/getResources/bce1-1  |
+| (vi)   | `Physics 1-2`   | https://fabricweb-backend-server.herokuapp.com/api/getResources/phy1-2  |
+| (vii)  | `Chemistry 1-2` | https://fabricweb-backend-server.herokuapp.com/api/getResources/chem1-2 |
+| (viii) | `Math 1-2`      | https://fabricweb-backend-server.herokuapp.com/api/getResources/math1-2 |
+| (ix)   | `CP 1-2`        | https://fabricweb-backend-server.herokuapp.com/api/getResources/cp1-2   |
+| (x)    | `EM 1-2`        | https://fabricweb-backend-server.herokuapp.com/api/getResources/em1-2   |
+| (xi)   | `PSE 1-2`       | https://fabricweb-backend-server.herokuapp.com/api/getResources/pse1-2  |
+
+### `Front-end HomePage UI`
 
 <table>
   <tr>
@@ -36,6 +74,12 @@
     <td><img src="https://user-images.githubusercontent.com/60808266/126663205-98504811-0dcc-4a70-9c9d-0a5d28f38d7d.png"></td>
    </tr>
 </table>
+
+### `Outlook`
+
+| **_`Front-end`_**                                                                                                   | **_`Back-end`_**                                                                                                   |
+| ------------------------------------------------------------------------------------------------------------------- | :----------------------------------------------------------------------------------------------------------------- |
+| ![frontend1](https://user-images.githubusercontent.com/60808266/150289268-c60b598d-c0ee-48f9-95be-a47e7cc03498.png) | ![backend1](https://user-images.githubusercontent.com/60808266/150287354-238a8ed8-9eae-4eea-baa9-20adb6793384.png) |
 
 ### `License`
 
