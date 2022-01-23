@@ -25,7 +25,7 @@ export default SplashScreen;
 const SplashArea = styled.div`
   background: linear-gradient(390deg, #a19aae, #ddbea9, #a19aae, #ddbea9);
   background-size: 400% 400%;
-  animation: gradient 10s ease infinite;
+  /* animation: gradient 10s ease infinite; */
   height: 100vh;
 
   @keyframes gradient {
@@ -54,8 +54,7 @@ const SplashArea = styled.div`
     text-align: center;
     color: #283f50;
     font-family: "Ubuntu";
-    font-weight: 600;
-    line-height: 1.5;
+    font-weight: 500;
   }
   .bottom-ind p {
     text-align: center;
