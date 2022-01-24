@@ -2,6 +2,7 @@ import React from "react";
 import { Component } from "react";
 import data from "../../json/syllabus-data.json";
 import styled from "styled-components";
+import InformationScreen from "../screens/InformationScreen";
 
 class Syllabus extends Component {
   render() {
@@ -30,7 +31,13 @@ class Syllabus extends Component {
                           <td>
                             <div className="btn">
                               <a
-                                href={row.driveLink}
+                                href={
+                                  row.driveLink === 501 ? (
+                                    <InformationScreen />
+                                  ) : (
+                                    row.driveLink
+                                  )
+                                }
                                 target="_blank"
                                 rel="noopener noreferrer"
                               >

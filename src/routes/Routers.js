@@ -34,6 +34,7 @@ import DeveloperPage from "../pages/DeveloperPage";
 import Footer from "../components/includes/Footer";
 
 import ErrorScreen from "../components/screens/AnnounceScreenIII";
+import ErrorScreen2 from "../components/screens/InformationScreen";
 import { Redirect } from "react-router-dom/cjs/react-router-dom.min";
 
 const RouteHandle = () => {
@@ -85,6 +86,7 @@ const RouteHandle = () => {
 
         {/********* Error Section Starts Here ************/}
         <Route exact path="/404" component={ErrorScreen} />
+        <Route exact path="/501" component={ErrorScreen2} />
 
         <Redirect to="/" />
       </Switch>

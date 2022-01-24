@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-import ScreenCardII from "../widgets/screencard/ScreenCardII";
+import ScreenCardIV from "../widgets/screencard/ScreenCardIV";
 import { ScreenArea } from "../config/Palette";
-import infoImg from "../../assets/balb.png";
+import infoImg from "../../assets/svg/towing.svg";
 
 export class InformationScreen extends Component {
   render() {
@@ -9,7 +9,7 @@ export class InformationScreen extends Component {
       <>
         <ScreenArea>
           <div className="container">
-            <ScreenCardII
+            <ScreenCardIV
               imgPath={infoImg}
               title="Searching Syllabus?"
               description="Not added yet!"
