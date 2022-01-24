@@ -4,6 +4,8 @@
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/944bd3d0-a153-41b9-9da2-5ebd88a18994/deploy-status)](https://app.netlify.com/sites/fabricengineering/deploys)
 
+[![CodeQL](https://github.com/ArnobMahmud/Fabric-Engineering-Web/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/ArnobMahmud/Fabric-Engineering-Web/actions/workflows/codeql-analysis.yml)
+
 [![](https://img.shields.io/scrutinizer/quality/g/ArnobMahmud/Fabric-Engineering-Web?color=green&label=Code%20Quality%20x%2F10&logo=Scrutinizer%20CI&logoColor=e0e0e0&style=plastic)](https://github.com/Debug-Gremlins/Fabric-Engineering-Resource)&nbsp;
 [![](https://img.shields.io/github/package-json/v/ArnobMahmud/Fabric-Engineering-Web?color=lightyellow&label=yarn%20Deployed&logo=yarn&logoColor=yellow&style=plastic)](https://github.com/Debug-Gremlins/Fabric-Engineering-Resource)&nbsp;
 
@@ -16,7 +18,8 @@
 [![made-with-react](https://img.shields.io/badge/Made%20with-React-1f425f.svg?style=plastic&logo=React&color=e1d1eb&logoColor=faed3e&labelColor=471e61)](https://reactjs.org/)
 
 ### `Client Site`
-``` json
+
+```json
 {
    {
       "homepage": "https://fabricengineering.netlify.app/",
@@ -29,10 +32,11 @@
 
 ### `Visit Website`
 
-***[`Fabric Engineering Web`](https://fabricengineering.netlify.app/)***
+**_[`Fabric Engineering Web`](https://fabricengineering.netlify.app/)_**
 
 ### `Server Site`
-``` json
+
+```json
 {
   "name": "backend",
   "version": "1.1.0",
@@ -41,24 +45,38 @@
   "main": "index.js"
 }
 ```
-### `API Access`
-***[`API Access`](https://fabricweb-backend-server.herokuapp.com/)***
 
-|SN   | Resources     | APIs         | 
-|-----|:--------------|:-------------|
-|(i)  | `Physics 1-1`   |  https://fabricweb-backend-server.herokuapp.com/api/getResources/phy1-1        |
-|(ii) | `Chemistry 1-1` |  https://fabricweb-backend-server.herokuapp.com/api/getResources/chem1-1       |
-|(iii)| `Math 1-1`      |  https://fabricweb-backend-server.herokuapp.com/api/getResources/math1-1       |
-|(iv) | `NTF 1-1`        |  https://fabricweb-backend-server.herokuapp.com/api/getResources/ntf1-1        |
-|(v)  | `BCE 1-1`         |  https://fabricweb-backend-server.herokuapp.com/api/getResources/bce1-1        |
-|(vi) | `Physics 1-2`    |  https://fabricweb-backend-server.herokuapp.com/api/getResources/phy1-2        |
-|(vii)| `Chemistry 1-2` |  https://fabricweb-backend-server.herokuapp.com/api/getResources/chem1-2       |
-|(viii)| `Math 1-2`    |  https://fabricweb-backend-server.herokuapp.com/api/getResources/math1-2       |
-|(ix)| `CP 1-2`        |  https://fabricweb-backend-server.herokuapp.com/api/getResources/cp1-2         |
-|(x)| `EM 1-2`       |  https://fabricweb-backend-server.herokuapp.com/api/getResources/em1-2         |
-|(xi)| `PSE 1-2`        |  https://fabricweb-backend-server.herokuapp.com/api/getResources/pse1-2        |
+### `API Access`
+
+**_[`API Access`](https://fabricweb-backend-server.herokuapp.com/)_**
+
+| SN     | Resources       | APIs                                                                    |
+| ------ | :-------------- | :---------------------------------------------------------------------- |
+| (i)    | `Physics 1-1`   | https://fabricweb-backend-server.herokuapp.com/api/v1/resources/phy1-1  |
+| (ii)   | `Chemistry 1-1` | https://fabricweb-backend-server.herokuapp.com/api/v1/resources/chem1-1 |
+| (iii)  | `Math 1-1`      | https://fabricweb-backend-server.herokuapp.com/api/v1/resources/math1-1 |
+| (iv)   | `NTF 1-1`       | https://fabricweb-backend-server.herokuapp.com/api/v1/resources/ntf1-1  |
+| (v)    | `BCE 1-1`       | https://fabricweb-backend-server.herokuapp.com/api/v1/resources/bce1-1  |
+| (vi)   | `Physics 1-2`   | https://fabricweb-backend-server.herokuapp.com/api/v1/resources/phy1-2  |
+| (vii)  | `Chemistry 1-2` | https://fabricweb-backend-server.herokuapp.com/api/v1/resources/chem1-2 |
+| (viii) | `Math 1-2`      | https://fabricweb-backend-server.herokuapp.com/api/v1/resources/math1-2 |
+| (ix)   | `CP 1-2`        | https://fabricweb-backend-server.herokuapp.com/api/v1/resources/cp1-2   |
+| (x)    | `EM 1-2`        | https://fabricweb-backend-server.herokuapp.com/api/v1/resources/em1-2   |
+| (xi)   | `PSE 1-2`       | https://fabricweb-backend-server.herokuapp.com/api/v1/resources/pse1-2  |
+
+
+## Supported Versions
+
+| Version | Supported          |
+| ------- | ------------------ |
+| 0.0.x   | :x:                |
+| 0.1.x   | :x:                |
+| 1.1.x   | :white_check_mark: |
+| < 3.0   | :white_check_mark: |
+
 
 ### `Front-end HomePage UI`
+
 <table>
   <tr>
     <th> <h3>Light Mode ☀</h3> </th>    
@@ -72,9 +90,9 @@
 
 ### `Outlook`
 
-|***`Front-end`***   | ***`Back-end`***     |
-|-----|--------------|
-|![frontend1](https://user-images.githubusercontent.com/60808266/150289268-c60b598d-c0ee-48f9-95be-a47e7cc03498.png)|![backend1](https://user-images.githubusercontent.com/60808266/150287354-238a8ed8-9eae-4eea-baa9-20adb6793384.png)|
+| **_`Front-end`_**                                                                                                   | **_`Back-end`_**                                                                                                   |
+| ------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------ |
+| ![frontend1](https://user-images.githubusercontent.com/60808266/150289268-c60b598d-c0ee-48f9-95be-a47e7cc03498.png) | ![backend1](https://user-images.githubusercontent.com/60808266/150287354-238a8ed8-9eae-4eea-baa9-20adb6793384.png) |
 
 ### `License`
 
