@@ -6,7 +6,8 @@ const dotenv = require("dotenv");
 const path = require("path");
 const resources = require("./routes/ResourceRoute");
 const signup = require("./routes/SignUpRoute");
-// const favIcon = require("serve-favicon");
+
+const rateLimiter = require("./middleware/RateLimit");
 dotenv.config({ path: "./config.env" });
 
 /* Environment */
@@ -17,7 +18,7 @@ const PORT = process.env.PORT || 5000;
 app.use(cors());
 app.use(bodyParser.json({ extended: "false" }));
 app.use(bodyParser.urlencoded({ extended: "false" }));
-
+app.use(rateLimiter);
 /* static files */
 app.use(express.static("public"));
 app.use("/css", express.static(path.join(__dirname + "public/css")));
