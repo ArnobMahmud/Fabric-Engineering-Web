@@ -1,19 +1,19 @@
 const mongoose = require("mongoose");
 
 const ResourceSchema = new mongoose.Schema({
-  Date: {
+  date: {
     type: String,
     required: true,
   },
-  Lecturer: {
+  lecturer: {
     type: String,
     required: true,
   },
-  DiscussedTopics: {
+  discussedTopics: {
     type: String,
     required: true,
   },
-  DriveLink: {
+  driveLink: {
     type: String,
     required: true,
   },

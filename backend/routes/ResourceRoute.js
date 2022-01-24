@@ -42,45 +42,49 @@ const {
 } = require("../controller/ResourceControl");
 
 /* Get Request */
-router.get("/getResources/bce1-1", limiter, getBCE1_1);
-router.get("/getResources/phy1-1", limiter, getPhysics1_1);
-router.get("/getResources/chem1-1", limiter, getChemistry1_1);
-router.get("/getResources/math1-1", limiter, getMath1_1);
-router.get("/getResources/ntf1-1", limiter, getNTF1_1);
+router.route("/resources/bce1-1").get(limiter, getBCE1_1);
+router.route("/resources/phy1-1").get(limiter, getPhysics1_1);
+router.route("/resources/chem1-1").get(limiter, getChemistry1_1);
+router.route("/resources/math1-1").get(limiter, getMath1_1);
+router.route("/resources/ntf1-1").get(limiter, getNTF1_1);
 
-router.get("/getResources/phy1-2", limiter, getPhysics1_2);
-router.get("/getResources/chem1-2", limiter, getChemistry1_2);
-router.get("/getResources/math1-2", limiter, getMath1_2);
-router.get("/getResources/cp1-2", limiter, getCP1_2);
-router.get("/getResources/pse1-2", limiter, getPSE1_2);
-router.get("/getResources/em1-2", limiter, getEM1_2);
+router.route("/resources/phy1-2").get(limiter, getPhysics1_2);
+router.route("/resources/chem1-2").get(limiter, getChemistry1_2);
+router.route("/resources/math1-2").get(limiter, getMath1_2);
+router.route("/resources/cp1-2").get(limiter, getCP1_2);
+router.route("/resources/pse1-2").get(limiter, getPSE1_2);
+router.route("/resources/em1-2").get(limiter, getEM1_2);
 
 /* Post Request */
-router.post("/createResource/bce1-1", limiter, createBCE1_1);
-router.post("/createResource/phy1-1", limiter, createPhysics1_1);
-router.post("/createResource/chem1-1", limiter, createChemistry1_1);
-router.post("/createResource/math1-1", limiter, createMath1_1);
-router.post("/createResource/ntf1-1", limiter, createNTF1_1);
+router.route("/createResource/bce1-1").post(limiter, createBCE1_1);
+router.route("/createResource/phy1-1").post(limiter, createPhysics1_1);
+router.route("/createResource/chem1-1").post(limiter, createChemistry1_1);
+router.route("/createResource/math1-1").post(limiter, createMath1_1);
+router.route("/createResource/ntf1-1").post(limiter, createNTF1_1);
 
-router.post("/createResource/phy1-2", limiter, createPhysics1_2);
-router.post("/createResource/chem1-2", limiter, createChemistry1_2);
-router.post("/createResource/math1-2", limiter, createMath_2);
-router.post("/createResource/cp1-2", limiter, createCP1_2);
-router.post("/createResource/em1-2", limiter, createEM1_2);
-router.post("/createResource/pse1-2", createPSE1_2);
+router.route("/createResource/phy1-2").post(limiter, createPhysics1_2);
+router.route("/createResource/chem1-2").post(limiter, createChemistry1_2);
+router.route("/createResource/math1-2").post(limiter, createMath_2);
+router.route("/createResource/cp1-2").post(limiter, createCP1_2);
+router.route("/createResource/em1-2").post(limiter, createEM1_2);
+router.route("/createResource/pse1-2").post(createPSE1_2);
 
 /* Delete Request */
-router.delete("/deleteResource/bce1-1/:_id", limiter, deleteBCE1_1);
-router.delete("/deleteResource/phy1-1/:_id", limiter, deletePhysics1_1);
-router.delete("/deleteResource/chem1-1/:_id", limiter, deleteChemistry1_1);
-router.delete("/deleteResource/math1-1/:_id", limiter, deleteMath1_1);
-router.delete("/deleteResource/ntf1-1/:_id", limiter, deleteNtf1_1);
+router.route("/deleteResource/bce1-1/:_id").delete(limiter, deleteBCE1_1);
+router.route("/deleteResource/phy1-1/:_id").delete(limiter, deletePhysics1_1);
+router
+  .route("/deleteResource/chem1-1/:_id")
+  .delete(limiter, deleteChemistry1_1);
+router.route("/deleteResource/math1-1/:_id").delete(limiter, deleteMath1_1);
+router.route("/deleteResource/ntf1-1/:_id").delete(limiter, deleteNtf1_1);
 
-router.delete("/deleteResource/phy1-2/:_id", limiter, deletePhysics1_2);
-router.delete("/deleteResource/chem1-2/:_id", limiter, deleteChemistry1_2);
-router.delete("/deleteResource/math1-2/:_id", limiter, deleteMath1_2);
-router.delete("/deleteResource/cp1-2/:_id", limiter, deleteCP1_2);
-router.delete("/deleteResource/em1-2/:_id", limiter, deleteEM1_2);
-router.delete("/deleteResource/pse1-2/:_id", limiter, deletePSE1_2);
+router.route("/deleteResource/phy1-2/:_id").delete(limiter, deletePhysics1_2);
+router
+  .route("/deleteResource/chem1-2/:_id")
+  .delete(limiter, deleteChemistry1_2);
+router.route("/deleteResource/math1-2/:_id").delete(limiter, deleteMath1_2);
+router.route("/deleteResource/cp1-2/:_id").delete(limiter, deleteCP1_2);
+router.route("/deleteResource/em1-2/:_id").delete(limiter, deleteEM1_2);
+router.route("/deleteResource/pse1-2/:_id").delete(limiter, deletePSE1_2);
 
 module.exports = router;

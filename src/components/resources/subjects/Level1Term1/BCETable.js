@@ -13,7 +13,7 @@ const BCETable = () => {
     const timing = setTimeout(() => {
       axios
         .get(
-          "https://fabricweb-backend-server.herokuapp.com/api/getResources/bce1-1"
+          "https://fabricweb-backend-server.herokuapp.com/api/v1/resources/bce1-1"
         )
         .then((response) => {
           setResource(response.data);
@@ -80,13 +80,13 @@ const BCETable = () => {
                         ))
                     : resource.map((row) => (
                         <tr key={row.key}>
-                          <td>{row.Date}</td>
-                          <td>{row.Lecturer}</td>
-                          <td>{row.DiscussedTopics}</td>
+                          <td>{row.date}</td>
+                          <td>{row.lecturer}</td>
+                          <td>{row.discussedTopics}</td>
                           <td className="link">
                             <a
                               href={
-                                row.DriveLink === 404 ? "404" : row.DriveLink
+                                row.driveLink === 404 ? "404" : row.driveLink
                               }
                               target="_blank"
                               rel="noopener noreferrer"
