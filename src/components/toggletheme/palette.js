@@ -11,7 +11,7 @@ export const lightTheme = {
   cardBG: "linear-gradient(500deg,#d4bbb1,#ebe1ce)",
   cardBoxShd: "14px 10px 13px 0px #7d6363",
   gradient: "linear-gradient(#39598A, #79D7ED)",
-  contentBG: "#ec7c7ba",
+  contentBG: "#cec7c7ba",
   contentH2: "#e0245e",
   contentHr: "#093d68",
   contentParagraph: "#15202b",
