@@ -18,7 +18,7 @@ const getAllBCE1_1 = (req, res) => {
     if (err) {
       res.status(500).json({ msg: err });
     } else {
-      res.status(200).json({ result });
+      res.status(200).json(result);
       console.log(result);
     }
   });
@@ -28,7 +28,7 @@ const getAllPhysics1_1 = (req, res) => {
     if (err) {
       res.status(500).json({ msg: err });
     } else {
-      res.status(200).json({ result });
+      res.status(200).json(result);
       console.log(result);
     }
   });
@@ -38,7 +38,7 @@ const getAllChemistry1_1 = (req, res) => {
     if (err) {
       res.status(500).json({ msg: err });
     } else {
-      res.status(200).json({ result });
+      res.status(200).json(result);
       console.log(result);
     }
   });
@@ -48,7 +48,7 @@ const getAllMath1_1 = (req, res) => {
     if (err) {
       res.status(500).json({ msg: err });
     } else {
-      res.status(200).json({ result });
+      res.status(200).json(result);
       console.log(result);
     }
   });
@@ -58,7 +58,7 @@ const getAllNTF1_1 = (req, res) => {
     if (err) {
       res.status(500).json({ msg: err });
     } else {
-      res.status(200).json({ result });
+      res.status(200).json(result);
       console.log(result);
     }
   });
@@ -69,7 +69,7 @@ const getAllPhysics1_2 = (req, res) => {
     if (err) {
       res.status(500).json({ msg: err });
     } else {
-      res.status(200).json({ result });
+      res.status(200).json(result);
       console.log(result);
     }
   });
@@ -79,7 +79,7 @@ const getAllChemistry1_2 = (req, res) => {
     if (err) {
       res.status(500).json({ msg: err });
     } else {
-      res.status(200).json({ result });
+      res.status(200).json(result);
       console.log(result);
     }
   });
@@ -89,7 +89,7 @@ const getAllMath1_2 = (req, res) => {
     if (err) {
       res.status(500).json({ msg: err });
     } else {
-      res.status(200).json({ result });
+      res.status(200).json(result);
       console.log(result);
     }
   });
@@ -99,7 +99,7 @@ const getAllCP1_2 = (req, res) => {
     if (err) {
       res.status(500).json({ msg: err });
     } else {
-      res.status(200).json({ result });
+      res.status(200).json(result);
       console.log(result);
     }
   });
@@ -109,7 +109,7 @@ const getAllEM1_2 = (req, res) => {
     if (err) {
       res.status(500).json({ msg: err });
     } else {
-      res.status(200).json({ result });
+      res.status(200).json(result);
       console.log(result);
     }
   });
@@ -119,7 +119,7 @@ const getAllPSE1_2 = (req, res) => {
     if (err) {
       res.status(500).json({ msg: err });
     } else {
-      res.status(200).json({ result });
+      res.status(200).json(result);
       console.log(result);
     }
   });

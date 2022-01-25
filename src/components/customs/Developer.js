@@ -104,7 +104,7 @@ const Developer = () => {
                 <div className="row text-center justify-content-between shield">
                   <div className="col-lg-6 col-md-6 col-sm-12">
                     <a
-                      href="https://github.com/ArnobMahmud/Fabric-Engineering-Web/blob/master/MIT%20License"
+                      href="https://github.com/ArnobMahmud/Fabric-Engineering-Web/blob/master/LICENSE"
                       target="_blank"
                       rel="noreferrer"
                     >
