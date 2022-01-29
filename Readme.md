@@ -13,21 +13,20 @@
 
 [![Wakatime](https://wakatime.com/badge/user/94bcb058-9915-4d5f-8827-41abbc5319de/project/a155c2f3-c0c0-4e7e-8c0b-28035c9e7efd.svg?style=plastic)](https://wakatime.com/badge/user/94bcb058-9915-4d5f-8827-41abbc5319de/project/a155c2f3-c0c0-4e7e-8c0b-28035c9e7efd)
 
-[![](https://img.shields.io/badge/License-MIT-critical?style=plastic&logo=appveyor&logoColor=a70023&labelColor=lightblue&color=471e61)](https://github.com/ArnobMahmud/Fabric-Engineering-Web/blob/master/MIT%20License)&nbsp;
+[![](https://img.shields.io/badge/License-MIT-critical?style=plastic&logo=appveyor&logoColor=a70023&labelColor=lightblue&color=471e61)](https://github.com/ArnobMahmud/Fabric-Engineering-Web/blob/master/LICENSE)&nbsp;
 [![developed-by-arnob](https://img.shields.io/badge/Developed%20by-Arnob%20Mahmud-1f425f.svg?style=plastic&logo=visual-studio-code&logoColor=007ACC&labelColor=beb4ab)](https://github.com/ArnobMahmud/)&nbsp;
-[![made-with-react](https://img.shields.io/badge/Made%20with-React-1f425f.svg?style=plastic&logo=React&color=e1d1eb&logoColor=faed3e&labelColor=471e61)](https://reactjs.org/)
+[![made-with-node](https://img.shields.io/badge/Made%20with-NodeJs-1f425f.svg?style=plastic&logo=Node.Js&color=e1d1eb&logoColor=faed3e&labelColor=339933)](https://nodejs.org/en/)
 
 ### `Client Site`
 
 ```json
 {
-   {
-      "homepage": "https://fabricengineering.netlify.app/",
-      "name": "fabric-engineering-web",
-      "author": "Arnob Mahmud",
-      "private": "true"
-   }
+   "homepage": "https://fabricengineering.netlify.app/"
+   "name": "fabric-engineering-web",
+   "author": "Arnob Mahmud",
+   "private": "true"
 }
+
 ```
 
 ### `Visit Website`
@@ -65,7 +64,7 @@
 | (xi)   | `PSE 1-2`       | https://fabricweb-backend-server.herokuapp.com/api/v1/resources/pse1-2  |
 
 
-## Supported Versions
+## Security Supported Versions
 
 | Version | Supported          |
 | ------- | ------------------ |
@@ -83,8 +82,8 @@
     <th> <h3>Dark Mode 🌙</h3> </th>
   </tr>
    <tr>
-    <td><img src="https://user-images.githubusercontent.com/60808266/126663094-94126bb4-7fb1-4c91-8826-44b2bb027647.png"></td>
-    <td><img src="https://user-images.githubusercontent.com/60808266/126663205-98504811-0dcc-4a70-9c9d-0a5d28f38d7d.png"></td>
+    <td><img src="https://user-images.githubusercontent.com/60808266/150930164-95ecd50e-8aa8-442e-a206-07d44794d988.jpg"></td>
+    <td><img src="https://user-images.githubusercontent.com/60808266/150930276-eae180be-6766-468d-a033-3b613e21994b.jpg"></td>
    </tr>
 </table>
 
