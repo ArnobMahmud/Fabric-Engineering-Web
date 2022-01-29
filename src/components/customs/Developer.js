@@ -133,7 +133,7 @@ const Developer = () => {
                   <div className="col-lg-6 col-md-6 col-sm-12">
                     <a
                       className="foot-link"
-                      href="https://github.com/ArnobMahmud/Fabric-Engineering-Web/blob/master/README.md"
+                      href="https://github.com/ArnobMahmud/Fabric-Engineering-Web/blob/master/Readme.md"
                       target="_blank"
                       rel="noreferrer"
                     >
