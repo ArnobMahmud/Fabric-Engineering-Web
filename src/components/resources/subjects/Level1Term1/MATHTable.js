@@ -101,7 +101,7 @@ const MATHTable = () => {
                           ) {
                             return val;
                           }
-                          return val;
+                          return null;
                         })
                         .map((val, key) => (
                           <tr key={key}>
