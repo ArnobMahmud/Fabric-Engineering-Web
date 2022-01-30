@@ -100,16 +100,17 @@ const ComputerProgrammingTable = () => {
                           ) {
                             return val;
                           }
+                          return val;
                         })
-                        .map((row) => (
-                          <tr key={row.key}>
-                            <td>{row.date}</td>
-                            <td>{row.lecturer}</td>
-                            <td>{row.discussedTopics}</td>
+                        .map((val,key) => (
+                          <tr key={key}>
+                            <td>{val.date}</td>
+                            <td>{val.lecturer}</td>
+                            <td>{val.discussedTopics}</td>
                             <td className="link">
                               <a
                                 href={
-                                  row.driveLink === 404 ? "404" : row.driveLink
+                                  val.driveLink === 404 ? "404" : val.driveLink
                                 }
                                 target="_blank"
                                 rel="noopener noreferrer"
