@@ -5,6 +5,8 @@ import Skeleton, { SkeletonTheme } from "react-loading-skeleton";
 
 const StudentsInfo = () => {
   const [loading, setLoading] = useState(true);
+  const [search, setSearch] = useState("");
+
   useEffect(() => {
     setLoading(true);
     const timing = setTimeout(() => {
@@ -12,7 +14,7 @@ const StudentsInfo = () => {
     }, 3300);
     return () => clearTimeout(timing);
   }, []);
-  
+
   return (
     <div>
       <div>
@@ -20,6 +22,13 @@ const StudentsInfo = () => {
           <div className="container">
             <div className="row justify-content-center">
               <div className="card col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xsm-12">
+                <input
+                  type="text"
+                  placeholder="Search info here..."
+                  onChange={(e) => {
+                    setSearch(e.target.value);
+                  }}
+                />
                 <table>
                   <tbody>
                     {loading ? (
@@ -92,8 +101,8 @@ const StudentsInfo = () => {
                   </tbody>
                   <tbody>
                     {loading
-                      ? data.map((row) => (
-                          <tr key={row.key}>
+                      ? data.map((val, key) => (
+                          <tr key={key}>
                             <td>
                               <SkeletonTheme
                                 baseColor="#d3b683"
@@ -145,15 +154,36 @@ const StudentsInfo = () => {
                             {/* <td>{row.address}</td> */}
                           </tr>
                         ))
-                      : data.map((row) => (
-                          <tr key={row.key}>
-                            <td>{row.name}</td>
-                            <td>{row.id}</td>
-                            <td>{row["blood group"]}(ve)</td>
-                            <td>{row["contact no"]}</td>
-                            {/* <td>{row.address}</td> */}
-                          </tr>
-                        ))}
+                      : data
+                          .filter((val) => {
+                            if (search === "") {
+                              return val;
+                            } else if (
+                              val.name
+                                .toLowerCase()
+                                .includes(search.toLowerCase()) ||
+                              val.id
+                                .toLowerCase()
+                                .includes(search.toLowerCase()) ||
+                              val["blood group"]
+                                .toLowerCase()
+                                .includes(search.toLowerCase()) ||
+                              val["contact no"]
+                                .toLowerCase()
+                                .includes(search.toLowerCase())
+                            ) {
+                              return val;
+                            }
+                            return null;
+                          })
+                          .map((val, key) => (
+                            <tr key={key}>
+                              <td>{val.name}</td>
+                              <td>{val.id}</td>
+                              <td>{val["blood group"]}(ve)</td>
+                              <td>{val["contact no"]}</td>
+                            </tr>
+                          ))}
                   </tbody>
                 </table>
               </div>

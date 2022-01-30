@@ -7,6 +7,23 @@ export const SafeArea = styled.div`
     background: ${({ theme }) => theme.cardBG};
     align-items: center;
   }
+  input {
+    background: transparent;
+    color: #0c253a;
+    width: 60%;
+    padding: 10px 30px;
+    font-size: 18px;
+    border: 2px solid #3c493c !important;
+    border-radius: 50px;
+    margin-bottom: 25px;
+    font-family: "Rubik";
+  }
+  input::placeholder {
+    color: #0c253a;
+  }
+  input:focus-visible {
+    outline: none;
+  }
   .section-title {
     width: 100%;
     font-size: 48px;
@@ -89,7 +106,16 @@ export const SafeArea = styled.div`
       align-items: center;
       padding: 30px 0px;
     }
-
+    input {
+      background: transparent;
+      color: #0c253a;
+      width: 90%;
+      padding: 10px 20px;
+      font-size: 16px;
+      border: 2px solid #3c493c !important;
+      border-radius: 50px;
+      margin-bottom: 20px;
+    }
     table tr th:first-child {
       width: 100%;
     }
