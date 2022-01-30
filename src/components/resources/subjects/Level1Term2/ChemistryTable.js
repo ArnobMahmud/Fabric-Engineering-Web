@@ -6,6 +6,7 @@ import CustomSkeletonStructure from "../../../screens/skeleton/CustomSkeletonStr
 
 const ChemistryTable = () => {
   const [resource, setResource] = useState([]);
+  const [search, setSearch] = useState("");
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
@@ -32,6 +33,13 @@ const ChemistryTable = () => {
               <div className="section-title">
                 <h1>Chemistry II</h1>
               </div>
+              <input
+                type="text"
+                placeholder="Search here..."
+                onChange={(e) => {
+                  setSearch(e.target.value);
+                }}
+              />
               <table>
                 <tbody>
                   {loading ? (
@@ -78,24 +86,40 @@ const ChemistryTable = () => {
                             </td>
                           </tr>
                         ))
-                    : resource.map((row) => (
-                        <tr key={row.key}>
-                          <td>{row.date}</td>
-                          <td>{row.lecturer}</td>
-                          <td>{row.discussedTopics}</td>
-                          <td className="link">
-                            <a
-                              href={
-                                row.driveLink === 404 ? "404" : row.driveLink
-                              }
-                              target="_blank"
-                              rel="noopener noreferrer"
-                            >
-                              Lecture Video
-                            </a>
-                          </td>
-                        </tr>
-                      ))}
+                    : resource
+                        .filter((val) => {
+                          if (search === "") {
+                            return val;
+                          } else if (
+                            val.discussedTopics
+                              .toLowerCase()
+                              .includes(search.toLowerCase()) ||
+                            val.date.includes(search) ||
+                            val.lecturer
+                              .toLowerCase()
+                              .includes(search.toLowerCase())
+                          ) {
+                            return val;
+                          }
+                        })
+                        .map((row) => (
+                          <tr key={row.key}>
+                            <td>{row.date}</td>
+                            <td>{row.lecturer}</td>
+                            <td>{row.discussedTopics}</td>
+                            <td className="link">
+                              <a
+                                href={
+                                  row.driveLink === 404 ? "404" : row.driveLink
+                                }
+                                target="_blank"
+                                rel="noopener noreferrer"
+                              >
+                                Lecture Video
+                              </a>
+                            </td>
+                          </tr>
+                        ))}
                 </tbody>
               </table>
             </div>

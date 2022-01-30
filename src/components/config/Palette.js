@@ -19,6 +19,23 @@ export const CourseArea = styled.div`
     font-weight: 400;
     margin-bottom: 40px;
   }
+  input {
+    background: transparent;
+    color: #0c253a;
+    width: 60%;
+    padding: 10px 30px;
+    font-size: 18px;
+    border: 2px solid #3c493c !important;
+    border-radius: 50px;
+    margin-bottom: 25px;
+    font-family: "Rubik";
+  }
+  input::placeholder {
+    color: #0c253a;
+  }
+  input:focus-visible {
+    outline: none;
+  }
 
   table {
     width: 100%;
@@ -103,6 +120,16 @@ export const CourseArea = styled.div`
     .section-title h1 {
       font-size: 30px !important;
       font-size: 20px;
+    }
+    input {
+      background: transparent;
+      color: #0c253a;
+      width: 90%;
+      padding: 10px 20px;
+      font-size: 16px;
+      border: 2px solid #3c493c !important;
+      border-radius: 50px;
+      margin-bottom: 20px;
     }
     table tr th:first-child,
     table tr th:nth-child(2) {

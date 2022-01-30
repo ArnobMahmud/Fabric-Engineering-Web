@@ -24,7 +24,5 @@
     "nodemon": "^2.0.15",
     "serve-favicon": "^2.5.0"
   },
-  "devDependencies": {
-    "eslint": "^8.8.0"
-  }
+  "devDependencies": {}
 }
