@@ -94,7 +94,7 @@ router.route("/resource/chem1-2/:id").get(limiter, getChemistry1_2);
 router.route("/resource/math1-2/:id").get(limiter, getMath1_2);
 router.route("/resource/cp1-2/:id").get(limiter, getCP1_2);
 router.route("/resource/pse1-2/:id").get(limiter, getPSE1_2);
-router.route("/resource/em1-/:id2").get(limiter, getEM1_2);
+router.route("/resource/em1-2/:id").get(limiter, getEM1_2);
 
 /* Delete Request */
 router.route("/deleteResource/bce1-1/:_id").delete(limiter, deleteBCE1_1);
