@@ -82,17 +82,18 @@ const CovidDataArea = styled.div`
   margin: 200px 0px 60px;
   input {
     background: transparent;
-    color: #0c253a;
+    color: ${({ theme }) => theme.covidInput};
     width: 60%;
     padding: 10px 30px;
     font-size: 18px;
-    border: 2px solid #3c493c !important;
+    border: 2px solid;
+    border-color: ${({ theme }) => theme.covidInput};
     border-radius: 50px;
     margin-bottom: 25px;
     font-family: "Rubik";
   }
   input::placeholder {
-    color: #0c253a;
+    color: ${({ theme }) => theme.covidInput};
   }
   input:focus-visible {
     outline: none;
@@ -124,11 +125,9 @@ const CovidDataArea = styled.div`
   @media (max-width: 767px) {
     input {
       background: transparent;
-      color: #0c253a;
       width: 90%;
       padding: 10px 20px;
       font-size: 16px;
-      border: 2px solid #3c493c !important;
       border-radius: 50px;
       margin-bottom: 20px;
     }

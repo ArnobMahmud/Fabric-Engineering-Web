@@ -48,6 +48,7 @@ const SplashArea = styled.div`
   .bottom-ind h4 {
     text-align: center;
     color: #283f40;
+    font-size: 22px;
     font-family: "Rubik";
     font-weight: 500;
   }
