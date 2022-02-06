@@ -47,7 +47,7 @@ export const lightTheme = {
 };
 
 export const darkTheme = {
-  body: "#47414b",
+  body: "rgb(45 50 51)",
   topBnrH1: "#0c253a",
   topBnrParagraph: "#250e0e",
   topBnrOverlay: "linear-gradient(360deg, #250c2e90 ,  #ffb2d2cd)",
@@ -57,7 +57,7 @@ export const darkTheme = {
   h4: "#223120",
   h5: "#3b333d",
   cardBG: "linear-gradient(360deg, #ffbef781,  #ffb2d2cd)",
-  cardBoxShd: " 14px 10px 13px 0px #38333c",
+  cardBoxShd: " rgb(30 33 33 / 59%) 14px 10px 13px 0px",
   contentBG: "#7f6666",
   contentH2: "#312135",
   contentHr: "eee",
