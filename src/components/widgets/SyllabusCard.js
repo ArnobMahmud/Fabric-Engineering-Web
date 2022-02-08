@@ -63,10 +63,12 @@ export default Syllabus;
 
 const SyllabusArea = styled.div`
   padding: 200px 0px 60px;
+  justify-content: space-between;
   .btn {
     margin: 5px 0px;
     border: 2px solid #093d68;
-    padding: 10px 50px;
+    padding: 10px 60px;
+    border-radius : 60px;
   }
   .btn a {
     color: #093d68;
@@ -124,7 +126,7 @@ const SyllabusArea = styled.div`
       font-size: 18px;
     }
     .btn {
-      padding: auto;
+      padding: 10px 40px;
     }
   }
 

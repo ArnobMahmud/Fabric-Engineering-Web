@@ -13,11 +13,11 @@ const SplashScreen = (props) => {
             <img className="logo" src={Logo} alt="" srcSet />
             <h4>
               Fabric Engineering 46 (BUTEX){" "}
-              <span>
+              {/* <span>
                 <a href="https://github.com/ArnobMahmud/Fabric-Engineering-Web/blob/master/Readme.md">
-                  v1.2.0
+                  v1.x
                 </a>
-              </span>
+              </span> */}
             </h4>
             <p>Developed by Arnob Mahmud</p>
           </div>
