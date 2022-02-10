@@ -1,5 +1,5 @@
 import React from "react";
-import Rotimg from "../../assets/exs.png";
+import Rotimg from "../../assets/svg/study.svg";
 import RoutineCard from "../widgets/RoutineCard";
 import styled from "styled-components";
 
@@ -8,7 +8,7 @@ const Routine = () => {
     <>
       <RoutineArea id="routine">
         <div className="container">
-          <div className="row align-items-center justify-content-center">
+          <div className="row align-items-center justify-content-around">
             <div className="col-xl-5 col-lg-5 col-md-12 col-sm-12">
               <img src={Rotimg} alt="" srcSet />
             </div>
@@ -31,7 +31,7 @@ const Routine = () => {
 export default Routine;
 
 const RoutineArea = styled.div`
-  margin: 20px 0px 60px;
+  margin: 70px 0px 60px;
   .card {
     background: ${({ theme }) => theme.cardBG};
     align-items: center;
@@ -71,5 +71,9 @@ const RoutineArea = styled.div`
   @media (max-width: 991px) {
   }
   @media (max-width: 767px) {
+    img {
+      max-width: 100%;
+      margin-bottom: 70px;
+    }
   }
 `;

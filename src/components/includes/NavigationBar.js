@@ -129,7 +129,7 @@ const NavigationBar = () => {
 export default NavigationBar;
 
 const Header = styled.div`
-  background: #4f4843;
+  background: rgb(22 73 66);
   padding: 25px 0px;
   position: fixed;
   top: 0px;
@@ -145,7 +145,7 @@ const Header = styled.div`
     position: absolute;
     height: 180px; /* 185*/
     width: 170px;
-    background: #4f4843;
+    background: rgb(22 73 66);
     border-radius: 50%;
     /* box-shadow: 3px 3px 14px 3px #00000061; */
   }
@@ -169,7 +169,7 @@ const Header = styled.div`
   .navbar-expand-lg .navbar-nav .dropdown-menu {
     position: absolute;
     text-align: center;
-    background: #4f4843;
+    background: rgb(22 73 66);
     font-family: inherit;
     border: none;
   }
@@ -253,7 +253,17 @@ const Header = styled.div`
         margin-bottom: 30px;
       }
       .navbar-brand {
-        top: 0;
+        transform: translate(50%, -38px);
+        top: 0%;
+        position: absolute;
+        height: 175px; /* 185*/
+        width: 160px;
+        background: rgb(22 73 66);
+      }
+      .navbar-brand img {
+        max-width: 130px; /*145*/
+        position: absolute;
+        transform: translate(14%, 15%);
       }
     }
   }
