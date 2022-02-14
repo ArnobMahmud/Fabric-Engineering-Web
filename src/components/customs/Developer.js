@@ -115,7 +115,7 @@ const Developer = () => {
                       />
                     </a>
                   </div>
-                  <div className="col-lg-6 col-md-6 col-sm-12">
+                  {/* <div className="col-lg-6 col-md-6 col-sm-12">
                     <a
                       href="https://scrutinizer-ci.com/g/ArnobMahmud/Fabric-Engineering-Web"
                       target="_blank"
@@ -127,9 +127,7 @@ const Developer = () => {
                         srcSet
                       />
                     </a>
-                  </div>
-                </div>
-                <div className="row text-center justify-content-between">
+                  </div> */}{" "}
                   <div className="col-lg-6 col-md-6 col-sm-12">
                     <a
                       className="foot-link"

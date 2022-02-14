@@ -25,7 +25,7 @@ export class Level1Term2 extends Component {
                   title="PDF Folder"
                   subTitle="Level 1 - Term 2"
                   description="PDF & Utilities of each courses."
-                  driveLink="https://drive.google.com/drive/folders/1-E9bpSg4-ZxRULgfHEgHlKxqv73vBdJp"
+                  driveLink="https://drive.google.com/drive/folders/1XM9sIr5NMzj9wMtMRog8oqwVelA8qtZI"
                 />
               </div>
             </div>
