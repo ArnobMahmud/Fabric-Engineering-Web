@@ -6,11 +6,13 @@ import UpperBanner from "../components/customs/UpperBanner";
 import Content from "../components/customs/Content";
 import Location from "../components/customs/Location";
 // import BugPage from "../components/screens/BugScreen";
+// import MyLeaderBoardAd from "../ads/ads";
 
 function HomePage() {
   return (
     <div>
       <UpperBanner />
+      {/* <MyLeaderBoardAd /> */}
       <Counter />
       <Banner />
       <Content />
