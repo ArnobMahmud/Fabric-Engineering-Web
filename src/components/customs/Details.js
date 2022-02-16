@@ -84,6 +84,7 @@ export default Details;
 
 const DetailsArea = styled.div`
   font-family: Ubuntu;
+  background: ${({ theme }) => theme.detailsBG};
   padding: 0px;
   .handler {
     display: flex;
@@ -94,7 +95,6 @@ const DetailsArea = styled.div`
     font-family: Ubuntu;
     color: ${({ theme }) => theme.detailsHeader};
   }
-  background: ${({ theme }) => theme.detailsBG};
 
   .details_content p {
     font-family: 16px;
@@ -149,6 +149,7 @@ const DetailsArea = styled.div`
 
   .details_content {
     padding: 70px 60px;
+    display: inline-block;
   }
 
   .bg_sec_1 {
@@ -170,6 +171,7 @@ const DetailsArea = styled.div`
   .bg_sec_5 {
     background-image: url(https://images.unsplash.com/photo-1496247749665-49cf5b1022e9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1173&q=80);
   }
+
   @media (max-width: 991px) {
     h1 {
       font-size: 29px;
