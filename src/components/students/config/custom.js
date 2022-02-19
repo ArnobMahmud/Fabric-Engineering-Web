@@ -6,6 +6,7 @@ export const SafeArea = styled.div`
   .card {
     background: ${({ theme }) => theme.cardBG};
     align-items: center;
+    margin: 30px 0px 30px;
   }
   input {
     background: transparent;
