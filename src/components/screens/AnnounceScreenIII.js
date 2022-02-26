@@ -1,5 +1,5 @@
 import React from "react";
-import announceImg from "../../assets/svg/404.svg";
+import announceImg from "../../assets/svg/construction.svg";
 import ScreenCardIV from "../widgets/screencard/ScreenCardIV";
 import { ScreenArea } from "../config/Palette";
 

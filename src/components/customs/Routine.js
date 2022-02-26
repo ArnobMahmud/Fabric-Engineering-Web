@@ -1,5 +1,5 @@
 import React from "react";
-import Rotimg from "../../assets/svg/study.svg";
+import Rotimg from "../../assets/svg/analysis.svg";
 import RoutineCard from "../widgets/RoutineCard";
 import styled from "styled-components";
 
