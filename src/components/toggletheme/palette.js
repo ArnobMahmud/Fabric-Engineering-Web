@@ -42,8 +42,8 @@ export const lightTheme = {
   footerCpyRgt: " #15202b",
   footerSpana: "#e0245e",
   footerNav: " #0c253a",
-  errorh1: "#41464b",
-  errorPara: "#543b3b",
+  errorh1: "#8d6565",
+  errorPara: "#4f5c5e",
 };
 
 export const darkTheme = {

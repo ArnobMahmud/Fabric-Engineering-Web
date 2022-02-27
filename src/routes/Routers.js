@@ -35,6 +35,8 @@ import Footer from "../components/includes/Footer";
 
 import ErrorScreen from "../components/screens/AnnounceScreenIII";
 import ErrorScreen2 from "../components/screens/InformationScreen";
+import ErrorScreen3 from "../components/screens/404";
+
 import { Redirect } from "react-router-dom/cjs/react-router-dom.min";
 
 const RouteHandle = () => {
@@ -50,13 +52,13 @@ const RouteHandle = () => {
         {/* Level 1 Term 1 */}
         <Route exact path="/level1-term1" component={Level1Term1Page} />
         <Route exact path="/bce1-1" component={BCE1_1} />
+        <Route exact path="/physics1-1" component={Physics1_1} />
         <Route exact path="/chemistry1-1" component={Chemistry1_1} />
         <Route exact path="/math1-1" component={Math1_1} />
         <Route exact path="/ntf1-1" component={Ntf1_1} />
 
         {/* Level 1 Term 2 */}
         <Route exact path="/level1-term2" component={Level1Term2Page} />
-        <Route exact path="/physics1-1" component={Physics1_1} />
         <Route exact path="/physics1-2" component={Physics1_2} />
         <Route exact path="/chemistry1-2" component={Chemistry1_2} />
         <Route exact path="/math1-2" component={Math1_2} />
@@ -74,11 +76,7 @@ const RouteHandle = () => {
         <Route exact path="/studentscorner" component={StudentsCornerPage} />
         <Route exact path="/studentsinfo" component={StudentsInfo} />
         <Route exact path="/l1t2lab" component={Level1Term2Lab} />
-        <Route
-          exact
-          path="/studentsachievement"
-          component={StudentsAchievementInfo}
-        />
+        <Route exact path="/studentsachievement" component={StudentsAchievementInfo} />
 
         {/********* Production Section Starts Here ************/}
         <Route exact path="/covid19updates" component={Covid19} />
@@ -87,6 +85,7 @@ const RouteHandle = () => {
         {/********* Error Section Starts Here ************/}
         <Route exact path="/404" component={ErrorScreen} />
         <Route exact path="/501" component={ErrorScreen2} />
+        <Route component={ErrorScreen3} />
 
         <Redirect to="/" />
       </Switch>

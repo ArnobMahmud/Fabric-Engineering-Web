@@ -3,6 +3,7 @@ import "react-bootstrap";
 import { ThemeProvider } from "styled-components";
 import { lightTheme, darkTheme } from "./components/toggletheme/palette";
 import { GlobalStyles } from "./components/toggletheme/global";
+import NetwrokDetector from "./components/hoc/NetworkStatus";
 
 import Toggle from "./components/toggletheme/toogle";
 import { useDarkMode } from "./components/toggletheme/useDarkMode";
@@ -39,4 +40,4 @@ const App = () => {
   );
 };
 
-export default App;
+export default NetwrokDetector(App);

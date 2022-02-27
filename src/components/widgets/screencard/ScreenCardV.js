@@ -8,7 +8,7 @@ export class ScreenCardIV extends Component {
         <div className="row handler">
           <div className="col-lg-6 col-md-6 col-sm-12">
             <img
-              className="w-100"
+              className="w-120"
               src={this.props.imgPath}
               alt="dataImg"
               srcSet
@@ -42,10 +42,10 @@ const ErrorScreen = styled.div`
   }
   h1 {
     font-size: 34px;
-    color: ${({ theme }) => theme.errorh1} !important;
+    color: #8d6565;
   }
   p {
-    color: ${({ theme }) => theme.errorPara} !important;
+    color: #4f5c5e;
     font-size: 20px;
   }
   @media (max-width: 991px) {
