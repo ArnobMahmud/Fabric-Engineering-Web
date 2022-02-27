@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import ErrorPage from "../screens/Network.js";
 
-export default function (ComposedComponent) {
+export default function NetworkCheck(ComposedComponent) {
   class NetworkDetector extends Component {
     state = {
       isDisconnected: false,
