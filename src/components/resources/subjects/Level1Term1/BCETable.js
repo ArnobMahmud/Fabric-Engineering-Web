@@ -1,7 +1,6 @@
 import axios from "axios";
 import React, { useState, useEffect } from "react";
 import { CourseArea } from "../../../config/Palette";
-import BCEInfo from "../../../database/lecturerData/Level1Term1/BCEInfo";
 import CustomSkeletonStructure from "../../../screens/skeleton/CustomSkeletonStructure";
 
 const BCETable = () => {
@@ -127,7 +126,6 @@ const BCETable = () => {
           </div>
         </div>
       </CourseArea>
-      <BCEInfo />
     </div>
   );
 };

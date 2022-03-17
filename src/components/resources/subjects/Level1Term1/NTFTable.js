@@ -1,7 +1,6 @@
 import axios from "axios";
 import React, { useState, useEffect } from "react";
 import { CourseArea } from "../../../config/Palette";
-import NTFInfo from "../../../database/lecturerData/Level1Term1/NTFInfo";
 import CustomSkeletonStructure from "../../../screens/skeleton/CustomSkeletonStructure";
 
 const NTFTable = () => {
@@ -127,7 +126,6 @@ const NTFTable = () => {
           </div>
         </div>
       </CourseArea>
-      <NTFInfo />
     </div>
   );
 };

@@ -1,7 +1,6 @@
 import axios from "axios";
 import React, { useState, useEffect } from "react";
 import { CourseArea } from "../../../config/Palette";
-import PhysicsInfo from "../../../database/lecturerData/Level1Term1/PhysicsInfo";
 import CustomSkeletonStructure from "../../../screens/skeleton/CustomSkeletonStructure";
 
 const PhysicsTable = () => {
@@ -127,7 +126,6 @@ const PhysicsTable = () => {
           </div>
         </div>
       </CourseArea>
-      <PhysicsInfo />
     </div>
   );
 };

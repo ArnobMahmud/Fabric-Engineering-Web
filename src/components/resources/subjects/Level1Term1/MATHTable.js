@@ -1,7 +1,6 @@
 import axios from "axios";
 import React, { useState, useEffect } from "react";
 import { CourseArea } from "../../../config/Palette";
-import MathInfo from "../../../database/lecturerData/Level1Term1/MathInfo";
 import CustomSkeletonStructure from "../../../screens/skeleton/CustomSkeletonStructure";
 
 const MATHTable = () => {
@@ -127,7 +126,6 @@ const MATHTable = () => {
           </div>
         </div>
       </CourseArea>
-      <MathInfo />
     </div>
   );
 };

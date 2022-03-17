@@ -126,7 +126,6 @@ const PhysicsTable = () => {
           </div>
         </div>
       </CourseArea>
-      {/* <PhysicsInfo /> */}
     </div>
   );
 };
