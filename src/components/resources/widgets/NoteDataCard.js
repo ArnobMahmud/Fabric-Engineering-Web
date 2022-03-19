@@ -1,7 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { GiNotebook } from "react-icons/gi";
-import { IconContext } from "react-icons";
+import { ImBook } from "react-icons/im";
 
 const NoteDataCard = (props) => {
   return (
@@ -11,11 +10,9 @@ const NoteDataCard = (props) => {
           <h1>{props.course}</h1>
           <h5>Course Code : {props.courseCode}</h5>
           <div className="btn">
-            <IconContext.Provider value={{ size: "20" }}>
-              <Link to={props.accessLink}>
-                Find Notes <GiNotebook />
-              </Link>
-            </IconContext.Provider>
+            <Link to={props.accessLink}>
+              Find Notes <ImBook />
+            </Link>
           </div>
         </div>
       </div>

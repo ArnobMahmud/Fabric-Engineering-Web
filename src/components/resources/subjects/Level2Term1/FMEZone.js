@@ -1,7 +1,6 @@
 import axios from "axios";
 import React, { useState, useEffect } from "react";
 import { ResourceArea } from "../../Palette";
-import Skeleton, { SkeletonTheme } from "react-loading-skeleton";
 import { ImBook } from "react-icons/im";
 import FolderPathCard from "../../widgets/FolderPathCard";
 import CustomSkeletonStructure from "../../../screens/skeleton/CustomSkeletonStructureII";
