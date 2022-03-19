@@ -1,9 +1,12 @@
 {
   "name": "fabric-engineering-web",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "author": "Arnob Mahmud",
   "private": true,
   "dependencies": {
+    "@emotion/react": "^11.8.2",
+    "@emotion/styled": "^11.8.1",
+    "@mui/material": "^5.5.1",
     "aos": "^2.3.4",
     "axios": "^0.24.0",
     "cra-template": "1.1.2",

@@ -1,9 +1,9 @@
 import axios from "axios";
 import React, { useState, useEffect } from "react";
 import { ResourceArea } from "../../Palette";
-import Skeleton, { SkeletonTheme } from "react-loading-skeleton";
 import { ImBook } from "react-icons/im";
 import FolderPathCard from "../../widgets/FolderPathCard";
+import CustomSkeletonStructure from "../../../screens/skeleton/CustomSkeletonStructureII";
 
 const FYTZone = () => {
   const [note, setNote] = useState([]);
@@ -36,52 +36,16 @@ const FYTZone = () => {
                     <div className="col-lg-5 col-md-6 col-sm-12">
                       <FolderPathCard
                         title={
-                          <SkeletonTheme
-                            baseColor="#d3b683"
-                            highlightColor="#d3d9d1"
-                          >
-                            <Skeleton
-                              style={{ borderRadius: 20 }}
-                              height={28}
-                              width={`100%`}
-                            />
-                          </SkeletonTheme>
+                          <CustomSkeletonStructure height={30} width={`100`} />
                         }
                         subTitle={
-                          <SkeletonTheme
-                            baseColor="#d3b683"
-                            highlightColor="#d3d9d1"
-                          >
-                            <Skeleton
-                              style={{ borderRadius: 20 }}
-                              height={28}
-                              width={`100%`}
-                            />
-                          </SkeletonTheme>
+                          <CustomSkeletonStructure height={30} width={`100`} />
                         }
                         description={
-                          <SkeletonTheme
-                            baseColor="#d3b683"
-                            highlightColor="#d3d9d1"
-                          >
-                            <Skeleton
-                              style={{ borderRadius: 20 }}
-                              height={28}
-                              width={`100%`}
-                            />
-                          </SkeletonTheme>
+                          <CustomSkeletonStructure height={30} width={`100`} />
                         }
                         driveLink={
-                          <SkeletonTheme
-                            baseColor="#d3b683"
-                            highlightColor="#d3d9d1"
-                          >
-                            <Skeleton
-                              style={{ borderRadius: 20 }}
-                              height={40}
-                              width={`35%`}
-                            />
-                          </SkeletonTheme>
+                          <CustomSkeletonStructure height={40} width={`35%`} />
                         }
                       />
                     </div>

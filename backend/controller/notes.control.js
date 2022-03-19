@@ -377,6 +377,160 @@ const getFME2_1 = async (req, res) => {
   }
 };
 
+const getAM2_2 = async (req, res) => {
+  try {
+    const { id: noteID } = req.params;
+    const note = await AM2_2_NotesModel.findOne({
+      _id: noteID,
+    });
+    if (!note) {
+      res.status(500).json({ msg: `No resource with id : ${noteID}` });
+    } else {
+      res.status(200).json({ note });
+    }
+  } catch (error) {
+    res.status(500).json({ msg: error });
+  }
+};
+const getFEEE2_2 = async (req, res) => {
+  try {
+    const { id: noteID } = req.params;
+    const note = await FEEE2_2_NotesModel.findOne({
+      _id: noteID,
+    });
+    if (!note) {
+      res.status(500).json({ msg: `No resource with id : ${noteID}` });
+    } else {
+      res.status(200).json({ note });
+    }
+  } catch (error) {
+    res.status(500).json({ msg: error });
+  }
+};
+const getFMkt2_2 = async (req, res) => {
+  try {
+    const { id: noteID } = req.params;
+    const note = await FMkt2_2_NotesModel.findOne({
+      _id: noteID,
+    });
+    if (!note) {
+      res.status(500).json({ msg: `No resource with id : ${noteID}` });
+    } else {
+      res.status(200).json({ note });
+    }
+  } catch (error) {
+    res.status(500).json({ msg: error });
+  }
+};
+const getTP2_2 = async (req, res) => {
+  try {
+    const { id: noteID } = req.params;
+    const note = await TP2_2_NotesModel.findOne({
+      _id: noteID,
+    });
+    if (!note) {
+      res.status(500).json({ msg: `No resource with id : ${noteID}` });
+    } else {
+      res.status(200).json({ note });
+    }
+  } catch (error) {
+    res.status(500).json({ msg: error });
+  }
+};
+const getWV2_2 = async (req, res) => {
+  try {
+    const { id: noteID } = req.params;
+    const note = await WV2_2_NotesModel.findOne({
+      _id: noteID,
+    });
+    if (!note) {
+      res.status(500).json({ msg: `No resource with id : ${noteID}` });
+    } else {
+      res.status(200).json({ note });
+    }
+  } catch (error) {
+    res.status(500).json({ msg: error });
+  }
+};
+const getWP2_2 = async (req, res) => {
+  try {
+    const { id: noteID } = req.params;
+    const note = await WP2_2_NotesModel.findOne({
+      _id: noteID,
+    });
+    if (!note) {
+      res.status(500).json({ msg: `No resource with id : ${noteID}` });
+    } else {
+      res.status(200).json({ note });
+    }
+  } catch (error) {
+    res.status(500).json({ msg: error });
+  }
+};
+
+/* Delete Request */
+const deleteStatistics2_1 = async (req, res) => {
+  console.log(req.params);
+  let data = await Statistics2_1_NotesModel.deleteOne(req.params);
+  res.send(data);
+};
+const deleteFYT2_1 = async (req, res) => {
+  console.log(req.params);
+  let data = await FYT2_1_NotesModel.deleteOne(req.params);
+  res.send(data);
+};
+const deleteMMFT2_1 = async (req, res) => {
+  console.log(req.params);
+  let data = await MMTF2_1_NotesModel.deleteOne(req.params);
+  res.send(data);
+};
+const deleteYM2_1 = async (req, res) => {
+  console.log(req.params);
+  let data = await YM2_1_NotesModel.deleteOne(req.params);
+  res.send(data);
+};
+const deleteWPP2_1 = async (req, res) => {
+  console.log(req.params);
+  let data = await WPP2_1_NotesModel.deleteOne(req.params);
+  res.send(data);
+};
+const deleteFME2_1 = async (req, res) => {
+  console.log(req.params);
+  let data = await FME2_1_NotesModel.deleteOne(req.params);
+  res.send(data);
+};
+
+const deleteAM2_2 = async (req, res) => {
+  console.log(req.params);
+  let data = await AM2_2_NotesModel.deleteOne(req.params);
+  res.send(data);
+};
+const deleteFEEE2_2 = async (req, res) => {
+  console.log(req.params);
+  let data = await FEEE2_2_NotesModel.deleteOne(req.params);
+  res.send(data);
+};
+const deleteFMkt2_2 = async (req, res) => {
+  console.log(req.params);
+  let data = await FMkt2_2_NotesModel.deleteOne(req.params);
+  res.send(data);
+};
+const deleteTP2_2 = async (req, res) => {
+  console.log(req.params);
+  let data = await TP2_2_NotesModel.deleteOne(req.params);
+  res.send(data);
+};
+const deleteWV2_2 = async (req, res) => {
+  console.log(req.params);
+  let data = await WV2_2_NotesModel.deleteOne(req.params);
+  res.send(data);
+};
+const deleteWP2_2 = async (req, res) => {
+  console.log(req.params);
+  let data = await WP2_2_NotesModel.deleteOne(req.params);
+  res.send(data);
+};
+
 module.exports = {
   getAllStatistics2_1,
   getAllFYT2_1,
@@ -412,4 +566,25 @@ module.exports = {
   getYM2_1,
   getWPP2_1,
   getFME2_1,
+
+  getAM2_2,
+  getFEEE2_2,
+  getFMkt2_2,
+  getTP2_2,
+  getWV2_2,
+  getWP2_2,
+
+  deleteStatistics2_1,
+  deleteFYT2_1,
+  deleteMMFT2_1,
+  deleteYM2_1,
+  deleteWPP2_1,
+  deleteFME2_1,
+
+  deleteAM2_2,
+  deleteFEEE2_2,
+  deleteFMkt2_2,
+  deleteTP2_2,
+  deleteWV2_2,
+  deleteWP2_2,
 };

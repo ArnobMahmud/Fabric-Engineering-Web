@@ -36,6 +36,27 @@ const {
   getYM2_1,
   getWPP2_1,
   getFME2_1,
+
+  getAM2_2,
+  getFEEE2_2,
+  getFMkt2_2,
+  getTP2_2,
+  getWV2_2,
+  getWP2_2,
+
+  deleteStatistics2_1,
+  deleteFYT2_1,
+  deleteMMFT2_1,
+  deleteYM2_1,
+  deleteWPP2_1,
+  deleteFME2_1,
+
+  deleteAM2_2,
+  deleteFEEE2_2,
+  deleteFMkt2_2,
+  deleteTP2_2,
+  deleteWV2_2,
+  deleteWP2_2,
 } = require("../controller/notes.control");
 
 /* Get All Request */
@@ -54,19 +75,19 @@ router.route("/notes/wv2-2").get(limiter, getAllWV2_2);
 router.route("/notes/wp2-2").get(limiter, getAllWP2_2);
 
 /* Post Request */
-router.route("/createNotes/stat2-1").post(limiter, createStatistics2_1);
-router.route("/createNotes/fyt2-1").post(limiter, createFYT2_1);
-router.route("/createNotes/mmtf2-1").post(limiter, createMMTF2_1);
-router.route("/createNotes/ym2-1").post(limiter, createYM2_1);
-router.route("/createNotes/wpp2-1").post(limiter, createWPP2_1);
-router.route("/createNotes/fme2-1").post(limiter, createFME2_1);
+router.route("/createNote/stat2-1").post(limiter, createStatistics2_1);
+router.route("/createNote/fyt2-1").post(limiter, createFYT2_1);
+router.route("/createNote/mmtf2-1").post(limiter, createMMTF2_1);
+router.route("/createNote/ym2-1").post(limiter, createYM2_1);
+router.route("/createNote/wpp2-1").post(limiter, createWPP2_1);
+router.route("/createNote/fme2-1").post(limiter, createFME2_1);
 
-router.route("/createNotes/am2-2").post(limiter, createAM2_2);
-router.route("/createNotes/feee2-2").post(limiter, createFEEE2_2);
-router.route("/createNotes/fmkt2-2").post(limiter, createFMkt2_2);
-router.route("/createNotes/tp2-2").post(limiter, createTP2_2);
-router.route("/createNotes/wv2-2").post(limiter, createWV2_2);
-router.route("/createNotes/wp2-2").post(limiter, createWP2_2);
+router.route("/createNote/am2-2").post(limiter, createAM2_2);
+router.route("/createNote/feee2-2").post(limiter, createFEEE2_2);
+router.route("/createNote/fmkt2-2").post(limiter, createFMkt2_2);
+router.route("/createNote/tp2-2").post(limiter, createTP2_2);
+router.route("/createNote/wv2-2").post(limiter, createWV2_2);
+router.route("/createNote/wp2-2").post(limiter, createWP2_2);
 
 /* Get by ID Request */
 router.route("/note/stat2-1/:id").get(limiter, getStatistics2_1);
@@ -75,5 +96,27 @@ router.route("/note/mmtf2-1/:id").get(limiter, getMMTF2_1);
 router.route("/note/ym2-1/:id").get(limiter, getYM2_1);
 router.route("/note/wpp2-1/:id").get(limiter, getWPP2_1);
 router.route("/note/fme2-1/:id").get(limiter, getFME2_1);
+
+router.route("/note/am2-2/:id").get(limiter, getAM2_2);
+router.route("/note/feee2-2/:id").get(limiter, getFEEE2_2);
+router.route("/note/fmkt2-2/:id").get(limiter, getFMkt2_2);
+router.route("/note/tp2-2/:id").get(limiter, getTP2_2);
+router.route("/note/wv2-2/:id").get(limiter, getWV2_2);
+router.route("/note/wp2-2/:id").get(limiter, getWP2_2);
+
+/* Delete Request */
+router.route("/deleteNote/stat2-1/:_id").delete(limiter, deleteStatistics2_1);
+router.route("/deleteNote/fyt2-1/:_id").delete(limiter, deleteFYT2_1);
+router.route("/deleteNote/mmtf2-1/:_id").delete(limiter, deleteMMFT2_1);
+router.route("/deleteNote/ym2-1/:_id").delete(limiter, deleteYM2_1);
+router.route("/deleteNote/wpp2-1/:_id").delete(limiter, deleteWPP2_1);
+router.route("/deleteNote/fme2-1/:_id").delete(limiter, deleteFME2_1);
+
+router.route("/deleteNote/am2-2/:_id").delete(limiter, deleteAM2_2);
+router.route("/deleteNote/feee2-2/:_id").delete(limiter, deleteFEEE2_2);
+router.route("/deleteNote/fmkt2-2/:_id").delete(limiter, deleteFMkt2_2);
+router.route("/deleteNote/tp2-2/:_id").delete(limiter, deleteTP2_2);
+router.route("/deleteNote/wv2-2/:_id").delete(limiter, deleteWV2_2);
+router.route("/deleteNote/wp2-2/:_id").delete(limiter, deleteWP2_2);
 
 module.exports = router;
