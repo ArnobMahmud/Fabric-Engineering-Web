@@ -4,6 +4,7 @@ const cors = require("cors");
 const dotenv = require("dotenv");
 const path = require("path");
 const resources = require("./routes/resource.route");
+const notes = require("./routes/notes.route");
 const connectDB = require("./database/DB");
 const rateLimiter = require("./middleware/RateLimit");
 dotenv.config({ path: "./config.env" });
@@ -32,6 +33,7 @@ app.set("view engine", "ejs");
 
 /* API Handling */
 app.use("/api/v1", resources);
+app.use("/api/v1", notes);
 
 /* Root Path */
 app.get("/", (req, res) => {

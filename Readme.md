@@ -4,8 +4,6 @@
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/944bd3d0-a153-41b9-9da2-5ebd88a18994/deploy-status)](https://app.netlify.com/sites/fabricengineering/deploys)
 
-[![CodeQL](https://github.com/ArnobMahmud/Fabric-Engineering-Web/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/ArnobMahmud/Fabric-Engineering-Web/actions/workflows/codeql-analysis.yml)
-
 [![](https://img.shields.io/scrutinizer/quality/g/ArnobMahmud/Fabric-Engineering-Web?color=green&label=Code%20Quality%20x%2F10&logo=Scrutinizer%20CI&logoColor=e0e0e0&style=plastic)](https://github.com/Debug-Gremlins/Fabric-Engineering-Resource)&nbsp;
 [![](https://img.shields.io/github/package-json/v/ArnobMahmud/Fabric-Engineering-Web?color=lightyellow&label=yarn%20Deployed&logo=yarn&logoColor=yellow&style=plastic)](https://github.com/Debug-Gremlins/Fabric-Engineering-Resource)&nbsp;
 
