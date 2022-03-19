@@ -1,0 +1,38 @@
+[
+    {
+        "course": "Statistics",
+        "courseCode": "MS 201",
+        "lecturer": "",
+        "access": "/stat2-1"
+    },
+    {
+        "course": "Fiber & Yarn Testing (FYT)",
+        "courseCode": "YE 201",
+        "lecturer": "",
+        "access": "/fyt2-1"
+    },
+    {
+        "course": "Weaving Preparatory Process (WPP)",
+        "courseCode": "FE 203",
+        "lecturer": "",
+        "access": "/wpp2-1"
+    },
+    {
+        "course": "Yarn Manufacturing I (YM I)",
+        "courseCode": "YE 213",
+        "lecturer": "",
+        "access": "/ym2-1"
+    },
+    {
+        "course": "Man-made Textile Fibers (MMTF)",
+        "courseCode": "YE 203",
+        "lecturer": "",
+        "access": "/mmtf2-1"
+    },
+    {
+        "course": "Fundamentals of Mechanical Engineering (FME)",
+        "courseCode": "IPE 203",
+        "lecturer": "",
+        "access": "/fme2-1"
+    }
+]

@@ -23,7 +23,7 @@ export const lightTheme = {
   locationH1: "#30485d",
   locationLogo: "#312135",
   locationH5: "#493643",
-  levelTermParagraph: "#e0245e",
+  levelTermParagraph: "#9e0e5c",
   overlayBtnIcon: "#e0245e",
   overlayBtnBg: "#d6abab73",
   overlayBtnBoxShd: "#a7919146",

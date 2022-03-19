@@ -1,0 +1,38 @@
+[
+    {
+        "course": "Textile Physics (TP)",
+        "courseCode": "YE 209",
+        "lecturer": "",
+        "access": "/tp2-2"
+    },
+    {
+        "course": "Weaving I (Wv I)",
+        "courseCode": "FE 205",
+        "lecturer": "",
+        "access": "/wv2-2"
+    },
+    {
+        "course": "Wet Processing I (WP I)",
+        "courseCode": "WPE 205",
+        "lecturer": "",
+        "access": "/wp2-2"
+    },
+    {
+        "course": "Apparel Manufacturing I (AM I)",
+        "courseCode": "AE 205",
+        "lecturer": "",
+        "access": "/am2-2"
+    },
+    {
+        "course": "Fundamentals of Marketing (FMkt)",
+        "courseCode": "TEM 201",
+        "lecturer": "",
+        "access": "/fmkt2-2"
+    },
+    {
+        "course": "Fundamentals of Electrical & Electronics Engineering (FEEE)",
+        "courseCode": "MDM 201",
+        "lecturer": "",
+        "access": "/feee2-2"
+    }
+]
