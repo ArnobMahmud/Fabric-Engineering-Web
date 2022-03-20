@@ -106,6 +106,7 @@ export const SafeArea = styled.div`
       text-align: center;
       align-items: center;
       padding: 30px 0px;
+      margin: 0px;
     }
     input {
       background: transparent;
