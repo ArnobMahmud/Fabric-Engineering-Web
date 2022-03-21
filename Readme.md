@@ -46,19 +46,31 @@
 
 **_[`API Access`](https://fabricweb-backend-server.herokuapp.com/)_**
 
-| SN     | Resources       | APIs                                                                    |
-| ------ | :-------------- | :---------------------------------------------------------------------- |
-| (i)    | `Physics 1-1`   | https://fabricweb-backend-server.herokuapp.com/api/v1/resources/phy1-1  |
-| (ii)   | `Chemistry 1-1` | https://fabricweb-backend-server.herokuapp.com/api/v1/resources/chem1-1 |
-| (iii)  | `Math 1-1`      | https://fabricweb-backend-server.herokuapp.com/api/v1/resources/math1-1 |
-| (iv)   | `NTF 1-1`       | https://fabricweb-backend-server.herokuapp.com/api/v1/resources/ntf1-1  |
-| (v)    | `BCE 1-1`       | https://fabricweb-backend-server.herokuapp.com/api/v1/resources/bce1-1  |
-| (vi)   | `Physics 1-2`   | https://fabricweb-backend-server.herokuapp.com/api/v1/resources/phy1-2  |
-| (vii)  | `Chemistry 1-2` | https://fabricweb-backend-server.herokuapp.com/api/v1/resources/chem1-2 |
-| (viii) | `Math 1-2`      | https://fabricweb-backend-server.herokuapp.com/api/v1/resources/math1-2 |
-| (ix)   | `CP 1-2`        | https://fabricweb-backend-server.herokuapp.com/api/v1/resources/cp1-2   |
-| (x)    | `EM 1-2`        | https://fabricweb-backend-server.herokuapp.com/api/v1/resources/em1-2   |
-| (xi)   | `PSE 1-2`       | https://fabricweb-backend-server.herokuapp.com/api/v1/resources/pse1-2  |
+| SN      | Resources       | APIs                                                                    |
+| ------  | :-------------- | :---------------------------------------------------------------------- |
+| (i)     | `Physics 1-1`   | https://fabricweb-backend-server.herokuapp.com/api/v1/resources/phy1-1  |
+| (ii)    | `Chemistry 1-1` | https://fabricweb-backend-server.herokuapp.com/api/v1/resources/chem1-1 |
+| (iii)   | `Math 1-1`      | https://fabricweb-backend-server.herokuapp.com/api/v1/resources/math1-1 |
+| (iv)    | `NTF 1-1`       | https://fabricweb-backend-server.herokuapp.com/api/v1/resources/ntf1-1  |
+| (v)     | `BCE 1-1`       | https://fabricweb-backend-server.herokuapp.com/api/v1/resources/bce1-1  |
+| (vi)    | `Physics 1-2`   | https://fabricweb-backend-server.herokuapp.com/api/v1/resources/phy1-2  |
+| (vii)   | `Chemistry 1-2` | https://fabricweb-backend-server.herokuapp.com/api/v1/resources/chem1-2 |
+| (viii)  | `Math 1-2`      | https://fabricweb-backend-server.herokuapp.com/api/v1/resources/math1-2 |
+| (ix)    | `CP 1-2`        | https://fabricweb-backend-server.herokuapp.com/api/v1/resources/cp1-2   |
+| (x)     | `EM 1-2`        | https://fabricweb-backend-server.herokuapp.com/api/v1/resources/em1-2   |
+| (xi)    | `PSE 1-2`       | https://fabricweb-backend-server.herokuapp.com/api/v1/resources/pse1-2  |
+| (xii)   | `STAT 2-1`      | https://fabricweb-backend-server.herokuapp.com/api/v1/notes/stat2-1     |
+| (xiii)  | `FYT 2-1`       | https://fabricweb-backend-server.herokuapp.com/api/v1/notes/fyt2-1      |
+| (xiv)   | `WPP 2-1`       | https://fabricweb-backend-server.herokuapp.com/api/v1/notes/wpp2-1      |
+| (xv)    | `YM I 2-1`      | https://fabricweb-backend-server.herokuapp.com/api/v1/notes/ym2-1       |
+| (xvi)   | `MMTF 2-1`      | https://fabricweb-backend-server.herokuapp.com/api/v1/notes/mmtf2-1     |
+| (xvii)  | `FME 2-1`       | https://fabricweb-backend-server.herokuapp.com/api/v1/notes/fme2-1      |
+| (xiii)  | `TP 2-2`        | https://fabricweb-backend-server.herokuapp.com/api/v1/notes/tp2-2       |
+| (xxix)  | `WV 2-2`        | https://fabricweb-backend-server.herokuapp.com/api/v1/notes/wv2-2       |
+| (xx)    | `WP 2-2`        | https://fabricweb-backend-server.herokuapp.com/api/v1/notes/wp2-2       |
+| (xi)    | `AM I 2-2`      | https://fabricweb-backend-server.herokuapp.com/api/v1/notes/am2-2       |
+| (xxii)  | `FMkt 2-2`      | https://fabricweb-backend-server.herokuapp.com/api/v1/notes/fmkt2-2     |
+| (xxiii) | `FEEE 2-2`      | https://fabricweb-backend-server.herokuapp.com/api/v1/notes/feee2-2     |
 
 
 ## Security Supported Versions
