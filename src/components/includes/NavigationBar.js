@@ -89,6 +89,7 @@ const NavigationBar = () => {
                     role="button"
                     data-bs-toggle="dropdown"
                     aria-expanded="false"
+                    to=""
                   >
                     <IconContext.Provider value={{ size: "25" }}>
                       Production
@@ -116,8 +117,8 @@ const NavigationBar = () => {
                 </li>
               </ul>
             </div>
-            <Link className="navbar-brand" to="/" exact>
-              <img className="navBrand" src={Logo} alt="" srcSet />
+            <Link className="navbar-brand" to="/">
+              <img className="navBrand" src={Logo} alt="" />
             </Link>
           </div>
         </nav>

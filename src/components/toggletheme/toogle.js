@@ -16,10 +16,10 @@ const Toggle = ({ theme, toggleTheme }) => {
             onClick={toggleTheme}
           />
 
-          <label class="label" for="chk">
-            {/* <i class="fas fa-moon"></i>
-            <i class="fas fa-sun"></i> */}
-            <div class="ball"></div>
+          <label className="label" htmlFor="chk">
+            {/* <i className="fas fa-moon"></i>
+            <i className="fas fa-sun"></i> */}
+            <div className="ball"></div>
           </label>
         </div>
       </ButtonContainer>

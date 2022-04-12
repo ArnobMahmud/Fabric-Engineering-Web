@@ -10,7 +10,7 @@ const Routine = () => {
         <div className="container">
           <div className="row align-items-center justify-content-around">
             <div className="col-xl-5 col-lg-5 col-md-12 col-sm-12">
-              <img src={Rotimg} alt="" srcSet />
+              <img src={Rotimg} alt=""  />
             </div>
             <div className="col-xl-5 col-lg-5 col-md-12 col-sm-12">
               <div className="section-title">

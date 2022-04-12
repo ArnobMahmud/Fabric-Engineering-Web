@@ -1,19 +1,15 @@
 import React, { Component } from "react";
 import styled from "styled-components";
 
-export class ScreenCardIV extends Component {
+export class ScreenCardVI extends Component {
   render() {
     return (
       <ErrorScreen>
         <div className="row handler">
-          <div className="col-lg-6 col-md-6 col-sm-12">
-            <img
-              src={this.props.imgPath}
-              alt="dataImg"
-              
-            />
+          <div className="col-lg-8 col-md-8 col-sm-12">
+            <img src={this.props.imgPath} alt="dataImg"/>
           </div>
-          <div className="col-lg-8 col-md-9 col-sm-12">
+          <div className="col-lg-4 col-md-4 col-sm-12">
             <div className="content text-center">
               <h1>{this.props.title}</h1>
               <p>{this.props.description}</p>
@@ -25,7 +21,7 @@ export class ScreenCardIV extends Component {
   }
 }
 
-export default ScreenCardIV;
+export default ScreenCardVI;
 
 const ErrorScreen = styled.div`
   .handler {

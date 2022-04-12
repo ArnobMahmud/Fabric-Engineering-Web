@@ -16,7 +16,7 @@ class Location extends Component {
                 title="map"
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3651.6384958482886!2d90.39839175067732!3d23.76026739424033!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b89db1b5de0f%3A0xe0e333356e676ede!2sBangladesh%20University%20of%20Textiles!5e0!3m2!1sen!2sbd!4v1624028549599!5m2!1sen!2sbd"
                 className="map"
-                allowfullscreen="true"
+                allowFullScreen
                 loading="lazy"
               ></iframe>
             </div>

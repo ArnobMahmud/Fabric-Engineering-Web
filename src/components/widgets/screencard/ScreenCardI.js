@@ -10,7 +10,7 @@ export class ScreenCardI extends Component {
               className="effect1 w-100"
               src={this.props.imgPath}
               alt="dataImg"
-              srcSet
+              
             />
           </div>
           <div className="col-lg-4 col-md-5 col-sm-12">

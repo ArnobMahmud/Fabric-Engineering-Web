@@ -6,11 +6,11 @@ import styled from "styled-components";
 const SplashScreen = (props) => {
   return (
     <SplashArea>
-      <div className="container">
+      <div className="container" allowFullScreen>
         <div className="section-handler">
           <Spinner loading={props.loading} />
           <div className="bottom-ind">
-            <img className="logo" src={Logo} alt="" srcSet />
+            <img className="logo" src={Logo} alt="" />
             <h4>
               Fabric Engineering 46 (BUTEX){" "}
               {/* <span>

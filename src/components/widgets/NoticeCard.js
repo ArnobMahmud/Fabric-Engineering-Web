@@ -13,7 +13,7 @@ export class NoticeCard extends Component {
               className="noticeImg "
               src={this.props.imgPath}
               alt="dataImg"
-              srcSet
+              
             />
           </div>
         </div>

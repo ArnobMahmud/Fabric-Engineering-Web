@@ -45,33 +45,27 @@
 
   <!-- Meta Tags Generated via http://heymeta.com -->
 
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2526481226584875"
-    crossorigin="anonymous"></script>
-
-  <!--  <ins class="adsbygoogle" style="display:block" data-ad-format="fluid" data-ad-layout-key="-ef+6k-30-ac+ty"
-    data-ad-client="ca-pub-2526481226584875" data-ad-slot="8761209154"></ins>
-  <script>
-    (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>'
- -->
 </head>
 
 <body>
   <div id="root"></div>
+
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
     integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
     crossorigin="anonymous"></script>
+
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.min.js"
     integrity="sha384-lpyLfhYuitXl2zRZ5Bn2fqnhNAKOAaM/0Kr9laMspuaMiZfGmfwRNFh8HlMy49eQ"
     crossorigin="anonymous"></script>
-
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2526481226584875"
-    crossorigin="anonymous"></script>
-  <!-- banneradsv1 -->
-  <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-2526481226584875" data-ad-slot="9884752396"
-    data-ad-format="auto" data-full-width-responsive="true"></ins>
   <script>
-    (adsbygoogle = window.adsbygoogle || []).push({});
+
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('./serviceworker.js')
+          .then((reg) => console.log('Success', reg.scope))
+          .catch((err) => console.log('Failure', err));
+      })
+    }
   </script>
 
 </body>

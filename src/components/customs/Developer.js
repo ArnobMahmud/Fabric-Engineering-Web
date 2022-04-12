@@ -10,7 +10,7 @@ const Developer = () => {
           <div className="row justify-content-between align-items-center">
             <div className="col-lg-6 col-md-12 col-sm-12 text-left">
               <div className="dev-icon">
-                <img src={Devimg} alt="" srcSet />
+                <img src={Devimg} alt=""/>
               </div>
             </div>
             <div
@@ -111,7 +111,6 @@ const Developer = () => {
                       <img
                         src="https://img.shields.io/badge/License-MIT-critical?style=plastic&logo=appveyor&logoColor=a70023&labelColor=lightblue&color=471e61"
                         alt="mit"
-                        srcSet
                       />
                     </a>
                   </div>
@@ -124,7 +123,6 @@ const Developer = () => {
                       <img
                         src="https://img.shields.io/scrutinizer/quality/g/ArnobMahmud/Fabric-Engineering-Web?color=green&label=Code%20Quality%20x%2F10&logo=Scrutinizer%20CI&logoColor=e0e0e0&style=plastic"
                         alt="cq"
-                        srcSet
                       />
                     </a>
                   </div> */}{" "}
@@ -138,7 +136,6 @@ const Developer = () => {
                       <img
                         src="https://img.shields.io/github/package-json/v/ArnobMahmud/Fabric-Engineering-Web?color=lightyellow&label=yarn%20Deployed&logo=yarn&logoColor=yellow&style=plastic"
                         alt="cq"
-                        srcSet
                       />
                     </a>
                   </div>

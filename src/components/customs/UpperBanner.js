@@ -25,7 +25,6 @@ class UpperBanner extends Component {
                   <img
                     src="https://api.netlify.com/api/v1/badges/944bd3d0-a153-41b9-9da2-5ebd88a18994/deploy-status"
                     alt="cq"
-                    srcSet
                   />
                 </a>
               </div>

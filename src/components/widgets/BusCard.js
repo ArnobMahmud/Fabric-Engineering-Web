@@ -6,7 +6,7 @@ class BusCard extends Component {
       <div>
         <div className="card">
           <h2>{this.props.routeTitle}</h2>
-          <img src={this.props.routeImg} alt="" srcSet />
+          <img src={this.props.routeImg} alt="" />
         </div>
       </div>
     );
