@@ -1,5 +1,5 @@
 import React from "react";
-import Devimg from "../../assets/developer1.png";
+import Devimg from "../../assets/developer.png";
 import styled from "styled-components";
 
 const Developer = () => {
@@ -10,7 +10,7 @@ const Developer = () => {
           <div className="row justify-content-between align-items-center">
             <div className="col-lg-6 col-md-12 col-sm-12 text-left">
               <div className="dev-icon">
-                <img src={Devimg} alt=""/>
+                <img src={Devimg} alt="" />
               </div>
             </div>
             <div
@@ -226,7 +226,10 @@ const DeveloperArea = styled.div`
   }
 
   .dev-icon img {
+    border-radius: 50%;
     max-width: 90%;
+    max-height: 50%;
+    border: 5px double #ab8b80;
   }
 
   .shield {
