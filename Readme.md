@@ -4,11 +4,11 @@
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/944bd3d0-a153-41b9-9da2-5ebd88a18994/deploy-status)](https://app.netlify.com/sites/fabricengineering/deploys)
 
-[![](https://img.shields.io/github/package-json/v/ArnobMahmud/Fabric-Engineering-Web?color=lightyellow&label=yarn%20Deployed&logo=yarn&logoColor=yellow&style=plastic)](https://github.com/Debug-Gremlins/Fabric-Engineering-Resource)&nbsp;
+[![](https://img.shields.io/github/package-json/v/ArnobMahmud/Fabric-Engineering-Web?color=lightyellow&label=yarn%20Deployed&logo=yarn&logoColor=yellow&style=plastic)](https://github.com/ArnobMahmud/Fabric-Engineering-Web)&nbsp;
 
-![](https://img.shields.io/tokei/lines/github/arnobmahmud/Fabric-Engineering-Web?color=orange&label=Lines%20of%20Code&logo=Insomnia&labelColor=eee3dd&logoColor=%235849BE&style=plastic)&nbsp;
+[![](https://img.shields.io/tokei/lines/github/arnobmahmud/Fabric-Engineering-Web?color=orange&label=Lines%20of%20Code&logo=Insomnia&labelColor=eee3dd&logoColor=%235849BE&style=plastic)](https://github.com/ArnobMahmud/Fabric-Engineering-Web)&nbsp;
 
-[![Wakatime](https://wakatime.com/badge/user/94bcb058-9915-4d5f-8827-41abbc5319de/project/a155c2f3-c0c0-4e7e-8c0b-28035c9e7efd.svg?style=plastic)](https://wakatime.com/badge/user/94bcb058-9915-4d5f-8827-41abbc5319de/project/a155c2f3-c0c0-4e7e-8c0b-28035c9e7efd)
+[![wakatime](https://wakatime.com/badge/github/ArnobMahmud/Fabric-Engineering-Web.svg?style=plastic)](https://wakatime.com/badge/github/ArnobMahmud/Fabric-Engineering-Web)
 
 [![](https://img.shields.io/badge/License-MIT-critical?style=plastic&logo=appveyor&logoColor=a70023&labelColor=lightblue&color=471e61)](https://github.com/ArnobMahmud/Fabric-Engineering-Web/blob/master/LICENSE)&nbsp;
 [![developed-by-arnob](https://img.shields.io/badge/Developed%20by-Arnob%20Mahmud-1f425f.svg?style=plastic&logo=visual-studio-code&logoColor=007ACC&labelColor=beb4ab)](https://github.com/ArnobMahmud/)&nbsp;
@@ -18,7 +18,7 @@
 
 ```json
 {
-   "homepage": "https://fabricengineering.netlify.app/"
+   "homepage": "https://fabricengineering.netlify.app/",
    "name": "fabric-engineering-web",
    "author": "Arnob Mahmud",
    "private": "true"
@@ -68,7 +68,7 @@
 | (xiii)  | `TP 2-2`        | https://fabricweb-backend-server.herokuapp.com/api/v1/notes/tp2-2       |
 | (xxix)  | `WV 2-2`        | https://fabricweb-backend-server.herokuapp.com/api/v1/notes/wv2-2       |
 | (xx)    | `WP 2-2`        | https://fabricweb-backend-server.herokuapp.com/api/v1/notes/wp2-2       |
-| (xi)    | `AM I 2-2`      | https://fabricweb-backend-server.herokuapp.com/api/v1/notes/am2-2       |
+| (xxi)   | `AM I 2-2`      | https://fabricweb-backend-server.herokuapp.com/api/v1/notes/am2-2       |
 | (xxii)  | `FMkt 2-2`      | https://fabricweb-backend-server.herokuapp.com/api/v1/notes/fmkt2-2     |
 | (xxiii) | `FEEE 2-2`      | https://fabricweb-backend-server.herokuapp.com/api/v1/notes/feee2-2     |
 

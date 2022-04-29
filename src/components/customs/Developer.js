@@ -230,6 +230,11 @@ const DeveloperArea = styled.div`
     max-width: 90%;
     max-height: 50%;
     border: 5px double #ab8b80;
+    transition-duration: 0.5s;
+  }
+
+  .dev-icon img:hover {
+    border-color: #8998ad;
   }
 
   .shield {
