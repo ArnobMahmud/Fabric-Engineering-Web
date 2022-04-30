@@ -7,7 +7,7 @@ const Developer = () => {
     <>
       <DeveloperArea>
         <div className="container">
-          <div className="row justify-content-between align-items-center">
+          <div className="row justify-content-around align-items-center">
             <div className="col-lg-6 col-md-12 col-sm-12 text-left">
               <div className="dev-icon">
                 <img src={Devimg} alt="" />
@@ -225,12 +225,16 @@ const DeveloperArea = styled.div`
     font-size: 20px;
   }
 
+  .dev-icon {
+    overflow: hidden;
+  }
+
   .dev-icon img {
+    border: 10px double #ab8b80;
+    transition-duration: 0.5s;
     border-radius: 50%;
     max-width: 90%;
     max-height: 50%;
-    border: 5px double #ab8b80;
-    transition-duration: 0.5s;
   }
 
   .dev-icon img:hover {
@@ -267,7 +271,7 @@ const DeveloperArea = styled.div`
       font-size: 18px;
     }
     .dev-icon img {
-      margin-top: 50px;
+      margin: 30px 0px;
       max-width: 100%;
     }
   }

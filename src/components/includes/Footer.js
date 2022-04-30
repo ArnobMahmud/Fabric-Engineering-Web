@@ -193,9 +193,9 @@ const FooterArea = styled.div`
     opacity: 0.8;
   }
   .cpy-rgt {
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 400;
-    padding: 40px 0px 10px;
+    padding: 40px 0px 0px;
     color: ${({ theme }) => theme.footerCpyRgt};
     text-align: center;
     font-family: "DM Sans";
