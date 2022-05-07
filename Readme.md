@@ -3,6 +3,7 @@
 **[Bangladesh University of Textiles (BUTEX)](https://www.butex.edu.bd/) Fabric Manufacturing Engineering (FME) 46th Batch's Departmental Resources Monitoring by Arnob Mahmud.**
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/944bd3d0-a153-41b9-9da2-5ebd88a18994/deploy-status)](https://app.netlify.com/sites/fabricengineering/deploys)<br>
+![GitHub Workflow Status](https://img.shields.io/github/workflow/status/ArnobMahmud/Fabric-Engineering-Web/CodeQL?style=plastic)<br>
 [![](https://img.shields.io/github/package-json/v/ArnobMahmud/Fabric-Engineering-Web?color=lightyellow&label=yarn%20Deployed&logo=yarn&logoColor=yellow&style=plastic)](https://github.com/ArnobMahmud/Fabric-Engineering-Web)<br>
 [![wakatime](https://wakatime.com/badge/github/ArnobMahmud/Fabric-Engineering-Web.svg?style=plastic)](https://wakatime.com/badge/github/ArnobMahmud/Fabric-Engineering-Web)<br>
 [![](https://img.shields.io/badge/License-MIT-critical?style=plastic&logo=appveyor&logoColor=a70023&labelColor=lightblue&color=471e61)](https://github.com/ArnobMahmud/Fabric-Engineering-Web/blob/master/LICENSE)&nbsp;

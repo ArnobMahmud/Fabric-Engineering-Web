@@ -105,7 +105,7 @@ function Footer() {
                 link3={
                   <a
                     className="foot-link"
-                    href="https://github.com/ArnobMahmud/Fabric-Engineering-Web/blob/master/Readme.md"
+                    href="https://github.com/ArnobMahmud/Fabric-Engineering-Web/releases"
                     target="_blank"
                     rel="noreferrer"
                   >
