@@ -30,7 +30,7 @@ const CounterUp = () => {
               <CustomCount
                 icons={<FiSlack />}
                 title="Regular Monitorization"
-                paragraph="Keeping resources and pdf stuffs update weekly."
+                paragraph="Keeping resources and pdf stuffs update regularly."
               />
             </div>
           </div>

@@ -83,7 +83,7 @@ const Details = () => {
 export default Details;
 
 const DetailsArea = styled.div`
-  font-family: Ubuntu;
+  font-family: Rubik;
   background: ${({ theme }) => theme.detailsBG};
   padding: 0px;
   .handler {
@@ -97,8 +97,6 @@ const DetailsArea = styled.div`
   }
 
   .details_content p {
-    font-family: 16px;
-    font-family: Poppins;
     color: ${({ theme }) => theme.detailsParagraph};
     padding-bottom: 20px;
     font-weight: 400;
@@ -106,7 +104,6 @@ const DetailsArea = styled.div`
   }
 
   .btn {
-    font-family: Ubuntu;
     text-decoration: none;
     padding: 10px 20px;
     border-radius: 25px;

@@ -142,7 +142,7 @@ function Footer() {
 export default Footer;
 
 const FooterArea = styled.div`
-  font-family: Ubuntu;
+  font-family: Rubik;
   padding: 90px 0px 10px;
   background: ${({ theme }) => theme.footerBG};
   position: relative;
@@ -168,13 +168,11 @@ const FooterArea = styled.div`
   }
   span {
     display: block;
-    font-family: Ubuntu;
     color: ${({ theme }) => theme.footerSpan};
     padding: 5px 0px;
     font-weight: 500;
   }
   h3 a {
-    font-family: Poppins;
     text-decoration: none;
     display: block;
     color: ${({ theme }) => theme.footerLinka};
@@ -182,7 +180,6 @@ const FooterArea = styled.div`
     transition-duration: 0.3s;
   }
   ul li a {
-    font-family: Poppins;
     text-decoration: none;
     display: inline-block;
     color: ${({ theme }) => theme.footerLinka};
@@ -198,14 +195,12 @@ const FooterArea = styled.div`
     padding: 40px 0px 0px;
     color: ${({ theme }) => theme.footerCpyRgt};
     text-align: center;
-    font-family: "DM Sans";
   }
   .cpy-rgt span {
     display: inline-block;
   }
   .cpy-rgt span a {
     text-decoration: none;
-    font-family: "DM Sans";
     color: ${({ theme }) => theme.footerSpana};
   }
   .footerOverlay {
@@ -220,7 +215,6 @@ const FooterArea = styled.div`
     margin: 5px 0px;
     font-weight: 400;
     padding: 0px;
-    font-family: "Rubik";
   }
   .rotating {
     max-width: 80%;

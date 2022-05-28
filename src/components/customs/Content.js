@@ -37,6 +37,7 @@ export class Content extends Component {
 export default Content;
 
 const ContentArea = styled.div`
+  font-family: Rubik;
   background: ${({ theme }) => theme.contentBG};
   padding: 90px 0px;
 

@@ -99,6 +99,7 @@ const TopBannerArea = styled.div`
     line-height: 1.7;
     padding-top: 15px;
     font-size: 18px;
+    font-family: Rubik;
     color: ${({ theme }) => theme.topBnrParagraph};
   }
   .home-shield {

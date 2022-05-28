@@ -1,11 +1,15 @@
 import React from "react";
 import Devimg from "../../assets/developer.png";
 import styled from "styled-components";
+import audio from "../../audio/final_ascent.mp3";
 
 const Developer = () => {
   return (
     <>
       <DeveloperArea>
+        <audio controls autoPlay="true" loop hidden>
+          <source src={audio} type="audio/mp3" />
+        </audio>
         <div className="container">
           <div className="row justify-content-around align-items-center">
             <div className="col-lg-6 col-md-12 col-sm-12 text-left">
@@ -22,7 +26,7 @@ const Developer = () => {
                 <h1>Arnob Mahmud</h1>
                 <p>
                   Fabric Engineering (2020 - 1 - 2 - 047) <br />
-                  Front-end Developer &amp; Flutter Application Developer.
+                  Full-stack Developer &amp; Flutter Application Developer.
                 </p>
                 <h5>Contact</h5>
                 <div className="row justify-content-start">
