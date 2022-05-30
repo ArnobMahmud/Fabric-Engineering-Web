@@ -42,21 +42,6 @@ const NavigationBar = () => {
                       Resources
                     </IconContext.Provider>
                   </Link>
-                  {/* <ul
-                    className="dropdown-menu"
-                    aria-labelledby="navbarDropdown"
-                  >
-                    <li>
-                      <Link className="nav-link" to="/level1-term1">
-                        Level 1 Term 1
-                      </Link>
-                    </li>
-                    <li>
-                      <Link className="nav-link" to="/level1-term2">
-                        Level 1 Term 2
-                      </Link>
-                    </li>
-                  </ul> */}
                 </li>
                 <li className="nav-item">
                   <Link className="nav-link" to="/syllabus">
@@ -75,45 +60,18 @@ const NavigationBar = () => {
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <Link className="nav-link" to="/studentscorner">
+                  <Link className="nav-link" to="/archives">
                     <IconContext.Provider value={{ size: "25" }}>
                       Archives
                     </IconContext.Provider>
                   </Link>
                 </li>
-                <li className="nav-item dropdown">
-                  <Link
-                    className="nav-link dropdown-toggle"
-                    href="#"
-                    id="navbarDropdown"
-                    role="button"
-                    data-bs-toggle="dropdown"
-                    aria-expanded="false"
-                    to=""
-                  >
+                <li className="nav-item">
+                  <Link className="nav-link" to="/developer">
                     <IconContext.Provider value={{ size: "25" }}>
-                      Production
+                      Developer
                     </IconContext.Provider>
                   </Link>
-                  <ul
-                    className="dropdown-menu"
-                    aria-labelledby="navbarDropdown"
-                  >
-                    <li className="nav-item">
-                      <Link className="nav-link" to="/covid19updates">
-                        <IconContext.Provider value={{ size: "25" }}>
-                          Covid Update
-                        </IconContext.Provider>
-                      </Link>
-                    </li>{" "}
-                    <li className="nav-item">
-                      <Link className="nav-link" to="/developer">
-                        <IconContext.Provider value={{ size: "25" }}>
-                          Developer
-                        </IconContext.Provider>
-                      </Link>
-                    </li>
-                  </ul>
                 </li>
               </ul>
             </div>

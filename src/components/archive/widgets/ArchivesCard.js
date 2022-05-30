@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import { ImTree } from "react-icons/im";
 
-class StudentsDataCard extends Component {
+class ArchivesDataCard extends Component {
   render() {
     return (
       <>
@@ -22,4 +22,4 @@ class StudentsDataCard extends Component {
   }
 }
 
-export default StudentsDataCard;
+export default ArchivesDataCard;

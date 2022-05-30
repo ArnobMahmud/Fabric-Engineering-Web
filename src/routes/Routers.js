@@ -2,10 +2,11 @@ import { Route, Switch } from "react-router-dom";
 import Navbar from "../components/includes/NavigationBar";
 import HomePage from "../pages/HomePage";
 
-import StudentsCornerPage from "../pages/StudentsCorner";
-import StudentsInfo from "../components/students/pages/StudentsInfo";
-import StudentsAchievementInfo from "../components/students/pages/AchievementInfo";
-import Level1Term2Lab from "../components/students/pages/LabRoutine";
+import ArchivePage from "../pages/Archives.js";
+import StudentsInfo from "../components/archive/pages/StudentsInfo";
+import StudentsAchievementInfo from "../components/archive/pages/AchievementInfo";
+import Level1Term2Lab from "../components/archive/pages/LabRoutine";
+import Level1Term2Exam from "../components/archive/pages/ExamRoutine";
 
 import SyllabusPage from "../pages/SyllabusPage";
 import ResourcePage from "../pages/ResourcePage";
@@ -111,9 +112,10 @@ const RouteHandle = () => {
         <Route exact path="/accessories" component={AccessoriesPage} />
 
         {/********* Students Section Starts Here ************/}
-        <Route exact path="/studentscorner" component={StudentsCornerPage} />
+        <Route exact path="/archives" component={ArchivePage} />
         <Route exact path="/studentsinfo" component={StudentsInfo} />
         <Route exact path="/l1t2lab" component={Level1Term2Lab} />
+        <Route exact path="/l1t2exam" component={Level1Term2Exam} />
         <Route
           exact
           path="/studentsachievement"

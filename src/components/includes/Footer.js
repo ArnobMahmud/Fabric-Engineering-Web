@@ -46,6 +46,11 @@ function Footer() {
                   </Link>
                 }
                 link4={
+                  <Link className="foot-link" to="/l1t2exam">
+                    Exam Routine
+                  </Link>
+                }
+                link5={
                   <a
                     className="foot-link"
                     href="https://fabricweb-backend-server.herokuapp.com/"
@@ -79,6 +84,11 @@ function Footer() {
                 link4={
                   <Link className="foot-link" to="/covid19updates">
                     Covid Updates
+                  </Link>
+                }
+                link5={
+                  <Link className="foot-link" to="/archives">
+                    Archives
                   </Link>
                 }
               />
