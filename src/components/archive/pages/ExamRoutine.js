@@ -19,39 +19,39 @@ export default function TermExamRoutine() {
               <tbody>
                 <tr>
                   <td>09 June, 2022</td>
-                  <td>10:00Am - 1:00PM</td>
+                  <td>10:00AM - 1:00PM</td>
                   <td>MS 103</td>
                   <td>Mathematics - II</td>
                 </tr>
                 <tr>
                   <td>13 June, 2022</td>
-                  <td>10:00Am - 1:00PM</td>
+                  <td>10:00AM - 1:00PM</td>
                   <td>PHY 103</td>
                   <td>Physics - II</td>
                 </tr>
                 <tr>
                   <td>19 June, 2022</td>
-                  <td>10:00Am - 1:00PM</td>
+                  <td>10:00AM - 1:00PM</td>
                   <td>CHEM 103</td>
                   <td>Chemistry - II</td>
                 </tr>
                 <tr>
                   <td>23 June, 2022</td>
-                  <td>10:00Am - 1:00PM</td>
+                  <td>10:00AM - 1:00PM</td>
                   <td>IPE 101</td>
                   <td>Engineering Materials (EM)</td>
                 </tr>
                 <tr>
                   <td>27 June, 2022</td>
-                  <td>10:00Am - 1:00PM</td>
+                  <td>10:00AM - 1:00PM</td>
                   <td>MDM 101</td>
                   <td>Computer Programming (CP)</td>
-                </tr>{" "}
+                </tr>
                 <tr>
                   <td>03 July, 2022</td>
-                  <td>10:00Am - 1:00PM</td>
+                  <td>10:00AM - 1:00PM</td>
                   <td>WPE 101</td>
-                  <td>Polymer Science Engineering (PSE)</td>
+                  <td>Polymer Science & Engineering (PSE)</td>
                 </tr>
               </tbody>
             </table>

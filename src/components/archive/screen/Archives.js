@@ -22,13 +22,6 @@ export default function StudentsHomeScreen() {
           </div>
           <div className="col-lg-5 col-md-6 col-sm-12">
             <ArchiveCard
-              title="Student's Achievement"
-              subTitle="Academic achievement of fabric engineering 46th batch's student."
-              accessLink="/studentsachievement"
-            />
-          </div>
-          <div className="col-lg-5 col-md-6 col-sm-12">
-            <ArchiveCard
               title="Lab Routine"
               subTitle="Level 1 - Term 2 Lab Routine of Fabric Engineering Department."
               accessLink="/l1t2lab"

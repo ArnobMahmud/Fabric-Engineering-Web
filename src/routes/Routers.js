@@ -1,16 +1,18 @@
 import { Route, Switch } from "react-router-dom";
+import { Redirect } from "react-router-dom/cjs/react-router-dom.min";
+
+/* Includes */
 import Navbar from "../components/includes/NavigationBar";
 import HomePage from "../pages/HomePage";
+import Footer from "../components/includes/Footer";
 
-import ArchivePage from "../pages/Archives.js";
-import StudentsInfo from "../components/archive/pages/StudentsInfo";
-import StudentsAchievementInfo from "../components/archive/pages/AchievementInfo";
-import Level1Term2Lab from "../components/archive/pages/LabRoutine";
-import Level1Term2Exam from "../components/archive/pages/ExamRoutine";
+/* Error Screen */
+import ErrorScreen from "../components/screens/AnnounceScreenIII";
+import ErrorScreen2 from "../components/screens/InformationScreen";
+import ErrorScreen3 from "../components/screens/404";
 
-import SyllabusPage from "../pages/SyllabusPage";
+/* Resource */
 import ResourcePage from "../pages/ResourcePage";
-
 import Level1Term1Page from "../components/resources/pages/screen/Level1Term1Page";
 import Level1Term2Page from "../components/resources/pages/screen/Level1Term2Page";
 import Level2Term1Page from "../components/resources/pages/screen/Level2Term1Page";
@@ -47,18 +49,21 @@ import FMkt2_2 from "../components/resources/pages/Level2Term2/FMktPage";
 import WPI2_2 from "../components/resources/pages/Level2Term2/WPIPage";
 import FEEE2_2 from "../components/resources/pages/Level2Term2/FEEEPage";
 
+/* Syllabus */
+import SyllabusPage from "../pages/SyllabusPage";
+
+/* Accessories */
 import AccessoriesPage from "../pages/AccessoriesPage";
 
+/* Archive */
+import ArchivePage from "../pages/Archives.js";
 import Covid19 from "../pages/CovidPage";
+import StudentsInfo from "../components/archive/pages/StudentsInfo";
+import Level1Term2Lab from "../components/archive/pages/LabRoutine";
+import Level1Term2Exam from "../components/archive/pages/ExamRoutine";
+
+/* Developer */
 import DeveloperPage from "../pages/DeveloperPage";
-
-import Footer from "../components/includes/Footer";
-
-import ErrorScreen from "../components/screens/AnnounceScreenIII";
-import ErrorScreen2 from "../components/screens/InformationScreen";
-import ErrorScreen3 from "../components/screens/404";
-
-import { Redirect } from "react-router-dom/cjs/react-router-dom.min";
 
 const RouteHandle = () => {
   return (
@@ -111,19 +116,14 @@ const RouteHandle = () => {
         {/********* Accessories Section Starts Here ************/}
         <Route exact path="/accessories" component={AccessoriesPage} />
 
-        {/********* Students Section Starts Here ************/}
+        {/********* Archive Section Starts Here ************/}
         <Route exact path="/archives" component={ArchivePage} />
         <Route exact path="/studentsinfo" component={StudentsInfo} />
+        <Route exact path="/covid19updates" component={Covid19} />
         <Route exact path="/l1t2lab" component={Level1Term2Lab} />
         <Route exact path="/l1t2exam" component={Level1Term2Exam} />
-        <Route
-          exact
-          path="/studentsachievement"
-          component={StudentsAchievementInfo}
-        />
 
-        {/********* Production Section Starts Here ************/}
-        <Route exact path="/covid19updates" component={Covid19} />
+        {/********* Developer Section Starts Here ************/}
         <Route exact path="/developer" component={DeveloperPage} />
 
         {/********* Error Section Starts Here ************/}

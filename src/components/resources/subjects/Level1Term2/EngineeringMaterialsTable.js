@@ -110,7 +110,7 @@ const EngineeringMaterialsTable = () => {
                             <td className="link">
                               <a
                                 href={
-                                  val.driveLink === 404 ? "404" : val.driveLink
+                                  val.driveLink === "" ? "404" : val.driveLink
                                 }
                                 target="_blank"
                                 rel="noopener noreferrer"
