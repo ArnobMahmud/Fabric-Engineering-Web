@@ -30,7 +30,7 @@ const Developer = () => {
                 </p>
                 <h5>Contact</h5>
                 <div className="row justify-content-start">
-                  <div className="social col-lg-12 col-md-12 col-sm-6">
+                  <div className="social col-lg-12 col-md-12 col-sm-12">
                     <ul>
                       <li>
                         <a
@@ -118,18 +118,6 @@ const Developer = () => {
                       />
                     </a>
                   </div>
-                  {/* <div className="col-lg-6 col-md-6 col-sm-12">
-                    <a
-                      href="https://scrutinizer-ci.com/g/ArnobMahmud/Fabric-Engineering-Web"
-                      target="_blank"
-                      rel="noreferrer"
-                    >
-                      <img
-                        src="https://img.shields.io/scrutinizer/quality/g/ArnobMahmud/Fabric-Engineering-Web?color=green&label=Code%20Quality%20x%2F10&logo=Scrutinizer%20CI&logoColor=e0e0e0&style=plastic"
-                        alt="cq"
-                      />
-                    </a>
-                  </div> */}{" "}
                   <div className="col-lg-6 col-md-6 col-sm-12">
                     <a
                       className="foot-link"
@@ -254,6 +242,9 @@ const DeveloperArea = styled.div`
   }
 
   @media (max-width: 991px) {
+    .dev-icon img {
+      margin: 50px 0px;
+    }
   }
 
   @media (max-width: 767px) {

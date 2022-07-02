@@ -1,6 +1,6 @@
 {
   "name": "backend",
-  "version": "1.2.3",
+  "version": "1.2.5",
   "Author": "Arnob Mahmud",
   "description": "Bangladesh University of Textiles (BUTEX) Fabric Manufacturing Engineering (FME) 46th Batch's Departmental Resources Monitoring by Arnob Mahmud.",
   "main": "index.js",
