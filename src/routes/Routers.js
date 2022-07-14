@@ -59,8 +59,14 @@ import AccessoriesPage from "../pages/AccessoriesPage";
 import ArchivePage from "../pages/Archives.js";
 import Covid19 from "../pages/CovidPage";
 import StudentsInfo from "../components/archive/pages/StudentsInfo";
-import Level1Term2Lab from "../components/archive/pages/LabRoutine";
-import Level1Term2Exam from "../components/archive/pages/ExamRoutine";
+import LabRoutine from "../components/archive/pages/LabRoutine";
+import TermExamRoutine from "../components/archive/pages/ExamRoutine";
+
+/* Lab Routine */
+import Level1Term2Lab from "../components/archive/customs/Lab/l1t2lab";
+
+/* Exam Routine */
+import Level1Term2Exam from "../components/archive/customs/Exam/l1t2exam";
 
 /* Developer */
 import DeveloperPage from "../pages/DeveloperPage";
@@ -120,7 +126,13 @@ const RouteHandle = () => {
         <Route exact path="/archives" component={ArchivePage} />
         <Route exact path="/studentsinfo" component={StudentsInfo} />
         <Route exact path="/covid19updates" component={Covid19} />
+        <Route exact path="/labroutine" component={LabRoutine} />
+        <Route exact path="/termexamroutine" component={TermExamRoutine} />
+
+        {/********* Lab Section Starts Here ************/}
         <Route exact path="/l1t2lab" component={Level1Term2Lab} />
+
+        {/********* Exam Section Starts Here ************/}
         <Route exact path="/l1t2exam" component={Level1Term2Exam} />
 
         {/********* Developer Section Starts Here ************/}

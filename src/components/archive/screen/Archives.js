@@ -23,15 +23,15 @@ export default function StudentsHomeScreen() {
           <div className="col-lg-5 col-md-6 col-sm-12">
             <ArchiveCard
               title="Lab Routine"
-              subTitle="Level 1 - Term 2 Lab Routine of Fabric Engineering Department."
-              accessLink="/l1t2lab"
+              subTitle="Lab Routine of Fabric Engineering Department."
+              accessLink="/labroutine"
             />
           </div>
           <div className="col-lg-5 col-md-6 col-sm-12">
             <ArchiveCard
               title="Exam Routine"
-              subTitle="Level 1 - Term 2 Final Exam Routine of Fabric Engineering Department."
-              accessLink="/l1t2exam"
+              subTitle="Term Final Exam Routine of Fabric Engineering Department."
+              accessLink="/termexamroutine"
             />
           </div>
         </div>

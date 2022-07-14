@@ -1,6 +1,5 @@
 import HashLoader from "react-spinners/HashLoader";
 import React from "react";
-import audio from "../audio/time.mp3";
 
 const Spinner = (props) => {
   const style = {
@@ -12,10 +11,6 @@ const Spinner = (props) => {
   };
   return (
     <>
-      <audio controls autoPlay="true" loop="true" hidden>
-        <source src={audio} type="audio/mp3" />
-      </audio>
-      
       <div style={style}>
         <HashLoader color={"#283f50"} loading={props.loading} size={130} />
       </div>

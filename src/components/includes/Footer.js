@@ -41,12 +41,12 @@ function Footer() {
                   </Link>
                 }
                 link3={
-                  <Link className="foot-link" to="/l1t2lab">
+                  <Link className="foot-link" to="/labroutine">
                     Lab Routine
                   </Link>
                 }
                 link4={
-                  <Link className="foot-link" to="/l1t2exam">
+                  <Link className="foot-link" to="/termexamroutine">
                     Exam Routine
                   </Link>
                 }
