@@ -9,6 +9,7 @@ const NoteDataCard = (props) => {
         <div className="content">
           <h1>{props.course}</h1>
           <h5>Course Code : {props.courseCode}</h5>
+          <p>Lecturers : {props.lecturer}.</p>
           <div className="btn">
             <Link to={props.accessLink}>
               Find Notes <ImBook />

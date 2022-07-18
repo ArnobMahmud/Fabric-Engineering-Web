@@ -2,37 +2,37 @@
     {
         "course": "Statistics",
         "courseCode": "MS 201",
-        "lecturer": "",
+        "lecturer": "Kawsar Sir, Rabbi Sir",
         "access": "/stat2-1"
     },
     {
         "course": "Fiber & Yarn Testing (FYT)",
         "courseCode": "YE 201",
-        "lecturer": "",
+        "lecturer": "Hasib Sir, Jalal Sir",
         "access": "/fyt2-1"
     },
     {
-        "course": "Weaving Preparatory Process (WPP)",
+        "course": "Weaving Preparatory Process (WvgPP)",
         "courseCode": "FE 203",
-        "lecturer": "",
+        "lecturer": "Mohaddes Sir, Mamun Sir",
         "access": "/wpp2-1"
     },
     {
         "course": "Yarn Manufacturing I (YM I)",
         "courseCode": "YE 213",
-        "lecturer": "",
+        "lecturer": "Reza Sir, Rubel Sir",
         "access": "/ym2-1"
     },
     {
         "course": "Man-made Textile Fibers (MMTF)",
         "courseCode": "YE 203",
-        "lecturer": "",
+        "lecturer": "Abbas Sir, Reajul Sir",
         "access": "/mmtf2-1"
     },
     {
         "course": "Fundamentals of Mechanical Engineering (FME)",
         "courseCode": "IPE 203",
-        "lecturer": "",
+        "lecturer": "Muntashir Sir, PTT",
         "access": "/fme2-1"
     }
 ]

@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import data from "../../json/Level2Term1/Level2Term1-data.json";
 import { ResourceArea } from "../../Palette";
 import NoteDataCard from "../../widgets/NoteDataCard";
+
 export class Level2Term1 extends Component {
   render() {
     return (

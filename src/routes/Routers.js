@@ -7,9 +7,10 @@ import HomePage from "../pages/HomePage";
 import Footer from "../components/includes/Footer";
 
 /* Error Screen */
-import ErrorScreen from "../components/screens/AnnounceScreenIII";
+import ErrorScreen1 from "../components/screens/AnnounceScreenIII";
 import ErrorScreen2 from "../components/screens/InformationScreen";
 import ErrorScreen3 from "../components/screens/404";
+import ErrorScreen4 from "../components/screens/NoRoutine";
 
 /* Resource */
 import ResourcePage from "../pages/ResourcePage";
@@ -63,10 +64,12 @@ import LabRoutine from "../components/archive/pages/LabRoutine";
 import TermExamRoutine from "../components/archive/pages/ExamRoutine";
 
 /* Lab Routine */
-import Level1Term2Lab from "../components/archive/customs/Lab/l1t2lab";
+import Level1Term2Lab from "../components/archive/customs/Lab/L1T2Lab";
+import Level2Term1Lab from "../components/archive/customs/Lab/L2T1Lab";
 
 /* Exam Routine */
-import Level1Term2Exam from "../components/archive/customs/Exam/l1t2exam";
+import Level1Term2Exam from "../components/archive/customs/Exam/L1T2Exam";
+import Level2Term1Exam from "../components/archive/customs/Exam/L2T1Exam";
 
 /* Developer */
 import DeveloperPage from "../pages/DeveloperPage";
@@ -131,16 +134,19 @@ const RouteHandle = () => {
 
         {/********* Lab Section Starts Here ************/}
         <Route exact path="/l1t2lab" component={Level1Term2Lab} />
+        <Route exact path="/l2t1lab" component={Level2Term1Lab} />
 
         {/********* Exam Section Starts Here ************/}
         <Route exact path="/l1t2exam" component={Level1Term2Exam} />
+        <Route exact path="/l2t1exam" component={Level2Term1Exam} />
 
         {/********* Developer Section Starts Here ************/}
         <Route exact path="/developer" component={DeveloperPage} />
 
         {/********* Error Section Starts Here ************/}
-        <Route exact path="/404" component={ErrorScreen} />
+        <Route exact path="/404" component={ErrorScreen1} />
         <Route exact path="/501" component={ErrorScreen2} />
+        <Route exact path="/503" component={ErrorScreen4} />
         <Route component={ErrorScreen3} />
 
         <Redirect to="/" />

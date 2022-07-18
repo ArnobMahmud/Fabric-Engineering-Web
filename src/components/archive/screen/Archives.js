@@ -1,7 +1,8 @@
 import React from "react";
 import ArchiveCard from "../widgets/ArchivesCard";
 import { InfoArea } from "../Palette";
-export default function StudentsHomeScreen() {
+
+export default function ArchiveScreen() {
   return (
     <InfoArea>
       <div className="container">

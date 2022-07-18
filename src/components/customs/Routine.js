@@ -10,13 +10,13 @@ const Routine = () => {
         <div className="container">
           <div className="row align-items-center justify-content-around">
             <div className="col-xl-5 col-lg-5 col-md-12 col-sm-12">
-              <img src={Rotimg} alt=""  />
+              <img src={Rotimg} alt="" />
             </div>
             <div className="col-xl-5 col-lg-5 col-md-12 col-sm-12">
               <div className="section-title">
                 <RoutineCard
                   title="Routine"
-                  driveLink="https://drive.google.com/file/d/1tQfwJulaJvKpJ2snhavqDAgX0KovXeIz/view"
+                  driveLink="https://drive.google.com/file/d/1ivxA3ZpiJvI_G44BocV_h2HYpgHNGySe/view"
                   command="Learn More"
                 />
               </div>

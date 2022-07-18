@@ -1,6 +1,6 @@
 {
-  "date": "",
-  "lecturer": "",
-  "discussedTopics": "",
+  "title": "",
+  "subTitle": "",
+  "description": "",
   "driveLink": ""
 }

@@ -1,6 +1,6 @@
 {
   "name": "fabric-engineering-web",
-  "version": "1.2.5",
+  "version": "1.2.6",
   "author": "Arnob Mahmud",
   "private": true,
   "dependencies": {
