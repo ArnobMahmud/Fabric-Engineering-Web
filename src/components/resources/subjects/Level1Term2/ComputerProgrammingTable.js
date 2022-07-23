@@ -13,7 +13,7 @@ const ComputerProgrammingTable = () => {
     const timing = setTimeout(() => {
       axios
         .get(
-          "https://fabricweb-backend-server.herokuapp.com/api/v1/resources/cp1-2"
+          "https://fabric-web-backend-server.herokuapp.com/api/v1/resources/cp1-2"
         )
         .then((response) => {
           setResource(response.data);

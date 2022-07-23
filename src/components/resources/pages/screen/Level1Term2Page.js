@@ -3,6 +3,7 @@ import ResourceDataCard from "../../widgets/ResourceDataCard";
 import data from "../../json/Level1Term2/Level1Term2-data.json";
 import { ResourceArea } from "../../Palette";
 import PdfResourceCard from '../../widgets/PdfResourceCard'
+
 export class Level1Term2 extends Component {
   render() {
     return (

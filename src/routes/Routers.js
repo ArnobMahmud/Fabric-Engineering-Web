@@ -64,12 +64,12 @@ import LabRoutine from "../components/archive/pages/LabRoutine";
 import TermExamRoutine from "../components/archive/pages/ExamRoutine";
 
 /* Lab Routine */
-import Level1Term2Lab from "../components/archive/customs/Lab/Level1Term2Lab";
-import Level2Term1Lab from "../components/archive/customs/Lab/Level2Term1Lab";
+import Level1Term2Lab from "../components/archive/customs/lab/Level1Term2Lab";
+import Level2Term1Lab from "../components/archive/customs/lab/Level2Term1Lab";
 
 /* Exam Routine */
-import Level1Term2Exam from "../components/archive/customs/Exam/Level1Term2Exam";
-import Level2Term1Exam from "../components/archive/customs/Exam/Level2Term1Exam";
+import Level1Term2Exam from "../components/archive/customs/exam/Level1Term2Exam";
+import Level2Term1Exam from "../components/archive/customs/exam/Level2Term1Exam";
 
 /* Developer */
 import DeveloperPage from "../pages/DeveloperPage";

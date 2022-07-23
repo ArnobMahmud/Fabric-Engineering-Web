@@ -13,7 +13,7 @@ const EngineeringMaterialsTable = () => {
     const timing = setTimeout(() => {
       axios
         .get(
-          "https://fabricweb-backend-server.herokuapp.com/api/v1/resources/em1-2"
+          "https://fabric-web-backend-server.herokuapp.com/api/v1/resources/em1-2"
         )
         .then((response) => {
           setResource(response.data);

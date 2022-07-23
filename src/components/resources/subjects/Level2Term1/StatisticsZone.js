@@ -14,7 +14,7 @@ const StatisticsZone = () => {
     const timing = setTimeout(() => {
       axios
         .get(
-          "https://fabricweb-backend-server.herokuapp.com/api/v1/notes/stat2-1"
+          "https://fabric-web-backend-server.herokuapp.com/api/v1/notes/stat2-1"
         )
         .then((response) => {
           setNote(response.data);

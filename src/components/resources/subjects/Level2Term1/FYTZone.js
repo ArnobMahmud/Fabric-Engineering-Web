@@ -14,7 +14,7 @@ const FYTZone = () => {
     const timing = setTimeout(() => {
       axios
         .get(
-          "https://fabricweb-backend-server.herokuapp.com/api/v1/notes/fyt2-1"
+          "https://fabric-web-backend-server.herokuapp.com/api/v1/notes/fyt2-1"
         )
         .then((response) => {
           setNote(response.data);

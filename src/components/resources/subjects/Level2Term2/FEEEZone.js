@@ -14,7 +14,7 @@ const FEEEZone = () => {
     const timing = setTimeout(() => {
       axios
         .get(
-          "https://fabricweb-backend-server.herokuapp.com/api/v1/notes/feee2-2"
+          "https://fabric-web-backend-server.herokuapp.com/api/v1/notes/feee2-2"
         )
         .then((response) => {
           setNote(response.data);

@@ -25,14 +25,14 @@ export default function Resource() {
             <div className="col-xl-5 col-md-6 col-sm-12">
               <ResourceTreeCard
                 level="Level 2 - Term 1"
-                content="Statistics, Fiber & Yarn Testing (FYT), Man-made Textile Fibers (MMTF), Yarn Manufacturing I (YM I), Weaving Preparatory Process (WvgPP), Fundamentals of Mechanical Engineering (FME)"
+                content="Statistics, Fiber & Yarn Testing (FYT), Man-made Textile Fibers (MMTF), Yarn Manufacturing(YM) I, Weaving Preparatory Process (WvgPP), Fundamentals of Mechanical Engineering (FME)"
                 accessLink="/level2-term1"
               />
             </div>
             <div className="col-xl-5 col-md-6 col-sm-12">
               <ResourceTreeCard
                 level="Level 2 - Term 2"
-                content="Textile Physics (TP), Weaving I (Wv I), Wet Processing I (WP I), Fundamentals of Marketing (FMkt), Apparel Manufacturing I (AM I), Fundamentals of Electrical & Electronics Engineering (FEEE)"
+                content="Textile Physics (TP), Weaving(Wvg) I, Wet Processing(WP) I, Fundamentals of Marketing (FMkt), Apparel Manufacturing(AM) I, Fundamentals of Electrical & Electronics Engineering (FEEE)"
                 accessLink="/level2-term2"
               />
             </div>

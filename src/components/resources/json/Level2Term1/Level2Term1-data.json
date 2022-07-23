@@ -18,7 +18,7 @@
         "access": "/wpp2-1"
     },
     {
-        "course": "Yarn Manufacturing I (YM I)",
+        "course": "Yarn Manufacturing (YM) I",
         "courseCode": "YE 213",
         "lecturer": "Reza Sir, Rubel Sir",
         "access": "/ym2-1"
@@ -32,7 +32,7 @@
     {
         "course": "Fundamentals of Mechanical Engineering (FME)",
         "courseCode": "IPE 203",
-        "lecturer": "Muntashir Sir, PTT",
+        "lecturer": "Muntashir Sir, Fahim Sir",
         "access": "/fme2-1"
     }
 ]
