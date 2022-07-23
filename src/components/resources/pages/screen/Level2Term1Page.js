@@ -21,17 +21,17 @@ export class Level2Term1 extends Component {
                   />
                 </div>
               ))}
+              <div className="col-lg-5 col-md-6 col-sm-12">
+                <PdfResourceCard
+                  title="PDF Folder"
+                  subTitle="Level 2 - Term 1"
+                  description="PDF & Utilities of each courses."
+                  driveLink="https://drive.google.com/drive/folders/18gYBqC-ztwYd1hv69xe0NrBozf4kaLI_"
+                />
+              </div>
             </div>
           </div>
         </ResourceArea>
-        <div className="col-lg-5 col-md-6 col-sm-12">
-          <PdfResourceCard
-            title="PDF Folder"
-            subTitle="Level 2 - Term 1"
-            description="PDF & Utilities of each courses."
-            driveLink="https://drive.google.com/drive/folders/18gYBqC-ztwYd1hv69xe0NrBozf4kaLI_"
-          />
-        </div>
       </>
     );
   }
