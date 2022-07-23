@@ -1,0 +1,3 @@
+[submodule "fabric-web-backend-server"]
+	path = fabric-web-backend-server
+	url = https://github.com/ArnobMahmud/Fabric-Engineering-Web.git
