@@ -28,7 +28,7 @@ function Footer() {
             </div>
             <div className="col-lg-3 col-md-6 col-sm-12">
               <FooterLink
-                title="Individual Sections"
+                title="Discrete Segments"
                 subTitle=""
                 link1={
                   <Link className="foot-link" to="/resource">
@@ -64,7 +64,7 @@ function Footer() {
             </div>
             <div className="col-lg-3 col-md-6 col-sm-12">
               <FooterLink
-                title="Extras"
+                title="Supplementary Modules"
                 subTitle=" "
                 link1={
                   <Link className="foot-link" to="/accessories">
@@ -72,13 +72,13 @@ function Footer() {
                   </Link>
                 }
                 link2={
-                  <Link className="foot-link" to="/accessories">
-                    Routine
+                  <Link className="foot-link" to="/syllabus">
+                    Syllabus
                   </Link>
                 }
                 link3={
-                  <Link className="foot-link" to="/syllabus">
-                    Syllabus
+                  <Link className="foot-link" to="/accessories">
+                    Routine
                   </Link>
                 }
                 link4={

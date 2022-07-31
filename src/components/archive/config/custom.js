@@ -59,6 +59,7 @@ export const SafeArea = styled.div`
     border-color: #fdfdfd61;
     font-size: 18px;
     font-weight: 400;
+    width: 25% ;
   }
   table tr td img {
     border-radius: 50%;
