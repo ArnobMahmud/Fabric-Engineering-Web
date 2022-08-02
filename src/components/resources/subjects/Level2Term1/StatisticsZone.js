@@ -5,7 +5,7 @@ import CustomSkeletonStructure2 from "../../../screens/skeleton/CustomSkeletonSt
 import CustomSkeletonStructure from "../../../screens/skeleton/CustomSkeletonStructure";
 import { ImBook } from "react-icons/im";
 import FolderPathCard from "../../widgets/FolderPathCard";
-import { CourseArea } from "../../../config/Palette";
+import { OnlineResourceArea } from "../../../config/Palette";
 
 const StatisticsZone = () => {
   const [resource, setResource] = useState([]);
@@ -32,7 +32,9 @@ const StatisticsZone = () => {
     setLoading(true);
     const timing = setTimeout(() => {
       axios
-        .get("http://localhost:5000/api/v1/resources/stat2-1")
+        .get(
+          "https://fabric-web-backend-server.herokuapp.com/api/v1/resources/stat2-1"
+        )
         .then((response) => {
           setResource(response.data);
           setLoading(false);
@@ -90,7 +92,7 @@ const StatisticsZone = () => {
           </div>
         </div>
       </ResourceArea>
-      <CourseArea>
+      <OnlineResourceArea>
         <div className="container">
           <div className="row justify-content-center">
             <div className="card col-xl-12 col-lg-12 col-md-12 col-sm-12">
@@ -190,7 +192,7 @@ const StatisticsZone = () => {
             </div>
           </div>
         </div>
-      </CourseArea>
+      </OnlineResourceArea>
     </>
   );
 };
