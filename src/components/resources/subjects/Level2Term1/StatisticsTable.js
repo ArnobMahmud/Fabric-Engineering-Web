@@ -1,16 +1,11 @@
 import axios from "axios";
 import React, { useState, useEffect } from "react";
-import { ResourceArea } from "../../Palette";
-import CustomSkeletonStructure2 from "../../../screens/skeleton/CustomSkeletonStructureII";
-import CustomSkeletonStructure from "../../../screens/skeleton/CustomSkeletonStructure";
-import { ImBook } from "react-icons/im";
-import FolderPathCard from "../../widgets/FolderPathCard";
 import { CourseArea } from "../../../config/Palette";
+import CustomSkeletonStructure from "../../../screens/skeleton/CustomSkeletonStructure";
 
-const StatisticsZone = () => {
+const StatisticsTable = () => {
   const [resource, setResource] = useState([]);
   const [search, setSearch] = useState("");
-  const [note, setNote] = useState([]);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
@@ -18,21 +13,8 @@ const StatisticsZone = () => {
     const timing = setTimeout(() => {
       axios
         .get(
-          "https://fabric-web-backend-server.herokuapp.com/api/v1/notes/stat2-1"
+          "https://fabric-web-backend-server.herokuapp.com/api/v1/resources/cp1-2"
         )
-        .then((response) => {
-          setNote(response.data);
-          setLoading(false);
-        });
-    }, 2500);
-    return () => clearTimeout(timing);
-  }, []);
-
-  useEffect(() => {
-    setLoading(true);
-    const timing = setTimeout(() => {
-      axios
-        .get("http://localhost:5000/api/v1/resources/stat2-1")
         .then((response) => {
           setResource(response.data);
           setLoading(false);
@@ -42,60 +24,13 @@ const StatisticsZone = () => {
   }, []);
 
   return (
-    <>
-      <ResourceArea>
-        <div className="container">
-          <div className="row justify-content-center align-items-center">
-            {loading
-              ? Array(4)
-                  .fill()
-                  .map((_, index) => (
-                    <div className="col-lg-5 col-md-6 col-sm-12">
-                      <FolderPathCard
-                        title={
-                          <CustomSkeletonStructure2 height={30} width={`100`} />
-                        }
-                        subTitle={
-                          <CustomSkeletonStructure2 height={30} width={`100`} />
-                        }
-                        description={
-                          <CustomSkeletonStructure2 height={30} width={`100`} />
-                        }
-                        driveLink={
-                          <CustomSkeletonStructure2 height={40} width={`35%`} />
-                        }
-                      />
-                    </div>
-                  ))
-              : note.map((e, key) => (
-                  <div key={key} className="col-lg-5 col-md-6 col-sm-12">
-                    <div className="card">
-                      <div className="content">
-                        <h1>{e.title}</h1>
-                        <h5>{e.subTitle}</h5>
-                        <p>{e.description}</p>
-                        <div className="btn">
-                          <a
-                            href={e.driveLink}
-                            target="_blank"
-                            rel="noreferrer"
-                          >
-                            Visit Here <ImBook />
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                ))}
-          </div>
-        </div>
-      </ResourceArea>
+    <div>
       <CourseArea>
         <div className="container">
           <div className="row justify-content-center">
             <div className="card col-xl-12 col-lg-12 col-md-12 col-sm-12">
               <div className="section-title">
-                <h1>Statistics</h1>
+                <h1>Computer Programming (CP)</h1>
               </div>
               <input
                 type="text"
@@ -191,7 +126,8 @@ const StatisticsZone = () => {
           </div>
         </div>
       </CourseArea>
-    </>
+    </div>
   );
 };
-export default StatisticsZone;
+
+export default StatisticsTable;

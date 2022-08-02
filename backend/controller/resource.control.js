@@ -10,9 +10,11 @@ const {
   CP1_2_ResourceModel,
   PSE1_2_ResourceModel,
   EM1_2_ResourceModel,
+  Stat2_1_ResourceModel,
 } = require("../models/resource.model");
 
 /* Get Request */
+/* L1 T1 */
 const getAllBCE1_1 = (req, res) => {
   BCE1_1_ResourceModel.find({}, (err, result) => {
     if (err) {
@@ -64,6 +66,7 @@ const getAllNTF1_1 = (req, res) => {
   });
 };
 
+/* L1 T2 */
 const getAllPhysics1_2 = (req, res) => {
   Physics1_2_ResourceModel.find({}, (err, result) => {
     if (err) {
@@ -125,8 +128,20 @@ const getAllPSE1_2 = (req, res) => {
   });
 };
 
-/* Post Request */
+/* L2 T1*/
+const getAllStat2_1 = (req, res) => {
+  Stat2_1_ResourceModel.find({}, (err, result) => {
+    if (err) {
+      res.status(500).json({ msg: err });
+    } else {
+      res.status(200).json(result);
+      console.log(result);
+    }
+  });
+};
 
+/* Post Request */
+/* L1 T1 */
 const createBCE1_1 = async (req, res) => {
   try {
     const resource = req.body;
@@ -188,6 +203,7 @@ const createNTF1_1 = async (req, res) => {
   }
 };
 
+/* L1 T2 */
 const createPhysics1_2 = async (req, res) => {
   try {
     const resource = req.body;
@@ -261,8 +277,22 @@ const createPSE1_2 = async (req, res) => {
   }
 };
 
-/* Get by ID Request */
+/* L2 T1 */
+const createStat2_1 = async (req, res) => {
+  try {
+    const resource = req.body;
+    const newResource = new Stat2_1_ResourceModel(resource);
+    await newResource.save();
 
+    res.status(200).json({ resource });
+    console.log(resource);
+  } catch (error) {
+    res.status(500).json({ msg: error });
+  }
+};
+
+/* Get by ID Request */
+/* L1 T1 */
 const getBCE1_1 = async (req, res) => {
   try {
     const { id: resourceID } = req.params;
@@ -337,6 +367,7 @@ const getNTF1_1 = async (req, res) => {
   }
 };
 
+/* L1 T2 */
 const getPhysics1_2 = async (req, res) => {
   try {
     const { id: resourceID } = req.params;
@@ -428,8 +459,25 @@ const getPSE1_2 = async (req, res) => {
   }
 };
 
-/* Delete Request */
+/* L2 T1 */
+const getStat2_1 = async (req, res) => {
+  try {
+    const { id: resourceID } = req.params;
+    const resource = await Stat2_1_ResourceModel.findOne({
+      _id: resourceID,
+    });
+    if (!resource) {
+      res.status(500).json({ msg: `No resource with id : ${resourceID}` });
+    } else {
+      res.status(200).json({ resource });
+    }
+  } catch (error) {
+    res.status(500).json({ msg: error });
+  }
+};
 
+/* Delete Request */
+/* L1 T1 */
 const deleteBCE1_1 = async (req, res) => {
   console.log(req.params);
   let data = await BCE1_1_ResourceModel.deleteOne(req.params);
@@ -457,6 +505,7 @@ const deleteNtf1_1 = async (req, res) => {
   res.send(data);
 };
 
+/* L1 T2 */
 const deletePhysics1_2 = async (req, res) => {
   console.log(req.params);
   let data = await Physics1_2_ResourceModel.deleteOne(req.params);
@@ -488,6 +537,13 @@ const deletePSE1_2 = async (req, res) => {
   res.send(data);
 };
 
+/* L2 T1 */
+const deleteStat2_1 = async (req, res) => {
+  console.log(req.params);
+  let data = await Stat2_1_ResourceModel.deleteOne(req.params);
+  res.send(data);
+};
+
 /* Update Request */
 
 module.exports = {
@@ -504,6 +560,8 @@ module.exports = {
   getAllEM1_2,
   getAllPSE1_2,
 
+  getAllStat2_1,
+
   createBCE1_1,
   createPhysics1_1,
   createChemistry1_1,
@@ -516,6 +574,8 @@ module.exports = {
   createCP1_2,
   createEM1_2,
   createPSE1_2,
+
+  createStat2_1,
 
   getBCE1_1,
   getPhysics1_1,
@@ -530,6 +590,8 @@ module.exports = {
   getEM1_2,
   getPSE1_2,
 
+  getStat2_1,
+
   deleteBCE1_1,
   deletePhysics1_1,
   deleteChemistry1_1,
@@ -542,4 +604,6 @@ module.exports = {
   deleteEM1_2,
   deleteCP1_2,
   deletePSE1_2,
+
+  deleteStat2_1,
 };
