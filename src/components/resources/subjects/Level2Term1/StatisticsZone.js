@@ -1,11 +1,11 @@
 import axios from "axios";
 import React, { useState, useEffect } from "react";
-import { ResourceArea } from "../../Palette";
+import { OnlineResourceArea } from "../../Palette";
 import CustomSkeletonStructure2 from "../../../screens/skeleton/CustomSkeletonStructureII";
 import CustomSkeletonStructure from "../../../screens/skeleton/CustomSkeletonStructure";
 import { ImBook } from "react-icons/im";
 import FolderPathCard from "../../widgets/FolderPathCard";
-import { OnlineResourceArea } from "../../../config/Palette";
+import { CourseArea } from "../../../config/Palette";
 
 const StatisticsZone = () => {
   const [resource, setResource] = useState([]);
@@ -45,7 +45,7 @@ const StatisticsZone = () => {
 
   return (
     <>
-      <OnlineResourceArea>
+      <CourseArea>
         <div className="container">
           <div className="row justify-content-center">
             <div className="card col-xl-12 col-lg-12 col-md-12 col-sm-12">
@@ -87,7 +87,7 @@ const StatisticsZone = () => {
                 </tbody>
                 <tbody>
                   {loading
-                    ? Array(30)
+                    ? Array(10)
                         .fill()
                         .map((item, index) => (
                           <tr>
@@ -145,8 +145,8 @@ const StatisticsZone = () => {
             </div>
           </div>
         </div>
-      </OnlineResourceArea>
-      <ResourceArea>
+      </CourseArea>
+      <OnlineResourceArea>
         <div className="container">
           <div className="row justify-content-center align-items-center">
             {loading
@@ -192,7 +192,7 @@ const StatisticsZone = () => {
                 ))}
           </div>
         </div>
-      </ResourceArea>
+      </OnlineResourceArea>
     </>
   );
 };
