@@ -11,6 +11,7 @@ const {
   PSE1_2_ResourceModel,
   EM1_2_ResourceModel,
   Stat2_1_ResourceModel,
+  YM2_1_ResourceModel
 } = require("../models/resource.model");
 
 /* Get Request */
@@ -131,6 +132,17 @@ const getAllPSE1_2 = (req, res) => {
 /* L2 T1*/
 const getAllStat2_1 = (req, res) => {
   Stat2_1_ResourceModel.find({}, (err, result) => {
+    if (err) {
+      res.status(500).json({ msg: err });
+    } else {
+      res.status(200).json(result);
+      console.log(result);
+    }
+  });
+};
+
+const getAllYM2_1 = (req, res) => {
+YM2_1_ResourceModel.find({}, (err, result) => {
     if (err) {
       res.status(500).json({ msg: err });
     } else {
@@ -282,6 +294,18 @@ const createStat2_1 = async (req, res) => {
   try {
     const resource = req.body;
     const newResource = new Stat2_1_ResourceModel(resource);
+    await newResource.save();
+
+    res.status(200).json({ resource });
+    console.log(resource);
+  } catch (error) {
+    res.status(500).json({ msg: error });
+  }
+};
+const createYM2_1 = async (req, res) => {
+  try {
+    const resource = req.body;
+    const newResource = new YM2_1_ResourceModel(resource);
     await newResource.save();
 
     res.status(200).json({ resource });
@@ -475,7 +499,21 @@ const getStat2_1 = async (req, res) => {
     res.status(500).json({ msg: error });
   }
 };
-
+const getYM2_1 = async (req, res) => {
+  try {
+    const { id: resourceID } = req.params;
+    const resource = await YM2_1_ResourceModel.findOne({
+      _id: resourceID,
+    });
+    if (!resource) {
+      res.status(500).json({ msg: `No resource with id : ${resourceID}` });
+    } else {
+      res.status(200).json({ resource });
+    }
+  } catch (error) {
+    res.status(500).json({ msg: error });
+  }
+};
 /* Delete Request */
 /* L1 T1 */
 const deleteBCE1_1 = async (req, res) => {
@@ -543,6 +581,11 @@ const deleteStat2_1 = async (req, res) => {
   let data = await Stat2_1_ResourceModel.deleteOne(req.params);
   res.send(data);
 };
+const deleteYM2_1 = async (req, res) => {
+  console.log(req.params);
+  let data = await YM2_1_ResourceModel.deleteOne(req.params);
+  res.send(data);
+};
 
 /* Update Request */
 
@@ -561,6 +604,7 @@ module.exports = {
   getAllPSE1_2,
 
   getAllStat2_1,
+  getAllYM2_1,
 
   createBCE1_1,
   createPhysics1_1,
@@ -576,6 +620,7 @@ module.exports = {
   createPSE1_2,
 
   createStat2_1,
+  createYM2_1,
 
   getBCE1_1,
   getPhysics1_1,
@@ -591,6 +636,7 @@ module.exports = {
   getPSE1_2,
 
   getStat2_1,
+  getYM2_1,
 
   deleteBCE1_1,
   deletePhysics1_1,
@@ -606,4 +652,5 @@ module.exports = {
   deletePSE1_2,
 
   deleteStat2_1,
+  deleteYM2_1,
 };

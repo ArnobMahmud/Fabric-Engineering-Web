@@ -53,7 +53,8 @@ const PSE1_2_ResourceModel = mongoose.model("pse1-2_resource", ResourceSchema);
 const EM1_2_ResourceModel = mongoose.model("em1-2_resource", ResourceSchema);
 
 /* Level 2 - Term 1 */
-const Stat2_1_ResourceModel = mongoose.model("stat2_1_resource", ResourceSchema);
+const Stat2_1_ResourceModel = mongoose.model("stat2-1_resource", ResourceSchema);
+const YM2_1_ResourceModel = mongoose.model("ym2-1_resource", ResourceSchema);
 
 module.exports = {
   BCE1_1_ResourceModel,
@@ -67,5 +68,6 @@ module.exports = {
   CP1_2_ResourceModel,
   PSE1_2_ResourceModel,
   EM1_2_ResourceModel,
-  Stat2_1_ResourceModel
+  Stat2_1_ResourceModel,
+  YM2_1_ResourceModel
 };

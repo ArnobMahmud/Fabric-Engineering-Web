@@ -16,6 +16,7 @@ const {
   getAllPSE1_2,
 
   getAllStat2_1,
+  getAllYM2_1,
 
   getBCE1_1,
   getPhysics1_1,
@@ -31,6 +32,7 @@ const {
   getPSE1_2,
 
   getStat2_1,
+  getYM2_1,
 
   createBCE1_1,
   createPhysics1_1,
@@ -46,6 +48,7 @@ const {
   createPSE1_2,
 
   createStat2_1,
+  createYM2_1,
 
   deleteBCE1_1,
   deletePhysics1_1,
@@ -61,6 +64,7 @@ const {
   deletePSE1_2,
 
   deleteStat2_1,
+  deleteYM2_1,
 } = require("../controller/resource.control");
 
 /* Get All Request */
@@ -82,6 +86,7 @@ router.route("/resources/em1-2").get(limiter, getAllEM1_2);
 
 /* L2 T1 */
 router.route("/resources/stat2-1").get(limiter, getAllStat2_1);
+router.route("/resources/ym2-1").get(limiter, getAllYM2_1);
 
 /* Post Request */
 /* L1 T1 */
@@ -101,6 +106,7 @@ router.route("/createResource/pse1-2").post(createPSE1_2);
 
 /* L2 T1 */
 router.route("/createResource/stat2-1").post(createStat2_1);
+router.route("/createResource/ym2-1").post(createYM2_1);
 
 /* Get by ID Request */
 /* L1 T1 */
@@ -120,6 +126,7 @@ router.route("/resource/em1-2/:id").get(limiter, getEM1_2);
 
 /* L2 T1 */
 router.route("/resource/stat2-1/:id").get(limiter, getStat2_1);
+router.route("/resource/ym2-1/:id").get(limiter, getStat2_1);
 
 /* Delete Request */
 /* L1 T1 */
@@ -143,5 +150,6 @@ router.route("/deleteResource/pse1-2/:_id").delete(limiter, deletePSE1_2);
 
 /* L2 T1 */
 router.route("/deleteResource/stat2-1/:_id").delete(limiter, deleteStat2_1);
+router.route("/deleteResource/ym2-1/:_id").delete(limiter, deleteYM2_1);
 
 module.exports = router;
