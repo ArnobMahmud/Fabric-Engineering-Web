@@ -1,5 +1,5 @@
 import React from "react";
-import Devimg from "../../assets/developer.png";
+import Devimg from "../../assets/developer/dvp2.jpg";
 import styled from "styled-components";
 import audio from "../../audio/final_ascent.mp3";
 

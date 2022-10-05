@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import data from "../../json/Level2Term1/Level2Term1-data.json";
 import { ResourceArea } from "../../Palette";
-import NoteDataCard from "../../widgets/NoteDataCard";
+import ResourceDataCard from "../../widgets/ResourceDataCard";
 import PdfResourceCard from "../../widgets/PdfResourceCard";
 
 export class Level2Term1 extends Component {
@@ -13,7 +13,7 @@ export class Level2Term1 extends Component {
             <div className="row justify-content-center align-items-center">
               {data.map((e) => (
                 <div className="col-lg-5 col-md-6 col-sm-12">
-                  <NoteDataCard
+                  <ResourceDataCard
                     course={e.course}
                     courseCode={e.courseCode}
                     lecturer={e.lecturer}

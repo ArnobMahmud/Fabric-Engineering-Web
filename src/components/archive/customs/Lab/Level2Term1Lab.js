@@ -15,13 +15,13 @@ export default function Level2Term1Lab() {
                 <th>Day</th>
                 <th>8:00AM - 9:40AM</th>
                 <th>9:50AM - 11:30AM</th>
-                <th>-</th>
+                <th>2:00PM - 3:40PM</th>
               </tr>
               <tbody>
                 <tr>
                   <td>Sunday</td>
-                  <td>Yarn Manufacturing (YM) - I</td>
-                  <td>Fabric & Yarn Testing (FYT)</td>
+                  <td>-</td>
+                  <td>Ya</td>
                   <td>-</td>
                 </tr>
                 <tr>
@@ -81,7 +81,7 @@ export default function Level2Term1Lab() {
                 <th>Day</th>
                 <th>8:00AM - 9:40AM</th>
                 <th>9:50AM - 11:30AM</th>
-                <th>2:50PM - 4:30PM</th>
+                <th>2:00PM - 3:40PM</th>
               </tr>
               <tbody>
                 <tr>

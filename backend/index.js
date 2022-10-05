@@ -1,12 +1,13 @@
 const express = require("express");
 const bodyParser = require("body-parser");
 const cors = require("cors");
-const dotenv = require("dotenv");
 const path = require("path");
 const resources = require("./routes/resource.route");
 const notes = require("./routes/notes.route");
-const connectDB = require("./database/DB");
 const rateLimiter = require("./middleware/RateLimit");
+
+const connectDB = require("./database/DB");
+const dotenv = require("dotenv");
 dotenv.config({ path: "./config.env" });
 
 /* Environment */
