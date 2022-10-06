@@ -59,6 +59,10 @@ const Stat2_1_ResourceModel = mongoose.model(
 );
 const YM2_1_ResourceModel = mongoose.model("ym2-1_resource", ResourceSchema);
 const FME2_1_ResourceModel = mongoose.model("fme2-1_resource", ResourceSchema);
+const MMTF2_1_ResourceModel = mongoose.model(
+  "mmtf2-1_resource",
+  ResourceSchema
+);
 
 module.exports = {
   BCE1_1_ResourceModel,
@@ -77,4 +81,5 @@ module.exports = {
   Stat2_1_ResourceModel,
   YM2_1_ResourceModel,
   FME2_1_ResourceModel,
+  MMTF2_1_ResourceModel,
 };

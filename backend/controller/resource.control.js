@@ -13,6 +13,7 @@ const {
   Stat2_1_ResourceModel,
   YM2_1_ResourceModel,
   FME2_1_ResourceModel,
+  MMTF2_1_ResourceModel,
 } = require("../models/resource.model");
 
 /* Get Request */
@@ -155,6 +156,17 @@ const getAllYM2_1 = (req, res) => {
 
 const getAllFME2_1 = (req, res) => {
   FME2_1_ResourceModel.find({}, (err, result) => {
+    if (err) {
+      res.status(500).json({ msg: err });
+    } else {
+      res.status(200).json(result);
+      console.log(result);
+    }
+  });
+};
+
+const getAllMMTF2_1 = (req, res) => {
+  MMTF2_1_ResourceModel.find({}, (err, result) => {
     if (err) {
       res.status(500).json({ msg: err });
     } else {
@@ -338,6 +350,18 @@ const createFME2_1 = async (req, res) => {
   }
 };
 
+const createMMTF2_1 = async (req, res) => {
+  try {
+    const resource = req.body;
+    const newResource = new MMTF2_1_ResourceModel(resource);
+    await newResource.save();
+
+    res.status(200).json({ resource });
+    console.log(resource);
+  } catch (error) {
+    res.status(500).json({ msg: error });
+  }
+};
 /* Get by ID Request */
 /* L1 T1 */
 const getBCE1_1 = async (req, res) => {
@@ -552,6 +576,22 @@ const getFME2_1 = async (req, res) => {
     res.status(500).json({ msg: error });
   }
 };
+
+const getMMTF2_1 = async (req, res) => {
+  try {
+    const { id: resourceID } = req.params;
+    const resource = await MMTF2_1_ResourceModel.findOne({
+      _id: resourceID,
+    });
+    if (!resource) {
+      res.status(500).json({ msg: `No resource with id : ${resourceID}` });
+    } else {
+      res.status(200).json({ resource });
+    }
+  } catch (error) {
+    res.status(500).json({ msg: error });
+  }
+};
 /* Delete Request */
 /* L1 T1 */
 const deleteBCE1_1 = async (req, res) => {
@@ -629,7 +669,11 @@ const deleteFME2_1 = async (req, res) => {
   let data = await FME2_1_ResourceModel.deleteOne(req.params);
   res.send(data);
 };
-
+const deleteMMTF2_1 = async (req, res) => {
+  console.log(req.params);
+  let data = await MMTF2_1_ResourceModel.deleteOne(req.params);
+  res.send(data);
+};
 /* Update Request */
 
 module.exports = {
@@ -649,6 +693,7 @@ module.exports = {
   getAllStat2_1,
   getAllYM2_1,
   getAllFME2_1,
+  getAllMMTF2_1,
 
   createBCE1_1,
   createPhysics1_1,
@@ -666,6 +711,7 @@ module.exports = {
   createStat2_1,
   createYM2_1,
   createFME2_1,
+  createMMTF2_1,
 
   getBCE1_1,
   getPhysics1_1,
@@ -683,6 +729,7 @@ module.exports = {
   getStat2_1,
   getYM2_1,
   getFME2_1,
+  getMMTF2_1,
 
   deleteBCE1_1,
   deletePhysics1_1,
@@ -700,4 +747,5 @@ module.exports = {
   deleteStat2_1,
   deleteYM2_1,
   deleteFME2_1,
+  deleteMMTF2_1,
 };
