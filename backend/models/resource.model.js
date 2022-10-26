@@ -63,7 +63,10 @@ const MMTF2_1_ResourceModel = mongoose.model(
   "mmtf2-1_resource",
   ResourceSchema
 );
-
+const WvgPP2_1_ResourceModel = mongoose.model(
+  "wvgpp2-1_resource",
+  ResourceSchema
+);
 module.exports = {
   BCE1_1_ResourceModel,
   Physics1_1_ResourceModel,
@@ -82,4 +85,5 @@ module.exports = {
   YM2_1_ResourceModel,
   FME2_1_ResourceModel,
   MMTF2_1_ResourceModel,
+  WvgPP2_1_ResourceModel,
 };

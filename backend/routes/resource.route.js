@@ -19,6 +19,7 @@ const {
   getAllYM2_1,
   getAllFME2_1,
   getAllMMTF2_1,
+  getAllWvgPP2_1,
 
   getBCE1_1,
   getPhysics1_1,
@@ -37,6 +38,7 @@ const {
   getYM2_1,
   getFME2_1,
   getMMTF2_1,
+  getWvgPP2_1,
 
   createBCE1_1,
   createPhysics1_1,
@@ -55,6 +57,7 @@ const {
   createYM2_1,
   createFME2_1,
   createMMTF2_1,
+  createWvgPP2_1,
 
   deleteBCE1_1,
   deletePhysics1_1,
@@ -73,6 +76,7 @@ const {
   deleteYM2_1,
   deleteFME2_1,
   deleteMMTF2_1,
+  deleteWvgPP2_1,
 } = require("../controller/resource.control");
 
 /* Get All Request */
@@ -97,6 +101,7 @@ router.route("/resources/stat2-1").get(limiter, getAllStat2_1);
 router.route("/resources/ym2-1").get(limiter, getAllYM2_1);
 router.route("/resources/fme2-1").get(limiter, getAllFME2_1);
 router.route("/resources/mmtf2-1").get(limiter, getAllMMTF2_1);
+router.route("/resources/wvgpp2-1").get(limiter, getAllWvgPP2_1);
 
 /* Post Request */
 /* L1 T1 */
@@ -119,6 +124,7 @@ router.route("/createResource/stat2-1").post(limiter, createStat2_1);
 router.route("/createResource/ym2-1").post(limiter, createYM2_1);
 router.route("/createResource/fme2-1").post(limiter, createFME2_1);
 router.route("/createResource/mmtf2-1").post(limiter, createMMTF2_1);
+router.route("/createResource/wvgpp2-1").post(limiter, createWvgPP2_1);
 
 /* Get by ID Request */
 /* L1 T1 */
@@ -141,6 +147,7 @@ router.route("/resource/stat2-1/:id").get(limiter, getStat2_1);
 router.route("/resource/ym2-1/:id").get(limiter, getYM2_1);
 router.route("/resource/fme2-1/:id").get(limiter, getFME2_1);
 router.route("/resource/mmtf2-1/:id").get(limiter, getMMTF2_1);
+router.route("/resource/wvgpp2-1/:id").get(limiter, getWvgPP2_1);
 
 /* Delete Request */
 /* L1 T1 */
@@ -167,5 +174,6 @@ router.route("/deleteResource/stat2-1/:_id").delete(limiter, deleteStat2_1);
 router.route("/deleteResource/ym2-1/:_id").delete(limiter, deleteYM2_1);
 router.route("/deleteResource/fme2-1/:_id").delete(limiter, deleteFME2_1);
 router.route("/deleteResource/mmtf2-1/:_id").delete(limiter, deleteMMTF2_1);
+router.route("/deleteResource/wvgpp2-1/:_id").delete(limiter, deleteWvgPP2_1);
 
 module.exports = router;

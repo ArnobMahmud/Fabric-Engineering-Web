@@ -14,6 +14,7 @@ const {
   YM2_1_ResourceModel,
   FME2_1_ResourceModel,
   MMTF2_1_ResourceModel,
+  WvgPP2_1_ResourceModel,
 } = require("../models/resource.model");
 
 /* Get Request */
@@ -167,6 +168,17 @@ const getAllFME2_1 = (req, res) => {
 
 const getAllMMTF2_1 = (req, res) => {
   MMTF2_1_ResourceModel.find({}, (err, result) => {
+    if (err) {
+      res.status(500).json({ msg: err });
+    } else {
+      res.status(200).json(result);
+      console.log(result);
+    }
+  });
+};
+
+const getAllWvgPP2_1 = (req, res) => {
+  WvgPP2_1_ResourceModel.find({}, (err, result) => {
     if (err) {
       res.status(500).json({ msg: err });
     } else {
@@ -354,6 +366,19 @@ const createMMTF2_1 = async (req, res) => {
   try {
     const resource = req.body;
     const newResource = new MMTF2_1_ResourceModel(resource);
+    await newResource.save();
+
+    res.status(200).json({ resource });
+    console.log(resource);
+  } catch (error) {
+    res.status(500).json({ msg: error });
+  }
+};
+
+const createWvgPP2_1 = async (req, res) => {
+  try {
+    const resource = req.body;
+    const newResource = new WvgPP2_1_ResourceModel(resource);
     await newResource.save();
 
     res.status(200).json({ resource });
@@ -592,6 +617,22 @@ const getMMTF2_1 = async (req, res) => {
     res.status(500).json({ msg: error });
   }
 };
+
+const getWvgPP2_1 = async (req, res) => {
+  try {
+    const { id: resourceID } = req.params;
+    const resource = await WvgPP2_1_ResourceModel.findOne({
+      _id: resourceID,
+    });
+    if (!resource) {
+      res.status(500).json({ msg: `No resource with id : ${resourceID}` });
+    } else {
+      res.status(200).json({ resource });
+    }
+  } catch (error) {
+    res.status(500).json({ msg: error });
+  }
+};
 /* Delete Request */
 /* L1 T1 */
 const deleteBCE1_1 = async (req, res) => {
@@ -674,6 +715,11 @@ const deleteMMTF2_1 = async (req, res) => {
   let data = await MMTF2_1_ResourceModel.deleteOne(req.params);
   res.send(data);
 };
+const deleteWvgPP2_1 = async (req, res) => {
+  console.log(req.params);
+  let data = await WvgPP2_1_ResourceModel.deleteOne(req.params);
+  res.send(data);
+};
 /* Update Request */
 
 module.exports = {
@@ -694,6 +740,7 @@ module.exports = {
   getAllYM2_1,
   getAllFME2_1,
   getAllMMTF2_1,
+  getAllWvgPP2_1,
 
   createBCE1_1,
   createPhysics1_1,
@@ -712,6 +759,7 @@ module.exports = {
   createYM2_1,
   createFME2_1,
   createMMTF2_1,
+  createWvgPP2_1,
 
   getBCE1_1,
   getPhysics1_1,
@@ -730,6 +778,7 @@ module.exports = {
   getYM2_1,
   getFME2_1,
   getMMTF2_1,
+  getWvgPP2_1,
 
   deleteBCE1_1,
   deletePhysics1_1,
@@ -748,4 +797,5 @@ module.exports = {
   deleteYM2_1,
   deleteFME2_1,
   deleteMMTF2_1,
+  deleteWvgPP2_1,
 };
