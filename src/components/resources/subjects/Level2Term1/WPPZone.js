@@ -18,7 +18,7 @@ const WPPZone = () => {
     const timing = setTimeout(() => {
       axios
         .get(
-          "https://fabric-web-backend-server.herokuapp.com/api/v1/notes/stat2-1"
+          "https://fabric-web-backend-server.herokuapp.com/api/v1/notes/wvgpp2-1"
         )
         .then((response) => {
           setNote(response.data);
