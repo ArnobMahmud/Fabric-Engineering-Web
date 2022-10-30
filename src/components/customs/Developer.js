@@ -1,7 +1,12 @@
 import React from "react";
 import Devimg from "../../assets/developer/dvp2.jpg";
+import project1 from "../../assets/project/1.png";
+import project2 from "../../assets/project/2.png";
+import project3 from "../../assets/project/3.png";
+import project4 from "../../assets/project/4.png";
 import styled from "styled-components";
 import audio from "../../audio/final_ascent.mp3";
+import DeveloperProjectCard from "../widgets/DeveloperProjectCard";
 
 const Developer = () => {
   return (
@@ -137,6 +142,34 @@ const Developer = () => {
           </div>
         </div>
       </DeveloperArea>
+
+      <DeveloperProjectArea>
+        <div className="container">
+          <div className="row justify-content-around align-items-center">
+            <DeveloperProjectCard
+              img={project1}
+              title="Better Learn Programming"
+              subTitle="About
+This application is developed for educational purpose, allowing the users to gain programming knowledge and helps to prepare himself/herself for interview conducted on provincial level. All Major Programming Language in one App. Learn c++ , Java , Python and Javascript ."
+            />{" "}
+            <DeveloperProjectCard
+              img={project4}
+              title="Yarn Count Converter"
+              subTitle="In the textile industry, the yarn count is used to express how fine or coarse (or thin or thick) the yarn is. We use the English count numbering system, which is part of a larger group known as indirect counting systems."
+            />
+            <DeveloperProjectCard
+              img={project3}
+              title="Covid'19 Tracker"
+              subTitle="Covid’19 Tracker application which provides real time Covid'19 info off : Daily cases, Recovered amount, and number of Deaths as well as total values of every country worldwide! Stay Home , Stay Safe."
+            />
+            <DeveloperProjectCard
+              img={project2}
+              title="BMI Calculator"
+              subTitle="Body mass index (BMI) is a measure of body fat based on height and weight that applies to adult men and women."
+            />
+          </div>
+        </div>
+      </DeveloperProjectArea>
     </>
   );
 };
@@ -269,5 +302,26 @@ const DeveloperArea = styled.div`
       margin: 30px 0px;
       max-width: 100%;
     }
+  }
+`;
+
+const DeveloperProjectArea = styled.div`
+  margin: 30px 0px;
+  h1 {
+    margin-bottom: 20px;
+    font-family: Rubik;
+    font-size: 36px;
+    color: ${({ theme }) => theme.devTitleColor};
+  }
+  p {
+    font-family: "Rubik";
+    font-weight: 400;
+    font-size: 15px;
+    color: bisque;
+    color: #15273a;
+  }
+  img:hover {
+    transition: all 0.5s ease-in;
+    transform: scale(1.1);
   }
 `;
