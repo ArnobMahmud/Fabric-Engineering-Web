@@ -151,7 +151,7 @@ const Developer = () => {
               title="Better Learn Programming"
               subTitle="About
 This application is developed for educational purpose, allowing the users to gain programming knowledge and helps to prepare himself/herself for interview conducted on provincial level. All Major Programming Language in one App. Learn c++ , Java , Python and Javascript ."
-            />{" "}
+            />
             <DeveloperProjectCard
               img={project4}
               title="Yarn Count Converter"
@@ -319,9 +319,5 @@ const DeveloperProjectArea = styled.div`
     font-size: 15px;
     color: bisque;
     color: #15273a;
-  }
-  img:hover {
-    transition: all 0.5s ease-in;
-    transform: scale(1.1);
   }
 `;
