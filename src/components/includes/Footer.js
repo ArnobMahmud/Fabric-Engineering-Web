@@ -53,7 +53,7 @@ function Footer() {
                 link5={
                   <a
                     className="foot-link"
-                    href="https://fabric-web-backend-server.herokuapp.com/"
+                    href="https://fabric-web-backend-server.onrender.com/"
                     target="_blank"
                     rel="noreferrer"
                   >

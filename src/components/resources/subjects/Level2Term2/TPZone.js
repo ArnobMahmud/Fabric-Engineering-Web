@@ -14,7 +14,7 @@ const TPZone = () => {
     const timing = setTimeout(() => {
       axios
         .get(
-          "https://fabric-web-backend-server.herokuapp.com/api/v1/notes/tp2-2"
+          "https://fabric-web-backend-server.onrender.com/api/v1/notes/tp2-2"
         )
         .then((response) => {
           setNote(response.data);

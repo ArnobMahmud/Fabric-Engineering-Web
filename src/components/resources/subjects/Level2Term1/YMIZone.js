@@ -18,7 +18,7 @@ const YMIZone = () => {
     const timing = setTimeout(() => {
       axios
         .get(
-          "https://fabric-web-backend-server.herokuapp.com/api/v1/notes/ym2-1"
+          "https://fabric-web-backend-server.onrender.com/api/v1/notes/ym2-1"
         )
         .then((response) => {
           setNote(response.data);
@@ -33,7 +33,7 @@ const YMIZone = () => {
     const timing = setTimeout(() => {
       axios
         .get(
-          "https://fabric-web-backend-server.herokuapp.com/api/v1/resources/ym2-1"
+          "https://fabric-web-backend-server.onrender.com/api/v1/resources/ym2-1"
         )
         .then((response) => {
           setResource(response.data);

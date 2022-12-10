@@ -13,7 +13,7 @@ const PhysicsTable = () => {
     const timing = setTimeout(() => {
       axios
         .get(
-          "https://fabric-web-backend-server.herokuapp.com/api/v1/resources/phy1-2"
+          "https://fabric-web-backend-server.onrender.com/api/v1/resources/phy1-2"
         )
         .then((response) => {
           setResource(response.data);
