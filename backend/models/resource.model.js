@@ -67,6 +67,21 @@ const WvgPP2_1_ResourceModel = mongoose.model(
   "wvgpp2-1_resource",
   ResourceSchema
 );
+
+/* Level 2 - Term 2 */
+const WP2_2_ResourceModel = mongoose.model("wp2-2_resource", ResourceSchema);
+const WV2_2_ResourceModel = mongoose.model("wv2-2_resource", ResourceSchema);
+const AM2_2_ResourceModel = mongoose.model("am2-2_resource", ResourceSchema);
+const FEEE2_2_ResourceModel = mongoose.model(
+  "feee2-2_resource",
+  ResourceSchema
+);
+const FMkt2_2_ResourceModel = mongoose.model(
+  "fmkt2-2_resource",
+  ResourceSchema
+);
+const TP2_2_ResourceModel = mongoose.model("tp2-2_resource", ResourceSchema);
+
 module.exports = {
   BCE1_1_ResourceModel,
   Physics1_1_ResourceModel,
@@ -86,4 +101,11 @@ module.exports = {
   FME2_1_ResourceModel,
   MMTF2_1_ResourceModel,
   WvgPP2_1_ResourceModel,
+
+  WP2_2_ResourceModel,
+  WV2_2_ResourceModel,
+  FEEE2_2_ResourceModel,
+  FMkt2_2_ResourceModel,
+  AM2_2_ResourceModel,
+  TP2_2_ResourceModel,
 };
