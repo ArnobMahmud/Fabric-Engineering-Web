@@ -36,6 +36,20 @@ export default function Resource() {
                 accessLink="/level2-term2"
               />
             </div>
+            <div className="col-xl-5 col-md-6 col-sm-12">
+              <ResourceTreeCard
+                level="Level 3 - Term 1"
+                content="Yarn Manufacturing(YM) II, Wet Processing(WP) II, Economics, Apparel Manufacturing(AM) II, Knitting(Knit) I, Industrial Management (IM)"
+                accessLink="/level3-term1"
+              />
+            </div>
+            <div className="col-xl-5 col-md-6 col-sm-12">
+              <ResourceTreeCard
+                level="Level 3 - Term 2"
+                content="Application of Computer in Fabric Manufacturing (ACFM), Fabric Structure & Design (FSD), Weaving(Wvg) II, Automation & Control Engineering (ACE), Accounting & Cost Management (ACM)"
+                accessLink="/level3-term2"
+              />
+            </div>
           </div>
         </div>
       </ResourceArea>

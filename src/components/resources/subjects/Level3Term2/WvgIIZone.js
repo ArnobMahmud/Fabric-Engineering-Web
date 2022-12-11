@@ -7,7 +7,7 @@ import CustomSkeletonStructure2 from "../../../screens/skeleton/CustomSkeletonSt
 import CustomSkeletonStructure from "../../../screens/skeleton/CustomSkeletonStructure";
 import { CourseArea } from "../../../config/Palette";
 
-const WeavingZone = () => {
+const WvgIIZone = () => {
   const [resource, setResource] = useState([]);
   const [search, setSearch] = useState("");
   const [note, setNote] = useState([]);
@@ -18,7 +18,7 @@ const WeavingZone = () => {
     const timing = setTimeout(() => {
       axios
         .get(
-          "https://fabric-web-backend-server.onrender.com/api/v1/notes/wv2-2"
+          "https://fabric-web-backend-server.onrender.com/api/v1/notes/am3-1"
         )
         .then((response) => {
           setNote(response.data);
@@ -33,7 +33,7 @@ const WeavingZone = () => {
     const timing = setTimeout(() => {
       axios
         .get(
-          "https://fabric-web-backend-server.onrender.com/api/v1/resources/wv2-2"
+          "https://fabric-web-backend-server.onrender.com/api/v1/resources/am3-1"
         )
         .then((response) => {
           setResource(response.data);
@@ -50,7 +50,7 @@ const WeavingZone = () => {
           <div className="row justify-content-center">
             <div className="card col-xl-12 col-lg-12 col-md-12 col-sm-12">
               <div className="section-title">
-                <h1>Weaving (Wvg) I</h1>
+                <h1>Weaving (Wvg) II</h1>
               </div>
               <input
                 type="text"
@@ -197,4 +197,4 @@ const WeavingZone = () => {
     </>
   );
 };
-export default WeavingZone;
+export default WvgIIZone;

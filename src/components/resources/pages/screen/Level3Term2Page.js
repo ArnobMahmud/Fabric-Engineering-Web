@@ -1,8 +1,9 @@
 import React, { Component } from "react";
-import data from "../../json/Level2Term2/Level2Term2-data.json";
+import data from "../../json/Level3Term2/Level3Term2-data.json";
 import { ResourceArea } from "../../Palette";
 import ResourceDataCard from "../../widgets/ResourceDataCard";
-export class Level2Term2 extends Component {
+
+export class Level3Term2 extends Component {
   render() {
     return (
       <>
@@ -27,4 +28,4 @@ export class Level2Term2 extends Component {
   }
 }
 
-export default Level2Term2;
+export default Level3Term2;

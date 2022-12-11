@@ -18,6 +18,8 @@ import Level1Term1Page from "../components/resources/pages/screen/Level1Term1Pag
 import Level1Term2Page from "../components/resources/pages/screen/Level1Term2Page";
 import Level2Term1Page from "../components/resources/pages/screen/Level2Term1Page";
 import Level2Term2Page from "../components/resources/pages/screen/Level2Term2Page";
+import Level3Term1Page from "../components/resources/pages/screen/Level3Term1Page";
+import Level3Term2Page from "../components/resources/pages/screen/Level3Term2Page";
 
 /* Level 1 Term 1 */
 import BCE1_1 from "../components/resources/pages/Level1Term1/BCEpage";
@@ -44,11 +46,26 @@ import FME2_1 from "../components/resources/pages/Level2Term1/FMEPage";
 
 /* Level 2 Term 2 */
 import TP2_2 from "../components/resources/pages/Level2Term2/TPPage";
-import Weaving2_2 from "../components/resources/pages/Level2Term2/WeavingPage";
+import WvgI2_2 from "../components/resources/pages/Level2Term2/WvgIPage";
 import AMI2_2 from "../components/resources/pages/Level2Term2/AMIPage";
 import FMkt2_2 from "../components/resources/pages/Level2Term2/FMktPage";
 import WPI2_2 from "../components/resources/pages/Level2Term2/WPIPage";
 import FEEE2_2 from "../components/resources/pages/Level2Term2/FEEEPage";
+
+/* Level 3 Term 1 */
+import AMII3_1 from "../components/resources/pages/Level3Term1/AMIIPage";
+import Econ3_1 from "../components/resources/pages/Level3Term1/EconPage";
+import IM3_1 from "../components/resources/pages/Level3Term1/IMPage";
+import Knit3_1 from "../components/resources/pages/Level3Term1/KnitIPage";
+import WPII3_1 from "../components/resources/pages/Level3Term1/WPIIPage";
+import YMII3_1 from "../components/resources/pages/Level3Term1/YMIIPage";
+
+/* Level 3 Term 2 */
+import ACE3_2 from "../components/resources/pages/Level3Term2/ACEPage";
+import ACFM3_2 from "../components/resources/pages/Level3Term2/ACFMPage";
+import ACM3_2 from "../components/resources/pages/Level3Term2/ACMPage";
+import FSD3_2 from "../components/resources/pages/Level3Term2/FSDPage";
+import WvgII3_2 from "../components/resources/pages/Level3Term2/WvgIIPage";
 
 /* Syllabus */
 import SyllabusPage from "../pages/SyllabusPage";
@@ -119,7 +136,24 @@ const RouteHandle = () => {
         <Route exact path="/fmkt2-2" component={FMkt2_2} />
         <Route exact path="/wp2-2" component={WPI2_2} />
         <Route exact path="/feee2-2" component={FEEE2_2} />
-        <Route exact path="/wv2-2" component={Weaving2_2} />
+        <Route exact path="/wvg2-2" component={WvgI2_2} />
+
+        {/* Level 3 Term 1 */}
+        <Route exact path="/level3-term1" component={Level3Term1Page} />
+        <Route exact path="/am3-1" component={AMII3_1} />
+        <Route exact path="/wp3-1" component={WPII3_1} />
+        <Route exact path="/eco3-1" component={Econ3_1} />
+        <Route exact path="/knit3-1" component={Knit3_1} />
+        <Route exact path="/im3-1" component={IM3_1} />
+        <Route exact path="/ym3-1" component={YMII3_1} />
+
+        {/* Level 3 Term 2 */}
+        <Route exact path="/level3-term2" component={Level3Term2Page} />
+        <Route exact path="/ace3-2" component={ACE3_2} />
+        <Route exact path="/acfm3-2" component={ACFM3_2} />
+        <Route exact path="/acm3-2" component={ACM3_2} />
+        <Route exact path="/fsd3-2" component={FSD3_2} />
+        <Route exact path="/wvg3-2" component={WvgII3_2} />
 
         {/********* Syllabus Section Starts Here ************/}
         <Route exact path="/syllabus" component={SyllabusPage} />

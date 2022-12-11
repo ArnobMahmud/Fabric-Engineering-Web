@@ -1,0 +1,38 @@
+[
+    {
+        "course": "Yarn Manufacturing (YM) II",
+        "courseCode": "YE 307",
+        "lecturer": "",
+        "access": "/ym3-1"
+    },
+    {
+        "course": "Wet Processing (WP) II",
+        "courseCode": "WPE 311",
+        "lecturer": "",
+        "access": "/wp3-1"
+    },
+    {
+        "course": "Apparel Manufacturing (AM) II",
+        "courseCode": "AE 309",
+        "lecturer": "",
+        "access": "/am3-1"
+    },
+    {
+        "course": "Economics",
+        "courseCode": "HSS 301",
+        "lecturer": "",
+        "access": "/eco3-1"
+    },
+    {
+        "course": "Knitting (Knit) I",
+        "courseCode": "FE 307",
+        "lecturer": "",
+        "access": "/knit3-1"
+    },
+    {
+        "course": "Industrial Management (IM)",
+        "courseCode": "TEM 313",
+        "lecturer": "",
+        "access": "/im3-1"
+    }
+]
