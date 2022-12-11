@@ -66,20 +66,20 @@ const NavigationBar = () => {
                     </IconContext.Provider>
                   </Link>
                 </li>
-                <li className="nav-item">
+                {/* <li className="nav-item">
                   <Link className="nav-link" to="/developer">
                     <IconContext.Provider value={{ size: "25" }}>
                       Developer
                     </IconContext.Provider>
                   </Link>
-                </li>
-                {/* <li className="nav-item">
+                </li> */}
+                <li className="nav-item">
                   <Link className="nav-link" to="/login">
                     <IconContext.Provider value={{ size: "25" }}>
                       Login
                     </IconContext.Provider>
                   </Link>
-                </li> */}
+                </li>
               </ul>
             </div>
             <Link className="navbar-brand" to="/">
