@@ -73,6 +73,13 @@ const NavigationBar = () => {
                     </IconContext.Provider>
                   </Link>
                 </li>
+                {/* <li className="nav-item">
+                  <Link className="nav-link" to="/login">
+                    <IconContext.Provider value={{ size: "25" }}>
+                      Login
+                    </IconContext.Provider>
+                  </Link>
+                </li> */}
               </ul>
             </div>
             <Link className="navbar-brand" to="/">
