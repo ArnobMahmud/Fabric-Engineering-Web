@@ -15,6 +15,7 @@ const {
   FME2_1_ResourceModel,
   MMTF2_1_ResourceModel,
   WvgPP2_1_ResourceModel,
+  FYT2_1_ResourceModel,
   WP2_2_ResourceModel,
   WV2_2_ResourceModel,
   FEEE2_2_ResourceModel,
@@ -188,6 +189,16 @@ const getAllMMTF2_1 = (req, res) => {
 
 const getAllWvgPP2_1 = (req, res) => {
   WvgPP2_1_ResourceModel.find({}, (err, result) => {
+    if (err) {
+      res.status(500).json({ msg: err });
+    } else {
+      res.status(200).json(result);
+      console.log(result);
+    }
+  });
+};
+const getAllFYT2_1 = (req, res) => {
+  FYT2_1_ResourceModel.find({}, (err, result) => {
     if (err) {
       res.status(500).json({ msg: err });
     } else {
@@ -453,6 +464,19 @@ const createWvgPP2_1 = async (req, res) => {
   try {
     const resource = req.body;
     const newResource = new WvgPP2_1_ResourceModel(resource);
+    await newResource.save();
+
+    res.status(200).json({ resource });
+    console.log(resource);
+  } catch (error) {
+    res.status(500).json({ msg: error });
+  }
+};
+
+const createFYT2_1 = async (req, res) => {
+  try {
+    const resource = req.body;
+    const newResource = new FYT2_1_ResourceModel(resource);
     await newResource.save();
 
     res.status(200).json({ resource });
@@ -784,6 +808,22 @@ const getWvgPP2_1 = async (req, res) => {
     res.status(500).json({ msg: error });
   }
 };
+
+const getFYT2_1 = async (req, res) => {
+  try {
+    const { id: resourceID } = req.params;
+    const resource = await FYT2_1_ResourceModel.findOne({
+      _id: resourceID,
+    });
+    if (!resource) {
+      res.status(500).json({ msg: `No resource with id : ${resourceID}` });
+    } else {
+      res.status(200).json({ resource });
+    }
+  } catch (error) {
+    res.status(500).json({ msg: error });
+  }
+};
 /* L2 T2 */
 const getWV2_2 = async (req, res) => {
   try {
@@ -966,7 +1006,11 @@ const deleteWvgPP2_1 = async (req, res) => {
   let data = await WvgPP2_1_ResourceModel.deleteOne(req.params);
   res.send(data);
 };
-
+const deleteFYT2_1 = async (req, res) => {
+  console.log(req.params);
+  let data = await FYT2_1_ResourceModel.deleteOne(req.params);
+  res.send(data);
+};
 /* L2 T2 */
 const deleteWV2_2 = async (req, res) => {
   console.log(req.params);
@@ -1019,6 +1063,7 @@ module.exports = {
   getAllFME2_1,
   getAllMMTF2_1,
   getAllWvgPP2_1,
+  getAllFYT2_1,
 
   getAllWP2_2,
   getAllWV2_2,
@@ -1045,6 +1090,7 @@ module.exports = {
   createFME2_1,
   createMMTF2_1,
   createWvgPP2_1,
+  createFYT2_1,
 
   createWP2_2,
   createWV2_2,
@@ -1071,6 +1117,7 @@ module.exports = {
   getFME2_1,
   getMMTF2_1,
   getWvgPP2_1,
+  getFYT2_1,
 
   getWV2_2,
   getWP2_2,
@@ -1097,6 +1144,7 @@ module.exports = {
   deleteFME2_1,
   deleteMMTF2_1,
   deleteWvgPP2_1,
+  deleteFYT2_1,
 
   deleteAM2_2,
   deleteWV2_2,

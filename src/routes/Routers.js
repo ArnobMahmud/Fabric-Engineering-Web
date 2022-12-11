@@ -66,10 +66,12 @@ import TermExamRoutine from "../components/archive/pages/ExamRoutine";
 /* Lab Routine */
 import Level1Term2Lab from "../components/archive/customs/Lab/Level1Term2Lab";
 import Level2Term1Lab from "../components/archive/customs/Lab/Level2Term1Lab";
+import Level2Term2Lab from "../components/archive/customs/Lab/Level2Term2Lab";
 
 /* Exam Routine */
 import Level1Term2Exam from "../components/archive/customs/Exam/Level1Term2Exam";
 import Level2Term1Exam from "../components/archive/customs/Exam/Level2Term1Exam";
+import Level2Term2Exam from "../components/archive/customs/Exam/Level2Term2Exam";
 
 /* Developer */
 import DeveloperPage from "../pages/DeveloperPage";
@@ -135,10 +137,12 @@ const RouteHandle = () => {
         {/********* Lab Section Starts Here ************/}
         <Route exact path="/l1t2lab" component={Level1Term2Lab} />
         <Route exact path="/l2t1lab" component={Level2Term1Lab} />
+        <Route exact path="/l2t2lab" component={Level2Term2Lab} />
 
         {/********* Exam Section Starts Here ************/}
         <Route exact path="/l1t2exam" component={Level1Term2Exam} />
         <Route exact path="/l2t1exam" component={Level2Term1Exam} />
+        <Route exact path="/l2t2exam" component={Level2Term2Exam} />
 
         {/********* Developer Section Starts Here ************/}
         <Route exact path="/developer" component={DeveloperPage} />

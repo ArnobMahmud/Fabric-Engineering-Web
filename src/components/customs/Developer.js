@@ -143,7 +143,7 @@ const Developer = () => {
         </div>
       </DeveloperArea>
 
-      <DeveloperProjectArea>
+      {/* <DeveloperProjectArea>
         <div className="container">
           <div className="row justify-content-around align-items-center">
             <DeveloperProjectCard
@@ -169,7 +169,7 @@ This application is developed for educational purpose, allowing the users to gai
             />
           </div>
         </div>
-      </DeveloperProjectArea>
+      </DeveloperProjectArea>  */}
     </>
   );
 };

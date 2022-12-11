@@ -20,6 +20,7 @@ const {
   getAllFME2_1,
   getAllMMTF2_1,
   getAllWvgPP2_1,
+  getAllFYT2_1,
 
   getAllWP2_2,
   getAllWV2_2,
@@ -46,6 +47,7 @@ const {
   getFME2_1,
   getMMTF2_1,
   getWvgPP2_1,
+  getFYT2_1,
 
   getWV2_2,
   getWP2_2,
@@ -72,6 +74,7 @@ const {
   createFME2_1,
   createMMTF2_1,
   createWvgPP2_1,
+  createFYT2_1,
 
   createWP2_2,
   createWV2_2,
@@ -98,6 +101,7 @@ const {
   deleteFME2_1,
   deleteMMTF2_1,
   deleteWvgPP2_1,
+  deleteFYT2_1,
 
   deleteAM2_2,
   deleteWV2_2,
@@ -130,6 +134,7 @@ router.route("/resources/ym2-1").get(limiter, getAllYM2_1);
 router.route("/resources/fme2-1").get(limiter, getAllFME2_1);
 router.route("/resources/mmtf2-1").get(limiter, getAllMMTF2_1);
 router.route("/resources/wvgpp2-1").get(limiter, getAllWvgPP2_1);
+router.route("/resources/fyt2-1").get(limiter, getAllFYT2_1);
 
 /* L2 T2 */
 router.route("/resources/wv2-2").get(limiter, getAllWV2_2);
@@ -161,6 +166,7 @@ router.route("/createResource/ym2-1").post(limiter, createYM2_1);
 router.route("/createResource/fme2-1").post(limiter, createFME2_1);
 router.route("/createResource/mmtf2-1").post(limiter, createMMTF2_1);
 router.route("/createResource/wvgpp2-1").post(limiter, createWvgPP2_1);
+router.route("/createResource/fyt2-1").post(limiter, createFYT2_1);
 
 /* L2 T2 */
 router.route("/createResource/wv2-2").post(limiter, createWV2_2);
@@ -192,6 +198,7 @@ router.route("/resource/ym2-1/:id").get(limiter, getYM2_1);
 router.route("/resource/fme2-1/:id").get(limiter, getFME2_1);
 router.route("/resource/mmtf2-1/:id").get(limiter, getMMTF2_1);
 router.route("/resource/wvgpp2-1/:id").get(limiter, getWvgPP2_1);
+router.route("/resource/fyt2-1/:id").get(limiter, getFYT2_1);
 
 /* L2 T2 */
 router.route("/resource/wp2-2/:id").get(limiter, getWP2_2);
@@ -227,6 +234,7 @@ router.route("/deleteResource/ym2-1/:_id").delete(limiter, deleteYM2_1);
 router.route("/deleteResource/fme2-1/:_id").delete(limiter, deleteFME2_1);
 router.route("/deleteResource/mmtf2-1/:_id").delete(limiter, deleteMMTF2_1);
 router.route("/deleteResource/wvgpp2-1/:_id").delete(limiter, deleteWvgPP2_1);
+router.route("/deleteResource/fyt2-1/:_id").delete(limiter, deleteFYT2_1);
 
 /* L2 T1 */
 router.route("/deleteResource/wv2-2/:_id").delete(limiter, deleteWV2_2);

@@ -55,18 +55,18 @@
 | (ix)    | `CP 1-2`        | https://fabric-web-backend-server.onrender.com/api/v1/resources/cp1-2   |
 | (x)     | `EM 1-2`        | https://fabric-web-backend-server.onrender.com/api/v1/resources/em1-2   |
 | (xi)    | `PSE 1-2`       | https://fabric-web-backend-server.onrender.com/api/v1/resources/pse1-2  |
-| (xii)   | `STAT 2-1`      | https://fabric-web-backend-server.onrender.com/api/v1/notes/stat2-1     |
-| (xiii)  | `FYT 2-1`       | https://fabric-web-backend-server.onrender.com/api/v1/notes/fyt2-1      |
-| (xiv)   | `WPP 2-1`       | https://fabric-web-backend-server.onrender.com/api/v1/notes/wpp2-1      |
-| (xv)    | `YM I 2-1`      | https://fabric-web-backend-server.onrender.com/api/v1/notes/ym2-1       |
-| (xvi)   | `MMTF 2-1`      | https://fabric-web-backend-server.onrender.com/api/v1/notes/mmtf2-1     |
-| (xvii)  | `FME 2-1`       | https://fabric-web-backend-server.onrender.com/api/v1/notes/fme2-1      |
-| (xviii) | `TP 2-2`        | https://fabric-web-backend-server.onrender.com/api/v1/notes/tp2-2       |
-| (xxix)  | `WV 2-2`        | https://fabric-web-backend-server.onrender.com/api/v1/notes/wv2-2       |
-| (xx)    | `WP 2-2`        | https://fabric-web-backend-server.onrender.com/api/v1/notes/wp2-2       |
-| (xxi)   | `AM I 2-2`      | https://fabric-web-backend-server.onrender.com/api/v1/notes/am2-2       |
-| (xxii)  | `FMkt 2-2`      | https://fabric-web-backend-server.onrender.com/api/v1/notes/fmkt2-2     |
-| (xxiii) | `FEEE 2-2`      | https://fabric-web-backend-server.onrender.com/api/v1/notes/feee2-2     |
+| (xii)   | `STAT 2-1`      | https://fabric-web-backend-server.onrender.com/api/v1/resources/stat2-1 |
+| (xiii)  | `FYT 2-1`       | https://fabric-web-backend-server.onrender.com/api/v1/resources/fyt2-1  |
+| (xiv)   | `WPP 2-1`       | https://fabric-web-backend-server.onrender.com/api/v1/resources/wvgpp2-1|
+| (xv)    | `YM I 2-1`      | https://fabric-web-backend-server.onrender.com/api/v1/resources/ym2-1   |
+| (xvi)   | `MMTF 2-1`      | https://fabric-web-backend-server.onrender.com/api/v1/resources/mmtf2-1 |
+| (xvii)  | `FME 2-1`       | https://fabric-web-backend-server.onrender.com/api/v1/resources/fme2-1  |
+| (xviii) | `TP 2-2`        | https://fabric-web-backend-server.onrender.com/api/v1/resources/tp2-2   |
+| (xxix)  | `WV 2-2`        | https://fabric-web-backend-server.onrender.com/api/v1/resources/wv2-2   |
+| (xx)    | `WP 2-2`        | https://fabric-web-backend-server.onrender.com/api/v1/resources/wp2-2   |
+| (xxi)   | `AM I 2-2`      | https://fabric-web-backend-server.onrender.com/api/v1/resources/am2-2   |
+| (xxii)  | `FMkt 2-2`      | https://fabric-web-backend-server.onrender.com/api/v1/resources/fmkt2-2 |
+| (xxiii) | `FEEE 2-2`      | https://fabric-web-backend-server.onrender.com/api/v1/resources/feee2-2 |
 
 
 ## Security Supported Versions

@@ -67,7 +67,7 @@ const WvgPP2_1_ResourceModel = mongoose.model(
   "wvgpp2-1_resource",
   ResourceSchema
 );
-
+const FYT2_1_ResourceModel = mongoose.model("fyt2-1_resource", ResourceSchema);
 /* Level 2 - Term 2 */
 const WP2_2_ResourceModel = mongoose.model("wp2-2_resource", ResourceSchema);
 const WV2_2_ResourceModel = mongoose.model("wv2-2_resource", ResourceSchema);
@@ -101,6 +101,7 @@ module.exports = {
   FME2_1_ResourceModel,
   MMTF2_1_ResourceModel,
   WvgPP2_1_ResourceModel,
+  FYT2_1_ResourceModel,
 
   WP2_2_ResourceModel,
   WV2_2_ResourceModel,

@@ -1,7 +1,7 @@
 import React from "react";
 import { SafeArea } from "../../config/custom";
 
-export default function Level2Term1Lab() {
+export default function Level2Term2Lab() {
   return (
     <SafeArea>
       <div className="container">
@@ -21,7 +21,7 @@ export default function Level2Term1Lab() {
                 <tr>
                   <td>Sunday</td>
                   <td>-</td>
-                  <td>Yarn Manufacturing (YM) - I</td>
+                  <td>Ya</td>
                   <td>-</td>
                 </tr>
                 <tr>
