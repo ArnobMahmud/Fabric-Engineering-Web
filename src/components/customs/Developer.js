@@ -300,19 +300,19 @@ const DeveloperArea = styled.div`
   }
 `;
 
-const DeveloperProjectArea = styled.div`
-  margin: 30px 0px;
-  h1 {
-    margin-bottom: 20px;
-    font-family: Rubik;
-    font-size: 36px;
-    color: ${({ theme }) => theme.devTitleColor};
-  }
-  p {
-    font-family: "Rubik";
-    font-weight: 400;
-    font-size: 15px;
-    color: bisque;
-    color: #15273a;
-  }
-`;
+// const DeveloperProjectArea = styled.div`
+//   margin: 30px 0px;
+//   h1 {
+//     margin-bottom: 20px;
+//     font-family: Rubik;
+//     font-size: 36px;
+//     color: ${({ theme }) => theme.devTitleColor};
+//   }
+//   p {
+//     font-family: "Rubik";
+//     font-weight: 400;
+//     font-size: 15px;
+//     color: bisque;
+//     color: #15273a;
+//   }
+// `;
