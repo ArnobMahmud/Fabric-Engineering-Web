@@ -62,11 +62,22 @@
 | (xvi)   | `MMTF 2-1`      | https://fabric-web-backend-server.onrender.com/api/v1/resources/mmtf2-1 |
 | (xvii)  | `FME 2-1`       | https://fabric-web-backend-server.onrender.com/api/v1/resources/fme2-1  |
 | (xviii) | `TP 2-2`        | https://fabric-web-backend-server.onrender.com/api/v1/resources/tp2-2   |
-| (xxix)  | `WV 2-2`        | https://fabric-web-backend-server.onrender.com/api/v1/resources/wv2-2   |
+| (xxix)  | `WV I 2-2`      | https://fabric-web-backend-server.onrender.com/api/v1/resources/wv2-2   |
 | (xx)    | `WP 2-2`        | https://fabric-web-backend-server.onrender.com/api/v1/resources/wp2-2   |
 | (xxi)   | `AM I 2-2`      | https://fabric-web-backend-server.onrender.com/api/v1/resources/am2-2   |
 | (xxii)  | `FMkt 2-2`      | https://fabric-web-backend-server.onrender.com/api/v1/resources/fmkt2-2 |
 | (xxiii) | `FEEE 2-2`      | https://fabric-web-backend-server.onrender.com/api/v1/resources/feee2-2 |
+| (xxiv)  | `AM II 3-1`     | https://fabric-web-backend-server.onrender.com/api/v1/resources/am3-1   |
+| (xxv)   | `YM II 3-1`     | https://fabric-web-backend-server.onrender.com/api/v1/resources/ym3-1   |
+| (xxvi)  | `WP II 3-1`     | https://fabric-web-backend-server.onrender.com/api/v1/resources/wp3-1   |
+| (xxvii) | `Knit I 3-1`    | https://fabric-web-backend-server.onrender.com/api/v1/resources/knit3-1 |
+| (xxviii)| `Econ 3-1`      | https://fabric-web-backend-server.onrender.com/api/v1/resources/econ3-1 |
+| (xxix)  | `IM 3-1`        | https://fabric-web-backend-server.onrender.com/api/v1/resources/im3-1   |
+| (xxx)   | `ACE 3-2`       | https://fabric-web-backend-server.onrender.com/api/v1/resources/ace3-2  |
+| (xxxi)  | `ACFM 3-2`      | https://fabric-web-backend-server.onrender.com/api/v1/resources/acfm3-2 |
+| (xxxii) | `ACM 3-2`       | https://fabric-web-backend-server.onrender.com/api/v1/resources/acm3-2  |
+| (xxxiii)| `FSD 3-2`       | https://fabric-web-backend-server.onrender.com/api/v1/resources/fsd3-2  |
+| (xxxiv) | `WV II 3-2`     | https://fabric-web-backend-server.onrender.com/api/v1/resources/wv3-2   |
 
 
 ## Security Supported Versions

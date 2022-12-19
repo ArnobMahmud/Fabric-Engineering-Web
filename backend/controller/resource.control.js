@@ -22,6 +22,17 @@ const {
   FMkt2_2_ResourceModel,
   AM2_2_ResourceModel,
   TP2_2_ResourceModel,
+  YM3_1_ResourceModel,
+  WP3_1_ResourceModel,
+  Knit3_1_ResourceModel,
+  AM3_1_ResourceModel,
+  IM3_1_ResourceModel,
+  Econ3_1_ResourceModel,
+  ACE3_2_ResourceModel,
+  ACFM3_2_ResourceModel,
+  ACM3_2_ResourceModel,
+  FSD3_2_ResourceModel,
+  WV3_2_ResourceModel,
 } = require("../models/resource.model");
 
 /*-------------------------------------*/
@@ -268,7 +279,118 @@ const getAllTP2_2 = (req, res) => {
     }
   });
 };
-
+/* L3 T1 */
+const getAllAM3_1 = (req, res) => {
+  AM3_1_ResourceModel.find({}, (err, result) => {
+    if (err) {
+      res.status(500).json({ msg: err });
+    } else {
+      res.status(200).json(result);
+      console.log(result);
+    }
+  });
+};
+const getAllWP3_1 = (req, res) => {
+  WP3_1_ResourceModel.find({}, (err, result) => {
+    if (err) {
+      res.status(500).json({ msg: err });
+    } else {
+      res.status(200).json(result);
+      console.log(result);
+    }
+  });
+};
+const getAllYM3_1 = (req, res) => {
+  YM3_1_ResourceModel.find({}, (err, result) => {
+    if (err) {
+      res.status(500).json({ msg: err });
+    } else {
+      res.status(200).json(result);
+      console.log(result);
+    }
+  });
+};
+const getAllEcon3_1 = (req, res) => {
+  Econ3_1_ResourceModel.find({}, (err, result) => {
+    if (err) {
+      res.status(500).json({ msg: err });
+    } else {
+      res.status(200).json(result);
+      console.log(result);
+    }
+  });
+};
+const getAllKnit3_1 = (req, res) => {
+  Knit3_1_ResourceModel.find({}, (err, result) => {
+    if (err) {
+      res.status(500).json({ msg: err });
+    } else {
+      res.status(200).json(result);
+      console.log(result);
+    }
+  });
+};
+const getAllIM3_1 = (req, res) => {
+  IM3_1_ResourceModel.find({}, (err, result) => {
+    if (err) {
+      res.status(500).json({ msg: err });
+    } else {
+      res.status(200).json(result);
+      console.log(result);
+    }
+  });
+};
+/* L3 T2 */
+const getAllACE3_2 = (req, res) => {
+  ACE3_2_ResourceModel.find({}, (err, result) => {
+    if (err) {
+      res.status(500).json({ msg: err });
+    } else {
+      res.status(200).json(result);
+      console.log(result);
+    }
+  });
+};
+const getAllACM3_2 = (req, res) => {
+  ACM3_2_ResourceModel.find({}, (err, result) => {
+    if (err) {
+      res.status(500).json({ msg: err });
+    } else {
+      res.status(200).json(result);
+      console.log(result);
+    }
+  });
+};
+const getAllACFM3_2 = (req, res) => {
+  ACFM3_2_ResourceModel.find({}, (err, result) => {
+    if (err) {
+      res.status(500).json({ msg: err });
+    } else {
+      res.status(200).json(result);
+      console.log(result);
+    }
+  });
+};
+const getAllFSD3_2 = (req, res) => {
+  FSD3_2_ResourceModel.find({}, (err, result) => {
+    if (err) {
+      res.status(500).json({ msg: err });
+    } else {
+      res.status(200).json(result);
+      console.log(result);
+    }
+  });
+};
+const getAllWV3_2 = (req, res) => {
+  WV3_2_ResourceModel.find({}, (err, result) => {
+    if (err) {
+      res.status(500).json({ msg: err });
+    } else {
+      res.status(200).json(result);
+      console.log(result);
+    }
+  });
+};
 /*-------------------------------------*/
 /*-------------------------------------*/
 
@@ -558,7 +680,140 @@ const createTP2_2 = async (req, res) => {
     res.status(500).json({ msg: error });
   }
 };
+/* L3 T1 */
+const createWP3_1 = async (req, res) => {
+  try {
+    const resource = req.body;
+    const newResource = new WP3_1_ResourceModel(resource);
+    await newResource.save();
 
+    res.status(200).json({ resource });
+    console.log(resource);
+  } catch (error) {
+    res.status(500).json({ msg: error });
+  }
+};
+const createIM3_1 = async (req, res) => {
+  try {
+    const resource = req.body;
+    const newResource = new IM3_1_ResourceModel(resource);
+    await newResource.save();
+
+    res.status(200).json({ resource });
+    console.log(resource);
+  } catch (error) {
+    res.status(500).json({ msg: error });
+  }
+};
+const createKnit3_1 = async (req, res) => {
+  try {
+    const resource = req.body;
+    const newResource = new Knit3_1_ResourceModel(resource);
+    await newResource.save();
+
+    res.status(200).json({ resource });
+    console.log(resource);
+  } catch (error) {
+    res.status(500).json({ msg: error });
+  }
+};
+const createYM3_1 = async (req, res) => {
+  try {
+    const resource = req.body;
+    const newResource = new YM3_1_ResourceModel(resource);
+    await newResource.save();
+
+    res.status(200).json({ resource });
+    console.log(resource);
+  } catch (error) {
+    res.status(500).json({ msg: error });
+  }
+};
+const createAM3_1 = async (req, res) => {
+  try {
+    const resource = req.body;
+    const newResource = new AM3_1_ResourceModel(resource);
+    await newResource.save();
+
+    res.status(200).json({ resource });
+    console.log(resource);
+  } catch (error) {
+    res.status(500).json({ msg: error });
+  }
+};
+const createEcon3_1 = async (req, res) => {
+  try {
+    const resource = req.body;
+    const newResource = new Econ3_1_ResourceModel(resource);
+    await newResource.save();
+
+    res.status(200).json({ resource });
+    console.log(resource);
+  } catch (error) {
+    res.status(500).json({ msg: error });
+  }
+};
+/* L3 T2 */
+const createACE3_2 = async (req, res) => {
+  try {
+    const resource = req.body;
+    const newResource = new ACE3_2_ResourceModel(resource);
+    await newResource.save();
+
+    res.status(200).json({ resource });
+    console.log(resource);
+  } catch (error) {
+    res.status(500).json({ msg: error });
+  }
+};
+const createACFM3_2 = async (req, res) => {
+  try {
+    const resource = req.body;
+    const newResource = new ACFM3_2_ResourceModel(resource);
+    await newResource.save();
+
+    res.status(200).json({ resource });
+    console.log(resource);
+  } catch (error) {
+    res.status(500).json({ msg: error });
+  }
+};
+const createACM3_2 = async (req, res) => {
+  try {
+    const resource = req.body;
+    const newResource = new ACM3_2_ResourceModel(resource);
+    await newResource.save();
+
+    res.status(200).json({ resource });
+    console.log(resource);
+  } catch (error) {
+    res.status(500).json({ msg: error });
+  }
+};
+const createFSD3_2 = async (req, res) => {
+  try {
+    const resource = req.body;
+    const newResource = new FSD3_2_ResourceModel(resource);
+    await newResource.save();
+
+    res.status(200).json({ resource });
+    console.log(resource);
+  } catch (error) {
+    res.status(500).json({ msg: error });
+  }
+};
+const createWV3_2 = async (req, res) => {
+  try {
+    const resource = req.body;
+    const newResource = new WV3_2_ResourceModel(resource);
+    await newResource.save();
+
+    res.status(200).json({ resource });
+    console.log(resource);
+  } catch (error) {
+    res.status(500).json({ msg: error });
+  }
+};
 /*-------------------------------------*/
 /*-------------------------------------*/
 
@@ -915,7 +1170,173 @@ const getTP2_2 = async (req, res) => {
     res.status(500).json({ msg: error });
   }
 };
-
+/* L3 T1 */
+const getAM3_1 = async (req, res) => {
+  try {
+    const { id: resourceID } = req.params;
+    const resource = await AM3_1_ResourceModel.findOne({
+      _id: resourceID,
+    });
+    if (!resource) {
+      res.status(500).json({ msg: `No resource with id : ${resourceID}` });
+    } else {
+      res.status(200).json({ resource });
+    }
+  } catch (error) {
+    res.status(500).json({ msg: error });
+  }
+};
+const getKnit3_1 = async (req, res) => {
+  try {
+    const { id: resourceID } = req.params;
+    const resource = await Knit3_1_ResourceModel.findOne({
+      _id: resourceID,
+    });
+    if (!resource) {
+      res.status(500).json({ msg: `No resource with id : ${resourceID}` });
+    } else {
+      res.status(200).json({ resource });
+    }
+  } catch (error) {
+    res.status(500).json({ msg: error });
+  }
+};
+const getIM3_1 = async (req, res) => {
+  try {
+    const { id: resourceID } = req.params;
+    const resource = await IM3_1_ResourceModel.findOne({
+      _id: resourceID,
+    });
+    if (!resource) {
+      res.status(500).json({ msg: `No resource with id : ${resourceID}` });
+    } else {
+      res.status(200).json({ resource });
+    }
+  } catch (error) {
+    res.status(500).json({ msg: error });
+  }
+};
+const getWP3_1 = async (req, res) => {
+  try {
+    const { id: resourceID } = req.params;
+    const resource = await WP3_1_ResourceModel.findOne({
+      _id: resourceID,
+    });
+    if (!resource) {
+      res.status(500).json({ msg: `No resource with id : ${resourceID}` });
+    } else {
+      res.status(200).json({ resource });
+    }
+  } catch (error) {
+    res.status(500).json({ msg: error });
+  }
+};
+const getYM3_1 = async (req, res) => {
+  try {
+    const { id: resourceID } = req.params;
+    const resource = await YM3_1_ResourceModel.findOne({
+      _id: resourceID,
+    });
+    if (!resource) {
+      res.status(500).json({ msg: `No resource with id : ${resourceID}` });
+    } else {
+      res.status(200).json({ resource });
+    }
+  } catch (error) {
+    res.status(500).json({ msg: error });
+  }
+};
+const getEcon3_1 = async (req, res) => {
+  try {
+    const { id: resourceID } = req.params;
+    const resource = await Econ3_1_ResourceModel.findOne({
+      _id: resourceID,
+    });
+    if (!resource) {
+      res.status(500).json({ msg: `No resource with id : ${resourceID}` });
+    } else {
+      res.status(200).json({ resource });
+    }
+  } catch (error) {
+    res.status(500).json({ msg: error });
+  }
+};
+/* L3 T2 */
+const getACE3_2 = async (req, res) => {
+  try {
+    const { id: resourceID } = req.params;
+    const resource = await ACE3_2_ResourceModel.findOne({
+      _id: resourceID,
+    });
+    if (!resource) {
+      res.status(500).json({ msg: `No resource with id : ${resourceID}` });
+    } else {
+      res.status(200).json({ resource });
+    }
+  } catch (error) {
+    res.status(500).json({ msg: error });
+  }
+};
+const getACFM3_2 = async (req, res) => {
+  try {
+    const { id: resourceID } = req.params;
+    const resource = await ACFM3_2_ResourceModel.findOne({
+      _id: resourceID,
+    });
+    if (!resource) {
+      res.status(500).json({ msg: `No resource with id : ${resourceID}` });
+    } else {
+      res.status(200).json({ resource });
+    }
+  } catch (error) {
+    res.status(500).json({ msg: error });
+  }
+};
+const getACM3_2 = async (req, res) => {
+  try {
+    const { id: resourceID } = req.params;
+    const resource = await ACM3_2_ResourceModel.findOne({
+      _id: resourceID,
+    });
+    if (!resource) {
+      res.status(500).json({ msg: `No resource with id : ${resourceID}` });
+    } else {
+      res.status(200).json({ resource });
+    }
+  } catch (error) {
+    res.status(500).json({ msg: error });
+  }
+};
+const getFSD3_2 = async (req, res) => {
+  try {
+    const { id: resourceID } = req.params;
+    const resource = await FSD3_2_ResourceModel.findOne({
+      _id: resourceID,
+    });
+    if (!resource) {
+      res.status(500).json({ msg: `No resource with id : ${resourceID}` });
+    } else {
+      res.status(200).json({ resource });
+    }
+  } catch (error) {
+    res.status(500).json({ msg: error });
+  }
+};
+const getWV3_2 = async (req, res) => {
+  try {
+    const { id: resourceID } = req.params;
+    const resource = await WV3_2_ResourceModel.findOne({
+      _id: resourceID,
+    });
+    if (!resource) {
+      res.status(500).json({ msg: `No resource with id : ${resourceID}` });
+    } else {
+      res.status(200).json({ resource });
+    }
+  } catch (error) {
+    res.status(500).json({ msg: error });
+  }
+};
 /*-------------------------------------*/
 /*-------------------------------------*/
 
@@ -1042,6 +1463,63 @@ const deleteWP2_2 = async (req, res) => {
   let data = await WP2_2_ResourceModel.deleteOne(req.params);
   res.send(data);
 };
+/* L3 T1 */
+const deleteAM3_1 = async (req, res) => {
+  console.log(req.params);
+  let data = await AM3_1_ResourceModel.deleteOne(req.params);
+  res.send(data);
+};
+const deleteKnit3_1 = async (req, res) => {
+  console.log(req.params);
+  let data = await Knit3_1_ResourceModel.deleteOne(req.params);
+  res.send(data);
+};
+const deleteEcon3_1 = async (req, res) => {
+  console.log(req.params);
+  let data = await Econ3_1_ResourceModel.deleteOne(req.params);
+  res.send(data);
+};
+const deleteWP3_1 = async (req, res) => {
+  console.log(req.params);
+  let data = await WP3_1_ResourceModel.deleteOne(req.params);
+  res.send(data);
+};
+const deleteIM3_1 = async (req, res) => {
+  console.log(req.params);
+  let data = await IM3_1_ResourceModel.deleteOne(req.params);
+  res.send(data);
+};
+const deleteYM3_1 = async (req, res) => {
+  console.log(req.params);
+  let data = await YM3_1_ResourceModel.deleteOne(req.params);
+  res.send(data);
+};
+/* L3 T2 */
+const deleteACE3_2 = async (req, res) => {
+  console.log(req.params);
+  let data = await ACE3_2_ResourceModel.deleteOne(req.params);
+  res.send(data);
+};
+const deleteACFM3_2 = async (req, res) => {
+  console.log(req.params);
+  let data = await ACFM3_2_ResourceModel.deleteOne(req.params);
+  res.send(data);
+};
+const deleteACM3_2 = async (req, res) => {
+  console.log(req.params);
+  let data = await ACM3_2_ResourceModel.deleteOne(req.params);
+  res.send(data);
+};
+const deleteFSD3_2 = async (req, res) => {
+  console.log(req.params);
+  let data = await FSD3_2_ResourceModel.deleteOne(req.params);
+  res.send(data);
+};
+const deleteWV3_2 = async (req, res) => {
+  console.log(req.params);
+  let data = await WV3_2_ResourceModel.deleteOne(req.params);
+  res.send(data);
+};
 /* Update Request */
 
 module.exports = {
@@ -1072,6 +1550,19 @@ module.exports = {
   getAllTP2_2,
   getAllFMkt2_2,
 
+  getAllAM3_1,
+  getAllIM3_1,
+  getAllWP3_1,
+  getAllEcon3_1,
+  getAllYM3_1,
+  getAllKnit3_1,
+
+  getAllACE3_2,
+  getAllACFM3_2,
+  getAllACM3_2,
+  getAllFSD3_2,
+  getAllWV3_2,
+
   createBCE1_1,
   createPhysics1_1,
   createChemistry1_1,
@@ -1098,6 +1589,19 @@ module.exports = {
   createFEEE2_2,
   createAM2_2,
   createFMkt2_2,
+
+  createAM3_1,
+  createIM3_1,
+  createWP3_1,
+  createEcon3_1,
+  createYM3_1,
+  createKnit3_1,
+
+  createACE3_2,
+  createACFM3_2,
+  createACM3_2,
+  createFSD3_2,
+  createWV3_2,
 
   getBCE1_1,
   getPhysics1_1,
@@ -1126,6 +1630,19 @@ module.exports = {
   getFEEE2_2,
   getTP2_2,
 
+  getAM3_1,
+  getIM3_1,
+  getWP3_1,
+  getEcon3_1,
+  getYM3_1,
+  getKnit3_1,
+
+  getACE3_2,
+  getACFM3_2,
+  getACM3_2,
+  getFSD3_2,
+  getWV3_2,
+
   deleteBCE1_1,
   deletePhysics1_1,
   deleteChemistry1_1,
@@ -1152,4 +1669,17 @@ module.exports = {
   deleteTP2_2,
   deleteFEEE2_2,
   deleteFMkt2_2,
+
+  deleteAM3_1,
+  deleteIM3_1,
+  deleteWP3_1,
+  deleteEcon3_1,
+  deleteYM3_1,
+  deleteKnit3_1,
+
+  deleteACE3_2,
+  deleteACFM3_2,
+  deleteACM3_2,
+  deleteFSD3_2,
+  deleteWV3_2,
 };

@@ -1,14 +1,14 @@
 import React from "react";
+import { SafeArea } from "../archive/config/custom";
 
 const Login = () => {
   return (
     <>
       <div className="container">
-        <div className="row">
-         
-        </div>
+        <SafeArea></SafeArea>
       </div>
     </>
   );
 };
+
 export default Login;

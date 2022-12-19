@@ -91,7 +91,7 @@ import Level2Term1Exam from "../components/archive/customs/Exam/Level2Term1Exam"
 import Level2Term2Exam from "../components/archive/customs/Exam/Level2Term2Exam";
 
 /*Login & Signup */
-import Login from "../components/archive/customs/Login";
+import Login from "../components/customs/LogIn";
 
 /* Developer */
 import DeveloperPage from "../pages/DeveloperPage";

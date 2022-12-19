@@ -29,6 +29,19 @@ const {
   getAllTP2_2,
   getAllFMkt2_2,
 
+  getAllAM3_1,
+  getAllIM3_1,
+  getAllWP3_1,
+  getAllEcon3_1,
+  getAllYM3_1,
+  getAllKnit3_1,
+
+  getAllACE3_2,
+  getAllACFM3_2,
+  getAllACM3_2,
+  getAllFSD3_2,
+  getAllWV3_2,
+
   getBCE1_1,
   getPhysics1_1,
   getChemistry1_1,
@@ -55,6 +68,19 @@ const {
   getFMkt2_2,
   getFEEE2_2,
   getTP2_2,
+
+  getAM3_1,
+  getIM3_1,
+  getWP3_1,
+  getEcon3_1,
+  getYM3_1,
+  getKnit3_1,
+
+  getACE3_2,
+  getACFM3_2,
+  getACM3_2,
+  getFSD3_2,
+  getWV3_2,
 
   createBCE1_1,
   createPhysics1_1,
@@ -83,6 +109,19 @@ const {
   createAM2_2,
   createFMkt2_2,
 
+  createAM3_1,
+  createIM3_1,
+  createWP3_1,
+  createEcon3_1,
+  createYM3_1,
+  createKnit3_1,
+
+  createACE3_2,
+  createACFM3_2,
+  createACM3_2,
+  createFSD3_2,
+  createWV3_2,
+
   deleteBCE1_1,
   deletePhysics1_1,
   deleteChemistry1_1,
@@ -109,6 +148,19 @@ const {
   deleteTP2_2,
   deleteFEEE2_2,
   deleteFMkt2_2,
+
+  deleteAM3_1,
+  deleteIM3_1,
+  deleteWP3_1,
+  deleteEcon3_1,
+  deleteYM3_1,
+  deleteKnit3_1,
+
+  deleteACE3_2,
+  deleteACFM3_2,
+  deleteACM3_2,
+  deleteFSD3_2,
+  deleteWV3_2,
 } = require("../controller/resource.control");
 
 /* Get All Request */
@@ -144,6 +196,21 @@ router.route("/resources/fmkt2-2").get(limiter, getAllFMkt2_2);
 router.route("/resources/am2-2").get(limiter, getAllAM2_2);
 router.route("/resources/tp2-2").get(limiter, getAllTP2_2);
 
+/* L3 T1 */
+router.route("/resources/am3-1").get(limiter, getAllAM3_1);
+router.route("/resources/ym3-1").get(limiter, getAllYM3_1);
+router.route("/resources/im3-1").get(limiter, getAllIM3_1);
+router.route("/resources/knit3-1").get(limiter, getAllKnit3_1);
+router.route("/resources/econ3-1").get(limiter, getAllEcon3_1);
+router.route("/resources/wp3-1").get(limiter, getAllWP3_1);
+
+/* L3 T2 */
+router.route("/resources/acm3-2").get(limiter, getAllACM3_2);
+router.route("/resources/acfm3-2").get(limiter, getAllACFM3_2);
+router.route("/resources/acm3-2").get(limiter, getAllACM3_2);
+router.route("/resources/fsd3-2").get(limiter, getAllFSD3_2);
+router.route("/resources/wv3-2").get(limiter, getAllWV3_2);
+
 /* Post Request */
 /* L1 T1 */
 router.route("/createResource/bce1-1").post(limiter, createBCE1_1);
@@ -176,6 +243,21 @@ router.route("/createResource/feee2-2").post(limiter, createFEEE2_2);
 router.route("/createResource/fmkt2-2").post(limiter, createFMkt2_2);
 router.route("/createResource/am2-2").post(limiter, createAM2_2);
 
+/* L3 T1 */
+router.route("/createResource/am3-1").post(limiter, createAM3_1);
+router.route("/createResource/ym3-1").post(limiter, createYM3_1);
+router.route("/createResource/im3-1").post(limiter, createIM3_1);
+router.route("/createResource/econ3-1").post(limiter, createEcon3_1);
+router.route("/createResource/knit3-1").post(limiter, createKnit3_1);
+router.route("/createResource/wp3-1").post(limiter, createWP3_1);
+
+/* L3 T2 */
+router.route("/createResource/ace3-2").post(limiter, createACE3_2);
+router.route("/createResource/acfm3-2").post(limiter, createACFM3_2);
+router.route("/createResource/scm3-2").post(limiter, createACM3_2);
+router.route("/createResource/fsd3-2").post(limiter, createFSD3_2);
+router.route("/createResource/wv3-2").post(limiter, createWV3_2);
+
 /* Get by ID Request */
 /* L1 T1 */
 router.route("/resource/bce1-1/:id").get(limiter, getBCE1_1);
@@ -207,6 +289,21 @@ router.route("/resource/am2-2/:id").get(limiter, getAM2_2);
 router.route("/resource/tp2-2/:id").get(limiter, getTP2_2);
 router.route("/resource/feee2-2/:id").get(limiter, getFEEE2_2);
 router.route("/resource/fmkt2-2/:id").get(limiter, getFMkt2_2);
+
+/* L3 T1 */
+router.route("/resource/am3-1/:id").get(limiter, getAM3_1);
+router.route("/resource/ym3-1/:id").get(limiter, getYM3_1);
+router.route("/resource/im3-1/:id").get(limiter, getIM3_1);
+router.route("/resource/econ3-1/:id").get(limiter, getEcon3_1);
+router.route("/resource/knit3-1/:id").get(limiter, getKnit3_1);
+router.route("/resource/wp3-1/:id").get(limiter, getWP3_1);
+
+/* L3 T2 */
+router.route("/resource/ace3-2/:id").get(limiter, getACE3_2);
+router.route("/resource/acfm3-2/:id").get(limiter, getACFM3_2);
+router.route("/resource/acm3-2/:id").get(limiter, getACM3_2);
+router.route("/resource/fsd3-2/:id").get(limiter, getFSD3_2);
+router.route("/resource/wv3-2/:id").get(limiter, getWV3_2);
 
 /* Delete Request */
 /* L1 T1 */
@@ -243,5 +340,20 @@ router.route("/deleteResource/am2-2/:_id").delete(limiter, deleteAM2_2);
 router.route("/deleteResource/feee2-2/:_id").delete(limiter, deleteFEEE2_2);
 router.route("/deleteResource/fmkt2-2/:_id").delete(limiter, deleteFMkt2_2);
 router.route("/deleteResource/tp2-2/:_id").delete(limiter, deleteTP2_2);
+
+/* L3 T1 */
+router.route("/deleteResource/am3-1/:_id").delete(limiter, deleteAM3_1);
+router.route("/deleteResource/ym3-1/:_id").delete(limiter, deleteYM3_1);
+router.route("/deleteResource/im3-1/:_id").delete(limiter, deleteIM3_1);
+router.route("/deleteResource/knit3-1/:_id").delete(limiter, deleteKnit3_1);
+router.route("/deleteResource/econ3-1/:_id").delete(limiter, deleteEcon3_1);
+router.route("/deleteResource/wp3-1/:_id").delete(limiter, deleteWP3_1);
+
+/* L3 T2 */
+router.route("/deleteResource/ace3-2/:_id").delete(limiter, deleteACE3_2);
+router.route("/deleteResource/acfm3-2/:_id").delete(limiter, deleteACFM3_2);
+router.route("/deleteResource/acm3-2/:_id").delete(limiter, deleteACM3_2);
+router.route("/deleteResource/fsd3-2/:_id").delete(limiter, deleteFSD3_2);
+router.route("/deleteResource/wv3-2/:_id").delete(limiter, deleteWV3_2);
 
 module.exports = router;

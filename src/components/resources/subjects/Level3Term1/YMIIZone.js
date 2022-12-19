@@ -18,7 +18,7 @@ const YMIIZone = () => {
     const timing = setTimeout(() => {
       axios
         .get(
-          "https://fabric-web-backend-server.onrender.com/api/v1/notes/am3-1"
+          "https://fabric-web-backend-server.onrender.com/api/v1/notes/ym3-1"
         )
         .then((response) => {
           setNote(response.data);
@@ -33,7 +33,7 @@ const YMIIZone = () => {
     const timing = setTimeout(() => {
       axios
         .get(
-          "https://fabric-web-backend-server.onrender.com/api/v1/resources/am3-1"
+          "https://fabric-web-backend-server.onrender.com/api/v1/resources/ym3-1"
         )
         .then((response) => {
           setResource(response.data);

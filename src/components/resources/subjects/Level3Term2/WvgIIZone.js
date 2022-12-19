@@ -18,7 +18,7 @@ const WvgIIZone = () => {
     const timing = setTimeout(() => {
       axios
         .get(
-          "https://fabric-web-backend-server.onrender.com/api/v1/notes/am3-1"
+          "https://fabric-web-backend-server.onrender.com/api/v1/notes/wv3-2"
         )
         .then((response) => {
           setNote(response.data);
@@ -33,7 +33,7 @@ const WvgIIZone = () => {
     const timing = setTimeout(() => {
       axios
         .get(
-          "https://fabric-web-backend-server.onrender.com/api/v1/resources/am3-1"
+          "https://fabric-web-backend-server.onrender.com/api/v1/resources/wv3-2"
         )
         .then((response) => {
           setResource(response.data);

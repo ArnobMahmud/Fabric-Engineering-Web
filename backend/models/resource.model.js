@@ -68,6 +68,7 @@ const WvgPP2_1_ResourceModel = mongoose.model(
   ResourceSchema
 );
 const FYT2_1_ResourceModel = mongoose.model("fyt2-1_resource", ResourceSchema);
+
 /* Level 2 - Term 2 */
 const WP2_2_ResourceModel = mongoose.model("wp2-2_resource", ResourceSchema);
 const WV2_2_ResourceModel = mongoose.model("wv2-2_resource", ResourceSchema);
@@ -81,6 +82,30 @@ const FMkt2_2_ResourceModel = mongoose.model(
   ResourceSchema
 );
 const TP2_2_ResourceModel = mongoose.model("tp2-2_resource", ResourceSchema);
+
+/* Level 3 - Term 1 */
+const YM3_1_ResourceModel = mongoose.model("ym3-1_resource", ResourceSchema);
+const AM3_1_ResourceModel = mongoose.model("am3-1_resource", ResourceSchema);
+const Econ3_1_ResourceModel = mongoose.model(
+  "econ3-1_resource",
+  ResourceSchema
+);
+const Knit3_1_ResourceModel = mongoose.model(
+  "knit3-1_resource",
+  ResourceSchema
+);
+const IM3_1_ResourceModel = mongoose.model("im3-1_resource", ResourceSchema);
+const WP3_1_ResourceModel = mongoose.model("wp3-1_resource", ResourceSchema);
+
+/* Level 3 - Term 2 */
+const ACE3_2_ResourceModel = mongoose.model("ace3-2_resource", ResourceSchema);
+const ACFM3_2_ResourceModel = mongoose.model(
+  "acfm3-2_resource",
+  ResourceSchema
+);
+const ACM3_2_ResourceModel = mongoose.model("acm3-2_resource", ResourceSchema);
+const FSD3_2_ResourceModel = mongoose.model("fsd3-2_resource", ResourceSchema);
+const WV3_2_ResourceModel = mongoose.model("wv3-2_resource", ResourceSchema);
 
 module.exports = {
   BCE1_1_ResourceModel,
@@ -109,4 +134,17 @@ module.exports = {
   FMkt2_2_ResourceModel,
   AM2_2_ResourceModel,
   TP2_2_ResourceModel,
+
+  YM3_1_ResourceModel,
+  WP3_1_ResourceModel,
+  Knit3_1_ResourceModel,
+  AM3_1_ResourceModel,
+  IM3_1_ResourceModel,
+  Econ3_1_ResourceModel,
+
+  ACE3_2_ResourceModel,
+  ACFM3_2_ResourceModel,
+  ACM3_2_ResourceModel,
+  FSD3_2_ResourceModel,
+  WV3_2_ResourceModel,
 };
