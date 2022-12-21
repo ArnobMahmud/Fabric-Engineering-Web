@@ -91,7 +91,7 @@ import Level2Term1Exam from "../components/archive/customs/Exam/Level2Term1Exam"
 import Level2Term2Exam from "../components/archive/customs/Exam/Level2Term2Exam";
 
 /*Login & Signup */
-import Login from "../components/customs/LogIn";
+//import Login from "../components/customs/LogIn";
 
 /* Developer */
 import DeveloperPage from "../pages/DeveloperPage";
@@ -182,7 +182,7 @@ const RouteHandle = () => {
         <Route exact path="/l2t2exam" component={Level2Term2Exam} />
 
         {/********** Login & Signup Starts Here ***********/}
-        <Route exact path="/login" component={Login} />
+        {/* <Route exact path="/login" component={Login} /> */}
 
         {/********* Developer Section Starts Here ************/}
         <Route exact path="/developer" component={DeveloperPage} />
