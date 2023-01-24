@@ -3,7 +3,6 @@
 **[Bangladesh University of Textiles (BUTEX)](https://www.butex.edu.bd/) Fabric Manufacturing Engineering (FME) 46th Batch's Departmental Resources Monitoring by Arnob Mahmud.**
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/944bd3d0-a153-41b9-9da2-5ebd88a18994/deploy-status)](https://app.netlify.com/sites/fabricengineering/deploys)<br>
-![GitHub Workflow Status](https://img.shields.io/github/workflow/status/ArnobMahmud/Fabric-Engineering-Web/CodeQL?style=plastic)<br>
 [![](https://img.shields.io/github/package-json/v/ArnobMahmud/Fabric-Engineering-Web?color=lightyellow&label=yarn%20Deployed&logo=yarn&logoColor=yellow&style=plastic)](https://github.com/ArnobMahmud/Fabric-Engineering-Web)<br>
 [![wakatime](https://wakatime.com/badge/github/ArnobMahmud/Fabric-Engineering-Web.svg?style=plastic)](https://wakatime.com/badge/github/ArnobMahmud/Fabric-Engineering-Web)<br>
 [![](https://img.shields.io/badge/License-MIT-critical?style=plastic&logo=appveyor&logoColor=a70023&labelColor=lightblue&color=471e61)](https://github.com/ArnobMahmud/Fabric-Engineering-Web/blob/master/LICENSE)&nbsp;
@@ -42,8 +41,8 @@
 
 **_[`API Access`](https://fabric-web-backend-server.onrender.com/)_**
 
-| SN      | Resources       | APIs                                                                     |
-| ------  | :-------------- | :------------------------------------------------------------------------|
+| SN      | Resources       | APIs                                                                    |
+| ------  | :-------------- | :-----------------------------------------------------------------------|
 | (i)     | `Physics 1-1`   | https://fabric-web-backend-server.onrender.com/api/v1/resources/phy1-1  |
 | (ii)    | `Chemistry 1-1` | https://fabric-web-backend-server.onrender.com/api/v1/resources/chem1-1 |
 | (iii)   | `Math 1-1`      | https://fabric-web-backend-server.onrender.com/api/v1/resources/math1-1 |
@@ -57,12 +56,12 @@
 | (xi)    | `PSE 1-2`       | https://fabric-web-backend-server.onrender.com/api/v1/resources/pse1-2  |
 | (xii)   | `STAT 2-1`      | https://fabric-web-backend-server.onrender.com/api/v1/resources/stat2-1 |
 | (xiii)  | `FYT 2-1`       | https://fabric-web-backend-server.onrender.com/api/v1/resources/fyt2-1  |
-| (xiv)   | `WPP 2-1`       | https://fabric-web-backend-server.onrender.com/api/v1/resources/wvgpp2-1|
+| (xiv)   | `WvgPP 2-1`     | https://fabric-web-backend-server.onrender.com/api/v1/resources/wvgpp2-1|
 | (xv)    | `YM I 2-1`      | https://fabric-web-backend-server.onrender.com/api/v1/resources/ym2-1   |
 | (xvi)   | `MMTF 2-1`      | https://fabric-web-backend-server.onrender.com/api/v1/resources/mmtf2-1 |
 | (xvii)  | `FME 2-1`       | https://fabric-web-backend-server.onrender.com/api/v1/resources/fme2-1  |
 | (xviii) | `TP 2-2`        | https://fabric-web-backend-server.onrender.com/api/v1/resources/tp2-2   |
-| (xxix)  | `WV I 2-2`      | https://fabric-web-backend-server.onrender.com/api/v1/resources/wv2-2   |
+| (xxix)  | `Wvg I 2-2`     | https://fabric-web-backend-server.onrender.com/api/v1/resources/wv2-2   |
 | (xx)    | `WP 2-2`        | https://fabric-web-backend-server.onrender.com/api/v1/resources/wp2-2   |
 | (xxi)   | `AM I 2-2`      | https://fabric-web-backend-server.onrender.com/api/v1/resources/am2-2   |
 | (xxii)  | `FMkt 2-2`      | https://fabric-web-backend-server.onrender.com/api/v1/resources/fmkt2-2 |
@@ -77,7 +76,7 @@
 | (xxxi)  | `ACFM 3-2`      | https://fabric-web-backend-server.onrender.com/api/v1/resources/acfm3-2 |
 | (xxxii) | `ACM 3-2`       | https://fabric-web-backend-server.onrender.com/api/v1/resources/acm3-2  |
 | (xxxiii)| `FSD 3-2`       | https://fabric-web-backend-server.onrender.com/api/v1/resources/fsd3-2  |
-| (xxxiv) | `WV II 3-2`     | https://fabric-web-backend-server.onrender.com/api/v1/resources/wv3-2   |
+| (xxxiv) | `Wvg II 3-2`    | https://fabric-web-backend-server.onrender.com/api/v1/resources/wv3-2   |
 
 
 ## Security Supported Versions

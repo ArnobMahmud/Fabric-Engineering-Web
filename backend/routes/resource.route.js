@@ -189,7 +189,7 @@ router.route("/resources/wvgpp2-1").get(limiter, getAllWvgPP2_1);
 router.route("/resources/fyt2-1").get(limiter, getAllFYT2_1);
 
 /* L2 T2 */
-router.route("/resources/wv2-2").get(limiter, getAllWV2_2);
+router.route("/resources/wvg2-2").get(limiter, getAllWV2_2);
 router.route("/resources/wp2-2").get(limiter, getAllWP2_2);
 router.route("/resources/feee2-2").get(limiter, getAllFEEE2_2);
 router.route("/resources/fmkt2-2").get(limiter, getAllFMkt2_2);
@@ -209,7 +209,7 @@ router.route("/resources/acm3-2").get(limiter, getAllACM3_2);
 router.route("/resources/acfm3-2").get(limiter, getAllACFM3_2);
 router.route("/resources/acm3-2").get(limiter, getAllACM3_2);
 router.route("/resources/fsd3-2").get(limiter, getAllFSD3_2);
-router.route("/resources/wv3-2").get(limiter, getAllWV3_2);
+router.route("/resources/wvg3-2").get(limiter, getAllWV3_2);
 
 /* Post Request */
 /* L1 T1 */

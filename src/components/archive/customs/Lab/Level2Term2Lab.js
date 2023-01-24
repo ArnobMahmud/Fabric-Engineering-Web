@@ -21,18 +21,18 @@ export default function Level2Term2Lab() {
                 <tr>
                   <td>Sunday</td>
                   <td>-</td>
-                  <td>Ya</td>
+                  <td>-</td>
                   <td>-</td>
                 </tr>
                 <tr>
                   <td>Monday</td>
                   <td>-</td>
-                  <td>Fundamentals of Mechanical Engineering (FME)</td>
+                  <td>-</td>
                   <td>-</td>
                 </tr>
                 <tr>
                   <td>Tuesday</td>
-                  <td>Weaving Preparatory Process (WvgPP)</td>
+                  <td>-</td>
                   <td>-</td>
                   <td>-</td>
                 </tr>
@@ -55,18 +55,18 @@ export default function Level2Term2Lab() {
                   <td>Sunday</td>
                   <td>-</td>
                   <td>-</td>
-                  <td>Weaving Preparatory Process (WvgPP)</td>
+                  <td>-</td>
                 </tr>
                 <tr>
                   <td>Monday</td>
-                  <td>Yarn Manufacturing (YM) - I</td>
-                  <td>Fabric & Yarn Testing (FYT)</td>
+                  <td>-</td>
+                  <td>-</td>
                   <td>-</td>
                 </tr>
                 <tr>
                   <td>Tuesday</td>
                   <td>-</td>
-                  <td>Fundamentals of Mechanical Engineering (FME)</td>
+                  <td>-</td>
                   <td>-</td>
                 </tr>
               </tbody>
@@ -87,19 +87,19 @@ export default function Level2Term2Lab() {
                 <tr>
                   <td>Sunday</td>
                   <td>-</td>
-                  <td>Fundamentals of Mechanical Engineering (FME)</td>
+                  <td>-</td>
                   <td>-</td>
                 </tr>
                 <tr>
                   <td>Monday</td>
                   <td>-</td>
                   <td>-</td>
-                  <td>Weaving Preparatory Process (WvgPP)</td>
+                  <td>-</td>
                 </tr>
                 <tr>
                   <td>Tuesday</td>
-                  <td>Yarn Manufacturing (YM) - I</td>
-                  <td>Fabric & Yarn Testing (FYT)</td>
+                  <td>-</td>
+                  <td>-</td>
                   <td>-</td>
                 </tr>
               </tbody>
