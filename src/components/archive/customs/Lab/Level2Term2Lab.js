@@ -1,9 +1,9 @@
 import React from "react";
-import { SafeArea } from "../../config/custom";
+import { LabInfoArea } from "../../config/custom";
 
 export default function Level2Term2Lab() {
   return (
-    <SafeArea>
+    <LabInfoArea>
       <div className="container">
         <div className="row justify-content-center">
           <div className="card col-xl-12 col-md-12 col-sm-12">
@@ -15,12 +15,14 @@ export default function Level2Term2Lab() {
                 <th>Day</th>
                 <th>8:00AM - 9:40AM</th>
                 <th>9:50AM - 11:30AM</th>
+                <th>11:30AM - 1:10PM</th>
                 <th>2:00PM - 3:40PM</th>
               </tr>
               <tbody>
                 <tr>
                   <td>Sunday</td>
                   <td>-</td>
+                  <td>Fundamentals of Electrical & Electronics Engineering</td>
                   <td>-</td>
                   <td>-</td>
                 </tr>
@@ -28,10 +30,12 @@ export default function Level2Term2Lab() {
                   <td>Monday</td>
                   <td>-</td>
                   <td>-</td>
-                  <td>-</td>
+                  <td>Wet Processsing I</td>
+                  <td>Weaving I</td>
                 </tr>
                 <tr>
                   <td>Tuesday</td>
+                  <td>Apparel Manufacturing I</td>
                   <td>-</td>
                   <td>-</td>
                   <td>-</td>
@@ -48,23 +52,27 @@ export default function Level2Term2Lab() {
                 <th>Day</th>
                 <th>8:00AM - 9:40AM</th>
                 <th>9:50AM - 11:30AM</th>
+                <th>11:30AM - 1:10PM</th>
                 <th>2:00PM - 3:40PM</th>
               </tr>
               <tbody>
                 <tr>
                   <td>Sunday</td>
-                  <td>-</td>
+                  <td>Weaving I</td>
+                  <td>Apparel Manufacturing I</td>
                   <td>-</td>
                   <td>-</td>
                 </tr>
                 <tr>
                   <td>Monday</td>
+                  <td>Fundamentals of Electrical & Electronics Engineering</td>
                   <td>-</td>
                   <td>-</td>
                   <td>-</td>
                 </tr>
                 <tr>
                   <td>Tuesday</td>
+                  <td>Wet Processing I</td>
                   <td>-</td>
                   <td>-</td>
                   <td>-</td>
@@ -81,11 +89,13 @@ export default function Level2Term2Lab() {
                 <th>Day</th>
                 <th>8:00AM - 9:40AM</th>
                 <th>9:50AM - 11:30AM</th>
+                <th>11:30AM - 1:10PM</th>
                 <th>2:00PM - 3:40PM</th>
               </tr>
               <tbody>
                 <tr>
                   <td>Sunday</td>
+                  <td>Wet Processing I</td>
                   <td>-</td>
                   <td>-</td>
                   <td>-</td>
@@ -94,10 +104,12 @@ export default function Level2Term2Lab() {
                   <td>Monday</td>
                   <td>-</td>
                   <td>-</td>
-                  <td>-</td>
+                  <td>Weaving I</td>
+                  <td>Apparel Manufacturing I</td>
                 </tr>
                 <tr>
                   <td>Tuesday</td>
+                  <td>Fundamentals of Electrical & Electronics Engineering</td>
                   <td>-</td>
                   <td>-</td>
                   <td>-</td>
@@ -107,6 +119,6 @@ export default function Level2Term2Lab() {
           </div>
         </div>
       </div>
-    </SafeArea>
+    </LabInfoArea>
   );
 }

@@ -131,7 +131,7 @@ function Footer() {
             </div>{" "}
           </div>
           <div className="cpy-rgt">
-            Copyright ©2022 &nbsp;
+            Copyright ©2023 &nbsp;
             <span>
               <Link to="/">Fabric Engineering 46</Link>
             </span>
