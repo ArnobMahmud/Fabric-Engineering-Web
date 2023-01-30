@@ -1,10 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { ImBook } from "react-icons/im";
+import { ResourceTree } from "../Palette";
 
 const ResourceDataCard = (props) => {
   return (
-    <>
+    <ResourceTree>
       <div className="card">
         <div className="content">
           <h1>{props.course}</h1>
@@ -17,7 +18,7 @@ const ResourceDataCard = (props) => {
           </div>
         </div>
       </div>
-    </>
+    </ResourceTree>
   );
 };
 

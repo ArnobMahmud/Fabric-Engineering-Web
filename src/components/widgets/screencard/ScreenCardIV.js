@@ -42,9 +42,11 @@ const ErrorScreen = styled.div`
   }
   h1 {
     font-size: 34px;
+    font-family: "Josefin Sans";
     color: ${({ theme }) => theme.errorh1} !important;
   }
   p {
+    font-family: "Raleway";
     color: ${({ theme }) => theme.errorPara} !important;
     font-size: 20px;
   }

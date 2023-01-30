@@ -2,7 +2,6 @@ import styled from "styled-components";
 
 export const SafeArea = styled.div`
   margin: 200px 0px 40px;
-
   .card {
     background: ${({ theme }) => theme.cardBG};
     align-items: center;
@@ -17,7 +16,7 @@ export const SafeArea = styled.div`
     border: 2px solid #3c493c !important;
     border-radius: 50px;
     margin-bottom: 25px;
-    font-family: "Rubik";
+    font-family: "Raleway";
   }
   input::placeholder {
     color: #0c253a;
@@ -36,6 +35,7 @@ export const SafeArea = styled.div`
     font-size: 26px;
     font-weight: 400;
     margin-bottom: 40px;
+    font-family: "Josefin Sans";
   }
 
   table {
@@ -47,14 +47,14 @@ export const SafeArea = styled.div`
     font-size: 22px;
     font-weight: 500;
     padding: 10px;
+    font-family: "Quicksand";
   }
 
   table tr td {
-    font-family: "Rubik";
+    font-family: "Raleway";
     color: #0b0b0b;
     padding: 10px;
     border-style: none;
-    font-weight: 400;
     height: auto;
     border-color: #fdfdfd61;
     font-size: 18px;

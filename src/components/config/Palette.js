@@ -18,6 +18,7 @@ export const CourseArea = styled.div`
     font-size: 26px;
     font-weight: 400;
     margin-bottom: 40px;
+    font-family: "Josefin Sans";
   }
   input {
     background: transparent;
@@ -28,7 +29,7 @@ export const CourseArea = styled.div`
     border: 2px solid #3c493c !important;
     border-radius: 50px;
     margin-bottom: 25px;
-    font-family: "Rubik";
+    font-family: "Raleway";
   }
   input::placeholder {
     color: #0c253a;
@@ -46,9 +47,10 @@ export const CourseArea = styled.div`
     font-size: 20px;
     font-weight: 500;
     padding: 10px;
+    font-family: "Quicksand";
   }
   table tr td {
-    font-family: "Rubik";
+    font-family: "Raleway";
     color: #0b0b0b;
     padding: 10px;
     border-style: none;
@@ -230,27 +232,6 @@ export const ScreenArea = styled.div`
     }
   }
 
-  /* @-webkit-keyframes rotating {
-    from {
-      -webkit-transform: rotate(0deg);
-      transform: rotate(0deg);
-    }
-    to {
-      -webkit-transform: rotate(360deg);
-      transform: rotate(360deg);
-    }
-  }
-
-  @keyframes rotating {
-    from {
-      -webkit-transform: rotate(0deg);
-      transform: rotate(0deg);
-    }
-    to {
-      -webkit-transform: rotate(360deg);
-      transform: rotate(360deg);
-    }
-  } */
   .content {
     text-align: left;
   }

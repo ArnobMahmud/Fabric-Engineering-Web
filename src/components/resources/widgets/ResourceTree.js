@@ -1,10 +1,11 @@
 import React from "react";
+import { ResourceTree } from "../Palette";
 import { Link } from "react-router-dom";
 import { RiBookletLine } from "react-icons/ri";
 
 const ResourceTreeCard = (props) => {
   return (
-    <>
+    <ResourceTree>
       <div className="card">
         <div className="content">
           <h1>{props.level}</h1>
@@ -17,7 +18,7 @@ const ResourceTreeCard = (props) => {
           </div>
         </div>
       </div>
-    </>
+    </ResourceTree>
   );
 };
 

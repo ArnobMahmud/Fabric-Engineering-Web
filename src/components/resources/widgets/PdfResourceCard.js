@@ -1,9 +1,10 @@
 import React from "react";
 import { ImBook } from "react-icons/im";
+import { ResourceTree } from "../Palette";
 
 const PdfResourceCard = (props) => {
   return (
-    <>
+    <ResourceTree>
       <div className="card">
         <div className="content">
           <h1>{props.title}</h1>
@@ -16,7 +17,7 @@ const PdfResourceCard = (props) => {
           </div>
         </div>
       </div>
-    </>
+    </ResourceTree>
   );
 };
 export default PdfResourceCard;
