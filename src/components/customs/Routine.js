@@ -39,6 +39,7 @@ const RoutineArea = styled.div`
   .section-title {
     width: 100%;
     font-size: 48px;
+    font-family: "Josefin Sans";
   }
 
   .section-title h1 {

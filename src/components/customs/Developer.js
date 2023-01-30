@@ -179,17 +179,17 @@ const DeveloperArea = styled.div`
     align-items: center;
   }
   h1 {
-    font-family: Rubik;
+    font-family: "Josefin Sans";
     font-size: 36px;
     color: ${({ theme }) => theme.devTitleColor};
   }
   h3 {
-    /* font-family: "Lobster Two"; */
+    font-family: "Josefin Sans";
     color: ${({ theme }) => theme.codeAnalysis};
   }
   h5 {
     color: ${({ theme }) => theme.devh5};
-    font-family: "Ubuntu";
+    font-family: "Josefin Sans";
     margin: 20px 0px;
   }
   ul {
@@ -231,9 +231,9 @@ const DeveloperArea = styled.div`
   }
 
   p {
-    font-family: "Rubik";
-    font-weight: 400;
-    font-size: 15px;
+    font-family: "Raleway";
+    font-weight: 500;
+    font-size: 17px;
     color: bisque;
     color: #15273a;
   }

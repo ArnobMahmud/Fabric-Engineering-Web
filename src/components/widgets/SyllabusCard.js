@@ -68,7 +68,7 @@ const SyllabusArea = styled.div`
     margin: 5px 0px;
     border: 2px solid #093d68;
     padding: 10px 60px;
-    border-radius : 60px;
+    border-radius: 60px;
   }
   .btn a {
     color: #093d68;
@@ -95,6 +95,11 @@ const SyllabusArea = styled.div`
     width: 50%;
     padding: 10px 0px;
     height: auto;
+    font-family: "Raleway";
+  }
+
+  table tr td h2 {
+    font-family: "Josefin Sans";
   }
 
   h5 {

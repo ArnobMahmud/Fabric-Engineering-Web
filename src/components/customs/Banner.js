@@ -52,12 +52,12 @@ const BannerArea = styled.div`
   }
   h1 {
     color: #e0245e;
-    font-family: Ubuntu;
+    font-family: "Josefin Sans";
   }
   p {
     margin-top: 20px;
     color: #e9dddd;
-    font-family: Rubik;
+    font-family: Raleway;
     text-align: justify;
   }
   .btn {

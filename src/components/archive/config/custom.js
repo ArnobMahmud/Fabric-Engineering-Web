@@ -30,10 +30,9 @@ export const SafeArea = styled.div`
   }
 
   .section-title h1 {
-    font-weight: 900;
     color: #15202bd1;
     font-size: 26px;
-    font-weight: 400;
+    font-weight: 900;
     margin-bottom: 40px;
     font-family: "Josefin Sans";
   }

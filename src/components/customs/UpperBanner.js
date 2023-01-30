@@ -72,6 +72,7 @@ const TopBannerArea = styled.div`
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+ 
   .top-bnr-overlay {
     height: 850px;
     background: ${({ theme }) => theme.topBnrOverlay};
@@ -99,7 +100,8 @@ const TopBannerArea = styled.div`
     line-height: 1.7;
     padding-top: 15px;
     font-size: 18px;
-    font-family: Rubik;
+    font-family: Raleway;
+    font-weight: 500 ;
     color: ${({ theme }) => theme.topBnrParagraph};
   }
   .home-shield {

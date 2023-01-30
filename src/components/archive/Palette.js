@@ -11,16 +11,20 @@ export const InfoArea = styled.div`
   h1 {
     font-size: 30px;
     color: #0c253a;
+    font-family: "Josefin Sans";
   }
   h5 {
     color: ${({ theme }) => theme.resourceh5};
+    font-family: "Quicksand";
   }
   p {
     color: ${({ theme }) => theme.levelTermParagraph};
     font-size: 22px;
+    font-family: "Raleway";
   }
   .btn {
     margin-top: 5px;
+    font-family: "Quicksand";
   }
   @media (max-width: 991px) {
     h1 {

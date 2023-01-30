@@ -100,16 +100,19 @@ const CovidDataArea = styled.div`
   }
   h3 {
     color: ${({ theme }) => theme.covidh3};
+    font-family: "Josefin Sans";
   }
   h5 {
     text-align: left;
     color: #312135;
+    font-family: "Raleway";
   }
   p {
     text-align: left;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 500;
     color: ${({ theme }) => theme.covidp};
+    font-family: "Josefin Sans";
   }
   .info {
     padding-top: 30px;

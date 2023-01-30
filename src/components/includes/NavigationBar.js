@@ -95,6 +95,7 @@ const NavigationBar = () => {
 export default NavigationBar;
 
 const Header = styled.div`
+  font-family: "Raleway";
   background: rgb(22 73 66);
   padding: 25px 0px;
   position: fixed;
@@ -136,7 +137,6 @@ const Header = styled.div`
     position: absolute;
     text-align: center;
     background: rgb(22 73 66);
-    font-family: inherit;
     border: none;
   }
 
@@ -179,7 +179,8 @@ const Header = styled.div`
   .nav-link:hover {
     cursor: pointer;
     color: #c5d7bd;
-    border-bottom: 2px solid #8d6a6a;
+    /* border : 2px solid #8d6a6a; */
+    opacity: 0.9;
   }
 
   .navBrand {

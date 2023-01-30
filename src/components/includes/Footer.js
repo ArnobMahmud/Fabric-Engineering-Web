@@ -152,7 +152,7 @@ function Footer() {
 export default Footer;
 
 const FooterArea = styled.div`
-  font-family: Rubik;
+  font-family: Raleway;
   padding: 90px 0px 10px;
   background: ${({ theme }) => theme.footerBG};
   position: relative;

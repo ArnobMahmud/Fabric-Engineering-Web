@@ -43,7 +43,8 @@ const ContentArea = styled.div`
 
   h2 {
     color: ${({ theme }) => theme.contentH2};
-    font-size: 30px;
+    font-size: 40px;
+    font-family: "Josefin Sans";
   }
   hr {
     align-self: center;

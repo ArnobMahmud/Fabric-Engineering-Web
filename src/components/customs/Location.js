@@ -76,6 +76,7 @@ const LocationArea = styled.div`
   h1 {
     margin-bottom: 40px;
     color: ${({ theme }) => theme.locationH1};
+    font-family: "Josefin Sans";
   }
   h4,
   h5 {

@@ -39,6 +39,7 @@ const BusRouteSec = styled.div`
   margin-top: 200px;
   h2 {
     color: ${({ theme }) => theme.h2};
+    font-family: "Josefin Sans";
   }
   .bus1,
   .bus2,

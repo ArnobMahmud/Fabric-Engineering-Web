@@ -58,6 +58,7 @@ const CounterArea = styled.div`
     display: inline-table;
     color: #0c253a;
     margin: 20px 0px;
+    font-family: "Josefin Sans";
   }
   p {
     text-align: center;
