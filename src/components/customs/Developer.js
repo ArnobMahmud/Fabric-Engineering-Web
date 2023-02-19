@@ -178,7 +178,8 @@ const DeveloperArea = styled.div`
     background: ${({ theme }) => theme.cardBG};
     align-items: center;
   }
-  h1 {
+  h1 {yarn start
+    
     font-family: "Josefin Sans";
     font-size: 36px;
     color: ${({ theme }) => theme.devTitleColor};

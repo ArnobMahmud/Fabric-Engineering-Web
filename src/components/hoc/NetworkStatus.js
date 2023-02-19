@@ -6,7 +6,7 @@ export default function NetworkCheck(ComposedComponent) {
     state = {
       isDisconnected: false,
     };
-
+ 
     componentDidMount() {
       this.handleConnectionChange();
       window.addEventListener("online", this.handleConnectionChange);

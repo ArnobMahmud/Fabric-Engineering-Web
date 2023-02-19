@@ -35,6 +35,34 @@ export default function TermExamRoutine() {
               accessLink="/l2t2exam"
             />
           </div>
+          <div className="col-xl-5 col-md-6 col-sm-12">
+            <ArchivesDataCard
+              title="Level 3 - Term 1"
+              subTitle="Term final exam routine of Fabric Engineering."
+              accessLink="/l3t1exam"
+            />
+          </div>
+          <div className="col-xl-5 col-md-6 col-sm-12">
+            <ArchivesDataCard
+              title="Level 3 - Term 2"
+              subTitle="Term final exam routine of Fabric Engineering."
+              accessLink="/l3t2exam"
+            />
+          </div>
+          <div className="col-xl-5 col-md-6 col-sm-12">
+            <ArchivesDataCard
+              title="Level 4 - Term 1"
+              subTitle="Term final exam routine of Fabric Engineering."
+              accessLink="/l4t1exam"
+            />
+          </div>
+          <div className="col-xl-5 col-md-6 col-sm-12">
+            <ArchivesDataCard
+              title="Level 4 - Term 2"
+              subTitle="Term final exam routine of Fabric Engineering."
+              accessLink="/l4t2exam"
+            />
+          </div>
         </div>
       </div>
     </InfoArea>

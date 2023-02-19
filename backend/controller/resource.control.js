@@ -4,7 +4,7 @@ const {
   Chemistry1_1_ResourceModel,
   Math1_1_ResourceModel,
   NTF1_1_ResourceModel,
-  Physics1_2_ResourceModel,
+  Physics1_2_ResourceModel, 
   Chemistry1_2_ResourceModel,
   Math1_2_ResourceModel,
   CP1_2_ResourceModel,
