@@ -10,20 +10,15 @@ const CovidInfo = () => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    setLoading(true);
-    const timing = setTimeout(() => {
-      axios
-        .get("https://disease.sh/v3/covid-19/countries/")
-        .then((res) => {
-          console.log(res);
-          setCovidData(res.data);
-          setLoading(false);
-        })
-        .catch((err) => {
-          console.log(err);
-        });
-    }, 1500);
-    return () => clearTimeout(timing);
+    try {
+      axios.get("https://disease.sh/v3/covid-19/countries/").then((res) => {
+        console.log(res);
+        setCovidData(res.data);
+        setLoading(false);
+      });
+    } catch (error) {
+      console.log(error);
+    }
   }, []);
 
   return (

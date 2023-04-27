@@ -1,4 +1,3 @@
-import axios from "axios";
 import React, { useState, useEffect } from "react";
 import { OnlineResourceArea } from "../../Palette";
 import CustomSkeletonStructure2 from "../../../screens/skeleton/CustomSkeletonStructureII";
@@ -6,6 +5,8 @@ import CustomSkeletonStructure from "../../../screens/skeleton/CustomSkeletonStr
 import { ImBook } from "react-icons/im";
 import FolderPathCard from "../../widgets/FolderPathCard";
 import { CourseArea } from "../../../config/Palette";
+import { RESOURCE_URL } from "../../api/api";
+import { NOTE_URL } from "../../api/api";
 
 const YMIZone = () => {
   const [resource, setResource] = useState([]);
@@ -14,33 +15,33 @@ const YMIZone = () => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    setLoading(true);
-    const timing = setTimeout(() => {
-      axios
-        .get(
-          "https://fabric-web-backend-server.onrender.com/api/v1/notes/ym2-1"
-        )
-        .then((response) => {
-          setNote(response.data);
+    try {
+      fetch(`${RESOURCE_URL}/ym2-1`)
+        .then((res) => {
+          return res.json();
+        })
+        .then((data) => {
+          setResource(data);
           setLoading(false);
         });
-    }, 2500);
-    return () => clearTimeout(timing);
+    } catch (err) {
+      console.log(err.message);
+    }
   }, []);
 
   useEffect(() => {
-    setLoading(true);
-    const timing = setTimeout(() => {
-      axios
-        .get(
-          "https://fabric-web-backend-server.onrender.com/api/v1/resources/ym2-1"
-        )
-        .then((response) => {
-          setResource(response.data);
+    try {
+      fetch(`${NOTE_URL}/ym2-1`)
+        .then((res) => {
+          return res.json();
+        })
+        .then((data) => {
+          setNote(data);
           setLoading(false);
         });
-    }, 2500);
-    return () => clearTimeout(timing);
+    } catch (err) {
+      console.log(err.message);
+    }
   }, []);
 
   return (

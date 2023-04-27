@@ -1,7 +1,7 @@
-import axios from "axios";
 import React, { useState, useEffect } from "react";
 import { CourseArea } from "../../../config/Palette";
 import CustomSkeletonStructure from "../../../screens/skeleton/CustomSkeletonStructure";
+import { RESOURCE_URL } from "../../api/api";
 
 const MATHTable = () => {
   const [resource, setResource] = useState([]);
@@ -9,18 +9,18 @@ const MATHTable = () => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    setLoading(true);
-    const timing = setTimeout(() => {
-      axios
-        .get(
-          "https://fabric-web-backend-server.onrender.com/api/v1/resources/math1-2"
-        )
-        .then((response) => {
-          setResource(response.data);
+    try {
+      fetch(`${RESOURCE_URL}/math1-2`)
+        .then((res) => {
+          return res.json();
+        })
+        .then((data) => {
+          setResource(data);
           setLoading(false);
         });
-    }, 2500);
-    return () => clearTimeout(timing);
+    } catch (err) {
+      console.log(err.message);
+    }
   }, []);
 
   return (

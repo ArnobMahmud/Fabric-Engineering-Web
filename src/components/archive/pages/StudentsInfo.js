@@ -8,7 +8,6 @@ const StudentsInfo = () => {
   const [search, setSearch] = useState("");
 
   useEffect(() => {
-    setLoading(true);
     const timing = setTimeout(() => {
       setLoading(false);
     }, 3300);

@@ -1,4 +1,3 @@
-import axios from "axios";
 import React, { useState, useEffect } from "react";
 import { OnlineResourceArea } from "../../Palette";
 import { ImBook } from "react-icons/im";
@@ -6,6 +5,8 @@ import FolderPathCard from "../../widgets/FolderPathCard";
 import CustomSkeletonStructure2 from "../../../screens/skeleton/CustomSkeletonStructureII";
 import CustomSkeletonStructure from "../../../screens/skeleton/CustomSkeletonStructure";
 import { CourseArea } from "../../../config/Palette";
+import { RESOURCE_URL } from "../../api/api";
+import { NOTE_URL } from "../../api/api";
 
 const WPIIZone = () => {
   const [resource, setResource] = useState([]);
@@ -13,35 +14,35 @@ const WPIIZone = () => {
   const [note, setNote] = useState([]);
   const [loading, setLoading] = useState(true);
 
-  useEffect(() => {
-    setLoading(true);
-    const timing = setTimeout(() => {
-      axios
-        .get(
-          "https://fabric-web-backend-server.onrender.com/api/v1/notes/wp3-1"
-        )
-        .then((response) => {
-          setNote(response.data);
-          setLoading(false);
-        });
-    }, 2500);
-    return () => clearTimeout(timing);
-  }, []);
+   useEffect(() => {
+     try {
+       fetch(`${RESOURCE_URL}/wp3-1`)
+         .then((res) => {
+           return res.json();
+         })
+         .then((data) => {
+           setResource(data);
+           setLoading(false);
+         });
+     } catch (err) {
+       console.log(err.message);
+     }
+   }, []);
 
-  useEffect(() => {
-    setLoading(true);
-    const timing = setTimeout(() => {
-      axios
-        .get(
-          "https://fabric-web-backend-server.onrender.com/api/v1/resources/wp3-1"
-        )
-        .then((response) => {
-          setResource(response.data);
-          setLoading(false);
-        });
-    }, 2500);
-    return () => clearTimeout(timing);
-  }, []);
+   useEffect(() => {
+     try {
+       fetch(`${NOTE_URL}/wp3-1`)
+         .then((res) => {
+           return res.json();
+         })
+         .then((data) => {
+           setNote(data);
+           setLoading(false);
+         });
+     } catch (err) {
+       console.log(err.message);
+     }
+   }, []);
 
   return (
     <>

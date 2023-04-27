@@ -1,4 +1,3 @@
-import axios from "axios";
 import React, { useState, useEffect } from "react";
 import { OnlineResourceArea } from "../../Palette";
 import { ImBook } from "react-icons/im";
@@ -6,6 +5,8 @@ import FolderPathCard from "../../widgets/FolderPathCard";
 import CustomSkeletonStructure2 from "../../../screens/skeleton/CustomSkeletonStructureII";
 import CustomSkeletonStructure from "../../../screens/skeleton/CustomSkeletonStructure";
 import { CourseArea } from "../../../config/Palette";
+import { RESOURCE_URL } from "../../api/api";
+import { NOTE_URL } from "../../api/api";
 
 const FMktZone = () => {
   const [resource, setResource] = useState([]);
@@ -14,33 +15,33 @@ const FMktZone = () => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    setLoading(true);
-    const timing = setTimeout(() => {
-      axios
-        .get(
-          "https://fabric-web-backend-server.onrender.com/api/v1/notes/fmkt2-2"
-        )
-        .then((response) => {
-          setNote(response.data);
+    try {
+      fetch(`${RESOURCE_URL}/fmkt2-2`)
+        .then((res) => {
+          return res.json();
+        })
+        .then((data) => {
+          setResource(data);
           setLoading(false);
         });
-    }, 2500);
-    return () => clearTimeout(timing);
+    } catch (err) {
+      console.log(err.message);
+    }
   }, []);
 
   useEffect(() => {
-    setLoading(true);
-    const timing = setTimeout(() => {
-      axios
-        .get(
-          "https://fabric-web-backend-server.onrender.com/api/v1/resources/fmkt2-2"
-        )
-        .then((response) => {
-          setResource(response.data);
+    try {
+      fetch(`${NOTE_URL}/fmkt2-2`)
+        .then((res) => {
+          return res.json();
+        })
+        .then((data) => {
+          setNote(data);
           setLoading(false);
         });
-    }, 2500);
-    return () => clearTimeout(timing);
+    } catch (err) {
+      console.log(err.message);
+    }
   }, []);
 
   return (

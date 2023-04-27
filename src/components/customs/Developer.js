@@ -137,34 +137,41 @@ const Developer = () => {
           </div>
         </div>
       </DeveloperArea>
-
-      {/* <DeveloperProjectArea>
+      {/* <DeveloperProject>
         <div className="container">
-          <div className="row justify-content-around align-items-center">
-            <DeveloperProjectCard
-              img={project1}
-              title="Better Learn Programming"
-              subTitle="About
-This application is developed for educational purpose, allowing the users to gain programming knowledge and helps to prepare himself/herself for interview conducted on provincial level. All Major Programming Language in one App. Learn c++ , Java , Python and Javascript ."
-            />
-            <DeveloperProjectCard
-              img={project4}
-              title="Yarn Count Converter"
-              subTitle="In the textile industry, the yarn count is used to express how fine or coarse (or thin or thick) the yarn is. We use the English count numbering system, which is part of a larger group known as indirect counting systems."
-            />
-            <DeveloperProjectCard
-              img={project3}
-              title="Covid'19 Tracker"
-              subTitle="Covid’19 Tracker application which provides real time Covid'19 info off : Daily cases, Recovered amount, and number of Deaths as well as total values of every country worldwide! Stay Home , Stay Safe."
-            />
-            <DeveloperProjectCard
-              img={project2}
-              title="BMI Calculator"
-              subTitle="Body mass index (BMI) is a measure of body fat based on height and weight that applies to adult men and women."
-            />
+          <div className="card row desc">
+            <div className="col-xl-2 infocard">
+              <img
+                src="https://user-images.githubusercontent.com/60808266/209178367-7df9d714-1446-426a-baf4-cf5fc0b451cf.png"
+                alt=""
+              />
+              <h5>Count Converter App</h5>
+            </div>
+            <div className="col-xl-2 infocard">
+              <img
+                src="https://user-images.githubusercontent.com/60808266/128818790-a61a39a2-874b-476a-bcd1-54bd63befccd.jpg"
+                alt=""
+              />
+              <h5>Covid'19 Tracker App</h5>
+            </div>
+            <div className="col-xl-2 infocard">
+              <img
+                src="https://user-images.githubusercontent.com/60808266/134813730-8e8a89c0-cc33-425d-9c21-1c45e48601ea.png"
+                alt=""
+              />
+              <h5>Better Learn Programming App</h5>
+            </div>
+
+            <div className="col-xl-2 infocard">
+              <img
+                src="https://user-images.githubusercontent.com/60808266/112758746-b6c2de00-9011-11eb-8aff-8c00951ab69b.jpg"
+                alt=""
+              />
+              <h5>Code Quiz App</h5>
+            </div>
           </div>
         </div>
-      </DeveloperProjectArea>  */}
+      </DeveloperProject> */}
     </>
   );
 };
@@ -178,8 +185,7 @@ const DeveloperArea = styled.div`
     background: ${({ theme }) => theme.cardBG};
     align-items: center;
   }
-  h1 {yarn start
-    
+  h1 {
     font-family: "Josefin Sans";
     font-size: 36px;
     color: ${({ theme }) => theme.devTitleColor};
@@ -301,19 +307,58 @@ const DeveloperArea = styled.div`
   }
 `;
 
-// const DeveloperProjectArea = styled.div`
-//   margin: 30px 0px;
-//   h1 {
-//     margin-bottom: 20px;
-//     font-family: Rubik;
-//     font-size: 36px;
-//     color: ${({ theme }) => theme.devTitleColor};
+// const DeveloperProject = styled.div`
+//   margin: 60px 0px;
+//   .card {
+//     padding: 30px 20px;
+//     background: ${({ theme }) => theme.cardBG};
+//     align-items: center;
+//     height: 500px;
 //   }
-//   p {
-//     font-family: "Rubik";
-//     font-weight: 400;
-//     font-size: 15px;
-//     color: bisque;
-//     color: #15273a;
+//   .infocard {
+//     text-align: center;
+//     align-items: center;
+//     justify-content: space-between;
+//     padding: 20px;
+//     height: 400px;
+//     width: 300px;
+//     margin: 20px 15px;
+//     border-radius: 20px;
+//     background: #503439;
+//     box-shadow: 2px 2px 6px #442c30, -2px -2px 20px #5c3c42;
+//   }
+//   h5 {
+//     margin: 20px 0px 0px;
+//     color: #b7acf5;
+//   }
+//   img {
+//     border-radius: 15px;
+//     max-width: 100%;
+//     object-fit: fill;
+//   }
+//   .desc {
+//     overflow-x: scroll;
+//     overflow-y: hidden;
+//     scroll-snap-type: x mandatory;
+//   }
+
+//   .desc::-webkit-scrollbar {
+//     height: 12px;
+//   }
+
+//   .desc::-webkit-scrollbar-thumb,
+//   .desc::-webkit-scrollbar-track {
+//     border-radius: 92px;
+//   }
+
+//   .desc::-webkit-scrollbar-thumb {
+//     background: var(--darkred);
+//   }
+
+//   .desc::-webkit-scrollbar-track {
+//     background: var(--thumb);
+//   }
+//   @media (max-width: 991px) {
+//     margin: 0px 20px 40px;
 //   }
 // `;
