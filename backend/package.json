@@ -1,0 +1,31 @@
+{
+  "name": "backend",
+  "version": "1.2.7",
+  "Author": "Arnob Mahmud",
+  "description": "Bangladesh University of Textiles (BUTEX) Fabric Manufacturing Engineering (FME) 46th Batch's Departmental Resources Monitoring by Arnob Mahmud.",
+  "main": "index.js",
+  "engines": {
+    "node": "14.x"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^12.0.4",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "express-rate-limit": "^6.11.2",
+    "g": "^2.0.1",
+    "mongoose": "^6.12.3",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.22",
+    "serve-favicon": "^2.5.0"
+  }
+}

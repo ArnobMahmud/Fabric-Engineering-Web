@@ -1,0 +1,32 @@
+[
+  {
+    "course": "Nonwoven (NWvn)",
+    "courseCode": "FE 407",
+    "lecturer": "",
+    "access": "/nwvn4-2"
+  },
+  {
+    "course": "Technical Textile (TT)",
+    "courseCode": "FE 411",
+    "lecturer": "",
+    "access": "/tt4-2"
+  },
+  {
+    "course": "Environmental Studies (ES)",
+    "courseCode": "WPE 407",
+    "lecturer": "",
+    "access": "/es4-2"
+  },
+  {
+    "course": "Production Planning & Control (PPC)",
+    "courseCode": "TEM 413",
+    "lecturer": "",
+    "access": "/ppc4-2"
+  },
+  {
+    "course": "FE Project Work (FEPW)",
+    "courseCode": "FE 414",
+    "lecturer": "",
+    "access": "/fepw4-2"
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "course": "Application of Computer in Fabric Manufacturing (ACFM)",
+    "courseCode": "FE 301",
+    "lecturer": "",
+    "access": "/acfm3-2"
+  },
+  {
+    "course": "Fabric Structure & Design (FSD)",
+    "courseCode": "FE 305",
+    "lecturer": "",
+    "access": "/fsd3-2"
+  },
+  {
+    "course": "Weaving(Wvg) II",
+    "courseCode": "FE 309",
+    "lecturer": "",
+    "access": "/wvg3-2"
+  },
+  {
+    "course": "Automation & Control Engineering (ACE)",
+    "courseCode": "IPE 301",
+    "lecturer": "",
+    "access": "/ace3-2"
+  },
+  {
+    "course": "Accounting & Cost Management (ACM)",
+    "courseCode": "TEM 303",
+    "lecturer": "",
+    "access": "/acm3-2"
+  }
+]

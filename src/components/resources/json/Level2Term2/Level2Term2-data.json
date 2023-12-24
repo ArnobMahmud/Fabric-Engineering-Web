@@ -1,0 +1,38 @@
+[
+    {
+        "course": "Textile Physics (TP)",
+        "courseCode": "YE 209",
+        "lecturer": "Jalal Sir, Shuvo Sir",
+        "access": "/tp2-2"
+    },
+    {
+        "course": "Weaving (Wvg) I",
+        "courseCode": "FE 205",
+        "lecturer": "Mohaddes Sir, Arin Sir",
+        "access": "/wvg2-2"
+    },
+    {
+        "course": "Wet Processing (WP) I",
+        "courseCode": "WPE 205",
+        "lecturer": "Tomal Sir, Rafee Sir",
+        "access": "/wp2-2"
+    },
+    {
+        "course": "Apparel Manufacturing (AM) I",
+        "courseCode": "AE 205",
+        "lecturer": "Kamrul Sir, Arpa Mam",
+        "access": "/am2-2"
+    },
+    {
+        "course": "Fundamentals of Marketing (FMkt)",
+        "courseCode": "TEM 201",
+        "lecturer": "Munir Sir, Nurun Nabi Sir",
+        "access": "/fmkt2-2"
+    },
+    {
+        "course": "Fundamentals of Electrical & Electronics Engineering (FEEE)",
+        "courseCode": "MDM 201",
+        "lecturer": "Asad Sir, Tauki Sir",
+        "access": "/feee2-2"
+    }
+]
