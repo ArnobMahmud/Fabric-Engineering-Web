@@ -4,7 +4,7 @@ const {
   Chemistry1_1_ResourceModel,
   Math1_1_ResourceModel,
   NTF1_1_ResourceModel,
-  Physics1_2_ResourceModel, 
+  Physics1_2_ResourceModel,
   Chemistry1_2_ResourceModel,
   Math1_2_ResourceModel,
   CP1_2_ResourceModel,
@@ -33,6 +33,17 @@ const {
   ACM3_2_ResourceModel,
   FSD3_2_ResourceModel,
   WV3_2_ResourceModel,
+  SOC4_1_ResourceModel,
+  FTQC4_1_ResourceModel,
+  Knit4_1_ResourceModel,
+  SFP4_1_ResourceModel,
+  TAM4_1_ResourceModel,
+
+  NWvn4_2_ResourceModel,
+  TT4_2_ResourceModel,
+  ES4_2_ResourceModel,
+  PPC4_2_ResourceModel,
+  FEPW4_2_ResourceModel,
 } = require("../models/resource.model");
 
 /*-------------------------------------*/
@@ -383,6 +394,110 @@ const getAllFSD3_2 = (req, res) => {
 };
 const getAllWV3_2 = (req, res) => {
   WV3_2_ResourceModel.find({}, (err, result) => {
+    if (err) {
+      res.status(500).json({ msg: err });
+    } else {
+      res.status(200).json(result);
+      console.log(result);
+    }
+  });
+};
+
+/* L4 T1 */
+const getAllSOC4_1 = (req, res) => {
+  SOC4_1_ResourceModel.find({}, (err, result) => {
+    if (err) {
+      res.status(500).json({ msg: err });
+    } else {
+      res.status(200).json(result);
+      console.log(result);
+    }
+  });
+};
+const getAllFTQC4_1 = (req, res) => {
+  FTQC4_1_ResourceModel.find({}, (err, result) => {
+    if (err) {
+      res.status(500).json({ msg: err });
+    } else {
+      res.status(200).json(result);
+      console.log(result);
+    }
+  });
+};
+const getAllKnit4_1 = (req, res) => {
+  Knit4_1_ResourceModel.find({}, (err, result) => {
+    if (err) {
+      res.status(500).json({ msg: err });
+    } else {
+      res.status(200).json(result);
+      console.log(result);
+    }
+  });
+};
+const getAllSFP4_1 = (req, res) => {
+  SFP4_1_ResourceModel.find({}, (err, result) => {
+    if (err) {
+      res.status(500).json({ msg: err });
+    } else {
+      res.status(200).json(result);
+      console.log(result);
+    }
+  });
+};
+const getAllTAM4_1 = (req, res) => {
+  TAM4_1_ResourceModel.find({}, (err, result) => {
+    if (err) {
+      res.status(500).json({ msg: err });
+    } else {
+      res.status(200).json(result);
+      console.log(result);
+    }
+  });
+};
+
+/* L4 T2 */
+const getAllTT4_2 = (req, res) => {
+  TT4_2_ResourceModel.find({}, (err, result) => {
+    if (err) {
+      res.status(500).json({ msg: err });
+    } else {
+      res.status(200).json(result);
+      console.log(result);
+    }
+  });
+};
+const getAllNWvn4_2 = (req, res) => {
+  NWvn4_2_ResourceModel.find({}, (err, result) => {
+    if (err) {
+      res.status(500).json({ msg: err });
+    } else {
+      res.status(200).json(result);
+      console.log(result);
+    }
+  });
+};
+const getAllES4_2 = (req, res) => {
+  ES4_2_ResourceModel.find({}, (err, result) => {
+    if (err) {
+      res.status(500).json({ msg: err });
+    } else {
+      res.status(200).json(result);
+      console.log(result);
+    }
+  });
+};
+const getAllPPC4_2 = (req, res) => {
+  PPC4_2_ResourceModel.find({}, (err, result) => {
+    if (err) {
+      res.status(500).json({ msg: err });
+    } else {
+      res.status(200).json(result);
+      console.log(result);
+    }
+  });
+};
+const getAllFEPW4_2 = (req, res) => {
+  FEPW4_2_ResourceModel.find({}, (err, result) => {
     if (err) {
       res.status(500).json({ msg: err });
     } else {
@@ -814,6 +929,131 @@ const createWV3_2 = async (req, res) => {
     res.status(500).json({ msg: error });
   }
 };
+
+/* L4 T1 */
+const createSOC4_1 = async (req, res) => {
+  try {
+    const resource = req.body;
+    const newResource = new SOC4_1_ResourceModel(resource);
+    await newResource.save();
+
+    res.status(200).json({ resource });
+    console.log(resource);
+  } catch (error) {
+    res.status(500).json({ msg: error });
+  }
+};
+const createKnit4_1 = async (req, res) => {
+  try {
+    const resource = req.body;
+    const newResource = new Knit4_1_ResourceModel(resource);
+    await newResource.save();
+
+    res.status(200).json({ resource });
+    console.log(resource);
+  } catch (error) {
+    res.status(500).json({ msg: error });
+  }
+};
+const createFTQC4_1 = async (req, res) => {
+  try {
+    const resource = req.body;
+    const newResource = new FTQC4_1_ResourceModel(resource);
+    await newResource.save();
+
+    res.status(200).json({ resource });
+    console.log(resource);
+  } catch (error) {
+    res.status(500).json({ msg: error });
+  }
+};
+const createSFP4_1 = async (req, res) => {
+  try {
+    const resource = req.body;
+    const newResource = new SFP4_1_ResourceModel(resource);
+    await newResource.save();
+
+    res.status(200).json({ resource });
+    console.log(resource);
+  } catch (error) {
+    res.status(500).json({ msg: error });
+  }
+};
+const createTAM4_1 = async (req, res) => {
+  try {
+    const resource = req.body;
+    const newResource = new TAM4_1_ResourceModel(resource);
+    await newResource.save();
+
+    res.status(200).json({ resource });
+    console.log(resource);
+  } catch (error) {
+    res.status(500).json({ msg: error });
+  }
+};
+
+/* L4 T2 */
+const createNWvn4_2 = async (req, res) => {
+  try {
+    const resource = req.body;
+    const newResource = new NWvn4_2_ResourceModel(resource);
+    await newResource.save();
+
+    res.status(200).json({ resource });
+    console.log(resource);
+  } catch (error) {
+    res.status(500).json({ msg: error });
+  }
+};
+const createTT4_2 = async (req, res) => {
+  try {
+    const resource = req.body;
+    const newResource = new TT4_2_ResourceModel(resource);
+    await newResource.save();
+
+    res.status(200).json({ resource });
+    console.log(resource);
+  } catch (error) {
+    res.status(500).json({ msg: error });
+  }
+};
+const createES4_2 = async (req, res) => {
+  try {
+    const resource = req.body;
+    const newResource = new ES4_2_ResourceModel(resource);
+    await newResource.save();
+
+    res.status(200).json({ resource });
+    console.log(resource);
+  } catch (error) {
+    res.status(500).json({ msg: error });
+  }
+};
+const createPPC4_2 = async (req, res) => {
+  try {
+    const resource = req.body;
+    const newResource = new PPC4_2_ResourceModel(resource);
+    await newResource.save();
+
+    res.status(200).json({ resource });
+    console.log(resource);
+  } catch (error) {
+    res.status(500).json({ msg: error });
+  }
+};
+const createFEPW4_2 = async (req, res) => {
+  try {
+    const resource = req.body;
+    const newResource = new FEPW4_2_ResourceModel(resource);
+    await newResource.save();
+
+    res.status(200).json({ resource });
+    console.log(resource);
+  } catch (error) {
+    res.status(500).json({ msg: error });
+  }
+};
+
 /*-------------------------------------*/
 /*-------------------------------------*/
 
@@ -1337,6 +1577,161 @@ const getWV3_2 = async (req, res) => {
     res.status(500).json({ msg: error });
   }
 };
+
+/* L4 T1 */
+const getSOC4_1 = async (req, res) => {
+  try {
+    const { id: resourceID } = req.params;
+    const resource = await SOC4_1_ResourceModel.findOne({
+      _id: resourceID,
+    });
+    if (!resource) {
+      res.status(500).json({ msg: `No resource with id : ${resourceID}` });
+    } else {
+      res.status(200).json({ resource });
+    }
+  } catch (error) {
+    res.status(500).json({ msg: error });
+  }
+};
+const getFTQC4_1 = async (req, res) => {
+  try {
+    const { id: resourceID } = req.params;
+    const resource = await FTQC4_1_ResourceModel.findOne({
+      _id: resourceID,
+    });
+    if (!resource) {
+      res.status(500).json({ msg: `No resource with id : ${resourceID}` });
+    } else {
+      res.status(200).json({ resource });
+    }
+  } catch (error) {
+    res.status(500).json({ msg: error });
+  }
+};
+const getKnit4_1 = async (req, res) => {
+  try {
+    const { id: resourceID } = req.params;
+    const resource = await Knit4_1_ResourceModel.findOne({
+      _id: resourceID,
+    });
+    if (!resource) {
+      res.status(500).json({ msg: `No resource with id : ${resourceID}` });
+    } else {
+      res.status(200).json({ resource });
+    }
+  } catch (error) {
+    res.status(500).json({ msg: error });
+  }
+};
+const getSFP4_1 = async (req, res) => {
+  try {
+    const { id: resourceID } = req.params;
+    const resource = await SFP4_1_ResourceModel.findOne({
+      _id: resourceID,
+    });
+    if (!resource) {
+      res.status(500).json({ msg: `No resource with id : ${resourceID}` });
+    } else {
+      res.status(200).json({ resource });
+    }
+  } catch (error) {
+    res.status(500).json({ msg: error });
+  }
+};
+const getTAM4_1 = async (req, res) => {
+  try {
+    const { id: resourceID } = req.params;
+    const resource = await TAM4_1_ResourceModel.findOne({
+      _id: resourceID,
+    });
+    if (!resource) {
+      res.status(500).json({ msg: `No resource with id : ${resourceID}` });
+    } else {
+      res.status(200).json({ resource });
+    }
+  } catch (error) {
+    res.status(500).json({ msg: error });
+  }
+};
+
+/* L4 T2 */
+
+const getNWvn4_2 = async (req, res) => {
+  try {
+    const { id: resourceID } = req.params;
+    const resource = await NWvn4_2_ResourceModel.findOne({
+      _id: resourceID,
+    });
+    if (!resource) {
+      res.status(500).json({ msg: `No resource with id : ${resourceID}` });
+    } else {
+      res.status(200).json({ resource });
+    }
+  } catch (error) {
+    res.status(500).json({ msg: error });
+  }
+};
+const getTT4_2 = async (req, res) => {
+  try {
+    const { id: resourceID } = req.params;
+    const resource = await TT4_2_ResourceModel.findOne({
+      _id: resourceID,
+    });
+    if (!resource) {
+      res.status(500).json({ msg: `No resource with id : ${resourceID}` });
+    } else {
+      res.status(200).json({ resource });
+    }
+  } catch (error) {
+    res.status(500).json({ msg: error });
+  }
+};
+const getES4_2 = async (req, res) => {
+  try {
+    const { id: resourceID } = req.params;
+    const resource = await ES4_2_ResourceModel.findOne({
+      _id: resourceID,
+    });
+    if (!resource) {
+      res.status(500).json({ msg: `No resource with id : ${resourceID}` });
+    } else {
+      res.status(200).json({ resource });
+    }
+  } catch (error) {
+    res.status(500).json({ msg: error });
+  }
+};
+const getFEPW4_2 = async (req, res) => {
+  try {
+    const { id: resourceID } = req.params;
+    const resource = await FEPW4_2_ResourceModel.findOne({
+      _id: resourceID,
+    });
+    if (!resource) {
+      res.status(500).json({ msg: `No resource with id : ${resourceID}` });
+    } else {
+      res.status(200).json({ resource });
+    }
+  } catch (error) {
+    res.status(500).json({ msg: error });
+  }
+};
+const getPPC4_2 = async (req, res) => {
+  try {
+    const { id: resourceID } = req.params;
+    const resource = await PPC4_2_ResourceModel.findOne({
+      _id: resourceID,
+    });
+    if (!resource) {
+      res.status(500).json({ msg: `No resource with id : ${resourceID}` });
+    } else {
+      res.status(200).json({ resource });
+    }
+  } catch (error) {
+    res.status(500).json({ msg: error });
+  }
+};
 /*-------------------------------------*/
 /*-------------------------------------*/
 
@@ -1520,6 +1915,61 @@ const deleteWV3_2 = async (req, res) => {
   let data = await WV3_2_ResourceModel.deleteOne(req.params);
   res.send(data);
 };
+
+/* L4 T1 */
+const deleteSOC4_1 = async (req, res) => {
+  console.log(req.params);
+  let data = await SOC4_1_ResourceModel.deleteOne(req.params);
+  res.send(data);
+};
+const deleteFTQC4_1 = async (req, res) => {
+  console.log(req.params);
+  let data = await FTQC4_1_ResourceModel.deleteOne(req.params);
+  res.send(data);
+};
+const deleteKnit4_1 = async (req, res) => {
+  console.log(req.params);
+  let data = await Knit4_1_ResourceModel.deleteOne(req.params);
+  res.send(data);
+};
+const deleteSFP4_1 = async (req, res) => {
+  console.log(req.params);
+  let data = await SFP4_1_ResourceModel.deleteOne(req.params);
+  res.send(data);
+};
+const deleteTAM4_1 = async (req, res) => {
+  console.log(req.params);
+  let data = await TAM4_1_ResourceModel.deleteOne(req.params);
+  res.send(data);
+};
+
+/* L4 T2 */
+
+const deleteNWvn4_2 = async (req, res) => {
+  console.log(req.params);
+  let data = await NWvn4_2_ResourceModel.deleteOne(req.params);
+  res.send(data);
+};
+const deleteTT4_2 = async (req, res) => {
+  console.log(req.params);
+  let data = await TT4_2_ResourceModel.deleteOne(req.params);
+  res.send(data);
+};
+const deleteES4_2 = async (req, res) => {
+  console.log(req.params);
+  let data = await ES4_2_ResourceModel.deleteOne(req.params);
+  res.send(data);
+};
+const deletePPC4_2 = async (req, res) => {
+  console.log(req.params);
+  let data = await PPC4_2_ResourceModel.deleteOne(req.params);
+  res.send(data);
+};
+const deleteFEPW4_2 = async (req, res) => {
+  console.log(req.params);
+  let data = await FEPW4_2_ResourceModel.deleteOne(req.params);
+  res.send(data);
+};
 /* Update Request */
 
 module.exports = {
@@ -1563,6 +2013,18 @@ module.exports = {
   getAllFSD3_2,
   getAllWV3_2,
 
+  getAllSOC4_1,
+  getAllFTQC4_1,
+  getAllKnit4_1,
+  getAllSFP4_1,
+  getAllTAM4_1,
+
+  getAllNWvn4_2,
+  getAllTT4_2,
+  getAllES4_2,
+  getAllPPC4_2,
+  getAllFEPW4_2,
+
   createBCE1_1,
   createPhysics1_1,
   createChemistry1_1,
@@ -1602,6 +2064,18 @@ module.exports = {
   createACM3_2,
   createFSD3_2,
   createWV3_2,
+
+  createSOC4_1,
+  createFTQC4_1,
+  createKnit4_1,
+  createSFP4_1,
+  createTAM4_1,
+
+  createNWvn4_2,
+  createTT4_2,
+  createES4_2,
+  createPPC4_2,
+  createFEPW4_2,
 
   getBCE1_1,
   getPhysics1_1,
@@ -1643,6 +2117,18 @@ module.exports = {
   getFSD3_2,
   getWV3_2,
 
+  getSOC4_1,
+  getFTQC4_1,
+  getKnit4_1,
+  getSFP4_1,
+  getTAM4_1,
+
+  getNWvn4_2,
+  getTT4_2,
+  getPPC4_2,
+  getES4_2,
+  getFEPW4_2,
+
   deleteBCE1_1,
   deletePhysics1_1,
   deleteChemistry1_1,
@@ -1682,4 +2168,16 @@ module.exports = {
   deleteACM3_2,
   deleteFSD3_2,
   deleteWV3_2,
+
+  deleteSOC4_1,
+  deleteFTQC4_1,
+  deleteKnit4_1,
+  deleteSFP4_1,
+  deleteTAM4_1,
+
+  deleteNWvn4_2,
+  deleteTT4_2,
+  deleteES4_2,
+  deletePPC4_2,
+  deleteFEPW4_2,
 };

@@ -10,7 +10,7 @@ const PPCZone = () => {
 
   useEffect(() => {
     try {
-      fetch(`${RESOURCE_URL}/fsd3-2`)
+      fetch(`${RESOURCE_URL}/ppc4-2`)
         .then((res) => {
           return res.json();
         })

@@ -10,7 +10,7 @@ const NWvnZone = () => {
 
   useEffect(() => {
     try {
-      fetch(`${RESOURCE_URL}/fsd3-2`)
+      fetch(`${RESOURCE_URL}/nwvn4-2`)
         .then((res) => {
           return res.json();
         })

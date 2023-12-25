@@ -10,7 +10,7 @@ const SPFZone = () => {
 
   useEffect(() => {
     try {
-      fetch(`${RESOURCE_URL}/fsd3-2`)
+      fetch(`${RESOURCE_URL}/sfp4-1`)
         .then((res) => {
           return res.json();
         })

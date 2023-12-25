@@ -10,7 +10,7 @@ const FEPWZone = () => {
 
   useEffect(() => {
     try {
-      fetch(`${RESOURCE_URL}/fsd3-2`)
+      fetch(`${RESOURCE_URL}/fepw4-2`)
         .then((res) => {
           return res.json();
         })

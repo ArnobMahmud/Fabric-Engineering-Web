@@ -1,6 +1,6 @@
 # Fabric Engineering Web
 
-**[Bangladesh University of Textiles (BUTEX)](https://www.butex.edu.bd/) Fabric Manufacturing Engineering (FME) 46th Batch's Departmental Resources Monitoring by Arnob Mahmud.**
+**[Bangladesh University of Textiles (BUTEX)](https://www.butex.edu.bd/) Fabric Manufacturing Engineering (FME) 46th Batch's Departmental Resources Monitoring**
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/944bd3d0-a153-41b9-9da2-5ebd88a18994/deploy-status)](https://app.netlify.com/sites/fabricengineering/deploys)<br>
 [![](https://img.shields.io/github/package-json/v/ArnobMahmud/Fabric-Engineering-Web?color=lightyellow&label=yarn%20Deployed&logo=yarn&logoColor=yellow&style=plastic)](https://github.com/ArnobMahmud/Fabric-Engineering-Web)<br>
@@ -13,12 +13,11 @@
 
 ```json
 {
-   "homepage": "https://fabricengineering.netlify.app/",
-   "name": "fabric-engineering-web",
-   "author": "Arnob Mahmud",
-   "private": "true"
+  "homepage": "https://fabricengineering.netlify.app/",
+  "name": "fabric-engineering-web",
+  "author": "Arnob Mahmud",
+  "private": "true"
 }
-
 ```
 
 ### `Visit Website`
@@ -41,43 +40,52 @@
 
 **_[`API Access`](https://fabric-web-backend-server.onrender.com/)_**
 
-| SN      | Resources       | APIs                                                                    |
-| ------  | :-------------- | :-----------------------------------------------------------------------|
-| (i)     | `Physics 1-1`   | https://fabric-web-backend-server.onrender.com/api/v1/resources/phy1-1  |
-| (ii)    | `Chemistry 1-1` | https://fabric-web-backend-server.onrender.com/api/v1/resources/chem1-1 |
-| (iii)   | `Math 1-1`      | https://fabric-web-backend-server.onrender.com/api/v1/resources/math1-1 |
-| (iv)    | `NTF 1-1`       | https://fabric-web-backend-server.onrender.com/api/v1/resources/ntf1-1  |
-| (v)     | `BCE 1-1`       | https://fabric-web-backend-server.onrender.com/api/v1/resources/bce1-1  |
-| (vi)    | `Physics 1-2`   | https://fabric-web-backend-server.onrender.com/api/v1/resources/phy1-2  |
-| (vii)   | `Chemistry 1-2` | https://fabric-web-backend-server.onrender.com/api/v1/resources/chem1-2 |
-| (viii)  | `Math 1-2`      | https://fabric-web-backend-server.onrender.com/api/v1/resources/math1-2 |
-| (ix)    | `CP 1-2`        | https://fabric-web-backend-server.onrender.com/api/v1/resources/cp1-2   |
-| (x)     | `EM 1-2`        | https://fabric-web-backend-server.onrender.com/api/v1/resources/em1-2   |
-| (xi)    | `PSE 1-2`       | https://fabric-web-backend-server.onrender.com/api/v1/resources/pse1-2  |
-| (xii)   | `STAT 2-1`      | https://fabric-web-backend-server.onrender.com/api/v1/resources/stat2-1 |
-| (xiii)  | `FYT 2-1`       | https://fabric-web-backend-server.onrender.com/api/v1/resources/fyt2-1  |
-| (xiv)   | `WvgPP 2-1`     | https://fabric-web-backend-server.onrender.com/api/v1/resources/wvgpp2-1|
-| (xv)    | `YM I 2-1`      | https://fabric-web-backend-server.onrender.com/api/v1/resources/ym2-1   |
-| (xvi)   | `MMTF 2-1`      | https://fabric-web-backend-server.onrender.com/api/v1/resources/mmtf2-1 |
-| (xvii)  | `FME 2-1`       | https://fabric-web-backend-server.onrender.com/api/v1/resources/fme2-1  |
-| (xviii) | `TP 2-2`        | https://fabric-web-backend-server.onrender.com/api/v1/resources/tp2-2   |
-| (xxix)  | `Wvg I 2-2`     | https://fabric-web-backend-server.onrender.com/api/v1/resources/wv2-2   |
-| (xx)    | `WP 2-2`        | https://fabric-web-backend-server.onrender.com/api/v1/resources/wp2-2   |
-| (xxi)   | `AM I 2-2`      | https://fabric-web-backend-server.onrender.com/api/v1/resources/am2-2   |
-| (xxii)  | `FMkt 2-2`      | https://fabric-web-backend-server.onrender.com/api/v1/resources/fmkt2-2 |
-| (xxiii) | `FEEE 2-2`      | https://fabric-web-backend-server.onrender.com/api/v1/resources/feee2-2 |
-| (xxiv)  | `AM II 3-1`     | https://fabric-web-backend-server.onrender.com/api/v1/resources/am3-1   |
-| (xxv)   | `YM II 3-1`     | https://fabric-web-backend-server.onrender.com/api/v1/resources/ym3-1   |
-| (xxvi)  | `WP II 3-1`     | https://fabric-web-backend-server.onrender.com/api/v1/resources/wp3-1   |
-| (xxvii) | `Knit I 3-1`    | https://fabric-web-backend-server.onrender.com/api/v1/resources/knit3-1 |
-| (xxviii)| `Econ 3-1`      | https://fabric-web-backend-server.onrender.com/api/v1/resources/econ3-1 |
-| (xxix)  | `IM 3-1`        | https://fabric-web-backend-server.onrender.com/api/v1/resources/im3-1   |
-| (xxx)   | `ACE 3-2`       | https://fabric-web-backend-server.onrender.com/api/v1/resources/ace3-2  |
-| (xxxi)  | `ACFM 3-2`      | https://fabric-web-backend-server.onrender.com/api/v1/resources/acfm3-2 |
-| (xxxii) | `ACM 3-2`       | https://fabric-web-backend-server.onrender.com/api/v1/resources/acm3-2  |
-| (xxxiii)| `FSD 3-2`       | https://fabric-web-backend-server.onrender.com/api/v1/resources/fsd3-2  |
-| (xxxiv) | `Wvg II 3-2`    | https://fabric-web-backend-server.onrender.com/api/v1/resources/wv3-2   |
-
+| SN        | Resources       | APIs                                                                     |
+| --------- | :-------------- | :----------------------------------------------------------------------- |
+| (i)       | `Physics 1-1`   | https://fabric-web-backend-server.onrender.com/api/v1/resources/phy1-1   |
+| (ii)      | `Chemistry 1-1` | https://fabric-web-backend-server.onrender.com/api/v1/resources/chem1-1  |
+| (iii)     | `Math 1-1`      | https://fabric-web-backend-server.onrender.com/api/v1/resources/math1-1  |
+| (iv)      | `NTF 1-1`       | https://fabric-web-backend-server.onrender.com/api/v1/resources/ntf1-1   |
+| (v)       | `BCE 1-1`       | https://fabric-web-backend-server.onrender.com/api/v1/resources/bce1-1   |
+| (vi)      | `Physics 1-2`   | https://fabric-web-backend-server.onrender.com/api/v1/resources/phy1-2   |
+| (vii)     | `Chemistry 1-2` | https://fabric-web-backend-server.onrender.com/api/v1/resources/chem1-2  |
+| (viii)    | `Math 1-2`      | https://fabric-web-backend-server.onrender.com/api/v1/resources/math1-2  |
+| (ix)      | `CP 1-2`        | https://fabric-web-backend-server.onrender.com/api/v1/resources/cp1-2    |
+| (x)       | `EM 1-2`        | https://fabric-web-backend-server.onrender.com/api/v1/resources/em1-2    |
+| (xi)      | `PSE 1-2`       | https://fabric-web-backend-server.onrender.com/api/v1/resources/pse1-2   |
+| (xii)     | `STAT 2-1`      | https://fabric-web-backend-server.onrender.com/api/v1/resources/stat2-1  |
+| (xiii)    | `FYT 2-1`       | https://fabric-web-backend-server.onrender.com/api/v1/resources/fyt2-1   |
+| (xiv)     | `WvgPP 2-1`     | https://fabric-web-backend-server.onrender.com/api/v1/resources/wvgpp2-1 |
+| (xv)      | `YM I 2-1`      | https://fabric-web-backend-server.onrender.com/api/v1/resources/ym2-1    |
+| (xvi)     | `MMTF 2-1`      | https://fabric-web-backend-server.onrender.com/api/v1/resources/mmtf2-1  |
+| (xvii)    | `FME 2-1`       | https://fabric-web-backend-server.onrender.com/api/v1/resources/fme2-1   |
+| (xviii)   | `TP 2-2`        | https://fabric-web-backend-server.onrender.com/api/v1/resources/tp2-2    |
+| (xxix)    | `Wvg I 2-2`     | https://fabric-web-backend-server.onrender.com/api/v1/resources/wv2-2    |
+| (xx)      | `WP 2-2`        | https://fabric-web-backend-server.onrender.com/api/v1/resources/wpg2-2   |
+| (xxi)     | `AM I 2-2`      | https://fabric-web-backend-server.onrender.com/api/v1/resources/am2-2    |
+| (xxii)    | `FMkt 2-2`      | https://fabric-web-backend-server.onrender.com/api/v1/resources/fmkt2-2  |
+| (xxiii)   | `FEEE 2-2`      | https://fabric-web-backend-server.onrender.com/api/v1/resources/feee2-2  |
+| (xxiv)    | `AM II 3-1`     | https://fabric-web-backend-server.onrender.com/api/v1/resources/am3-1    |
+| (xxv)     | `YM II 3-1`     | https://fabric-web-backend-server.onrender.com/api/v1/resources/ym3-1    |
+| (xxvi)    | `WP II 3-1`     | https://fabric-web-backend-server.onrender.com/api/v1/resources/wp3-1    |
+| (xxvii)   | `Knit I 3-1`    | https://fabric-web-backend-server.onrender.com/api/v1/resources/knit3-1  |
+| (xxviii)  | `Econ 3-1`      | https://fabric-web-backend-server.onrender.com/api/v1/resources/econ3-1  |
+| (xxix)    | `IM 3-1`        | https://fabric-web-backend-server.onrender.com/api/v1/resources/im3-1    |
+| (xxx)     | `ACE 3-2`       | https://fabric-web-backend-server.onrender.com/api/v1/resources/ace3-2   |
+| (xxxi)    | `ACFM 3-2`      | https://fabric-web-backend-server.onrender.com/api/v1/resources/acfm3-2  |
+| (xxxii)   | `ACM 3-2`       | https://fabric-web-backend-server.onrender.com/api/v1/resources/acm3-2   |
+| (xxxiii)  | `FSD 3-2`       | https://fabric-web-backend-server.onrender.com/api/v1/resources/fsd3-2   |
+| (xxxiv)   | `Wvg II 3-2`    | https://fabric-web-backend-server.onrender.com/api/v1/resources/wvg3-2   |
+| (xxxv)    | `SOC 4-1`       | https://fabric-web-backend-server.onrender.com/api/v1/resources/soc4-1   |
+| (xxxvi)   | `FTQC 4-1`      | https://fabric-web-backend-server.onrender.com/api/v1/resources/ftqc4-1  |
+| (xxxvii)  | `Knit II 4-1`   | https://fabric-web-backend-server.onrender.com/api/v1/resources/knit4-1  |
+| (xxxviii) | `SFP 4-1`       | https://fabric-web-backend-server.onrender.com/api/v1/resources/sfp4-1   |
+| (xxxix)   | `TAM 4-1`       | https://fabric-web-backend-server.onrender.com/api/v1/resources/tam4-1   |
+| (xl)      | `NWvn 4-2`      | https://fabric-web-backend-server.onrender.com/api/v1/resources/nwvn4-2  |
+| (xli)     | `ES 4-2`        | https://fabric-web-backend-server.onrender.com/api/v1/resources/es4-2    |
+| (xlii)    | `TT4-2`         | https://fabric-web-backend-server.onrender.com/api/v1/resources/tt4-2    |
+| (xliii)   | `PPC 4-2`       | https://fabric-web-backend-server.onrender.com/api/v1/resources/ppc4-2   |
+| (xliv)    | `FEPW 4-2`      | https://fabric-web-backend-server.onrender.com/api/v1/resources/fepw4-2  |
 
 ## Security Supported Versions
 
@@ -87,7 +95,6 @@
 | 0.1.x   | :x:                |
 | 1.1.x   | :white_check_mark: |
 | < 3.0   | :white_check_mark: |
-
 
 ### `Front-end HomePage UI`
 
@@ -186,7 +193,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/m
 ### Advanced Configuration
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
- 
+
 ### Deployment
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)

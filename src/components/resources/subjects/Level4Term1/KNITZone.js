@@ -10,7 +10,7 @@ const KNITIIZone = () => {
 
   useEffect(() => {
     try {
-      fetch(`${RESOURCE_URL}/fsd3-2`)
+      fetch(`${RESOURCE_URL}/knit4-1`)
         .then((res) => {
           return res.json();
         })
