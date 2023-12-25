@@ -5,7 +5,7 @@ import styled from "styled-components";
 const CustomSkeletonStructureII = (props) => {
   return (
     <SkeletonConfig>
-      <SkeletonTheme baseColor="#ffffff" highlightColor="#ffffff">
+      <SkeletonTheme baseColor="#d3b683" highlightColor="#d3d9d1">
         <Skeleton
           className="skeleton"
           style={{
