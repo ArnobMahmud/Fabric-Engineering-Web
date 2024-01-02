@@ -18,7 +18,7 @@ const Developer = () => {
               </div>
             </div>
             <div
-              className="col-lg-5 col-md-12 col-sm-12 text-center dev-card"
+              className="col-lg-6 col-md-12 col-sm-12 text-center dev-card"
               data-aos="fade-up"
               data-aos-duration={3000}
             >
@@ -106,7 +106,7 @@ const Developer = () => {
               <div className="card">
                 <h3>Code Analysis</h3>
                 <div className="row text-center justify-content-between shield">
-                  <div className="col-lg-6 col-md-6 col-sm-12">
+                  <div className="col-lg-4 col-md-4 col-sm-12">
                     <a
                       href="https://github.com/ArnobMahmud/Fabric-Engineering-Web/blob/master/LICENSE"
                       target="_blank"
@@ -118,7 +118,8 @@ const Developer = () => {
                       />
                     </a>
                   </div>
-                  <div className="col-lg-6 col-md-6 col-sm-12">
+
+                  <div className="col-lg-4 col-md-4 col-sm-12">
                     <a
                       className="foot-link"
                       href="https://github.com/ArnobMahmud/Fabric-Engineering-Web/releases"
@@ -131,47 +132,68 @@ const Developer = () => {
                       />
                     </a>
                   </div>
+
+                  <div className="col-lg-4 col-md-4 col-sm-12">
+                    <a
+                      className="foot-link"
+                      href=""
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <img
+                        src="https://img.shields.io/npm/v/npm?style=plastic&logo=npm"
+                        alt="cq"
+                      />
+                    </a>
+                  </div>
+
+                  <div className="col-lg-4 col-md-4 col-sm-12">
+                    <a
+                      className="foot-link"
+                      href=""
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <img
+                        src="https://wakatime.com/badge/github/ArnobMahmud/Fabric-Engineering-Web.svg?style=plastic"
+                        alt="cq"
+                      />
+                    </a>
+                  </div>
+
+                  <div className="col-lg-4 col-md-4 col-sm-12">
+                    <a
+                      className="foot-link"
+                      href=""
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <img
+                        src="https://api.netlify.com/api/v1/badges/944bd3d0-a153-41b9-9da2-5ebd88a18994/deploy-status"
+                        alt="cq"
+                      />
+                    </a>
+                  </div>
+
+                  <div className="col-lg-4 col-md-4 col-sm-12">
+                    <a
+                      className="foot-link"
+                      href=""
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <img
+                        src="https://img.shields.io/badge/Developed%20by-Arnob%20Mahmud-1f425f.svg?style=plastic&logo=visual-studio-code&logoColor=007ACC&labelColor=beb4ab"
+                        alt="cq"
+                      />
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </DeveloperArea>
-      {/* <DeveloperProject>
-        <div className="container">
-          <div className="card row desc">
-            <div className="col-xl-2 infocard">
-              <img
-                src="https://user-images.githubusercontent.com/60808266/209178367-7df9d714-1446-426a-baf4-cf5fc0b451cf.png"
-                alt=""
-              />
-              <h5>Count Converter App</h5>
-            </div>
-            <div className="col-xl-2 infocard">
-              <img
-                src="https://user-images.githubusercontent.com/60808266/128818790-a61a39a2-874b-476a-bcd1-54bd63befccd.jpg"
-                alt=""
-              />
-              <h5>Covid'19 Tracker App</h5>
-            </div>
-            <div className="col-xl-2 infocard">
-              <img
-                src="https://user-images.githubusercontent.com/60808266/134813730-8e8a89c0-cc33-425d-9c21-1c45e48601ea.png"
-                alt=""
-              />
-              <h5>Better Learn Programming App</h5>
-            </div>
-
-            <div className="col-xl-2 infocard">
-              <img
-                src="https://user-images.githubusercontent.com/60808266/112758746-b6c2de00-9011-11eb-8aff-8c00951ab69b.jpg"
-                alt=""
-              />
-              <h5>Code Quiz App</h5>
-            </div>
-          </div>
-        </div>
-      </DeveloperProject> */}
     </>
   );
 };
@@ -306,59 +328,3 @@ const DeveloperArea = styled.div`
     }
   }
 `;
-
-// const DeveloperProject = styled.div`
-//   margin: 60px 0px;
-//   .card {
-//     padding: 30px 20px;
-//     background: ${({ theme }) => theme.cardBG};
-//     align-items: center;
-//     height: 500px;
-//   }
-//   .infocard {
-//     text-align: center;
-//     align-items: center;
-//     justify-content: space-between;
-//     padding: 20px;
-//     height: 400px;
-//     width: 300px;
-//     margin: 20px 15px;
-//     border-radius: 20px;
-//     background: #503439;
-//     box-shadow: 2px 2px 6px #442c30, -2px -2px 20px #5c3c42;
-//   }
-//   h5 {
-//     margin: 20px 0px 0px;
-//     color: #b7acf5;
-//   }
-//   img {
-//     border-radius: 15px;
-//     max-width: 100%;
-//     object-fit: fill;
-//   }
-//   .desc {
-//     overflow-x: scroll;
-//     overflow-y: hidden;
-//     scroll-snap-type: x mandatory;
-//   }
-
-//   .desc::-webkit-scrollbar {
-//     height: 12px;
-//   }
-
-//   .desc::-webkit-scrollbar-thumb,
-//   .desc::-webkit-scrollbar-track {
-//     border-radius: 92px;
-//   }
-
-//   .desc::-webkit-scrollbar-thumb {
-//     background: var(--darkred);
-//   }
-
-//   .desc::-webkit-scrollbar-track {
-//     background: var(--thumb);
-//   }
-//   @media (max-width: 991px) {
-//     margin: 0px 20px 40px;
-//   }
-// `;

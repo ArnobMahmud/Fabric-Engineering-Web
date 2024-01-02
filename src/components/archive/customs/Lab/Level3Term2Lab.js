@@ -14,7 +14,7 @@ export default function Level3Term2Lab() {
               <tr>
                 <th>Day</th>
                 <th>9:50AM - 11:30AM</th>
-                <th>10:40AM - 12:20AM</th>
+                <th>10:40AM - 12:20PM</th>
                 <th>2:00PM - 3:40PM</th>
               </tr>
               <tbody>
@@ -43,7 +43,7 @@ export default function Level3Term2Lab() {
               <tr>
                 <th>Day</th>
                 <th>9:50AM - 11:30AM</th>
-                <th>10:40AM - 12:20AM</th>
+                <th>10:40AM - 12:20PM</th>
                 <th>3:40PM - 5:20PM</th>
               </tr>
               <tbody>
