@@ -2,19 +2,19 @@
   {
     "course": "Application of Computer in Fabric Manufacturing (ACFM)",
     "courseCode": "FE 301",
-    "lecturer": "",
+    "lecturer": "Mohaddes Sir, Faiz Sir",
     "access": "/acfm3-2"
   },
   {
     "course": "Fabric Structure & Design (FSD)",
     "courseCode": "FE 305",
-    "lecturer": "",
+    "lecturer": "Belal Sir, Shilpi Mam",
     "access": "/fsd3-2"
   },
   {
     "course": "Weaving(Wvg) II",
     "courseCode": "FE 309",
-    "lecturer": "",
+    "lecturer": "Mohaddes Sir, Arin Sir",
     "access": "/wvg3-2"
   },
   {
@@ -26,7 +26,7 @@
   {
     "course": "Accounting & Cost Management (ACM)",
     "courseCode": "TEM 303",
-    "lecturer": "",
+    "lecturer": "Rayhan Sir, Sakila Mam",
     "access": "/acm3-2"
   }
 ]

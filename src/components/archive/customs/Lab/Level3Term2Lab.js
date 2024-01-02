@@ -13,16 +13,25 @@ export default function Level3Term2Lab() {
             <table>
               <tr>
                 <th>Day</th>
-                <th>8:00AM - 9:40AM</th>
                 <th>9:50AM - 11:30AM</th>
-                <th>11:30AM - 1:10PM</th>
+                <th>10:40AM - 12:20AM</th>
                 <th>2:00PM - 3:40PM</th>
               </tr>
               <tbody>
-                <tr></tr>
-                <tr></tr>
-                <tr></tr>
-                <tr></tr>
+                <tr>
+                  <td>Wednesday</td>
+                  <td>-</td>
+                  <td>
+                    Application of Computer in Fabric Manufacturing (ACFM)
+                  </td>
+                  <td>Fabric Structure & Design (FSD)</td>
+                </tr>
+                <tr>
+                  <td>Thursday</td>
+                  <td>Weaving(Wvg) II</td>
+                  <td>-</td>
+                  <td>-</td>
+                </tr>
               </tbody>
             </table>
           </div>
@@ -33,16 +42,25 @@ export default function Level3Term2Lab() {
             <table>
               <tr>
                 <th>Day</th>
-                <th>8:00AM - 9:40AM</th>
                 <th>9:50AM - 11:30AM</th>
-                <th>11:30AM - 1:10PM</th>
-                <th>2:00PM - 3:40PM</th>
+                <th>10:40AM - 12:20AM</th>
+                <th>3:40PM - 5:20PM</th>
               </tr>
               <tbody>
-                <tr></tr>
-                <tr></tr>
-                <tr></tr>
-                <tr></tr>
+                <tr>
+                  <td>Sunday</td>
+                  <td>Weaving(Wvg) II</td>
+                  <td>Fabric Structure & Design (FSD)</td>
+                  <td>-</td>
+                </tr>
+                <tr>
+                  <td>Thursday</td>
+                  <td>
+                    Application of Computer in Fabric Manufacturing (ACFM)
+                  </td>
+                  <td>-</td>
+                  <td>-</td>
+                </tr>
               </tbody>
             </table>
           </div>
@@ -53,16 +71,25 @@ export default function Level3Term2Lab() {
             <table>
               <tr>
                 <th>Day</th>
-                <th>8:00AM - 9:40AM</th>
-                <th>9:50AM - 11:30AM</th>
+                <th>10:40AM - 12:20PM</th>
                 <th>11:30AM - 1:10PM</th>
                 <th>2:00PM - 3:40PM</th>
               </tr>
               <tbody>
-                <tr></tr>
-                <tr></tr>
-                <tr></tr>
-                <tr></tr>
+                <tr>
+                  <td>Monday</td>
+                  <td>-</td>
+                  <td>
+                    Application of Computer in Fabric Manufacturing (ACFM)
+                  </td>
+                  <td>Fabric Structure & Design (FSD)</td>
+                </tr>
+                <tr>
+                  <td>Wednesday</td>
+                  <td>Weaving(Wvg) II</td>
+                  <td>-</td>
+                  <td>-</td>
+                </tr>
               </tbody>
             </table>
           </div>
