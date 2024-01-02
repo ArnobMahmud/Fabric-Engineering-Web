@@ -104,9 +104,25 @@ const Developer = () => {
                 </div>
               </div>
               <div className="card">
-                <h3>Code Analysis</h3>
-                <div className="row text-center justify-content-between shield">
-                  <div className="col-lg-4 col-md-4 col-sm-12">
+                <h3>Env. Status</h3>
+                <div className="row text-center shield">
+                  {/* Netlify */}
+                  <div className="col-lg-5 col-md-6 col-sm-12">
+                    <a
+                      className="foot-link"
+                      href="https://fabricengineering.netlify.app/developer"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <img
+                        src="https://api.netlify.com/api/v1/badges/944bd3d0-a153-41b9-9da2-5ebd88a18994/deploy-status"
+                        alt="cq"
+                      />
+                    </a>
+                  </div>
+
+                  {/* License */}
+                  <div className="col-lg-5 col-md-6 col-sm-12">
                     <a
                       href="https://github.com/ArnobMahmud/Fabric-Engineering-Web/blob/master/LICENSE"
                       target="_blank"
@@ -119,7 +135,8 @@ const Developer = () => {
                     </a>
                   </div>
 
-                  <div className="col-lg-4 col-md-4 col-sm-12">
+                  {/* Deploy */}
+                  <div className="col-lg-5 col-md-6 col-sm-12">
                     <a
                       className="foot-link"
                       href="https://github.com/ArnobMahmud/Fabric-Engineering-Web/releases"
@@ -132,11 +149,11 @@ const Developer = () => {
                       />
                     </a>
                   </div>
-
-                  <div className="col-lg-4 col-md-4 col-sm-12">
+                  {/* npm */}
+                  <div className="col-lg-5 col-md-6 col-sm-12">
                     <a
                       className="foot-link"
-                      href=""
+                      href="https://fabricengineering.netlify.app/developer"
                       target="_blank"
                       rel="noreferrer"
                     >
@@ -146,44 +163,59 @@ const Developer = () => {
                       />
                     </a>
                   </div>
-
-                  <div className="col-lg-4 col-md-4 col-sm-12">
+                  {/* wakatime */}
+                  <div className="col-lg-5 col-md-6 col-sm-12">
                     <a
                       className="foot-link"
-                      href=""
+                      href="https://fabricengineering.netlify.app/developer"
                       target="_blank"
                       rel="noreferrer"
                     >
                       <img
-                        src="https://wakatime.com/badge/github/ArnobMahmud/Fabric-Engineering-Web.svg?style=plastic"
+                        src="https://wakatime.com/badge/github/ArnobMahmud/Fabric-Engineering-Web.svg?style=plastic&labelColor=beb4ab"
                         alt="cq"
                       />
                     </a>
                   </div>
 
-                  <div className="col-lg-4 col-md-4 col-sm-12">
+                  {/* Develop */}
+                  <div className="col-lg-5 col-md-6 col-sm-12">
                     <a
                       className="foot-link"
-                      href=""
-                      target="_blank"
-                      rel="noreferrer"
-                    >
-                      <img
-                        src="https://api.netlify.com/api/v1/badges/944bd3d0-a153-41b9-9da2-5ebd88a18994/deploy-status"
-                        alt="cq"
-                      />
-                    </a>
-                  </div>
-
-                  <div className="col-lg-4 col-md-4 col-sm-12">
-                    <a
-                      className="foot-link"
-                      href=""
+                      href="https://fabricengineering.netlify.app/developer"
                       target="_blank"
                       rel="noreferrer"
                     >
                       <img
                         src="https://img.shields.io/badge/Developed%20by-Arnob%20Mahmud-1f425f.svg?style=plastic&logo=visual-studio-code&logoColor=007ACC&labelColor=beb4ab"
+                        alt="cq"
+                      />
+                    </a>
+                  </div>
+                  {/* Resource */}
+                  <div className="col-lg-5 col-md-6 col-sm-12">
+                    <a
+                      className="foot-link"
+                      href="https://fabric-web-backend-server.onrender.com/"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <img
+                        src="https://img.shields.io/website?url=https%3A%2F%2Ffabricengineering.netlify.app%2Fresource&up_message=online&up_color=orange&down_message=offline&down_color=lightgrey&style=plastic&logo=dependabot&logoColor=green&label=Resource"
+                        alt="cq"
+                      />
+                    </a>
+                  </div>
+                  {/* node */}
+                  <div className="col-lg-5 col-md-6 col-sm-12">
+                    <a
+                      className="foot-link"
+                      href="https://fabricengineering.netlify.app/developer"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <img
+                        src="https://img.shields.io/badge/Made%20with-NodeJs-1f425f.svg?style=plastic&logo=Node.Js&color=e1d1eb&logoColor=faed3e&labelColor=339936"
                         alt="cq"
                       />
                     </a>
@@ -292,6 +324,7 @@ const DeveloperArea = styled.div`
 
   .shield {
     margin: 20px 0px 0px;
+    justify-content: space-around;
   }
 
   .shield h1 {
