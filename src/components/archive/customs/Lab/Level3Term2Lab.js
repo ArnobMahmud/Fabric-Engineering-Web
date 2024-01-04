@@ -48,10 +48,10 @@ export default function Level3Term2Lab() {
               </tr>
               <tbody>
                 <tr>
-                  <td>Sunday</td>
+                  <td>Sunday</td> 
+                  <td>-</td>
                   <td>Weaving(Wvg) II</td>
                   <td>Fabric Structure & Design (FSD)</td>
-                  <td>-</td>
                 </tr>
                 <tr>
                   <td>Thursday</td>

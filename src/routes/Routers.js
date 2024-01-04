@@ -1,5 +1,4 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-// import {Redirect} from "react-router-dom";
 
 /* Includes */
 import Navbar from "../components/includes/NavigationBar";
@@ -171,7 +170,6 @@ const RouteHandle = () => {
         <Route exact path="/acm3-2" element={<ACM />} />
         <Route exact path="/fsd3-2" element={<FSD />} />
         <Route exact path="/wvg3-2" element={<WvgII />} />
-
         {/* Level 4 Term 1 */}
         <Route exact path="/level4-term1" element={<Level4Term1Page />} />
         <Route exact path="/soc4-1" element={<SOC />} />
@@ -179,7 +177,6 @@ const RouteHandle = () => {
         <Route exact path="/knit4-1" element={<KnitII />} />
         <Route exact path="/sfp4-1" element={<SFP />} />
         <Route exact path="/tam4-1" element={<TAM />} />
-
         {/* Level 4 Term 2 */}
         <Route exact path="/level4-term2" element={<Level4Term2Page />} />
         <Route exact path="/nwvn4-2" element={<NWvn />} />

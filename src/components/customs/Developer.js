@@ -45,6 +45,17 @@ const Developer = () => {
                     <ul>
                       <li>
                         <a
+                          href="http://www.instagram.com/arnob___mahmud"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          <i class="fab fa-instagram" aria-hidden="true"></i>
+                        </a>
+                      </li>
+                    </ul>
+                    <ul>
+                      <li>
+                        <a
                           href="http://www.twitter.com/@Arnob__Mahmud"
                           target="_blank"
                           rel="noopener noreferrer"
@@ -104,7 +115,9 @@ const Developer = () => {
                 </div>
               </div>
               <div className="card">
-                <h3>Env. Status</h3>
+                <h3>
+                  Env. Status <span className="status"></span>
+                </h3>
                 <div className="row text-center shield">
                   {/* Netlify */}
                   <div className="col-lg-5 col-md-6 col-sm-12">
@@ -233,7 +246,7 @@ const Developer = () => {
 export default Developer;
 
 const DeveloperArea = styled.div`
-  margin: 150px 0px 60px;
+  margin: 200px 0px 60px;
   .card {
     padding: 30px 20px;
     background: ${({ theme }) => theme.cardBG};
@@ -260,6 +273,7 @@ const DeveloperArea = styled.div`
   ul li a i {
     -webkit-transition: all linear 0.3s;
     transition: all linear 0.3s;
+    font-size: 30px;
   }
   ul li .fa-facebook-square:hover {
     color: #315aaa;
@@ -278,11 +292,16 @@ const DeveloperArea = styled.div`
   ul li .fa-envelope:hover {
     color: #d0f743;
   }
-
+  ul li .fa-instagram:hover {
+    color: #833ab4;
+    list-style: none;
+  }
   ul li .fa-github:hover {
     opacity: 0.5;
   }
-
+  ul li .fa-instagram:hover {
+    opacity: 0.5;
+  }
   ul li .fa-discord:hover {
     color: #7289d9;
   }
@@ -331,6 +350,15 @@ const DeveloperArea = styled.div`
     font-family: Ubuntu;
   }
 
+  h3 span.status{
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: #21ad3f;
+    box-shadow: 0px 0px 40px 14px #39d353;
+  }
+
   @media (max-width: 991px) {
     .dev-icon img {
       margin: 50px 0px;
@@ -338,6 +366,7 @@ const DeveloperArea = styled.div`
   }
 
   @media (max-width: 767px) {
+    margin: 180px 0px 60px;
     .developedBy ul {
       padding: 0 15px !important;
     }

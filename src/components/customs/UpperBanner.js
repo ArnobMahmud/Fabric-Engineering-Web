@@ -2,10 +2,7 @@ import React, { Component } from "react";
 import styled from "styled-components";
 import { FcBinoculars } from "react-icons/fc";
 import { IconContext } from "react-icons";
-import Video from "../../video/butex.mp4";
-// import balloon from "../../assets/balloon.png";
-// import cloud from "../../assets/cloud.png";
-// import cloud2 from "../../assets/cloud2.png";
+import bannerImg from "../../assets/topbanner.png";
 
 class UpperBanner extends Component {
   render() {
@@ -13,9 +10,6 @@ class UpperBanner extends Component {
       <div>
         <TopBannerArea>
           <div className="top-bnr-overlay">
-            <video loop muted autoPlay className="video">
-              <source src={Video} type="video/mp4"></source>
-            </video>
             <div className="home-shield row text-center justify-content-between">
               <div className="col-lg-6 col-md-6 col-sm-6">
                 <a
@@ -68,11 +62,12 @@ class UpperBanner extends Component {
 export default UpperBanner;
 
 const TopBannerArea = styled.div`
+  background-image: url(${bannerImg});
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
- 
+
   .top-bnr-overlay {
     height: 850px;
     background: ${({ theme }) => theme.topBnrOverlay};
@@ -101,7 +96,7 @@ const TopBannerArea = styled.div`
     padding-top: 15px;
     font-size: 18px;
     font-family: Raleway;
-    font-weight: 500 ;
+    font-weight: 500;
     color: ${({ theme }) => theme.topBnrParagraph};
   }
   .home-shield {
