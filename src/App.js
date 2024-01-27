@@ -7,7 +7,7 @@ import NetwrokDetector from "./components/hoc/NetworkStatus";
 
 import Toggle from "./components/toggletheme/toogle";
 import { useDarkMode } from "./components/toggletheme/useDarkMode";
-import RouteHandle from "./routes/Routers";
+import RouteHandle from "./routes/router";
 import SplashScreen from "./splash/SplashScreen";
 
 const App = () => {

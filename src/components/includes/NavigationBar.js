@@ -96,7 +96,7 @@ export default NavigationBar;
 
 const Header = styled.div`
   font-family: "Raleway";
-  background: rgb(22 73 66);
+  background: rgb(12 43 39);
   padding: 25px 0px;
   position: fixed;
   top: 0px;
@@ -112,7 +112,7 @@ const Header = styled.div`
     position: absolute;
     height: 180px; /* 185*/
     width: 170px;
-    background: rgb(22 73 66);
+  background: rgb(12 43 39);
     border-radius: 50%;
     /* box-shadow: 3px 3px 14px 3px #00000061; */
   }

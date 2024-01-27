@@ -1,120 +1,120 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 /* Includes */
-import Navbar from "../components/includes/NavigationBar";
-import HomePage from "../pages/HomePage";
-import Footer from "../components/includes/Footer";
+import Navbar from "../components/includes/NavigationBar.js";
+import HomePage from "../pages/HomePage.js";
+import Footer from "../components/includes/Footer.js";
 
 /* Error Screen */
-import ErrorScreen1 from "../components/screens/AnnounceScreenIII";
-import ErrorScreen2 from "../components/screens/InformationScreen";
-import ErrorScreen3 from "../components/screens/404";
-import ErrorScreen4 from "../components/screens/NoRoutine";
+import ErrorScreen1 from "../components/screens/AnnounceScreenIII.js";
+import ErrorScreen2 from "../components/screens/InformationScreen.js";
+import ErrorScreen3 from "../components/screens/404.js";
+import ErrorScreen4 from "../components/screens/NoRoutine.js";
 
 /* Resource */
-import ResourcePage from "../pages/ResourcePage";
-import Level1Term1Page from "../components/resources/pages/screen/Level1Term1Page";
-import Level1Term2Page from "../components/resources/pages/screen/Level1Term2Page";
-import Level2Term1Page from "../components/resources/pages/screen/Level2Term1Page";
-import Level2Term2Page from "../components/resources/pages/screen/Level2Term2Page";
-import Level3Term1Page from "../components/resources/pages/screen/Level3Term1Page";
-import Level3Term2Page from "../components/resources/pages/screen/Level3Term2Page";
-import Level4Term1Page from "../components/resources/pages/screen/Level4Term1Page";
-import Level4Term2Page from "../components/resources/pages/screen/Level4Term2Page";
+import ResourcePage from "../pages/ResourcePage.js";
+import Level1Term1Page from "../components/resources/pages/screen/Level1Term1Page.js";
+import Level1Term2Page from "../components/resources/pages/screen/Level1Term2Page.js";
+import Level2Term1Page from "../components/resources/pages/screen/Level2Term1Page.js";
+import Level2Term2Page from "../components/resources/pages/screen/Level2Term2Page.js";
+import Level3Term1Page from "../components/resources/pages/screen/Level3Term1Page.js";
+import Level3Term2Page from "../components/resources/pages/screen/Level3Term2Page.js";
+import Level4Term1Page from "../components/resources/pages/screen/Level4Term1Page.js";
+import Level4Term2Page from "../components/resources/pages/screen/Level4Term2Page.js";
 
 /* Level 1 Term 1 */
-import BCE from "../components/resources/pages/Level1Term1/BCEpage";
-import ChemistryI from "../components/resources/pages/Level1Term1/ChemistryPage";
-import MathI from "../components/resources/pages/Level1Term1/MathPage";
-import Ntf from "../components/resources/pages/Level1Term1/NtfPage";
-import PhysicsI from "../components/resources/pages/Level1Term1/PhysicsPage";
+import BCE from "../components/resources/pages/Level1Term1/BCEpage.js";
+import ChemistryI from "../components/resources/pages/Level1Term1/ChemistryPage.js";
+import MathI from "../components/resources/pages/Level1Term1/MathPage.js";
+import Ntf from "../components/resources/pages/Level1Term1/NtfPage.js";
+import PhysicsI from "../components/resources/pages/Level1Term1/PhysicsPage.js";
 
 /* Level 1 Term 2 */
-import EM from "../components/resources/pages/Level1Term2/EngineeringMaterialsPage";
-import PhysicsII from "../components/resources/pages/Level1Term2/PhysicsPage";
-import ChemistryII from "../components/resources/pages/Level1Term2/ChemistryPage";
-import MathII from "../components/resources/pages/Level1Term2/MathPage";
-import CP from "../components/resources/pages/Level1Term2/ComputerProgrammingPage";
-import PSE from "../components/resources/pages/Level1Term2/PolymerSciencePage";
+import EM from "../components/resources/pages/Level1Term2/EngineeringMaterialsPage.js";
+import PhysicsII from "../components/resources/pages/Level1Term2/PhysicsPage.js";
+import ChemistryII from "../components/resources/pages/Level1Term2/ChemistryPage.js";
+import MathII from "../components/resources/pages/Level1Term2/MathPage.js";
+import CP from "../components/resources/pages/Level1Term2/ComputerProgrammingPage.js";
+import PSE from "../components/resources/pages/Level1Term2/PolymerSciencePage.js";
 
 /* Level 2 Term 1 */
-import Statistics from "../components/resources/pages/Level2Term1/StatisticsPage";
-import FYT from "../components/resources/pages/Level2Term1/FYTPage";
-import YM from "../components/resources/pages/Level2Term1/YMIPage";
-import MMTF from "../components/resources/pages/Level2Term1/MMTFPage";
-import WPP from "../components/resources/pages/Level2Term1/WPPPage";
-import FME from "../components/resources/pages/Level2Term1/FMEPage";
+import Statistics from "../components/resources/pages/Level2Term1/StatisticsPage.js";
+import FYT from "../components/resources/pages/Level2Term1/FYTPage.js";
+import YM from "../components/resources/pages/Level2Term1/YMIPage.js";
+import MMTF from "../components/resources/pages/Level2Term1/MMTFPage.js";
+import WPP from "../components/resources/pages/Level2Term1/WPPPage.js";
+import FME from "../components/resources/pages/Level2Term1/FMEPage.js";
 
 /* Level 2 Term 2 */
-import TP from "../components/resources/pages/Level2Term2/TPPage";
-import WvgI from "../components/resources/pages/Level2Term2/WvgIPage";
-import AMI from "../components/resources/pages/Level2Term2/AMIPage";
-import FMkt from "../components/resources/pages/Level2Term2/FMktPage";
-import WPI from "../components/resources/pages/Level2Term2/WPIPage";
-import FEEE from "../components/resources/pages/Level2Term2/FEEEPage";
+import TP from "../components/resources/pages/Level2Term2/TPPage.js";
+import WvgI from "../components/resources/pages/Level2Term2/WvgIPage.js";
+import AMI from "../components/resources/pages/Level2Term2/AMIPage.js";
+import FMkt from "../components/resources/pages/Level2Term2/FMktPage.js";
+import WPI from "../components/resources/pages/Level2Term2/WPIPage.js";
+import FEEE from "../components/resources/pages/Level2Term2/FEEEPage.js";
 
 /* Level 3 Term 1 */
-import AMII from "../components/resources/pages/Level3Term1/AMIIPage";
-import Econ from "../components/resources/pages/Level3Term1/EconPage";
-import IM from "../components/resources/pages/Level3Term1/IMPage";
-import KnitI from "../components/resources/pages/Level3Term1/KnitIPage";
-import WPII from "../components/resources/pages/Level3Term1/WPIIPage";
-import YMII from "../components/resources/pages/Level3Term1/YMIIPage";
+import AMII from "../components/resources/pages/Level3Term1/AMIIPage.js";
+import Econ from "../components/resources/pages/Level3Term1/EconPage.js";
+import IM from "../components/resources/pages/Level3Term1/IMPage.js";
+import KnitI from "../components/resources/pages/Level3Term1/KnitIPage.js";
+import WPII from "../components/resources/pages/Level3Term1/WPIIPage.js";
+import YMII from "../components/resources/pages/Level3Term1/YMIIPage.js";
 
 /* Level 3 Term 2 */
-import ACE from "../components/resources/pages/Level3Term2/ACEPage";
-import ACFM from "../components/resources/pages/Level3Term2/ACFMPage";
-import ACM from "../components/resources/pages/Level3Term2/ACMPage";
-import FSD from "../components/resources/pages/Level3Term2/FSDPage";
-import WvgII from "../components/resources/pages/Level3Term2/WvgIIPage";
+import ACE from "../components/resources/pages/Level3Term2/ACEPage.js";
+import ACFM from "../components/resources/pages/Level3Term2/ACFMPage.js";
+import ACM from "../components/resources/pages/Level3Term2/ACMPage.js";
+import FSD from "../components/resources/pages/Level3Term2/FSDPage.js";
+import WvgII from "../components/resources/pages/Level3Term2/WvgIIPage.js";
 
 /* Level 4 Term 1 */
-import FTQC from "../components/resources/pages/Level4Term1/FTQCPage";
-import TAM from "../components/resources/pages/Level4Term1/TAMPage";
-import SOC from "../components/resources/pages/Level4Term1/SOCPage";
-import KnitII from "../components/resources/pages/Level4Term1/KnitIIPage";
-import SFP from "../components/resources/pages/Level4Term1/SFPPage";
+import FTQC from "../components/resources/pages/Level4Term1/FTQCPage.js";
+import TAM from "../components/resources/pages/Level4Term1/TAMPage.js";
+import SOC from "../components/resources/pages/Level4Term1/SOCPage.js";
+import KnitII from "../components/resources/pages/Level4Term1/KnitIIPage.js";
+import SFP from "../components/resources/pages/Level4Term1/SFPPage.js";
 
 /* Level 4 Term 2 */
-import TT from "../components/resources/pages/Level4Term2/TTPage";
-import PPC from "../components/resources/pages/Level4Term2/PPCPage";
-import NWvn from "../components/resources/pages/Level4Term2/NWvnPage";
-import ES from "../components/resources/pages/Level4Term2/ESPage";
-import FEPW from "../components/resources/pages/Level4Term2/FEPWPage";
+import TT from "../components/resources/pages/Level4Term2/TTPage.js";
+import PPC from "../components/resources/pages/Level4Term2/PPCPage.js";
+import NWvn from "../components/resources/pages/Level4Term2/NWvnPage.js";
+import ES from "../components/resources/pages/Level4Term2/ESPage.js";
+import FEPW from "../components/resources/pages/Level4Term2/FEPWPage.js";
 
 /* Syllabus */
-import SyllabusPage from "../pages/SyllabusPage";
+import SyllabusPage from "../pages/SyllabusPage.js";
 
 /* Accessories */
-import AccessoriesPage from "../pages/AccessoriesPage";
+import AccessoriesPage from "../pages/AccessoriesPage.js";
 
 /* Archive */
 import ArchivePage from "../pages/Archives.js";
-import Covid19 from "../pages/CovidPage";
-import StudentsInfo from "../components/archive/pages/StudentsInfo";
-import LabRoutine from "../components/archive/pages/LabRoutine";
-import TermExamRoutine from "../components/archive/pages/ExamRoutine";
+import Covid19 from "../pages/CovidPage.js";
+import StudentsInfo from "../components/archive/pages/StudentsInfo.js";
+import LabRoutine from "../components/archive/pages/LabRoutine.js";
+import TermExamRoutine from "../components/archive/pages/ExamRoutine.js";
 
 /* Lab Routine */
-import Level1Term2Lab from "../components/archive/customs/Lab/Level1Term2Lab";
-import Level2Term1Lab from "../components/archive/customs/Lab/Level2Term1Lab";
-import Level2Term2Lab from "../components/archive/customs/Lab/Level2Term2Lab";
-import Level3Term1Lab from "../components/archive/customs/Lab/Level3Term1Lab";
-import Level3Term2Lab from "../components/archive/customs/Lab/Level3Term2Lab";
-import Level4Term1Lab from "../components/archive/customs/Lab/Level4Term1Lab";
-import Level4Term2Lab from "../components/archive/customs/Lab/Level4Term2Lab";
+import Level1Term2Lab from "../components/archive/customs/Lab/Level1Term2Lab.js";
+import Level2Term1Lab from "../components/archive/customs/Lab/Level2Term1Lab.js";
+import Level2Term2Lab from "../components/archive/customs/Lab/Level2Term2Lab.js";
+import Level3Term1Lab from "../components/archive/customs/Lab/Level3Term1Lab.js";
+import Level3Term2Lab from "../components/archive/customs/Lab/Level3Term2Lab.js";
+import Level4Term1Lab from "../components/archive/customs/Lab/Level4Term1Lab.js";
+import Level4Term2Lab from "../components/archive/customs/Lab/Level4Term2Lab.js";
 
 /* Exam Routine */
-import Level1Term2Exam from "../components/archive/customs/Exam/Level1Term2Exam";
-import Level2Term1Exam from "../components/archive/customs/Exam/Level2Term1Exam";
-import Level2Term2Exam from "../components/archive/customs/Exam/Level2Term2Exam";
-import Level3Term1Exam from "../components/archive/customs/Exam/Level3Term1Exam";
-import Level3Term2Exam from "../components/archive/customs/Exam/Level3Term2Exam";
-import Level4Term1Exam from "../components/archive/customs/Exam/Level4Term1Exam";
-import Level4Term2Exam from "../components/archive/customs/Exam/Level4Term2Exam";
+import Level1Term2Exam from "../components/archive/customs/Exam/Level1Term2Exam.js";
+import Level2Term1Exam from "../components/archive/customs/Exam/Level2Term1Exam.js";
+import Level2Term2Exam from "../components/archive/customs/Exam/Level2Term2Exam.js";
+import Level3Term1Exam from "../components/archive/customs/Exam/Level3Term1Exam.js";
+import Level3Term2Exam from "../components/archive/customs/Exam/Level3Term2Exam.js";
+import Level4Term1Exam from "../components/archive/customs/Exam/Level4Term1Exam.js";
+import Level4Term2Exam from "../components/archive/customs/Exam/Level4Term2Exam.js";
 
 /* Developer */
-import DeveloperPage from "../pages/DeveloperPage";
+import DeveloperPage from "../pages/DeveloperPage.js";
 
 const RouteHandle = () => {
   return (
