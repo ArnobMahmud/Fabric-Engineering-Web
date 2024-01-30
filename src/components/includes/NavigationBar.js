@@ -204,7 +204,6 @@ const Header = styled.div`
     .navbar-expand-lg .navbar-nav .dropdown-menu {
       position: absolute;
       text-align: center;
-      background: ${({ theme }) => theme.headerBG};
     }
     @media (max-width: 767px) {
       .logo {
@@ -225,7 +224,6 @@ const Header = styled.div`
         position: absolute;
         height: 175px; /* 185*/
         width: 160px;
-        background: rgb(22 73 66);
       }
       .navbar-brand img {
         max-width: 130px; /*145*/

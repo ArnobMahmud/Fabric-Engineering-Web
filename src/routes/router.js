@@ -219,7 +219,7 @@ const RouteHandle = () => {
         <Route exact path="/404" element={<ErrorScreen1 />} />
         <Route exact path="/501" element={<ErrorScreen2 />} />
         <Route exact path="/503" element={<ErrorScreen4 />} />
-        <Route element={<ErrorScreen3 />} />
+        <Route exact path="/*" element={<ErrorScreen3 />} />
       </Routes>
       <Footer />
     </BrowserRouter>
