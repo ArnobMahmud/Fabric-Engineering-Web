@@ -10,7 +10,7 @@ const WvgIIZone = () => {
 
   useEffect(() => {
     try {
-      fetch(`${RESOURCE_URL}/wv3-2`)
+      fetch(`${RESOURCE_URL}/wvg3-2`)
         .then((res) => {
           return res.json();
         })
