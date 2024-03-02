@@ -99,11 +99,16 @@ const SkeletonCovidCard = () => {
                         </SkeletonTheme>
                       }
                       deaths={
-                        <Skeleton
-                          style={{ borderRadius: 10 }}
-                          height={20}
-                          width={`100%`}
-                        />
+                        <SkeletonTheme
+                          baseColor="#d3b683"
+                          highlightColor="#d3d9d1"
+                        >
+                          <Skeleton
+                            style={{ borderRadius: 10 }}
+                            height={20}
+                            width={`100%`}
+                          />
+                        </SkeletonTheme>
                       }
                     />
                   </div>
