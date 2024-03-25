@@ -1,10 +1,10 @@
 import React from "react";
-import ACFMZone from "../../subjects/Level3Term2/ACFMZone";
+import ACMZone from "../../subjects/Level3Term2/ACMZone";
 
 function ACMPage() {
   return (
     <div>
-      <ACFMZone />
+      <ACMZone />
     </div>
   );
 }
