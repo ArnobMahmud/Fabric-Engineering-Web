@@ -2,3 +2,4 @@ node_modules
 config.env
 models/sample_resource_json.txt
 models/sample_note_json.txt
+api.txt

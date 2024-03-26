@@ -316,7 +316,7 @@ router.route("/createResource/wp3-1").post(limiter, createWP3_1);
 /* L3 T2 */
 router.route("/createResource/ace3-2").post(limiter, createACE3_2);
 router.route("/createResource/acfm3-2").post(limiter, createACFM3_2);
-router.route("/createResource/scm3-2").post(limiter, createACM3_2);
+router.route("/createResource/acm3-2").post(limiter, createACM3_2);
 router.route("/createResource/fsd3-2").post(limiter, createFSD3_2);
 router.route("/createResource/wvg3-2").post(limiter, createWV3_2);
 
