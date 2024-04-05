@@ -28,7 +28,7 @@ const CoursePage = () => {
     } catch (err) {
       console.log(err.message);
     }
-  }, []);
+  }, [data.access]);
 
   return (
     <CourseArea>
