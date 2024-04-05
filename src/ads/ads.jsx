@@ -14,7 +14,7 @@ class GoogleAds extends Component {
         data-ad-layout-key="-ef+6k-30-ac+ty"
         data-ad-client="ca-pub-2526481226584875"
         data-ad-slot="9884752396"
-        data-ad-format="auto"
+        //data-ad-format="auto"
         data-full-width-responsive="true"
       ></ins>
     );

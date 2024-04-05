@@ -2,7 +2,7 @@ import { useParams, useLocation } from "react-router-dom";
 import { ResourceArea } from "../Palette";
 import ResourceDataCard from "../widgets/ResourceDataCard";
 
-const LevelTermPage = () => {
+const LevelTermInfoPage = () => {
   const params = useParams();
   const refID = params.refID;
   const location = useLocation();
@@ -32,4 +32,4 @@ const LevelTermPage = () => {
   );
 };
 
-export default LevelTermPage;
+export default LevelTermInfoPage;

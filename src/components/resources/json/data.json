@@ -8,31 +8,31 @@
         "course": "Physics I",
         "courseCode": "PHY 101",
         "lecturer": "Harun Sir, Hedayet Sir",
-        "access": "/phy1-1"
+        "access": "phy1-1"
       },
       {
         "course": "Chemistry I",
         "courseCode": "CHEM 101",
         "lecturer": "Ajmol Sir, Samiul Sir, Sadia Mam, Farzana Mam",
-        "access": "/chem1-1"
+        "access": "chem1-1"
       },
       {
         "course": "Mathematics I",
         "courseCode": "MS 101",
         "lecturer": "Anwar Sir, Anup Sir",
-        "access": "/math1-1"
+        "access": "math1-1"
       },
       {
         "course": "Business & Communicative English (BCE)",
         "courseCode": "HSS 101",
         "lecturer": "Adnan Sir, Salahuddin Sir",
-        "access": "/bce1-1"
+        "access": "bce1-1"
       },
       {
         "course": "Natural Textile Fiber (NTF)",
         "courseCode": "YE 101",
         "lecturer": "Bashar Sir, Tanima Mam",
-        "access": "/ntf1-1"
+        "access": "ntf1-1"
       }
     ]
   },
@@ -46,37 +46,37 @@
         "course": "Physics II",
         "courseCode": "PHY 103",
         "lecturer": "Hedayet Sir, Mahmud Sir",
-        "access": "/phy1-2"
+        "access": "phy1-2"
       },
       {
         "course": "Chemistry II",
         "courseCode": "CHEM 103",
         "lecturer": "Sadia Mam, Farzana Mam",
-        "access": "/chem1-2"
+        "access": "chem1-2"
       },
       {
         "course": "Mathematics II",
         "courseCode": "MS 103",
         "lecturer": "Anwar Sir, Rokonuzzaman Sir",
-        "access": "/math1-2"
+        "access": "math1-2"
       },
       {
         "course": "Polymer Science & Engineering (PSE)",
         "courseCode": "WPE 101",
         "lecturer": "Parveen Mam, Mamun Sir",
-        "access": "/pse1-2"
+        "access": "pse1-2"
       },
       {
         "course": "Computer Programming (CP)",
         "courseCode": "MDM 101",
         "lecturer": "Toha Sir",
-        "access": "/cp1-2"
+        "access": "cp1-2"
       },
       {
         "course": "Engineering Materials (EM)",
         "courseCode": "IPE 101",
         "lecturer": "Sourav Sir, Tushar Sir",
-        "access": "/em1-2"
+        "access": "em1-2"
       }
     ]
   },
@@ -89,31 +89,31 @@
         "course": "Statistics",
         "courseCode": "MS 201",
         "lecturer": "Kawsar Sir, Rabbi Sir",
-        "access": "/stat2-1"
+        "access": "stat2-1"
       },
       {
         "course": "Fiber & Yarn Testing (FYT)",
         "courseCode": "YE 201",
         "lecturer": "Hasib Sir, Jalal Sir",
-        "access": "/fyt2-1"
+        "access": "fyt2-1"
       },
       {
         "course": "Weaving Preparatory Process (WvgPP)",
         "courseCode": "FE 203",
         "lecturer": "Mohaddes Sir, Mamun Sir",
-        "access": "/wpp2-1"
+        "access": "wpp2-1"
       },
       {
         "course": "Yarn Manufacturing (YM) I",
         "courseCode": "YE 213",
         "lecturer": "Reza Sir, Rubel Sir",
-        "access": "/ym2-1"
+        "access": "ym2-1"
       },
       {
         "course": "Man-made Textile Fibers (MMTF)",
         "courseCode": "YE 203",
         "lecturer": "Abbas Sir, Reajul Sir",
-        "access": "/mmtf2-1"
+        "access": "mmtf2-1"
       },
       {
         "course": "Fundamentals of Mechanical Engineering (FME)",
@@ -132,37 +132,37 @@
         "course": "Textile Physics (TP)",
         "courseCode": "YE 209",
         "lecturer": "Jalal Sir, Shuvo Sir",
-        "access": "/tp2-2"
+        "access": "tp2-2"
       },
       {
         "course": "Weaving (Wvg) I",
         "courseCode": "FE 205",
         "lecturer": "Mohaddes Sir, Arin Sir",
-        "access": "/wvg2-2"
+        "access": "wvg2-2"
       },
       {
         "course": "Wet Processing (WP) I",
         "courseCode": "WPE 205",
         "lecturer": "Tomal Sir, Rafee Sir",
-        "access": "/wp2-2"
+        "access": "wp2-2"
       },
       {
         "course": "Apparel Manufacturing (AM) I",
         "courseCode": "AE 205",
         "lecturer": "Kamrul Sir, Arpa Mam",
-        "access": "/am2-2"
+        "access": "am2-2"
       },
       {
         "course": "Fundamentals of Marketing (FMkt)",
         "courseCode": "TEM 201",
         "lecturer": "Munir Sir, Nurun Nabi Sir",
-        "access": "/fmkt2-2"
+        "access": "fmkt2-2"
       },
       {
         "course": "Fundamentals of Electrical & Electronics Engineering (FEEE)",
         "courseCode": "MDM 201",
         "lecturer": "Asad Sir, Tauki Sir",
-        "access": "/feee2-2"
+        "access": "feee2-2"
       }
     ]
   },
@@ -175,37 +175,37 @@
         "course": "Yarn Manufacturing (YM) II",
         "courseCode": "YE 307",
         "lecturer": "Sultan Sir, Farhana Mam",
-        "access": "/ym3-1"
+        "access": "ym3-1"
       },
       {
         "course": "Wet Processing (WP) II",
         "courseCode": "WPE 311",
         "lecturer": "Tania Mam, Shohag Sir",
-        "access": "/wp3-1"
+        "access": "wp3-1"
       },
       {
         "course": "Apparel Manufacturing (AM) II",
         "courseCode": "AE 309",
         "lecturer": "Farzana Mam, Maruf Sir",
-        "access": "/am3-1"
+        "access": "am3-1"
       },
       {
         "course": "Economics",
         "courseCode": "HSS 301",
         "lecturer": "Ehsan Sir",
-        "access": "/eco3-1"
+        "access": "eco3-1"
       },
       {
         "course": "Knitting (Knit) I",
         "courseCode": "FE 307",
         "lecturer": "Belal Sir, Smrity Mam",
-        "access": "/knit3-1"
+        "access": "knit3-1"
       },
       {
         "course": "Industrial Management (IM)",
         "courseCode": "TEM 313",
         "lecturer": "Asha Mam, Farjana Mam",
-        "access": "/im3-1"
+        "access": "im3-1"
       }
     ]
   },
@@ -218,31 +218,31 @@
         "course": "Application of Computer in Fabric Manufacturing (ACFM)",
         "courseCode": "FE 301",
         "lecturer": "Mohaddes Sir, Faiz Sir",
-        "access": "/acfm3-2"
+        "access": "acfm3-2"
       },
       {
         "course": "Fabric Structure & Design (FSD)",
         "courseCode": "FE 305",
         "lecturer": "Belal Sir, Shilpi Mam",
-        "access": "/fsd3-2"
+        "access": "fsd3-2"
       },
       {
         "course": "Weaving(Wvg) II",
         "courseCode": "FE 309",
         "lecturer": "Mohaddes Sir, Arin Sir",
-        "access": "/wvg3-2"
+        "access": "wvg3-2"
       },
       {
         "course": "Automation & Control Engineering (ACE)",
         "courseCode": "IPE 301",
         "lecturer": "Tushan Sir, Pias Sir",
-        "access": "/ace3-2"
+        "access": "ace3-2"
       },
       {
         "course": "Accounting & Cost Management (ACM)",
         "courseCode": "TEM 303",
         "lecturer": "Rayhan Sir, Farhad Sir",
-        "access": "/acm3-2"
+        "access": "acm3-2"
       }
     ]
   },
@@ -255,68 +255,68 @@
         "course": "Sociology",
         "courseCode": "HSS 401",
         "lecturer": "",
-        "access": "/soc4-1"
+        "access": "soc4-1"
       },
       {
         "course": "Fabric Testing & Quality Control (FTQC)",
         "courseCode": "FE 401",
         "lecturer": "",
-        "access": "/ftqc4-1"
+        "access": "ftqc4-1"
       },
       {
         "course": "Knitting(Knit) II",
         "courseCode": "FE 405",
         "lecturer": "",
-        "access": "/knit4-1"
+        "access": "knit4-1"
       },
       {
         "course": "Special Fabric Production (SFP)",
         "courseCode": "FE 409",
         "lecturer": "",
-        "access": "/sfp4-1"
+        "access": "sfp4-1"
       },
       {
         "course": "Textile & Apparel Merchandizing (TAM)",
         "courseCode": "TEM 409",
         "lecturer": "",
-        "access": "/tam4-1"
+        "access": "tam4-1"
       }
     ]
   },
   {
     "level-term": "Level 4 - Term 2",
-    "courses": "Nonwoven (NWvn), Technical Textile (TT), Environmental Studies (ES), Production Planning & Control (PPC),FE Project Work (FEPW)",
+    "courses": "Nonoven (NWvn), Technical Textile (TT), Environmental Studies (ES), Production Planning & Control (PPC),FE Project Work (FEPW)",
     "id": "level4term2",
     "course-details": [
       {
         "course": "Nonwoven (NWvn)",
         "courseCode": "FE 407",
         "lecturer": "",
-        "access": "/nwvn4-2"
+        "access": "nwvn4-2"
       },
       {
         "course": "Technical Textile (TT)",
         "courseCode": "FE 411",
         "lecturer": "",
-        "access": "/tt4-2"
+        "access": "tt4-2"
       },
       {
         "course": "Environmental Studies (ES)",
         "courseCode": "WPE 407",
         "lecturer": "",
-        "access": "/es4-2"
+        "access": "es4-2"
       },
       {
         "course": "Production Planning & Control (PPC)",
         "courseCode": "TEM 413",
         "lecturer": "",
-        "access": "/ppc4-2"
+        "access": "ppc4-2"
       },
       {
         "course": "FE Project Work (FEPW)",
         "courseCode": "FE 414",
         "lecturer": "",
-        "access": "/fepw4-2"
+        "access": "fepw4-2"
       }
     ]
   }

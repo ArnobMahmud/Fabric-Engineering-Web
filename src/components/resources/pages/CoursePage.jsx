@@ -1,16 +1,23 @@
 import React, { useState, useEffect } from "react";
-import { CourseArea } from "../../Palette";
-import { RESOURCE_URL } from "../../api/api";
-import ResourceHandler from "../../ResourceHandler";
+import { RESOURCE_URL } from "../api/api";
+import { CourseArea } from "../Palette";
+import ResourceHandler from "../ResourceHandler";
+import { useParams, useLocation } from "react-router-dom";
 
-const BCETable = () => {
+const CoursePage = () => {
+  const params = useParams();
+  const refID = params.refID;
+  const location = useLocation();
+  const data = location.state?.data;
+  console.log(refID);
+
   const [resource, setResource] = useState([]);
   const [search, setSearch] = useState("");
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     try {
-      fetch(`${RESOURCE_URL}/bce1-1`)
+      fetch(`${RESOURCE_URL}/${data.access}`, {method: "GET"})
         .then((res) => {
           return res.json();
         })
@@ -29,7 +36,7 @@ const BCETable = () => {
         <div className="row justify-content-center">
           <div className="card col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xsm-12">
             <div className="section-title">
-              <h1>Business &amp; Communicative English (BCE)</h1>
+              <h1>{data.course}</h1>
             </div>
             <ResourceHandler
               search={search}
@@ -44,4 +51,4 @@ const BCETable = () => {
   );
 };
 
-export default BCETable;
+export default CoursePage;

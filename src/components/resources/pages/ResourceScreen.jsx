@@ -1,6 +1,6 @@
-import { ResourceArea } from "../../Palette";
-import ResourceTreeCard from "../../widgets/ResourceTree";
-import data from "../../json/data.json";
+import { ResourceArea } from "../Palette";
+import ResourceTreeCard from "../widgets/ResourceTree";
+import data from "../json/data.json";
 
 const ResourceScreen = () => {
   return (

@@ -1,5 +1,5 @@
 import React from "react";
-import Archive from "../components/archive/screen/Archives.js";
+import Archive from "../components/archive/screen/Archives";
 
 function ArchivePage() {
   return (

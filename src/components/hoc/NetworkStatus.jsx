@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import ErrorPage from "../screens/Network.js";
+import ErrorPage from "../screens/Network.jsx";
 
 export default function NetworkCheck(ComposedComponent) {
   class NetworkDetector extends Component {
