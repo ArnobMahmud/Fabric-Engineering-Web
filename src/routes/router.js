@@ -12,15 +12,7 @@ import ErrorScreen3 from "../components/screens/404.js";
 import ErrorScreen4 from "../components/screens/NoRoutine.js";
 
 /* Resource */
-import ResourcePage from "../pages/ResourcePage.js";
-import Level1Term1Page from "../components/resources/pages/screen/Level1Term1Page.js";
-import Level1Term2Page from "../components/resources/pages/screen/Level1Term2Page.js";
-import Level2Term1Page from "../components/resources/pages/screen/Level2Term1Page.js";
-import Level2Term2Page from "../components/resources/pages/screen/Level2Term2Page.js";
-import Level3Term1Page from "../components/resources/pages/screen/Level3Term1Page.js";
-import Level3Term2Page from "../components/resources/pages/screen/Level3Term2Page.js";
-import Level4Term1Page from "../components/resources/pages/screen/Level4Term1Page.js";
-import Level4Term2Page from "../components/resources/pages/screen/Level4Term2Page.js";
+import ResourceScreen from "../components/resources/pages/screen/ResourceScreen.jsx";
 
 /* Level 1 Term 1 */
 import BCE from "../components/resources/pages/Level1Term1/BCEpage.js";
@@ -115,6 +107,7 @@ import Level4Term2Exam from "../components/archive/customs/Exam/Level4Term2Exam.
 
 /* Developer */
 import DeveloperPage from "../pages/DeveloperPage.js";
+import LevelTermPage from "../components/resources/pages/LevelTermPage.jsx";
 
 const RouteHandle = () => {
   return (
@@ -123,24 +116,23 @@ const RouteHandle = () => {
       <Routes>
         <Route path="/" element={<HomePage />}></Route>
         {/********* Resourece Section Starts Here ************/}
-        <Route exact path="/resource" element={<ResourcePage />} />
+        <Route exact path="/resource" element={<ResourceScreen />} />
+        <Route exact path="/resource/:id" element={<LevelTermPage />} />
+
         {/* Level 1 Term 1 */}
-        <Route exact path="/level1-term1" element={<Level1Term1Page />} />
         <Route exact path="/bce1-1" element={<BCE />} />
-        <Route exact path="/physics1-1" element={<PhysicsI />} />
-        <Route exact path="/chemistry1-1" element={<ChemistryI />} />
+        <Route exact path="/phy1-1" element={<PhysicsI />} />
+        <Route exact path="/chem1-1" element={<ChemistryI />} />
         <Route exact path="/math1-1" element={<MathI />} />
         <Route exact path="/ntf1-1" element={<Ntf />} />
         {/* Level 1 Term 2 */}
-        <Route exact path="/level1-term2" element={<Level1Term2Page />} />
-        <Route exact path="/physics1-2" element={<PhysicsII />} />
-        <Route exact path="/chemistry1-2" element={<ChemistryII />} />
+        <Route exact path="/phy1-2" element={<PhysicsII />} />
+        <Route exact path="/chem1-2" element={<ChemistryII />} />
         <Route exact path="/math1-2" element={<MathII />} />
         <Route exact path="/pse1-2" element={<PSE />} />
         <Route exact path="/cp1-2" element={<CP />} />
         <Route exact path="/em1-2" element={<EM />} />
         {/* Level 2 Term 1 */}
-        <Route exact path="/level2-term1" element={<Level2Term1Page />} />
         <Route exact path="/stat2-1" element={<Statistics />} />
         <Route exact path="/fyt2-1" element={<FYT />} />
         <Route exact path="/wpp2-1" element={<WPP />} />
@@ -148,7 +140,6 @@ const RouteHandle = () => {
         <Route exact path="/mmtf2-1" element={<MMTF />} />
         <Route exact path="/fme2-1" element={<FME />} />
         {/* Level 2 Term 2 */}
-        <Route exact path="/level2-term2" element={<Level2Term2Page />} />
         <Route exact path="/tp2-2" element={<TP />} />
         <Route exact path="/am2-2" element={<AMI />} />
         <Route exact path="/fmkt2-2" element={<FMkt />} />
@@ -156,7 +147,6 @@ const RouteHandle = () => {
         <Route exact path="/feee2-2" element={<FEEE />} />
         <Route exact path="/wvg2-2" element={<WvgI />} />
         {/* Level 3 Term 1 */}
-        <Route exact path="/level3-term1" element={<Level3Term1Page />} />
         <Route exact path="/am3-1" element={<AMII />} />
         <Route exact path="/wp3-1" element={<WPII />} />
         <Route exact path="/eco3-1" element={<Econ />} />
@@ -164,21 +154,18 @@ const RouteHandle = () => {
         <Route exact path="/im3-1" element={<IM />} />
         <Route exact path="/ym3-1" element={<YMII />} />
         {/* Level 3 Term 2 */}
-        <Route exact path="/level3-term2" element={<Level3Term2Page />} />
         <Route exact path="/ace3-2" element={<ACE />} />
         <Route exact path="/acfm3-2" element={<ACFM />} />
         <Route exact path="/acm3-2" element={<ACM />} />
         <Route exact path="/fsd3-2" element={<FSD />} />
         <Route exact path="/wvg3-2" element={<WvgII />} />
         {/* Level 4 Term 1 */}
-        <Route exact path="/level4-term1" element={<Level4Term1Page />} />
         <Route exact path="/soc4-1" element={<SOC />} />
         <Route exact path="/ftqc4-1" element={<FTQC />} />
         <Route exact path="/knit4-1" element={<KnitII />} />
         <Route exact path="/sfp4-1" element={<SFP />} />
         <Route exact path="/tam4-1" element={<TAM />} />
         {/* Level 4 Term 2 */}
-        <Route exact path="/level4-term2" element={<Level4Term2Page />} />
         <Route exact path="/nwvn4-2" element={<NWvn />} />
         <Route exact path="/tt4-2" element={<TT />} />
         <Route exact path="/es4-2" element={<ES />} />

@@ -12,7 +12,7 @@ const ResourceDataCard = (props) => {
           <h5>Course Code : {props.courseCode}</h5>
           <p>Lecturers : {props.lecturer}.</p>
           <div className="btn">
-            <Link to={props.accessLink}>
+            <Link to={props.accessLink} state={{ data: props.data }}>
               Find Resources <ImBook />
             </Link>
           </div>

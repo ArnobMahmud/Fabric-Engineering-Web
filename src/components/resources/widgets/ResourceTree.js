@@ -12,7 +12,7 @@ const ResourceTreeCard = (props) => {
           <h5>{props.info}</h5>
           <p>Courses : {props.content}.</p>
           <div className="btn">
-            <Link to={props.accessLink}>
+            <Link to={props.accessLink} state={{data : props.data}}>
               Resources <RiBookletLine />
             </Link>
           </div>
