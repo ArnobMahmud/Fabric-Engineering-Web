@@ -1,5 +1,5 @@
 import React from "react";
-import { ResourceTree } from "../Palette";
+import { ResourceTree } from "../config/Palette";
 import { Link } from "react-router-dom";
 import { RiBookletLine } from "react-icons/ri";
 

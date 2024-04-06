@@ -1,7 +1,7 @@
 import React from "react";
 import { ImBook } from "react-icons/im";
-import FolderPathCard from "./widgets/FolderPathCard";
-import CustomSkeletonStructure2 from "../screens/skeleton/CustomSkeletonStructureII";
+import FolderPathCard from "./FolderPathCard";
+import CustomSkeletonStructure2 from "../../screens/skeleton/CustomSkeletonStructureII";
 
 const NoteHandler = ({ loading, note }) => {
   return (

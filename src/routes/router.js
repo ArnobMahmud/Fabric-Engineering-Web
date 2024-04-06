@@ -17,7 +17,7 @@ import LevelTermInfoPage from "../components/resources/pages/LevelTermInfoPage.j
 import CoursePage from "../components/resources/pages/CoursePage.jsx";
 
 /* Syllabus */
-import SyllabusPage from "../pages/SyllabusPage.jsx";
+import DocumentsPage from "../pages/DocumentsPage.jsx";
 
 /* Accessories */
 import AccessoriesPage from "../pages/AccessoriesPage.jsx";
@@ -50,14 +50,12 @@ const RouteHandle = () => {
       <Navbar />
       <Routes>
         <Route path="/" element={<HomePage />}></Route>
-
         {/********* Resourece Section Starts Here ************/}
         <Route exact path="/resource" element={<ResourceScreen />} />
         <Route exact path="/resource/:id" element={<LevelTermInfoPage />} />
         <Route exact path="/resource/:id/:access" element={<CoursePage />} />
-
-        {/********* Syllabus Section Starts Here ************/}
-        <Route exact path="/syllabus" element={<SyllabusPage />} />
+        {/********* Documents Section Starts Here ************/}
+        <Route exact path="/documents" element={<DocumentsPage />} />
         {/********* Accessories Section Starts Here ************/}
         <Route exact path="/accessories" element={<AccessoriesPage />} />
         {/********* Archive Section Starts Here ************/}
@@ -74,7 +72,6 @@ const RouteHandle = () => {
         <Route exact path="/l4t1lab" element={<Level4Term1Lab />} />
         <Route exact path="/l4t2lab" element={<Level4Term2Lab />} />
         {/********* Exam Section Starts Here ************/}
-      
         <Route exact path="/termexamroutine" element={<TermExamRoutine />} />
         <Route exact path="/termexamroutine/:nav" element={<ExamData />} />
         {/********* Developer Section Starts Here ************/}

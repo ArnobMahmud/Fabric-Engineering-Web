@@ -44,9 +44,9 @@ const NavigationBar = () => {
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <Link className="nav-link" to="/syllabus">
+                  <Link className="nav-link" to="/documents">
                     <IconContext.Provider value={{ size: "25" }}>
-                      Syllabus
+                      Documents
                     </IconContext.Provider>
                   </Link>
                 </li>

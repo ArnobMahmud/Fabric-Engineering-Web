@@ -11,7 +11,7 @@ export class InformationScreen extends Component {
           <div className="container">
             <ScreenCardIV
               imgPath={infoImg}
-              title="Searching Syllabus?"
+              title="Searching Documents?"
               description="Not added yet!"
             />
           </div>

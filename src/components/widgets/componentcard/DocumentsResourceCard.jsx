@@ -1,8 +1,8 @@
 import React from "react";
 import { ImBook } from "react-icons/im";
-import { ResourceTree } from "../Palette";
+import { ResourceTree } from "../../resources/config/Palette";
 
-const PdfResourceCard = (props) => {
+const DocumentsResourceCard = (props) => {
   return (
     <ResourceTree>
       <div className="card">
@@ -20,4 +20,4 @@ const PdfResourceCard = (props) => {
     </ResourceTree>
   );
 };
-export default PdfResourceCard;
+export default DocumentsResourceCard;

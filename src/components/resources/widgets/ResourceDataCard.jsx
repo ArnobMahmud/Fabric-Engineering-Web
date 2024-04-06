@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { ImBook } from "react-icons/im";
-import { ResourceTree } from "../Palette";
+import { ResourceTree } from "../config/Palette";
 
 const ResourceDataCard = (props) => {
   return (

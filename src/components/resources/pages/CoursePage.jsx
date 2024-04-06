@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { RESOURCE_URL } from "../api/api";
-import { CourseArea } from "../Palette";
-import ResourceHandler from "../ResourceHandler";
+import { CourseArea } from "../config/Palette";
+import ResourceHandler from "../widgets/ResourceHandler";
 import { useParams, useLocation } from "react-router-dom";
 
 const CoursePage = () => {

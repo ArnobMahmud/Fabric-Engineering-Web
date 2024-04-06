@@ -1,40 +1,5 @@
 import styled from "styled-components";
 
-export const OverlayButton = styled.div`
-  display: flex;
-  justify-content: flex-end;
-
-  .fa-arrow-circle-down,
-  .fa-arrow-circle-up {
-    color: ${({ theme }) => theme.overlayBtnIcon};
-  }
-
-  a {
-    background: ${({ theme }) => theme.overlayBtnBg};
-    display: inline-block;
-    text-decoration: none;
-    padding: 13px 18px;
-    border-radius: 100px;
-    transition-duration: 0.3s;
-    font-family: Ubuntu;
-    font-weight: 500;
-    box-shadow: 2px 2px 3px ${({ theme }) => theme.overlayBtnBoxShd};
-  }
-
-  a i {
-    color: #4285f4;
-  }
-
-  a span {
-    padding-left: 2px;
-    display: inline-block;
-  }
-  a i,
-  a span {
-    font-size: 15px !important;
-  }
-`;
-
 export const ScreenArea = styled.div`
   padding: 200px 0px 50px;
   img {

@@ -71,8 +71,8 @@ function Footer() {
                   </Link>
                 }
                 link2={
-                  <Link className="foot-link" to="/syllabus">
-                    Syllabus
+                  <Link className="foot-link" to="/documents">
+                    Documents
                   </Link>
                 }
                 link3={

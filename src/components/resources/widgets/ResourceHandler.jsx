@@ -1,5 +1,5 @@
 import React from "react";
-import CustomSkeletonStructure from "../screens/skeleton/CustomSkeletonStructure";
+import CustomSkeletonStructure from "../../screens/skeleton/CustomSkeletonStructure";
 
 const ResourceHandler = ({ search, setSearch, loading, resource }) => {
   return (

@@ -1,5 +1,5 @@
 import { useParams, useLocation } from "react-router-dom";
-import { ResourceArea } from "../Palette";
+import { ResourceArea } from "../config/Palette";
 import ResourceDataCard from "../widgets/ResourceDataCard";
 
 const LevelTermInfoPage = () => {

@@ -1,4 +1,4 @@
-import { ResourceArea } from "../Palette";
+import { ResourceArea } from "../config/Palette";
 import ResourceTreeCard from "../widgets/ResourceTree";
 import data from "../json/data.json";
 
