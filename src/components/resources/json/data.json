@@ -101,7 +101,7 @@
         "course": "Weaving Preparatory Process (WvgPP)",
         "courseCode": "FE 203",
         "lecturer": "Mohaddes Sir, Mamun Sir",
-        "access": "wpp2-1"
+        "access": "wvgpp2-1"
       },
       {
         "course": "Yarn Manufacturing (YM) I",
@@ -119,7 +119,7 @@
         "course": "Fundamentals of Mechanical Engineering (FME)",
         "courseCode": "IPE 203",
         "lecturer": "Muntashir Sir, Fahim Sir",
-        "access": "/fme2-1"
+        "access": "fme2-1"
       }
     ]
   },

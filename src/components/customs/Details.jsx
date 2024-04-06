@@ -1,6 +1,6 @@
 import React from "react";
-import DetailsDataI from "../widgets/DetailsCompI";
-import DetailsDataII from "../widgets/DetailsCompII";
+import DetailsDataI from "../widgets/componentcard/DetailsCompI";
+import DetailsDataII from "../widgets/componentcard/DetailsCompII";
 import styled from "styled-components";
 
 const Details = () => {

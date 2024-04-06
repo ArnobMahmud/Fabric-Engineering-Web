@@ -1,0 +1,132 @@
+[
+  {
+    "id": "l1t1",
+    "department": "Fabric Engineering",
+    "level-term": "Level 1 - Term 1",
+    "description": "Term final exam routine of Fabric Engineering.",
+    "nav": "level1term1exam",
+    "exams": []
+  },
+  {
+    "id": "l2t1",
+    "department": "Fabric Engineering",
+    "level-term": "Level 2 - Term 1",
+    "nav": "level2term1exam",
+    "description": "Term final exam routine of Fabric Engineering.",
+    "exams": [
+      {
+        "date": "13 Nov, 2022",
+        "time": "10:00AM - 1:00PM",
+        "course-code": "YE 101",
+        "course": "Fiber & Yarn Testing (FYT)"
+      },
+      {
+        "date": "17 Nov, 2022",
+        "time": "10:00AM - 1:00PM",
+        "course-code": "IPE 203",
+        "course": "Fundamentals of Mechanical Engineering (FME)"
+      },
+      {
+        "date": "21 Nov, 2022",
+        "time": "10:00AM - 1:00PM",
+        "course-code": "MS 201",
+        "course": "Statistics"
+      },
+      {
+        "date": "27 Nov, 2022",
+        "time": "10:00AM - 1:00PM",
+        "course-code": "YE 203",
+        "course": "Man Made Textile Fibers (MMTF)"
+      },
+      {
+        "date": "01 Dec, 2022",
+        "time": "10:00AM - 1:00PM",
+        "course-code": "YE 213",
+        "course": "Yarn Manufacturing (YM) - I"
+      },
+      {
+        "date": "05 Dec, 2022",
+        "time": "10:00AM - 1:00PM",
+        "course-code": "FE 203",
+        "course": "Weaving Preparatory Process (WvgPP)"
+      }
+    ]
+  },
+  {
+    "id": "l2t2",
+    "department": "Fabric Engineering",
+    "level-term": "Level 2 - Term 2",
+    "nav": "level2term2exam",
+    "description": "Term final exam routine of Fabric Engineering.",
+    "exams": [
+      {
+        "date": "24 May, 2023",
+        "time": "10:00AM - 1:00PM",
+        "course-code": "WPE 205",
+        "course": "Wet Processing (WP) I"
+      },
+      {
+        "date": "28 May, 2023",
+        "time": "10:00AM - 1:00PM",
+        "course-code": "TEM 201",
+        "course": "Fundamentals of Marketing (FMkt)"
+      },
+      {
+        "date": "1 Jun, 2023",
+        "time": "10:00AM - 1:00PM",
+        "course-code": "MDM 201",
+        "course": "Fundamentals of Electrical & Electronics Engineering (FEEE)"
+      },
+      {
+        "date": "5 Jun, 2023",
+        "time": "10:00AM - 1:00PM",
+        "course-code": "AE 205",
+        "course": "Apparel Manufacturing (AM) I"
+      },
+      {
+        "date": "10 Jun, 2023",
+        "time": "10:00AM - 1:00PM",
+        "course-code": "YE 209",
+        "course": "Textile Physics (TP)"
+      },
+      {
+        "date": "14 Jun, 2023",
+        "time": "10:00AM - 1:00PM",
+        "course-code": "FE 205",
+        "course": "Weaving (Wvg) I"
+      }
+    ]
+  },
+  {
+    "id": "l3t1",
+    "department": "Fabric Engineering",
+    "level-term": "Level 3 - Term 1",
+    "nav": "level3term1exam",
+    "description": "Term final exam routine of Fabric Engineering.",
+    "exams": []
+  },
+  {
+    "id": "l3t2",
+    "department": "Fabric Engineering",
+    "level-term": "Level 3 - Term 2",
+    "nav": "level3term2exam",
+    "description": "Term final exam routine of Fabric Engineering.",
+    "exams": []
+  },
+  {
+    "id": "l4t1",
+    "department": "Fabric Engineering",
+    "level-term": "Level 4 - Term 1",
+    "nav": "level4term1exam",
+    "description": "Term final exam routine of Fabric Engineering.",
+    "exams": []
+  },
+  {
+    "id": "l4t2",
+    "department": "Fabric Engineering",
+    "level-term": "Level 4 - Term 2",
+    "nav": "level4term2exam",
+    "description": "Term final exam routine of Fabric Engineering.",
+    "exams": []
+  }
+]

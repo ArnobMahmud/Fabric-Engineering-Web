@@ -39,16 +39,10 @@ import Level4Term1Lab from "../components/archive/customs/Lab/Level4Term1Lab.jsx
 import Level4Term2Lab from "../components/archive/customs/Lab/Level4Term2Lab.jsx";
 
 /* Exam Routine */
-import Level1Term2Exam from "../components/archive/customs/Exam/Level1Term2Exam.jsx";
-import Level2Term1Exam from "../components/archive/customs/Exam/Level2Term1Exam.jsx";
-import Level2Term2Exam from "../components/archive/customs/Exam/Level2Term2Exam.jsx";
-import Level3Term1Exam from "../components/archive/customs/Exam/Level3Term1Exam.jsx";
-import Level3Term2Exam from "../components/archive/customs/Exam/Level3Term2Exam.jsx";
-import Level4Term1Exam from "../components/archive/customs/Exam/Level4Term1Exam.jsx";
-import Level4Term2Exam from "../components/archive/customs/Exam/Level4Term2Exam.jsx";
 
 /* Developer */
 import DeveloperPage from "../pages/DeveloperPage.jsx";
+import ExamData from "../components/archive/customs/Exam/ExamData.jsx";
 
 const RouteHandle = () => {
   return (
@@ -71,7 +65,6 @@ const RouteHandle = () => {
         <Route exact path="/studentsinfo" element={<StudentsInfo />} />
         <Route exact path="/covid19updates" element={<Covid19 />} />
         <Route exact path="/labroutine" element={<LabRoutine />} />
-        <Route exact path="/termexamroutine" element={<TermExamRoutine />} />
         {/********* Lab Section Starts Here ************/}
         <Route exact path="/l1t2lab" element={<Level1Term2Lab />} />
         <Route exact path="/l2t1lab" element={<Level2Term1Lab />} />
@@ -81,15 +74,9 @@ const RouteHandle = () => {
         <Route exact path="/l4t1lab" element={<Level4Term1Lab />} />
         <Route exact path="/l4t2lab" element={<Level4Term2Lab />} />
         {/********* Exam Section Starts Here ************/}
-        <Route exact path="/l1t2exam" element={<Level1Term2Exam />} />
-        <Route exact path="/l2t1exam" element={<Level2Term1Exam />} />
-        <Route exact path="/l2t2exam" element={<Level2Term2Exam />} />
-        <Route exact path="/l3t1exam" element={<Level3Term1Exam />} />
-        <Route exact path="/l3t2exam" element={<Level3Term2Exam />} />
-        <Route exact path="/l4t1exam" element={<Level4Term1Exam />} />
-        <Route exact path="/l4t2exam" element={<Level4Term2Exam />} />
-        {/********** Login & Signup Starts Here ***********/}
-        {/* <Route exact path="/login" component={Login} /> */}
+      
+        <Route exact path="/termexamroutine" element={<TermExamRoutine />} />
+        <Route exact path="/termexamroutine/:nav" element={<ExamData />} />
         {/********* Developer Section Starts Here ************/}
         <Route exact path="/developer" element={<DeveloperPage />} />
         {/********* Error Section Starts Here ************/}

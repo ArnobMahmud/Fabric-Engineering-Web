@@ -1,6 +1,6 @@
 import React from "react";
 import Rotimg from "../../assets/svg/analysis.svg";
-import RoutineCard from "../widgets/RoutineCard";
+import RoutineCard from "../widgets/componentcard/RoutineCard";
 import styled from "styled-components";
 
 const Routine = () => {

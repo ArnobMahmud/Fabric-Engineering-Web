@@ -11,7 +11,10 @@ class ArchivesDataCard extends Component {
             <h1>{this.props.title}</h1>
             <p>{this.props.subTitle}</p>
             <div className="btn">
-              <Link to={this.props.accessLink}>
+              <Link
+                to={this.props.accessLink}
+                state={{ data: this.props.data }}
+              >
                 Details Tree <ImTree />
               </Link>
             </div>

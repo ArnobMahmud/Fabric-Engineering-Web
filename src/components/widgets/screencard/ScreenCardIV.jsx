@@ -11,7 +11,6 @@ export class ScreenCardIV extends Component {
               className="w-100"
               src={this.props.imgPath}
               alt="dataImg"
-              
             />
           </div>
           <div className="col-lg-8 col-md-9 col-sm-12">

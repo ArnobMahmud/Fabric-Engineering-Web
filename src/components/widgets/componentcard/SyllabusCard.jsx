@@ -1,8 +1,8 @@
 import React from "react";
 import { Component } from "react";
-import data from "../../json/syllabus-data.json";
+import data from "../../../json/syllabus-data.json";
 import styled from "styled-components";
-import InformationScreen from "../screens/InformationScreen";
+import InformationScreen from "../../screens/InformationScreen";
 
 class Syllabus extends Component {
   render() {

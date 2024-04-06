@@ -1,6 +1,6 @@
 import React from "react";
 import ArchiveCard from "../widgets/ArchivesCard";
-import { InfoArea } from "../Palette";
+import { InfoArea } from "../config/palette.jsx";
 
 export default function LabRoutine() {
   return (

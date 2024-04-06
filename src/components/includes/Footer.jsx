@@ -2,8 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import Logo from "../../assets/logo.png";
 import { Link } from "react-router-dom";
-import { OverlayButton } from "../config/Palette";
-import FooterLink from "../widgets/FooterLink";
+import FooterLink from "../widgets/componentcard/FooterLink";
 
 function Footer() {
   return (
@@ -128,7 +127,7 @@ function Footer() {
                   </a>
                 }
               />
-            </div>{" "}
+            </div>
           </div>
           <div className="cpy-rgt">
             Copyright ©2024 &nbsp;
@@ -137,12 +136,6 @@ function Footer() {
             </span>
             &nbsp; All Rights Reserved
           </div>
-          <OverlayButton className="footerOverlay">
-            <a id="bottombce" href="#top">
-              <i className="fa fa-arrow-circle-up" aria-hidden="true" />
-              <span></span>
-            </a>
-          </OverlayButton>
         </div>
       </FooterArea>
     </div>
