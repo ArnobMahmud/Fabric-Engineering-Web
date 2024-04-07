@@ -1,0 +1,954 @@
+[
+  {
+    "semester": "level1term1lab",
+    "id": "1",
+    "title": "Level 1 - Term 1",
+    "subtitle": "Group-wise lab routine",
+    "labinfo": [
+      {
+        "id": "1",
+        "group": "A",
+        "labs": [
+          {
+            "day": "Sunday",
+            "times": [
+              {
+                "time": "-"
+              },
+              {
+                "time": "-"
+              },
+              {
+                "time": "-"
+              },
+              {
+                "time": "-"
+              }
+            ],
+            "courses": [
+              {
+                "course": "-"
+              },
+              {
+                "course": "-"
+              },
+              {
+                "course": "-"
+              },
+              {
+                "course": "-"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "2",
+        "group": "B",
+        "labs": [
+          {
+            "day": "Sunday",
+            "times": [
+              {
+                "time": "-"
+              },
+              {
+                "time": "-"
+              },
+              {
+                "time": "-"
+              },
+              {
+                "time": "-"
+              }
+            ],
+            "courses": [
+              {
+                "course": "-"
+              },
+              {
+                "course": "-"
+              },
+              {
+                "course": "-"
+              },
+              {
+                "course": "-"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "1",
+        "group": "C",
+        "labs": [
+          {
+            "day": "Sunday",
+            "times": [
+              {
+                "time": "-"
+              },
+              {
+                "time": "-"
+              },
+              {
+                "time": "-"
+              },
+              {
+                "time": "-"
+              }
+            ],
+            "courses": [
+              {
+                "course": "-"
+              },
+              {
+                "course": "-"
+              },
+              {
+                "course": "-"
+              },
+              {
+                "course": "-"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "semester": "level1term2lab",
+    "id": "2",
+    "title": "Level 1 - Term 2",
+    "subtitle": "Group-wise lab routine",
+    "labinfo": [
+      {
+        "id": "1",
+        "group": "A",
+        "labs": [
+          {
+            "day": "Sunday",
+            "times": [
+              {
+                "time": "-"
+              },
+              {
+                "time": "-"
+              },
+              {
+                "time": "-"
+              },
+              {
+                "time": "-"
+              }
+            ],
+            "courses": [
+              {
+                "course": "-"
+              },
+              {
+                "course": "-"
+              },
+              {
+                "course": "-"
+              },
+              {
+                "course": "-"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "2",
+        "group": "B",
+        "labs": [
+          {
+            "day": "Sunday",
+            "times": [
+              {
+                "time": "-"
+              },
+              {
+                "time": "-"
+              },
+              {
+                "time": "-"
+              },
+              {
+                "time": "-"
+              }
+            ],
+            "courses": [
+              {
+                "course": "-"
+              },
+              {
+                "course": "-"
+              },
+              {
+                "course": "-"
+              },
+              {
+                "course": "-"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "1",
+        "group": "C",
+        "labs": [
+          {
+            "day": "Sunday",
+            "times": [
+              {
+                "time": "-"
+              },
+              {
+                "time": "-"
+              },
+              {
+                "time": "-"
+              },
+              {
+                "time": "-"
+              }
+            ],
+            "courses": [
+              {
+                "course": "-"
+              },
+              {
+                "course": "-"
+              },
+              {
+                "course": "-"
+              },
+              {
+                "course": "-"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "semester": "level2term1lab",
+    "id": "3",
+    "title": "Level 2 - Term 1",
+    "subtitle": "Group-wise lab routine",
+    "labinfo": [
+      {
+        "id": "1",
+        "group": "A",
+        "labs": [
+          {
+            "day": "Sunday",
+            "times": [
+              {
+                "time": "-"
+              },
+              {
+                "time": "-"
+              },
+              {
+                "time": "-"
+              },
+              {
+                "time": "-"
+              }
+            ],
+            "courses": [
+              {
+                "course": "-"
+              },
+              {
+                "course": "-"
+              },
+              {
+                "course": "-"
+              },
+              {
+                "course": "-"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "2",
+        "group": "B",
+        "labs": [
+          {
+            "day": "Sunday",
+            "times": [
+              {
+                "time": "-"
+              },
+              {
+                "time": "-"
+              },
+              {
+                "time": "-"
+              },
+              {
+                "time": "-"
+              }
+            ],
+            "courses": [
+              {
+                "course": "-"
+              },
+              {
+                "course": "-"
+              },
+              {
+                "course": "-"
+              },
+              {
+                "course": "-"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "1",
+        "group": "C",
+        "labs": [
+          {
+            "day": "Sunday",
+            "times": [
+              {
+                "time": "-"
+              },
+              {
+                "time": "-"
+              },
+              {
+                "time": "-"
+              },
+              {
+                "time": "-"
+              }
+            ],
+            "courses": [
+              {
+                "course": "-"
+              },
+              {
+                "course": "-"
+              },
+              {
+                "course": "-"
+              },
+              {
+                "course": "-"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "semester": "level2term2lab",
+    "id": "4",
+    "title": "Level 2 - Term 2",
+    "subtitle": "Group-wise lab routine",
+    "labinfo": [
+      {
+        "id": "1",
+        "group": "A",
+        "labs": [
+          {
+            "day": "Sunday",
+            "times": [
+              {
+                "time": "-"
+              },
+              {
+                "time": "-"
+              },
+              {
+                "time": "-"
+              },
+              {
+                "time": "-"
+              }
+            ],
+            "courses": [
+              {
+                "course": "-"
+              },
+              {
+                "course": "-"
+              },
+              {
+                "course": "-"
+              },
+              {
+                "course": "-"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "2",
+        "group": "B",
+        "labs": [
+          {
+            "day": "Sunday",
+            "times": [
+              {
+                "time": "-"
+              },
+              {
+                "time": "-"
+              },
+              {
+                "time": "-"
+              },
+              {
+                "time": "-"
+              }
+            ],
+            "courses": [
+              {
+                "course": "-"
+              },
+              {
+                "course": "-"
+              },
+              {
+                "course": "-"
+              },
+              {
+                "course": "-"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "1",
+        "group": "C",
+        "labs": [
+          {
+            "day": "Sunday",
+            "times": [
+              {
+                "time": "-"
+              },
+              {
+                "time": "-"
+              },
+              {
+                "time": "-"
+              },
+              {
+                "time": "-"
+              }
+            ],
+            "courses": [
+              {
+                "course": "-"
+              },
+              {
+                "course": "-"
+              },
+              {
+                "course": "-"
+              },
+              {
+                "course": "-"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "semester": "level3term1lab",
+    "id": "5",
+    "title": "Level 3 - Term 1",
+    "subtitle": "Group-wise lab routine",
+    "labinfo": [
+      {
+        "id": "1",
+        "group": "A",
+        "labs": [
+          {
+            "day": "Sunday",
+            "times": [
+              {
+                "time": "-"
+              },
+              {
+                "time": "-"
+              },
+              {
+                "time": "-"
+              },
+              {
+                "time": "-"
+              }
+            ],
+            "courses": [
+              {
+                "course": "-"
+              },
+              {
+                "course": "-"
+              },
+              {
+                "course": "-"
+              },
+              {
+                "course": "-"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "2",
+        "group": "B",
+        "labs": [
+          {
+            "day": "Sunday",
+            "times": [
+              {
+                "time": "-"
+              },
+              {
+                "time": "-"
+              },
+              {
+                "time": "-"
+              },
+              {
+                "time": "-"
+              }
+            ],
+            "courses": [
+              {
+                "course": "-"
+              },
+              {
+                "course": "-"
+              },
+              {
+                "course": "-"
+              },
+              {
+                "course": "-"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "1",
+        "group": "C",
+        "labs": [
+          {
+            "day": "Sunday",
+            "times": [
+              {
+                "time": "-"
+              },
+              {
+                "time": "-"
+              },
+              {
+                "time": "-"
+              },
+              {
+                "time": "-"
+              }
+            ],
+            "courses": [
+              {
+                "course": "-"
+              },
+              {
+                "course": "-"
+              },
+              {
+                "course": "-"
+              },
+              {
+                "course": "-"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "semester": "level3term2lab",
+    "id": "6",
+    "title": "Level 3 - Term 2",
+    "subtitle": "Group-wise lab routine",
+    "labinfo": [
+      {
+        "id": "1",
+        "group": "A",
+        "labs": [
+          {
+            "day": "Sunday",
+            "times": [
+              {
+                "time": "-"
+              },
+              {
+                "time": "-"
+              },
+              {
+                "time": "-"
+              },
+              {
+                "time": "-"
+              }
+            ],
+            "courses": [
+              {
+                "course": "-"
+              },
+              {
+                "course": "-"
+              },
+              {
+                "course": "-"
+              },
+              {
+                "course": "-"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "2",
+        "group": "B",
+        "labs": [
+          {
+            "day": "Sunday",
+            "times": [
+              {
+                "time": "-"
+              },
+              {
+                "time": "-"
+              },
+              {
+                "time": "-"
+              },
+              {
+                "time": "-"
+              }
+            ],
+            "courses": [
+              {
+                "course": "-"
+              },
+              {
+                "course": "-"
+              },
+              {
+                "course": "-"
+              },
+              {
+                "course": "-"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "1",
+        "group": "C",
+        "labs": [
+          {
+            "day": "Sunday",
+            "times": [
+              {
+                "time": "-"
+              },
+              {
+                "time": "-"
+              },
+              {
+                "time": "-"
+              },
+              {
+                "time": "-"
+              }
+            ],
+            "courses": [
+              {
+                "course": "-"
+              },
+              {
+                "course": "-"
+              },
+              {
+                "course": "-"
+              },
+              {
+                "course": "-"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "semester": "level4term1lab",
+    "id": "7",
+    "title": "Level 4 - Term 1",
+    "subtitle": "Group-wise lab routine",
+    "labinfo": [
+      {
+        "id": "1",
+        "group": "A",
+        "labs": [
+          {
+            "day": "Sunday",
+            "times": [
+              {
+                "time": "-"
+              },
+              {
+                "time": "-"
+              },
+              {
+                "time": "-"
+              },
+              {
+                "time": "-"
+              }
+            ],
+            "courses": [
+              {
+                "course": "-"
+              },
+              {
+                "course": "-"
+              },
+              {
+                "course": "-"
+              },
+              {
+                "course": "-"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "2",
+        "group": "B",
+        "labs": [
+          {
+            "day": "Sunday",
+            "times": [
+              {
+                "time": "-"
+              },
+              {
+                "time": "-"
+              },
+              {
+                "time": "-"
+              },
+              {
+                "time": "-"
+              }
+            ],
+            "courses": [
+              {
+                "course": "-"
+              },
+              {
+                "course": "-"
+              },
+              {
+                "course": "-"
+              },
+              {
+                "course": "-"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "1",
+        "group": "C",
+        "labs": [
+          {
+            "day": "Sunday",
+            "times": [
+              {
+                "time": "-"
+              },
+              {
+                "time": "-"
+              },
+              {
+                "time": "-"
+              },
+              {
+                "time": "-"
+              }
+            ],
+            "courses": [
+              {
+                "course": "-"
+              },
+              {
+                "course": "-"
+              },
+              {
+                "course": "-"
+              },
+              {
+                "course": "-"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "semester": "level4term2lab",
+    "id": "8",
+    "title": "Level 4 - Term 2",
+    "subtitle": "Group-wise lab routine",
+    "labinfo": [
+      {
+        "id": "1",
+        "group": "A",
+        "labs": [
+          {
+            "day": "Sunday",
+            "times": [
+              {
+                "time": "-"
+              },
+              {
+                "time": "-"
+              },
+              {
+                "time": "-"
+              },
+              {
+                "time": "-"
+              }
+            ],
+            "courses": [
+              {
+                "course": "-"
+              },
+              {
+                "course": "-"
+              },
+              {
+                "course": "-"
+              },
+              {
+                "course": "-"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "2",
+        "group": "B",
+        "labs": [
+          {
+            "day": "Sunday",
+            "times": [
+              {
+                "time": "-"
+              },
+              {
+                "time": "-"
+              },
+              {
+                "time": "-"
+              },
+              {
+                "time": "-"
+              }
+            ],
+            "courses": [
+              {
+                "course": "-"
+              },
+              {
+                "course": "-"
+              },
+              {
+                "course": "-"
+              },
+              {
+                "course": "-"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "1",
+        "group": "C",
+        "labs": [
+          {
+            "day": "Sunday",
+            "times": [
+              {
+                "time": "-"
+              },
+              {
+                "time": "-"
+              },
+              {
+                "time": "-"
+              },
+              {
+                "time": "-"
+              }
+            ],
+            "courses": [
+              {
+                "course": "-"
+              },
+              {
+                "course": "-"
+              },
+              {
+                "course": "-"
+              },
+              {
+                "course": "-"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

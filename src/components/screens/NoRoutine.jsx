@@ -9,7 +9,7 @@ export class NoRoutineScreen extends Component {
         <div className="container">
           <ScreenCardIV
             imgPath={infoImg}
-            title="Searching Exam Routine?"
+            title="Searching Routine?"
             description="Not added yet!"
           />
         </div>

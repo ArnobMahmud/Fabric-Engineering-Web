@@ -3,7 +3,7 @@ import { ResourceArea } from "../components/resources/config/Palette";
 import data from "../json/folders.json";
 import DocumentsResourceCard from "../components/widgets/componentcard/DocumentsResourceCard";
 
-function DocumentsPage() {
+const DocumentsPage = () => {
   return (
     <ResourceArea>
       <div className="container-fluid">
@@ -22,6 +22,6 @@ function DocumentsPage() {
       </div>
     </ResourceArea>
   );
-}
+};
 
 export default DocumentsPage;

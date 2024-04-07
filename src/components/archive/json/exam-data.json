@@ -8,6 +8,51 @@
     "exams": []
   },
   {
+    "id": "l1t2",
+    "department": "Fabric Engineering",
+    "level-term": "Level 1 - Term 2",
+    "description": "Term final exam routine of Fabric Engineering.",
+    "nav": "level1term2exam",
+    "exams": [
+      {
+        "date": "09 Jun, 2022",
+        "time": "10:00AM - 1:00PM",
+        "course-code": "MS 103",
+        "course": "Mathematics - II"
+      },
+      {
+        "date": "13 Jun, 2022",
+        "time": "10:00AM - 1:00PM",
+        "course-code": "PHY 103",
+        "course": "hysics - II"
+      },
+      {
+        "date": "19 Jun, 2022",
+        "time": "10:00AM - 1:00PM",
+        "course-code": "CHEM 103",
+        "course": "Chemistry - II"
+      },
+      {
+        "date": "23 Jun, 2022",
+        "time": "10:00AM - 1:00PM",
+        "course-code": "IPE 101",
+        "course": "Engineering Materials (EM)"
+      },
+      {
+        "date": "27 Jun, 2022",
+        "time": "10:00AM - 1:00PM",
+        "course-code": "MDM 101",
+        "course": "Computer Programming (CP)"
+      },
+      {
+        "date": "03 Jul, 2022",
+        "time": "10:00AM - 1:00PM",
+        "course-code": "WPE 101",
+        "course": "Polymer Science & Engineering (PSE)"
+      }
+    ]
+  },
+  {
     "id": "l2t1",
     "department": "Fabric Engineering",
     "level-term": "Level 2 - Term 1",

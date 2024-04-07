@@ -6,7 +6,7 @@ import UpperBanner from "../components/customs/UpperBanner";
 import Content from "../components/customs/Content";
 import Location from "../components/customs/Location";
 
-function HomePage() {
+const HomePage = () => {
   return (
     <div>
       <UpperBanner />
@@ -19,6 +19,6 @@ function HomePage() {
       {/* <BugPage /> */}
     </div>
   );
-}
+};
 
 export default HomePage;

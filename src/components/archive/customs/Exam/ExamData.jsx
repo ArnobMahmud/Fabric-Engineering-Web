@@ -1,4 +1,4 @@
-// import NoRoutineScreen from "../../../screens/NoRoutine";
+import NoRoutineScreen from "../../../screens/NoRoutine";
 import { SafeArea } from "../../config/custom";
 import { useParams, useLocation } from "react-router-dom";
 
@@ -18,21 +18,19 @@ const ExamData = () => {
               <h1>{data["department"]}</h1>
             </div>
             <table>
-              <tr>
-                <th>Date</th>
-                <th>Time</th>
-                <th>Course Code</th>
-                <th>Course</th>
-              </tr>
               <tbody>
-                {data["exams"].map((e) => (
-                  <tr>
-                    <td>{e.date}</td>
-                    <td>{e.time}</td>
-                    <td>{e["course-code"]}</td>
-                    <td>{e.course}</td>
-                  </tr>
-                ))}
+                {data["exams"]?.length > 0 ? (
+                  data["exams"].map((e) => (
+                    <tr>
+                      <td>{e.date}</td>
+                      <td>{e.time}</td>
+                      <td>{e["course-code"]}</td>
+                      <td>{e.course}</td>
+                    </tr>
+                  ))
+                ) : (
+                  <NoRoutineScreen />
+                )}
               </tbody>
             </table>
           </div>

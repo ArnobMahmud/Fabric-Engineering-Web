@@ -89,6 +89,6 @@ export const darkTheme = {
   footerSpan: "#ffc107",
   footerCpyRgt: "#e7e0ff",
   footerSpana: "#ffc107",
-  errorh1: "#eccb96",
-  errorPara: "#cacaf4",
+  errorh1: "#38332c",
+  errorPara: "#252540",
 };

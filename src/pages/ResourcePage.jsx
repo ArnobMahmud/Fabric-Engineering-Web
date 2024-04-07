@@ -1,9 +1,12 @@
 import React from "react";
 import Resource from "../components/resources/pages/Resource";
-export default function ResourcePage() {
+
+const ResourcePage = () => {
   return (
     <div>
       <Resource />
     </div>
   );
-}
+};
+
+export default ResourcePage;

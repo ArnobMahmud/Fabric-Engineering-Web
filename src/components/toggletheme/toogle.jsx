@@ -3,11 +3,9 @@ import { func, string } from "prop-types";
 import styled from "styled-components";
 
 const Toggle = ({ theme, toggleTheme }) => {
-  // const isLight = theme === "light";
   return (
     <>
       <ButtonContainer>
-        {/* <button onClick={toggleTheme} className="switch-toggle"> */}
         <div className="switch-toggle ">
           <input
             type="checkbox"
@@ -15,10 +13,7 @@ const Toggle = ({ theme, toggleTheme }) => {
             id="chk"
             onClick={toggleTheme}
           />
-
           <label className="label" htmlFor="chk">
-            {/* <i className="fas fa-moon"></i>
-            <i className="fas fa-sun"></i> */}
             <div className="ball"></div>
           </label>
         </div>
