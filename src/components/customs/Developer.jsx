@@ -2,6 +2,11 @@ import React from "react";
 import Devimg from "../../assets/developer/dvp2.jpg";
 import styled from "styled-components";
 import audio from "../../audio/final_ascent.mp3";
+import nodeimg from "../../assets/tech/nodejs.png";
+import npmimg from "../../assets/tech/npm.png";
+import express from "../../assets/tech/express.png";
+import reactjs from "../../assets/tech/reactjs.png";
+import mongo from "../../assets/tech/mongo.png";
 
 const Developer = () => {
   return (
@@ -12,7 +17,7 @@ const Developer = () => {
         </audio>
         <div className="container">
           <div className="row justify-content-around align-items-center">
-            <div className="col-lg-6 col-md-12 col-sm-12 text-left">
+            <div className="col-lg-6 col-md-12 col-sm-12 text-center">
               <div className="dev-icon">
                 <img src={Devimg} alt="" />
               </div>
@@ -118,7 +123,7 @@ const Developer = () => {
                 <h3>
                   Env. Status <span className="status"></span>
                 </h3>
-                <div className="row text-center shield">
+                <div className="row text-left shield">
                   {/* Netlify */}
                   <div className="col-lg-5 col-md-6 col-sm-12">
                     <a
@@ -237,6 +242,16 @@ const Developer = () => {
               </div>
             </div>
           </div>
+          <div className="col-xl-12 col-md-12 col-sm-12">
+            <div className="card tech text-center">
+              <h1>Technologies</h1>
+              <img src={npmimg} alt="imgData" />
+              <img src={mongo} alt="imgData" />
+              <img src={express} alt="imgData" />
+              <img src={reactjs} alt="imgData" />
+              <img src={nodeimg} alt="imgData" />
+            </div>
+          </div>
         </div>
       </DeveloperArea>
     </>
@@ -350,7 +365,7 @@ const DeveloperArea = styled.div`
     font-family: Ubuntu;
   }
 
-  h3 span.status{
+  h3 span.status {
     display: inline-block;
     height: 20px;
     width: 20px;
@@ -359,9 +374,27 @@ const DeveloperArea = styled.div`
     box-shadow: 0px 0px 40px 14px #39d353;
   }
 
+  .tech {
+    display: block;
+  }
+
+  .tech img {
+    align-items: center;
+    max-width: 10%;
+    margin: 20px;
+  }
+
   @media (max-width: 991px) {
     .dev-icon img {
       margin: 50px 0px;
+    }
+
+    .tech {
+      display: flex;
+    }
+
+    .tech img {
+      max-width: 30%;
     }
   }
 

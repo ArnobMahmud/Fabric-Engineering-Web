@@ -112,9 +112,8 @@ const Header = styled.div`
     position: absolute;
     height: 180px; /* 185*/
     width: 170px;
-  background: rgb(12 43 39);
+    background: rgb(12 43 39);
     border-radius: 50%;
-    /* box-shadow: 3px 3px 14px 3px #00000061; */
   }
 
   .navbar-brand img {
@@ -129,7 +128,7 @@ const Header = styled.div`
 
   .nav-item a {
     font-weight: 400;
-    font-size: 18px;
+    font-size: 16px;
     color: rgb(255, 255, 255);
   }
 

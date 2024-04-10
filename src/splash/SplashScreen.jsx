@@ -41,9 +41,10 @@ const SplashArea = styled.div`
   .bottom-ind h4 {
     text-align: center;
     color: #283f40;
-    font-size: 22px;
+    font-size: 20px;
     font-family: "Rubik";
     font-weight: 500;
+    margin-top: 10px;
   }
   .bottom-ind h4 span a {
     text-decoration: none;
@@ -54,7 +55,7 @@ const SplashArea = styled.div`
   .bottom-ind p {
     text-align: center;
     color: #283f50;
-    font-size: 21px;
+    font-size: 18px;
     font-family: "Rubik";
     font-weight: 400;
   }
@@ -64,9 +65,6 @@ const SplashArea = styled.div`
     }
     .bottom-ind .logo {
       width: 25%;
-    }
-    .bottom-ind p {
-      font-size: 18px;
     }
   }
 `;

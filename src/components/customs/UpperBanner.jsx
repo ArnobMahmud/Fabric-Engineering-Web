@@ -11,7 +11,7 @@ class UpperBanner extends Component {
         <TopBannerArea>
           <div className="top-bnr-overlay">
             <div className="home-shield row text-center justify-content-between">
-              <div className="col-lg-6 col-md-6 col-sm-6">
+              <div className="col-lg-12 col-md-6 col-sm-6">
                 <a
                   href="https://fabricengineering.netlify.app"
                   rel="noreferrer"
@@ -19,6 +19,18 @@ class UpperBanner extends Component {
                   <img
                     src="https://api.netlify.com/api/v1/badges/944bd3d0-a153-41b9-9da2-5ebd88a18994/deploy-status"
                     alt="cq"
+                  />
+                </a>
+                <a
+                  className="foot-link"
+                  href="https://github.com/ArnobMahmud/Fabric-Engineering-Web/releases"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img
+                    src="https://img.shields.io/github/package-json/v/ArnobMahmud/Fabric-Engineering-Web?color=lightyellow&label=yarn%20Deployed&logo=yarn&logoColor=yellow&style=plastic"
+                    alt="cq"
+                    srcSet
                   />
                 </a>
               </div>
@@ -103,6 +115,10 @@ const TopBannerArea = styled.div`
     position: absolute;
     bottom: 110px;
     right: 20px;
+  }
+
+  .home-shield img {
+    margin-right: 10px;
   }
 
   @media (max-width: 991px) {

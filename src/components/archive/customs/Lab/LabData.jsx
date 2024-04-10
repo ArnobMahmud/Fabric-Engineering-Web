@@ -1,6 +1,6 @@
 import NoRoutineScreen from "../../../screens/NoRoutine";
-import { SafeArea } from "../../config/custom";
 import { useParams, useLocation } from "react-router-dom";
+import { InfoArea } from "../../config/palette";
 
 const LabData = () => {
   const params = useParams();
@@ -11,7 +11,7 @@ const LabData = () => {
 
   return (
     <>
-      <SafeArea>
+      <InfoArea>
         <div className="container">
           <div className="row justify-content-center">
             {data["labinfo"].map((e) => (
@@ -24,7 +24,7 @@ const LabData = () => {
             ))}
           </div>
         </div>
-      </SafeArea>
+      </InfoArea>
     </>
   );
 };

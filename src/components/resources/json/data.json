@@ -38,7 +38,7 @@
   },
 
   {
-    "level-term": "Level 1 Term 2",
+    "level-term": "Level 1 - Term 2",
     "courses": "Physics II, Chemistry II, Mathematics II, Engineering Materials (EM), Polymer Science & Engineering (PSE), Computer Programming (CP)",
     "id": "level1term2",
     "course-details": [
@@ -285,7 +285,7 @@
   },
   {
     "level-term": "Level 4 - Term 2",
-    "courses": "Nonoven (NWvn), Technical Textile (TT), Environmental Studies (ES), Production Planning & Control (PPC),FE Project Work (FEPW)",
+    "courses": "NonWoven (NWvn), Technical Textile (TT), Environmental Studies (ES), Production Planning & Control (PPC),FE Project Work (FEPW)",
     "id": "level4term2",
     "course-details": [
       {

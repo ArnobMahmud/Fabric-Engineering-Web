@@ -19,6 +19,12 @@ const ExamData = () => {
             </div>
             <table>
               <tbody>
+                {/* <tr>
+                  <th>Date</th>
+                  <th>Time</th>
+                  <th>Course Code</th>
+                  <th>Course</th>
+                </tr> */}
                 {data["exams"]?.length > 0 ? (
                   data["exams"].map((e) => (
                     <tr>

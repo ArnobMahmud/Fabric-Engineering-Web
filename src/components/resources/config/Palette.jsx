@@ -9,7 +9,6 @@ export const CourseArea = styled.div`
   }
   .section-title {
     width: 100%;
-    font-size: 48px;
   }
 
   .section-title h1 {
@@ -160,8 +159,21 @@ export const CourseArea = styled.div`
   }
 `;
 
-export const ResourceArea = styled.div`
-  margin: 200px 0px 60px;
+export const ResourceTree = styled.div`
+  h1 {
+    font-size: 30px;
+    color: #0c253a;
+    font-family: "Josefin Sans";
+  }
+  h5 {
+    color: ${({ theme }) => theme.resourceh5};
+    font-family: "Raleway";
+  }
+  p {
+    color: ${({ theme }) => theme.levelTermParagraph};
+    font-size: 22px;
+    font-family: "Raleway";
+  }
   .content {
     text-align: left;
   }
@@ -169,7 +181,7 @@ export const ResourceArea = styled.div`
     margin-bottom: 30px;
   }
   h1 {
-    font-size: 30px;
+    font-size: 26px;
     color: #0c253a;
   }
   h5 {
@@ -186,9 +198,9 @@ export const ResourceArea = styled.div`
   }
   @media (max-width: 991px) {
     h1 {
-      font-size: 26px;
+      font-size: 24px;
     }
-    h4 {
+    h5 {
       font-size: 20px;
     }
     p {
@@ -203,79 +215,6 @@ export const ResourceArea = styled.div`
   }
 `;
 
-export const OnlineResourceArea = styled.div`
-  margin: 50px 0px 60px;
-  .content {
-    text-align: left;
-  }
-  .card {
-    margin-bottom: 30px;
-  }
-  h1 {
-    font-size: 30px;
-    color: #0c253a;
-    font-family: "Josefin Sans";
-  }
-  h5 {
-    color: ${({ theme }) => theme.resourceh5};
-    font-family: "Raleway";
-  }
-  p {
-    color: ${({ theme }) => theme.levelTermParagraph};
-    font-size: 22px;
-    font-family: "Raleway";
-  }
-  .btn {
-    margin-top: 5px;
-  }
-  @media (max-width: 991px) {
-    h1 {
-      font-size: 26px;
-    }
-    h4 {
-      font-size: 20px;
-    }
-    p {
-      font-size: 18px;
-    }
-    @media (max-width: 767px) {
-      .card {
-        margin-bottom: 25px;
-        align-items: unset;
-      }
-    }
-  }
-`;
-export const ResourceTree = styled.div`
-  h1 {
-    font-size: 30px;
-    color: #0c253a;
-    font-family: "Josefin Sans";
-  }
-  h5 {
-    color: ${({ theme }) => theme.resourceh5};
-    font-family: "Raleway";
-  }
-  p {
-    color: ${({ theme }) => theme.levelTermParagraph};
-    font-size: 22px;
-    font-family: "Raleway";
-  }
-  @media (max-width: 991px) {
-    h1 {
-      font-size: 26px;
-    }
-    h4 {
-      font-size: 20px;
-    }
-    p {
-      font-size: 18px;
-    }
-  }
-  @media (max-width: 767px) {
-    .card {
-      margin-bottom: 25px;
-      align-items: unset;
-    }
-  }
+export const ResourceArea = styled.div`
+  margin: 200px 0px 60px;
 `;
