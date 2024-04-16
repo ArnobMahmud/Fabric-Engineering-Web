@@ -156,7 +156,38 @@
     "level-term": "Level 3 - Term 2",
     "nav": "level3term2exam",
     "description": "Term final exam routine of Fabric Engineering.",
-    "exams": []
+    "exams": [
+      {
+        "date": "16 May, 2024",
+        "time": "10:00AM - 1:00PM",
+        "course-code": "TEM 303",
+        "course": "Accounting & Cost Management (ACM)"
+      },
+      {
+        "date": "20 May, 2024",
+        "time": "10:00AM - 1:00PM",
+        "course-code": "FE 305",
+        "course": "Fabric Structure & Design (FSD)"
+      },
+      {
+        "date": "26 May, 2024",
+        "time": "10:00AM - 1:00PM",
+        "course-code": "IPE 301",
+        "course": "Automation & Control Engineering (ACE)"
+      },
+      {
+        "date": "30 May, 2024",
+        "time": "10:00AM - 1:00PM",
+        "course-code": "FE 309",
+        "course": "Weaving (Wvg) II"
+      },
+      {
+        "date": "03 Jun, 2024",
+        "time": "10:00AM - 1:00PM",
+        "course-code": "FE 301",
+        "course": "Application of Computer in Fabric Manufacturing (ACFM)"
+      }
+    ]
   },
   {
     "id": "l4t1",

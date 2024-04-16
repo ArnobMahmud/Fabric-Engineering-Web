@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const SafeArea = styled.div`
-  margin: 200px 0px 40px;
+  margin: 170px 0px 40px;
   .card {
     background: ${({ theme }) => theme.cardBG};
     align-items: center;
@@ -23,10 +23,6 @@ export const SafeArea = styled.div`
   }
   input:focus-visible {
     outline: none;
-  }
-  .section-title {
-    width: 100%;
-    font-size: 48px;
   }
 
   .section-title h1 {
@@ -60,6 +56,7 @@ export const SafeArea = styled.div`
     font-weight: 400;
     width: 25%;
   }
+
   table tr td img {
     border-radius: 50%;
   }
