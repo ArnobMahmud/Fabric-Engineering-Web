@@ -1,5 +1,5 @@
 {
     "emmet.triggerExpansionOnTab": true,
-    "editor.fontFamily": "Fira Code",
+    "editor.fontFamily": "'Cascadia Code'",
     "files.autoGuessEncoding": true
 }

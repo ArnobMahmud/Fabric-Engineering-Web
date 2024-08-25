@@ -254,31 +254,31 @@
       {
         "course": "Sociology",
         "courseCode": "HSS 401",
-        "lecturer": "",
+        "lecturer": "Rozy Mam, - ",
         "access": "soc4-1"
       },
       {
         "course": "Fabric Testing & Quality Control (FTQC)",
         "courseCode": "FE 401",
-        "lecturer": "",
+        "lecturer": "Smriti Mam,- ",
         "access": "ftqc4-1"
       },
       {
         "course": "Knitting(Knit) II",
         "courseCode": "FE 405",
-        "lecturer": "",
+        "lecturer": "Emdad Sir, Faiz Sir",
         "access": "knit4-1"
       },
       {
         "course": "Special Fabric Production (SFP)",
         "courseCode": "FE 409",
-        "lecturer": "",
+        "lecturer": "Mohaddes Sir, Arin Sir",
         "access": "sfp4-1"
       },
       {
         "course": "Textile & Apparel Merchandizing (TAM)",
         "courseCode": "TEM 409",
-        "lecturer": "",
+        "lecturer": "Rayhan Sir, ",
         "access": "tam4-1"
       }
     ]

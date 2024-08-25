@@ -1,4 +1,5 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import React from "react";
+import { HashRouter, Routes, Route } from "react-router-dom";
 
 /* Includes */
 import Navbar from "../components/includes/NavigationBar.jsx";
@@ -40,7 +41,7 @@ import ErrorScreen4 from "../components/screens/NoRoutine.jsx";
 
 const RouteHandle = () => {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Navbar />
       <Routes>
         <Route path="/" element={<HomePage />}></Route>
@@ -71,7 +72,7 @@ const RouteHandle = () => {
         <Route exact path="/*" element={<ErrorScreen3 />} />
       </Routes>
       <Footer />
-    </BrowserRouter>
+    </HashRouter>
   );
 };
 

@@ -11,7 +11,7 @@ class DetailsCompI extends Component {
             <hr />
             <p>{this.props.detailsParagraph}</p>
             <div className="btn">
-              <a href={this.props.detailsLink} target="_blank" rel="noreferrer">
+              <a href={this.props.detailsLink} target="_blank" rel="noopener noreferrer">
                 {this.props.detailsBtn} <HiArrowRight />
               </a>
             </div>

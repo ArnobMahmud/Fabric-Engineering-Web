@@ -1,3 +1,4 @@
+import React from "react";
 import { InfoArea } from "../config/palette";
 import data from "../json/lab-data.json";
 import ArchivesDataCard from "../widgets/ArchivesCard";

@@ -1,3 +1,4 @@
+import React from "react";
 import { useParams, useLocation } from "react-router-dom";
 import { ResourceArea } from "../config/Palette";
 import ResourceDataCard from "../widgets/ResourceDataCard";

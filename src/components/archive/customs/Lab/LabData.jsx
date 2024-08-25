@@ -1,3 +1,4 @@
+import React from "react";
 import NoRoutineScreen from "../../../screens/NoRoutine";
 import { useParams, useLocation } from "react-router-dom";
 import { InfoArea } from "../../config/palette";

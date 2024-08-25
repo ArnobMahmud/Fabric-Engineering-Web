@@ -11,7 +11,7 @@ const DocumentsResourceCard = (props) => {
           <h5>{props.subTitle}</h5>
           <p>{props.description}</p>
           <div className="btn">
-            <a href={props.driveLink} target="_blank" rel="noreferrer">
+            <a href={props.driveLink} target="_blank" rel="noopener noreferrer">
               Visit Here <ImBook />
             </a>
           </div>
