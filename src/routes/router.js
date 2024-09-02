@@ -47,8 +47,8 @@ const RouteHandle = () => {
         <Route path="/" element={<HomePage />}></Route>
         {/********* Resourece Section Starts Here ************/}
         <Route exact path="/resource" element={<ResourceScreen />} />
-        <Route exact path="/resource/:id" element={<LevelTermInfoPage />} />
-        <Route exact path="/resource/:id/:access" element={<CoursePage />} />
+        <Route path="/resource/:id" element={<LevelTermInfoPage />} />
+        <Route path="/resource/:id/:access" element={<CoursePage />} />
         {/********* Documents Section Starts Here ************/}
         <Route exact path="/documents" element={<DocumentsPage />} />
         {/********* Accessories Section Starts Here ************/}
@@ -59,10 +59,10 @@ const RouteHandle = () => {
         <Route exact path="/covid19updates" element={<Covid19 />} />
         {/********* Exam Section Starts Here ************/}
         <Route exact path="/termexamroutine" element={<TermExamRoutine />} />
-        <Route exact path="/termexamroutine/:nav" element={<ExamData />} />
+        <Route path="/termexamroutine/:nav" element={<ExamData />} />
         {/********* Lab Section Starts Here ************/}
         <Route exact path="/labroutine" element={<LabRoutine />} />
-        <Route exact path="/labroutine/:id" element={<LabData />} />
+        <Route path="/labroutine/:id" element={<LabData />} />
         {/********* Developer Section Starts Here ************/}
         <Route exact path="/developer" element={<DeveloperPage />} />
         {/********* Error Section Starts Here ************/}

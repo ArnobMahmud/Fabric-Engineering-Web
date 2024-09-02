@@ -13,29 +13,12 @@ const ResourceHandler = ({ search, setSearch, loading, resource }) => {
       />
       <table>
         <tbody>
-          {loading ? (
-            <tr>
-              <th>
-                <CustomSkeletonStructure />
-              </th>
-              <th>
-                <CustomSkeletonStructure />
-              </th>
-              <th>
-                <CustomSkeletonStructure />
-              </th>
-              <th>
-                <CustomSkeletonStructure />
-              </th>
-            </tr>
-          ) : (
-            <tr>
-              <th>Date</th>
-              <th>Lecturer</th>
-              <th>Discussed Topics</th>
-              <th>Resources</th>
-            </tr>
-          )}
+          <tr>
+            <th>Date</th>
+            <th>Lecturer</th>
+            <th>Discussed Topics</th>
+            <th>Resources</th>
+          </tr>
         </tbody>
         <tbody>
           {loading
