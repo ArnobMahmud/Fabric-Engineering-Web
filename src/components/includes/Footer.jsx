@@ -151,15 +151,15 @@ const FooterArea = styled.div`
   position: relative;
   h3 {
     color: ${({ theme }) => theme.footerh3};
-    font-size: 18px;
+    font-size: 16px;
   }
   h4 {
     color: ${({ theme }) => theme.footerh4};
-    font-size: 20px;
+    font-size: 16px;
   }
 
   h5 {
-    font-size: 18px;
+    font-size: 16px;
     color: ${({ theme }) => theme.footerh5};
   }
   /* ul {
@@ -193,7 +193,7 @@ const FooterArea = styled.div`
     opacity: 0.8;
   }
   .cpy-rgt {
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 400;
     padding: 40px 0px 0px;
     color: ${({ theme }) => theme.footerCpyRgt};
@@ -213,7 +213,7 @@ const FooterArea = styled.div`
     position: absolute;
   }
   .foot-link {
-    font-size: 16px;
+    font-size: 14px;
     color: ${({ theme }) => theme.footerNav};
     margin: 5px 0px;
     font-weight: 400;

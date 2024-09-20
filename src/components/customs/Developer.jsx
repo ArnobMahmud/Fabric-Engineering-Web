@@ -2,11 +2,11 @@ import React from "react";
 import Devimg from "../../assets/developer/dvp2.jpg";
 import styled from "styled-components";
 import audio from "../../audio/final_ascent.mp3";
-import nodeimg from "../../assets/tech/nodejs.png";
-import npmimg from "../../assets/tech/npm.png";
-import express from "../../assets/tech/express.png";
-import reactjs from "../../assets/tech/reactjs.png";
-import mongo from "../../assets/tech/mongo.png";
+// import nodeimg from "../../assets/tech/nodejs.png";
+// import npmimg from "../../assets/tech/npm.png";
+// import express from "../../assets/tech/express.png";
+// import reactjs from "../../assets/tech/reactjs.png";
+// import mongo from "../../assets/tech/mongo.png";
 
 const Developer = () => {
   return (
@@ -29,10 +29,7 @@ const Developer = () => {
             >
               <div className="card">
                 <h1>Arnob Mahmud</h1>
-                <p>
-                  Fabric Engineering (2020 - 1 - 2 - 047) <br />
-                  Full-stack Developer &amp; Flutter Application Developer.
-                </p>
+                <p>Full-stack Developer &amp; Flutter Application Developer.</p>
                 <h5>Contact</h5>
                 <div className="row justify-content-start">
                   <div className="social col-lg-12 col-md-12 col-sm-12">
@@ -61,7 +58,7 @@ const Developer = () => {
                     <ul>
                       <li>
                         <a
-                          href="http://www.twitter.com/@Arnob__Mahmud"
+                          href="http://www.twitter.com/arnobmahmudamd"
                           target="_blank"
                           rel="noopener noreferrer"
                         >
@@ -125,7 +122,7 @@ const Developer = () => {
                 </h3>
                 <div className="row text-left shield">
                   {/* Netlify */}
-                  <div className="col-lg-5 col-md-6 col-sm-12">
+                  <div className="col-lg-5 col-md-6 col-sm-6">
                     <a
                       className="foot-link"
                       href="https://fabricengineering.netlify.app/developer"
@@ -140,7 +137,7 @@ const Developer = () => {
                   </div>
 
                   {/* License */}
-                  <div className="col-lg-5 col-md-6 col-sm-12">
+                  <div className="col-lg-5 col-md-6 col-sm-6">
                     <a
                       href="https://github.com/ArnobMahmud/Fabric-Engineering-Web/blob/master/LICENSE"
                       target="_blank"
@@ -154,7 +151,7 @@ const Developer = () => {
                   </div>
 
                   {/* Deploy */}
-                  <div className="col-lg-5 col-md-6 col-sm-12">
+                  <div className="col-lg-5 col-md-6 col-sm-6">
                     <a
                       className="foot-link"
                       href="https://github.com/ArnobMahmud/Fabric-Engineering-Web/releases"
@@ -168,7 +165,7 @@ const Developer = () => {
                     </a>
                   </div>
                   {/* npm */}
-                  <div className="col-lg-5 col-md-6 col-sm-12">
+                  <div className="col-lg-5 col-md-6 col-sm-6">
                     <a
                       className="foot-link"
                       href="https://fabricengineering.netlify.app/developer"
@@ -182,7 +179,7 @@ const Developer = () => {
                     </a>
                   </div>
                   {/* wakatime */}
-                  <div className="col-lg-5 col-md-6 col-sm-12">
+                  <div className="col-lg-5 col-md-6 col-sm-6">
                     <a
                       className="foot-link"
                       href="https://fabricengineering.netlify.app/developer"
@@ -197,7 +194,7 @@ const Developer = () => {
                   </div>
 
                   {/* Develop */}
-                  <div className="col-lg-5 col-md-6 col-sm-12">
+                  <div className="col-lg-5 col-md-6 col-sm-6">
                     <a
                       className="foot-link"
                       href="https://fabricengineering.netlify.app/developer"
@@ -211,7 +208,7 @@ const Developer = () => {
                     </a>
                   </div>
                   {/* Resource */}
-                  <div className="col-lg-5 col-md-6 col-sm-12">
+                  <div className="col-lg-5 col-md-6 col-sm-6">
                     <a
                       className="foot-link"
                       href="https://fabric-web-backend-server.onrender.com/"
@@ -225,7 +222,7 @@ const Developer = () => {
                     </a>
                   </div>
                   {/* node */}
-                  <div className="col-lg-5 col-md-6 col-sm-12">
+                  <div className="col-lg-5 col-md-6 col-sm-6">
                     <a
                       className="foot-link"
                       href="https://fabricengineering.netlify.app/developer"
@@ -242,7 +239,7 @@ const Developer = () => {
               </div>
             </div>
           </div>
-          <div className="col-xl-12 col-md-12 col-sm-12">
+          {/* <div className="col-xl-12 col-md-12 col-sm-12">
             <div className="card tech text-center">
               <h1>Technologies</h1>
               <img src={npmimg} alt="imgData" />
@@ -251,7 +248,7 @@ const Developer = () => {
               <img src={reactjs} alt="imgData" />
               <img src={nodeimg} alt="imgData" />
             </div>
-          </div>
+          </div> */}
         </div>
       </DeveloperArea>
     </>
@@ -279,7 +276,6 @@ const DeveloperArea = styled.div`
   h5 {
     color: ${({ theme }) => theme.devh5};
     font-family: "Josefin Sans";
-    margin: 20px 0px;
   }
   ul {
     display: inline-block;
@@ -382,6 +378,10 @@ const DeveloperArea = styled.div`
     align-items: center;
     max-width: 10%;
     margin: 20px;
+  }
+
+  .shield {
+    text-align: left;
   }
 
   @media (max-width: 991px) {

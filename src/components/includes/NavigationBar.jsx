@@ -121,7 +121,7 @@ const Header = styled.div`
 
   .nav-item a {
     font-weight: 400;
-    font-size: 16px;
+    font-size: 14px;
     color: rgb(255, 255, 255);
   }
 
