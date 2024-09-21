@@ -12,7 +12,7 @@ export const SafeArea = styled.div`
     color: #0c253a;
     width: 60%;
     padding: 10px 30px;
-    font-size: 18px;
+    font-size: 14px;
     border: 2px solid #3c493c !important;
     border-radius: 50px;
     margin-bottom: 25px;
@@ -20,6 +20,7 @@ export const SafeArea = styled.div`
   }
   input::placeholder {
     color: #0c253a;
+    font-size: 14px;
   }
   input:focus-visible {
     outline: none;
@@ -27,7 +28,7 @@ export const SafeArea = styled.div`
 
   .section-title h1 {
     color: #0f253b;
-    font-size: 26px;
+    font-size: 22px;
     font-weight: 900;
     margin-bottom: 20px;
     font-family: "Josefin Sans";
@@ -39,7 +40,7 @@ export const SafeArea = styled.div`
 
   table tr th {
     color: #3c0a34;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 500;
     padding: 10px;
     font-family: "Quicksand";
@@ -52,7 +53,7 @@ export const SafeArea = styled.div`
     border-style: none;
     height: auto;
     border-color: #fdfdfd61;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 400;
     width: 25%;
   }
@@ -110,7 +111,6 @@ export const SafeArea = styled.div`
       color: #0c253a;
       width: 90%;
       padding: 10px 20px;
-      font-size: 16px;
       border: 2px solid #3c493c !important;
       border-radius: 50px;
       margin-bottom: 20px;
@@ -145,7 +145,7 @@ export const LabInfoArea = styled.div`
 
   table tr th {
     color: #3c0a34;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 500;
     padding: 10px;
     font-family: "Quicksand";
@@ -159,7 +159,7 @@ export const LabInfoArea = styled.div`
     font-weight: 400;
     height: auto;
     border-color: #fdfdfd61;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 400;
     width: 20%;
   }
@@ -229,7 +229,6 @@ export const LabInfoArea = styled.div`
     table tr th {
       font-size: 16px !important;
       width: 100%;
-      font-size: 12px;
     }
   }
 `;

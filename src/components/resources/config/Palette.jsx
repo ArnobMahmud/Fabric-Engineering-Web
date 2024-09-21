@@ -14,7 +14,7 @@ export const CourseArea = styled.div`
   .section-title h1 {
     font-weight: 900;
     color: #15202bd1;
-    font-size: 26px;
+    font-size: 22px;
     font-weight: 400;
     margin-bottom: 40px;
     font-family: "Josefin Sans";
@@ -24,7 +24,7 @@ export const CourseArea = styled.div`
     color: #0c253a;
     width: 60%;
     padding: 10px 30px;
-    font-size: 18px;
+    font-size: 14px;
     border: 2px solid #3c493c !important;
     border-radius: 50px;
     margin-bottom: 25px;
@@ -32,6 +32,7 @@ export const CourseArea = styled.div`
   }
   input::placeholder {
     color: #0c253a;
+    font-size: 14px;
   }
   input:focus-visible {
     outline: none;
@@ -43,7 +44,7 @@ export const CourseArea = styled.div`
 
   table tr th {
     color: #0f253b;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 500;
     padding: 10px;
     font-family: "Quicksand";
@@ -56,11 +57,9 @@ export const CourseArea = styled.div`
     font-weight: 400;
     height: auto;
     border-color: #fdfdfd61;
+    font-size: 16px;
   }
 
-  table tr td:nth-child(3) {
-    font-size: 15px;
-  }
   .link a {
     width: 100%;
     text-decoration: none;
@@ -72,6 +71,7 @@ export const CourseArea = styled.div`
     -webkit-transition-duration: 0.3s;
     transition-duration: 0.3s;
     display: inline-block;
+    font-size: 14px;
   }
 
   .link a:hover {
@@ -118,16 +118,11 @@ export const CourseArea = styled.div`
       align-items: center;
       padding: 30px 0px;
     }
-    .section-title h1 {
-      font-size: 30px !important;
-      font-size: 20px;
-    }
     input {
       background: transparent;
       color: #0c253a;
       width: 90%;
       padding: 10px 20px;
-      font-size: 16px;
       border: 2px solid #3c493c !important;
       border-radius: 50px;
       margin-bottom: 20px;
@@ -140,7 +135,6 @@ export const CourseArea = styled.div`
       font-size: 16px !important;
       padding: 10px 5px;
       width: 100%;
-      font-size: 12px;
     }
     table tr td {
       width: 100%;
@@ -161,7 +155,7 @@ export const CourseArea = styled.div`
 
 export const ResourceTree = styled.div`
   h1 {
-    font-size: 30px;
+    font-size: 22px;
     color: #0c253a;
     font-family: "Josefin Sans";
   }
@@ -171,7 +165,7 @@ export const ResourceTree = styled.div`
   }
   p {
     color: ${({ theme }) => theme.levelTermParagraph};
-    font-size: 22px;
+    font-size: 16px;
     font-family: "Raleway";
   }
   .content {
@@ -180,32 +174,11 @@ export const ResourceTree = styled.div`
   .card {
     margin-bottom: 30px;
   }
-  h1 {
-    font-size: 26px;
-    color: #0c253a;
-  }
-  h5 {
-    color: ${({ theme }) => theme.resourceh5};
-    font-family: "Raleway";
-  }
-  p {
-    color: ${({ theme }) => theme.levelTermParagraph};
-    font-size: 22px;
-    font-family: "Quicksand";
-  }
   .btn {
     margin-top: 5px;
   }
-  @media (max-width: 991px) {
-    h1 {
-      font-size: 24px;
-    }
-    h5 {
-      font-size: 20px;
-    }
-    p {
-      font-size: 18px;
-    }
+  .btn a {
+    font-size: 16px;
   }
   @media (max-width: 767px) {
     .card {

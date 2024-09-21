@@ -9,7 +9,7 @@ export const InfoArea = styled.div`
     margin-bottom: 30px;
   }
   h1 {
-    font-size: 30px;
+    font-size: 22px;
     color: #0c253a;
     font-family: "Josefin Sans";
   }
@@ -19,28 +19,21 @@ export const InfoArea = styled.div`
   }
   p {
     color: ${({ theme }) => theme.levelTermParagraph};
-    font-size: 22px;
+    font-size: 16px;
     font-family: "Raleway";
   }
   .btn {
     margin-top: 5px;
     font-family: "Quicksand";
   }
-  @media (max-width: 991px) {
-    h1 {
-      font-size: 26px;
-    }
-    h4 {
-      font-size: 20px;
-    }
-    p {
-      font-size: 18px;
-    }
-    @media (max-width: 767px) {
-      .card {
-        margin-bottom: 25px;
-        align-items: unset;
-      }
+
+  .btn a {
+    font-size: 14px;
+  }
+  @media (max-width: 767px) {
+    .card {
+      margin-bottom: 25px;
+      align-items: unset;
     }
   }
 `;

@@ -54,7 +54,7 @@ const CounterArea = styled.div`
     align-items: center;
   }
   h1 {
-    font-size: 30px;
+    font-size: 24px;
     display: inline-table;
     color: #0c253a;
     margin: 20px 0px;
@@ -63,7 +63,7 @@ const CounterArea = styled.div`
   p {
     text-align: center;
     color: #2d2d2d;
-    font-size: 18px;
+    font-size: 14px;
   }
   @media (max-width: 991px) {
     .card {

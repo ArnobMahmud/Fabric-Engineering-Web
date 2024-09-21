@@ -106,7 +106,7 @@ const TopBannerArea = styled.div`
   .top-over-details-part p {
     line-height: 1.7;
     padding-top: 15px;
-    font-size: 18px;
+    font-size: 16px;
     font-family: Raleway;
     font-weight: 500;
     color: ${({ theme }) => theme.topBnrParagraph};
@@ -157,9 +157,6 @@ const TopBannerArea = styled.div`
     }
     .top-over-details-part h1 {
       font-size: 30px;
-    }
-    .top-over-details-part p {
-      font-size: 16px;
     }
   }
 `;

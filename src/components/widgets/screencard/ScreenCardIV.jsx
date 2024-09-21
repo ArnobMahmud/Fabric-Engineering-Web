@@ -7,11 +7,7 @@ export class ScreenCardIV extends Component {
       <ErrorScreen>
         <div className="row handler">
           <div className="col-lg-6 col-md-6 col-sm-12">
-            <img
-              className="w-100"
-              src={this.props.imgPath}
-              alt="dataImg"
-            />
+            <img className="w-100" src={this.props.imgPath} alt="dataImg" />
           </div>
           <div className="col-lg-8 col-md-9 col-sm-12">
             <div className="content text-center">
@@ -40,23 +36,16 @@ const ErrorScreen = styled.div`
     display: inline-block;
   }
   h1 {
-    font-size: 34px;
+    font-size: 24px;
     font-family: "Josefin Sans";
     color: ${({ theme }) => theme.errorh1} !important;
   }
   p {
     font-family: "Raleway";
     color: ${({ theme }) => theme.errorPara} !important;
-    font-size: 20px;
+    font-size: 16px;
   }
   @media (max-width: 991px) {
-    h1 {
-      font-size: 25px;
-    }
-
-    p {
-      font-size: 16px;
-    }
     .handler {
       align-items: flex-end;
       justify-content: space-around;
@@ -67,9 +56,7 @@ const ErrorScreen = styled.div`
       margin: 10% 0;
     }
     padding: 20px 15px 0px;
-    h1 {
-      font-size: 28px;
-    }
+
     .content {
       align-items: flex-end;
     }

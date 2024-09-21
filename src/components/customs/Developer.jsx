@@ -1,7 +1,6 @@
 import React from "react";
 import Devimg from "../../assets/developer/dvp2.jpg";
 import styled from "styled-components";
-import audio from "../../audio/final_ascent.mp3";
 // import nodeimg from "../../assets/tech/nodejs.png";
 // import npmimg from "../../assets/tech/npm.png";
 // import express from "../../assets/tech/express.png";
@@ -12,9 +11,6 @@ const Developer = () => {
   return (
     <>
       <DeveloperArea>
-        <audio controls autoPlay="true" loop hidden>
-          <source src={audio} type="audio/mp3" />
-        </audio>
         <div className="container">
           <div className="row justify-content-around align-items-center">
             <div className="col-lg-6 col-md-12 col-sm-12 text-center">

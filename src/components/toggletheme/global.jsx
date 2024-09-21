@@ -76,6 +76,7 @@ a {
 }
 .btn a {
   color: #0c253a;
+  font-size: 14px;
 }
 .btn:hover {
   background-color: #0c253a;

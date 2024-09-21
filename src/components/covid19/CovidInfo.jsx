@@ -80,7 +80,7 @@ const CovidDataArea = styled.div`
     color: ${({ theme }) => theme.covidInput};
     width: 60%;
     padding: 10px 30px;
-    font-size: 18px;
+    font-size: 14px;
     border: 2px solid;
     border-color: ${({ theme }) => theme.covidInput};
     border-radius: 50px;
@@ -88,23 +88,26 @@ const CovidDataArea = styled.div`
     font-family: "Rubik";
   }
   input::placeholder {
+    font-size: 14px;
     color: ${({ theme }) => theme.covidInput};
   }
   input:focus-visible {
     outline: none;
   }
   h3 {
+    font-size: 18px;
     color: ${({ theme }) => theme.covidh3};
     font-family: "Josefin Sans";
   }
   h5 {
+    font-size: 14px;
     text-align: left;
     color: #312135;
     font-family: "Raleway";
   }
   p {
     text-align: left;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 500;
     color: ${({ theme }) => theme.covidp};
     font-family: "Josefin Sans";
@@ -125,7 +128,6 @@ const CovidDataArea = styled.div`
       background: transparent;
       width: 90%;
       padding: 10px 20px;
-      font-size: 16px;
       border-radius: 50px;
       margin-bottom: 20px;
     }

@@ -151,7 +151,7 @@ const FooterArea = styled.div`
   position: relative;
   h3 {
     color: ${({ theme }) => theme.footerh3};
-    font-size: 16px;
+    font-size: 18px;
   }
   h4 {
     color: ${({ theme }) => theme.footerh4};
@@ -237,18 +237,6 @@ const FooterArea = styled.div`
       font-size: 12px;
     }
     position: relative;
-    ul li span {
-      font-size: 18px;
-    }
-    ul li a {
-      font-size: 15px;
-    }
-    ul li h4 {
-      font-size: 17px;
-    }
-    ul li h5 {
-      font-size: 16px;
-    }
     .rotating {
       max-width: 40% !important;
     }
