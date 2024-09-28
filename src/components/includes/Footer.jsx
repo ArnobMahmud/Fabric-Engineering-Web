@@ -126,6 +126,20 @@ function Footer() {
                     />
                   </a>
                 }
+                link4={
+                  <a
+                    className="foot-link"
+                    href="https://fabric-web-backend-server.onrender.com/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Status &nbsp;
+                    <img
+                      src="https://img.shields.io/website?url=https%3A%2F%2Ffabricengineering.netlify.app%2Fresource&up_message=online&up_color=orange&down_message=offline&down_color=lightgrey&style=plastic&logo=dependabot&logoColor=green&label=Resource"
+                      alt="cq"
+                    />
+                  </a>
+                }
               />
             </div>
           </div>

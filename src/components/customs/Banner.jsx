@@ -51,10 +51,12 @@ const BannerArea = styled.div`
     padding: 200px 0px;
   }
   h1 {
+    font-size: 22px;
     color: #e0245e;
     font-family: "Josefin Sans";
   }
   p {
+    font-size: 16px;
     margin-top: 20px;
     color: #e9dddd;
     font-family: Raleway;
@@ -72,6 +74,7 @@ const BannerArea = styled.div`
 
   .btn a {
     font-family: Ubuntu;
+    font-size: 14px;
     color: #17bf63;
     text-decoration: none;
     -webkit-transition: all linear 0.5s;

@@ -160,6 +160,7 @@ export const ResourceTree = styled.div`
     font-family: "Josefin Sans";
   }
   h5 {
+    font-size: 18px;
     color: ${({ theme }) => theme.resourceh5};
     font-family: "Raleway";
   }
@@ -178,7 +179,7 @@ export const ResourceTree = styled.div`
     margin-top: 5px;
   }
   .btn a {
-    font-size: 16px;
+    font-size: 14px;
   }
   @media (max-width: 767px) {
     .card {

@@ -339,15 +339,11 @@ const DeveloperArea = styled.div`
   .dev-icon img {
     border: 10px double #ab8b80;
     transition-duration: 0.5s;
-    border-radius: 50%;
+    border-radius: 5%;
     max-width: 90%;
     max-height: 50%;
   }
-
-  .dev-icon img:hover {
-    border-color: #8998ad;
-  }
-
+  
   .shield {
     margin: 20px 0px 0px;
     justify-content: space-around;

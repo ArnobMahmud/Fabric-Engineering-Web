@@ -42,32 +42,33 @@ const ContentArea = styled.div`
   padding: 90px 0px;
 
   h2 {
+    font-size: 22px;
     color: ${({ theme }) => theme.contentH2};
-    font-size: 40px;
     font-family: "Josefin Sans";
   }
   hr {
     align-self: center;
-    width: 15%;
-    padding: 2px;
+    width: 80%;
+    padding: 1px;
     border-radius: 5px;
     background: ${({ theme }) => theme.contentHr};
     margin: 10px auto;
   }
   p {
-    font-size: 18px;
+    font-size: 16px;
     color: ${({ theme }) => theme.contentParagraph};
     padding-top: 20px;
   }
   .btn {
     margin-top: 10px;
     padding: 10px 20px;
-    border: 2px solid ${({ theme }) => theme.contentBtnBorder};
+    border: 2px solid#0c253a;;
     background-color: transparent;
     border-radius: 25px;
     transition: all linear 0.3s;
   }
   .btn a {
+    font-size: 14px;
     color: ${({ theme }) => theme.contentBtna};
   }
   .btn:hover {
@@ -76,27 +77,7 @@ const ContentArea = styled.div`
   .btn:hover a {
     color: #a89f9f;
   }
-  @media (max-width: 991px) {
-    h2 {
-      font-size: 26px;
-    }
-    p {
-      font-size: 12px;
-    }
-    hr {
-      width: 20%;
-    }
-  }
   @media (max-width: 767px) {
     padding: 70px 20px;
-    h2 {
-      font-size: 24px;
-    }
-    hr {
-      width: 25%;
-    }
-    p {
-      font-size: 18px;
-    }
   }
 `;
