@@ -21,7 +21,7 @@ a {
 
 .card {
   text-align: center;
-  padding: 50px;
+  padding: 40px;
   border-radius: 20px;
   margin-bottom: 30px;
   border: none;
@@ -94,5 +94,4 @@ a {
     transition: all linear 0.5s;
   }
 }
-
-  `;
+`;

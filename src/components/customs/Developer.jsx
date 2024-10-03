@@ -337,13 +337,13 @@ const DeveloperArea = styled.div`
   }
 
   .dev-icon img {
-    border: 10px double #ab8b80;
+    border: 5px solid #0e172e;
     transition-duration: 0.5s;
-    border-radius: 5%;
+    border-radius: 20px;
     max-width: 90%;
     max-height: 50%;
   }
-  
+
   .shield {
     margin: 20px 0px 0px;
     justify-content: space-around;

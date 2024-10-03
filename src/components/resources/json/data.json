@@ -260,7 +260,7 @@
       {
         "course": "Fabric Testing & Quality Control (FTQC)",
         "courseCode": "FE 401",
-        "lecturer": "Smriti Mam, Reza Sir",
+        "lecturer": "Rouf Sir, Reza Sir",
         "access": "ftqc4-1"
       },
       {
@@ -311,12 +311,6 @@
         "courseCode": "TEM 413",
         "lecturer": "",
         "access": "ppc4-2"
-      },
-      {
-        "course": "FE Project Work (FEPW)",
-        "courseCode": "FE 414",
-        "lecturer": "",
-        "access": "fepw4-2"
       }
     ]
   }

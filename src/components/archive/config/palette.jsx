@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const InfoArea = styled.div`
-  margin: 200px 0px 60px;
+  margin: 200px 10px 60px;
   .content {
     text-align: left;
   }
